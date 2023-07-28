@@ -62,7 +62,7 @@ public class AndroidGI {
         String fileName = config.getFilePath();
         AndroidProject androidProject = new AndroidProject(config);
         AndroidTestRunner testRunner = new AndroidTestRunner(androidProject, config);
-        List<Class<? extends Edit>> editTypes = Edit.parseEditClassesFromString(Edit.EditType.ADD.toString());
+        List<Class<? extends Edit>> editTypes = Edit.parseEditClassesFromString(Edit.EditType.STATEMENT.toString());
         List<String> targetMethod = config.getTargetMethods();
         SourceFileTree sourceFile = (SourceFileTree) SourceFile.makeSourceFileForEditTypes(editTypes, fileName, targetMethod, androidProject.getClasspath());
 
@@ -70,14 +70,8 @@ public class AndroidGI {
 
         //// Local Search
         AndroidGI androidGI = new AndroidGI(testRunner, sourceFile, editTypes, androidProject);
-        androidGI.GP();
-//        addIfStatementEdit edit = new addIfStatementEdit(sourceFile, androidGI.rng);
-//        addIfStatementEdit edit1 = (addIfStatementEdit) addIfStatementEdit.fromString("gin.edit.statement.addIfStatementEdit LBN\\app\\src\\main\\java\\acr\\browser\\lightning\\database\\bookmark\\BookmarkExporter.java:335:336 [TAG.length() > 0]");
-//        edit1.toString();
-//        edit.toString();
-        //        edit1.apply(sourceFile);
-//        ReplaceStatement replaceStatement = new ReplaceStatement(sourceFile, androidGI.rng);
-//        replaceStatement.apply(sourceFile);
+        // androidGI.GP();
+        // androidGI.localSearch();
         //// MO ALgorithms
         //NSGAII nsgaii = new NSGAII(androidProject, sourceFile, testRunner, editTypes);
         //nsgaii.run();
