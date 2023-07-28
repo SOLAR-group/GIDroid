@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/preferences_category_information_title">
+        <PreferenceScreen
+            app:key="@string/preferences_about_link_key"
+            app:summary="@string/preferences_about_link_summary"
+            app:title="@string/preferences_about_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_website_link_key"
+            app:summary="@string/preferences_website_link_summary"
+            app:title="@string/preferences_website_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_contact_email_link_key"
+            app:summary="@string/preferences_contact_email_link_summary"
+            app:title="@string/preferences_contact_email_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_github_link_key"
+            app:summary="@string/preferences_github_link_summary"
+            app:title="@string/preferences_github_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_facebook_community_link_key"
+            app:summary="@string/preferences_facebook_community_link_summary"
+            app:title="@string/preferences_facebook_community_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_twitter_community_link_key"
+            app:summary="@string/preferences_twitter_community_link_summary"
+            app:title="@string/preferences_twitter_community_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_translate_link_key"
+            app:summary="@string/preferences_translate_link_summary"
+            app:title="@string/preferences_translate_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_privacy_statement_link_key"
+            app:summary="@string/preferences_privacy_statement_link_summary"
+            app:title="@string/preferences_privacy_statement_link_title"/>
+        <PreferenceScreen
+            app:key="@string/preferences_open_source_licenses_link_key"
+            app:summary="@string/preferences_open_source_licenses_link_summary"
+            app:title="@string/preferences_open_source_licenses_link_title"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

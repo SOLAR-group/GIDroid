@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources>
+    <string name="permission_required">Permission required</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="permission_export_rationale_message">Storage permission must be granted to export measurements to a file</string>
+    <string name="permission_export_denied_message">Cancelling measurements export due to denied permission</string>
+    <string name="permission_export_never_ask_again_message">Measurements export is unavailable due to denied storage permission</string>
+    <string name="permission_storage_rationale_message">Storage permission must be granted to use the function</string>
+    <string name="permission_storage_denied_message">Cancelling the operation due to denied permission</string>
+    <string name="permission_storage_never_ask_again_message">The function is unavailable due to denied storage permission</string>
+    <string name="permission_logging_denied_temporarily_message">Temporarily disabling file logging due to denied storage permission</string>
+    <string name="permission_collector_rationale_message">Location and phone permissions must be granted to collect measurements.</string>
+    <string name="permission_collector_rationale_api29_message">If you want to use this function be sure to select \'allow all the time\' option for access device\'s location permission!</string>
+    <string name="permission_collector_rationale_api30_message">If you want to use this function be sure to select \'allow in settings\' and then select \'allow all the time\' option for access device\'s location permission!</string>
+    <string name="permission_collector_denied_message">Cancelling measurement collecting due to denied permissions</string>
+    <string name="permission_collector_never_ask_again_message">Measurement collecting is unavailable due to denied location and/or phone permissions</string>
+    <string name="permission_collector_never_ask_again_api29_message">Measurement collecting is unavailable due to denied background location and/or phone permissions</string>
+    <string name="permission_collector_denied_intent_message">Cancelling measurement collecting due to denied permissions, open the app to grant necessary permissions first</string>
+    <string name="permission_collector_denied_background_location_message">Disabling start at device boot due to denied background location permission.</string>
+    <string name="permission_map_rationale_message">Location permission must be granted to display your location on the map.</string>
+    <string name="permission_map_denied_message">The map cannot be enabled due to denied location permission</string>
+    <string name="permission_map_never_ask_again_message">The map is unavailable due to denied location permission</string>
+    <string name="permission_uploader_denied_message">Upload cancelled due to denied internet permission.</string>
+</resources>

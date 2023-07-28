@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anthonycr.grant:permissions:1.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/65ab240144f303db9224a4c3c957e61b/transformed/jetified-permissions-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65ab240144f303db9224a4c3c957e61b/transformed/jetified-permissions-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65ab240144f303db9224a4c3c957e61b/transformed/jetified-permissions-1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.grant/permissions/1.1.2/cbba4ae4436802c648daa42689ebebefb9cc60ed/permissions-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.grant/permissions/1.1.2/ab65a768077058c6c120201bd47ed168aa1f343f/permissions-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

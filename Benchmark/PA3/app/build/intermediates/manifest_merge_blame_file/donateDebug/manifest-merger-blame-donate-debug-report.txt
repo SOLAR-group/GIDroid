@@ -1,0 +1,223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aaronjwood.portauthority.donate"
+4    android:installLocation="auto"
+5    android:versionCode="61"
+6    android:versionName="2.3.3-donate" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="14"
+9-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Needed to read the SSID on Android 8-9. -->
+14-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Needed to read the SSID on Android 10+. -->
+15-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:10:22-64
+17
+18    <!-- To store the heap dumps and leak analysis results. -->
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:23:5-80
+19-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:23:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+20-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:24:5-81
+20-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:24:22-78
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:26:5-77
+21-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:26:22-74
+22
+23    <application
+23-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:12:5-52:19
+24        android:allowBackup="true"
+24-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:13:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\0d69eb2c2bd50a7064704197668047da\core-1.3.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@drawable/icon"
+27-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:14:9-38
+28        android:label="@string/app_name"
+28-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:15:9-41
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:16:9-40
+30        <activity
+30-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:17:9-26:20
+31            android:name="com.aaronjwood.portauthority.activity.MainActivity"
+31-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:18:13-50
+32            android:label="@string/app_name"
+32-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:19:13-45
+33            android:theme="@style/AppTheme" >
+33-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:20:13-44
+34            <intent-filter>
+34-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:21:13-25:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:22:17-69
+35-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:24:17-77
+37-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:24:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:27:9-34:20
+41            android:name="com.aaronjwood.portauthority.activity.LanHostActivity"
+41-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:28:13-53
+42            android:label="@string/app_name"
+42-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:29:13-45
+43            android:theme="@style/AppTheme" >
+43-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:30:13-44
+44            <meta-data
+44-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:31:13-33:58
+45                android:name="android.support.PARENT_ACTIVITY"
+45-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:32:17-63
+46                android:value=".activity.MainActivity" />
+46-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:33:17-55
+47        </activity>
+48        <activity
+48-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:35:9-42:20
+49            android:name="com.aaronjwood.portauthority.activity.WanHostActivity"
+49-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:36:13-53
+50            android:label="@string/app_name"
+50-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:37:13-45
+51            android:theme="@style/AppTheme" >
+51-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:38:13-44
+52            <meta-data
+52-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:31:13-33:58
+53                android:name="android.support.PARENT_ACTIVITY"
+53-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:32:17-63
+54                android:value=".activity.MainActivity" />
+54-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:33:17-55
+55        </activity>
+56        <activity
+56-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:43:9-50:20
+57            android:name="com.aaronjwood.portauthority.activity.PreferencesActivity"
+57-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:44:13-57
+58            android:label="@string/app_name"
+58-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:45:13-45
+59            android:theme="@style/PreferencesTheme" >
+59-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:46:13-52
+60            <meta-data
+60-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:31:13-33:58
+61                android:name="android.support.PARENT_ACTIVITY"
+61-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:32:17-63
+62                android:value=".activity.MainActivity" />
+62-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:33:17-55
+63        </activity>
+64        <activity android:name="com.aaronjwood.portauthority.activity.DnsActivity" />
+64-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:51:9-58
+64-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:51:19-55
+65
+66        <service
+66-->[com.squareup.leakcanary:leakcanary-android:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\0c7b112d02b47b5ddd681a0b89a08f67\jetified-leakcanary-android-2.2\AndroidManifest.xml:23:9-25:40
+67            android:name="leakcanary.internal.HeapAnalyzerService"
+67-->[com.squareup.leakcanary:leakcanary-android:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\0c7b112d02b47b5ddd681a0b89a08f67\jetified-leakcanary-android-2.2\AndroidManifest.xml:24:13-67
+68            android:exported="false" />
+68-->[com.squareup.leakcanary:leakcanary-android:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\0c7b112d02b47b5ddd681a0b89a08f67\jetified-leakcanary-android-2.2\AndroidManifest.xml:25:13-37
+69
+70        <provider
+70-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:29:9-37:20
+71            android:name="leakcanary.internal.LeakCanaryFileProvider"
+71-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:30:13-70
+72            android:authorities="com.squareup.leakcanary.fileprovider.com.aaronjwood.portauthority.donate"
+72-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:31:13-88
+73            android:exported="false"
+73-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:32:13-37
+74            android:grantUriPermissions="true" >
+74-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:33:13-47
+75            <meta-data
+75-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:34:13-36:66
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:35:17-67
+77                android:resource="@xml/leak_canary_file_paths" />
+77-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:36:17-63
+78        </provider>
+79
+80        <activity
+80-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:39:9-44:66
+81            android:name="leakcanary.internal.activity.LeakActivity"
+81-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:40:13-69
+82            android:icon="@mipmap/leak_canary_icon"
+82-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:41:13-52
+83            android:label="@string/leak_canary_display_activity_label"
+83-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:42:13-71
+84            android:taskAffinity="com.squareup.leakcanary.com.aaronjwood.portauthority.donate"
+84-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:43:13-76
+85            android:theme="@style/leak_canary_LeakCanary.Base" />
+85-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:44:13-63
+86
+87        <activity-alias
+87-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:46:9-62:26
+88            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+88-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:47:13-77
+89            android:banner="@drawable/leak_canary_tv_icon"
+89-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:48:13-59
+90            android:enabled="@bool/leak_canary_add_launcher_icon"
+90-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:49:13-66
+91            android:icon="@mipmap/leak_canary_icon"
+91-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:50:13-52
+92            android:label="@string/leak_canary_display_activity_label"
+92-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:51:13-71
+93            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+93-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:52:13-79
+94            android:taskAffinity="com.squareup.leakcanary.com.aaronjwood.portauthority.donate"
+94-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:53:13-76
+95            android:theme="@style/leak_canary_LeakCanary.Base" >
+95-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:54:13-63
+96            <intent-filter>
+96-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:55:13-61:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:22:17-69
+97-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:22:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:24:17-77
+99-->C:\Users\jcall\Apps\PA5\app\src\main\AndroidManifest.xml:24:27-74
+100                <!-- Android TV launcher intent -->
+101                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+101-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:60:17-86
+101-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:60:27-83
+102            </intent-filter>
+103        </activity-alias>
+104
+105        <activity
+105-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:64:9-70:68
+106            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+106-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:65:13-80
+107            android:excludeFromRecents="true"
+107-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:66:13-46
+108            android:icon="@mipmap/leak_canary_icon"
+108-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:67:13-52
+109            android:label="@string/leak_canary_storage_permission_activity_label"
+109-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:68:13-82
+110            android:taskAffinity="com.squareup.leakcanary.com.aaronjwood.portauthority.donate"
+110-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:69:13-76
+111            android:theme="@style/leak_canary_Theme.Transparent" />
+111-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:70:13-65
+112
+113        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+113-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:72:9-77
+113-->[com.squareup.leakcanary:leakcanary-android-core:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\ca7028312bc99b9ff530a0f0b370b7b7\jetified-leakcanary-android-core-2.2\AndroidManifest.xml:72:19-74
+114
+115        <provider
+115-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\a760bcd95f90d206d7b79db8c575681c\jetified-leakcanary-object-watcher-android-2.2\AndroidManifest.xml:8:9-11:40
+116            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+116-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\a760bcd95f90d206d7b79db8c575681c\jetified-leakcanary-object-watcher-android-2.2\AndroidManifest.xml:9:13-79
+117            android:authorities="com.aaronjwood.portauthority.donate.leakcanary-installer"
+117-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\a760bcd95f90d206d7b79db8c575681c\jetified-leakcanary-object-watcher-android-2.2\AndroidManifest.xml:10:13-72
+118            android:exported="false" />
+118-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\a760bcd95f90d206d7b79db8c575681c\jetified-leakcanary-object-watcher-android-2.2\AndroidManifest.xml:11:13-37
+119    </application>
+120
+121</manifest>

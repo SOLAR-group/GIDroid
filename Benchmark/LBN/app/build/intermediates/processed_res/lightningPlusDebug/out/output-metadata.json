@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "acr.browser.lightning",
+  "variantName": "lightningPlusDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 101,
+      "versionName": "5.1.0",
+      "outputFile": "resources-lightningPlusDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

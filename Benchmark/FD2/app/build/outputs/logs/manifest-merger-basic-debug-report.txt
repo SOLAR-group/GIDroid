@@ -1,0 +1,701 @@
+-- Merging decision tree log ---
+provider#org.fdroid.fdroid.data.AppProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:71:9-74:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:72:17-72
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:74:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:73:17-66
+provider#org.fdroid.fdroid.data.RepoProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:76:9-79:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:77:17-73
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:79:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:78:17-67
+provider#org.fdroid.fdroid.data.ApkProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:81:9-84:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:82:17-72
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:84:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:83:17-66
+provider#org.fdroid.fdroid.data.TempApkProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:86:9-89:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:87:17-76
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:89:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:88:17-70
+provider#org.fdroid.fdroid.data.TempAppProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:91:9-94:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:92:17-76
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:94:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:93:17-70
+provider#org.fdroid.fdroid.data.InstalledAppProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:96:9-99:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:97:17-81
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:99:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:98:17-75
+provider#org.fdroid.fdroid.data.AppPrefsProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:101:9-104:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:102:17-77
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:104:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:103:17-71
+provider#org.fdroid.fdroid.data.PackageProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:106:9-109:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:107:17-76
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:109:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:108:17-70
+provider#org.fdroid.fdroid.data.CategoryProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:111:9-114:43
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:112:17-77
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:114:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:113:17-71
+provider#org.fdroid.fdroid.installer.ApkFileProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:116:9-124:20
+	android:grantUriPermissions
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:120:17-51
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:118:17-81
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:119:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:117:17-75
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:125:9-133:20
+	android:grantUriPermissions
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:129:17-51
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:127:17-65
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:128:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:126:17-71
+manifest
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\dd0170bc07cc802731ef096366089d0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\87ab88baac6572f70d7aa6c496fb8f4b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:preference-v14:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\preference-v14-27.1.1.aar\fc232ee93c906807289e2824de9370fd\AndroidManifest.xml:17:1-22:12
+MERGED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:10:6-44:12
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\3e3ff90efef5bb5e2aa7a09552915af4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\76cab25a0e30016077c8bb75c9b7a6f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\03de3ea3d03b0b066a50efc506aa4e62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\502892b0b3bca9a235619e6002894f66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.hannesdorfmann:adapterdelegates3:3.0.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\adapterdelegates3-3.0.1.aar\12544ebb7827640ce16bd7dbd19cf628\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4cf3abc54a9d651e47daf5de3fe287d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\00dace84867615add421610c74ae7815\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\76303ec38d28fa54fb12ac8d715130a1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6856339731fdc7310e02a11ce975d312\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\6bf4929c4983eafb099a03f6aefa77a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\45039947cf3359cbf54da5c4b80baa1d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f22f839f482cad399b49b63abded1745\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ecbe13ce9c0d62800aefc14540081b8b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\860a01bee249d806122b20231705bb2b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\856a77e9026ece02fa527f71e95711e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8bc3ce22e739d74513fc9dfc1af58af2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\461adc2cfd8741241527233f2c2710eb\AndroidManifest.xml:2:1-11:12
+MERGED from [eu.chainfire:libsuperuser:1.0.0.201602271131] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\libsuperuser-1.0.0.201602271131.aar\9ce8f9d032421bff404811d3831baa94\AndroidManifest.xml:2:1-11:12
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.4.aar\1f4bb4ad90f134743e8d071650c74ef3\AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\acaa052f4a7562f7a02b14cafe186dff\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fceb3c06240aa5b039f2f8e28f75b71b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\d348f25163f55d87d5d8b62b0395bdb4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0057f8ec15945261b5e5d96889ef5920\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+	package
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:26:11-38
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:25:11-57
+	android:versionCode
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:1-562:12
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:24:11-69
+	android:installLocation
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:27:11-41
+uses-sdk
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:29:5-32:7
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:29:5-32:7
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\dd0170bc07cc802731ef096366089d0e\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\dd0170bc07cc802731ef096366089d0e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\87ab88baac6572f70d7aa6c496fb8f4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\87ab88baac6572f70d7aa6c496fb8f4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\preference-v14-27.1.1.aar\fc232ee93c906807289e2824de9370fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\preference-v14-27.1.1.aar\fc232ee93c906807289e2824de9370fd\AndroidManifest.xml:20:5-44
+MERGED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:37:5-42
+MERGED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:37:5-42
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\3e3ff90efef5bb5e2aa7a09552915af4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\3e3ff90efef5bb5e2aa7a09552915af4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\76cab25a0e30016077c8bb75c9b7a6f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\76cab25a0e30016077c8bb75c9b7a6f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\03de3ea3d03b0b066a50efc506aa4e62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\03de3ea3d03b0b066a50efc506aa4e62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\502892b0b3bca9a235619e6002894f66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\502892b0b3bca9a235619e6002894f66\AndroidManifest.xml:20:5-44
+MERGED from [com.hannesdorfmann:adapterdelegates3:3.0.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\adapterdelegates3-3.0.1.aar\12544ebb7827640ce16bd7dbd19cf628\AndroidManifest.xml:7:5-9:41
+MERGED from [com.hannesdorfmann:adapterdelegates3:3.0.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\adapterdelegates3-3.0.1.aar\12544ebb7827640ce16bd7dbd19cf628\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4cf3abc54a9d651e47daf5de3fe287d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4cf3abc54a9d651e47daf5de3fe287d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\00dace84867615add421610c74ae7815\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\00dace84867615add421610c74ae7815\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\76303ec38d28fa54fb12ac8d715130a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\76303ec38d28fa54fb12ac8d715130a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6856339731fdc7310e02a11ce975d312\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6856339731fdc7310e02a11ce975d312\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\6bf4929c4983eafb099a03f6aefa77a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\6bf4929c4983eafb099a03f6aefa77a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\45039947cf3359cbf54da5c4b80baa1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\45039947cf3359cbf54da5c4b80baa1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f22f839f482cad399b49b63abded1745\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f22f839f482cad399b49b63abded1745\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ecbe13ce9c0d62800aefc14540081b8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ecbe13ce9c0d62800aefc14540081b8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\860a01bee249d806122b20231705bb2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\860a01bee249d806122b20231705bb2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\856a77e9026ece02fa527f71e95711e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\856a77e9026ece02fa527f71e95711e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8bc3ce22e739d74513fc9dfc1af58af2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8bc3ce22e739d74513fc9dfc1af58af2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\461adc2cfd8741241527233f2c2710eb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\461adc2cfd8741241527233f2c2710eb\AndroidManifest.xml:5:5-7:41
+MERGED from [eu.chainfire:libsuperuser:1.0.0.201602271131] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\libsuperuser-1.0.0.201602271131.aar\9ce8f9d032421bff404811d3831baa94\AndroidManifest.xml:7:5-9:41
+MERGED from [eu.chainfire:libsuperuser:1.0.0.201602271131] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\libsuperuser-1.0.0.201602271131.aar\9ce8f9d032421bff404811d3831baa94\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.4.aar\1f4bb4ad90f134743e8d071650c74ef3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.4.aar\1f4bb4ad90f134743e8d071650c74ef3\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\acaa052f4a7562f7a02b14cafe186dff\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\acaa052f4a7562f7a02b14cafe186dff\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fceb3c06240aa5b039f2f8e28f75b71b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fceb3c06240aa5b039f2f8e28f75b71b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\d348f25163f55d87d5d8b62b0395bdb4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\d348f25163f55d87d5d8b62b0395bdb4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0057f8ec15945261b5e5d96889ef5920\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0057f8ec15945261b5e5d96889ef5920\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:29:5-32:7
+	android:targetSdkVersion
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:31:13-42
+	android:minSdkVersion
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:30:13-39
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:34:5-41:7
+	android:largeScreens
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:36:13-40
+	android:smallScreens
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:39:13-40
+	android:normalScreens
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:37:13-41
+	android:xlargeScreens
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:40:13-41
+	android:resizeable
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:38:13-38
+	android:anyDensity
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:35:13-38
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:43:5-45:39
+	android:required
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:44:13-54
+uses-feature#android.hardware.wifi
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:46:5-48:39
+	android:required
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:47:13-49
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:49:5-51:39
+	android:required
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:50:13-56
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:53:5-66
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:53:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:54:5-78
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:54:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:55:5-75
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:55:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:56:5-80
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:56:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:57:5-80
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:57:22-78
+uses-permission#android.permission.NFC
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:58:5-61
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:58:22-59
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:59:5-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:59:22-65
+application
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:61:5-560:19
+MERGED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:39:5-43:19
+MERGED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:39:5-43:19
+MERGED from [com.hannesdorfmann:adapterdelegates3:3.0.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\adapterdelegates3-3.0.1.aar\12544ebb7827640ce16bd7dbd19cf628\AndroidManifest.xml:11:5-20
+MERGED from [com.hannesdorfmann:adapterdelegates3:3.0.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\adapterdelegates3-3.0.1.aar\12544ebb7827640ce16bd7dbd19cf628\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\461adc2cfd8741241527233f2c2710eb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\461adc2cfd8741241527233f2c2710eb\AndroidManifest.xml:9:5-20
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.4.aar\1f4bb4ad90f134743e8d071650c74ef3\AndroidManifest.xml:11:5-47
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.4.aar\1f4bb4ad90f134743e8d071650c74ef3\AndroidManifest.xml:11:5-47
+	android:supportsRtl
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:69:13-39
+	android:label
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:64:13-45
+	android:fullBackupContent
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:67:13-45
+	android:icon
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:63:13-49
+	android:allowBackup
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:66:13-39
+	android:description
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:65:13-58
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:62:13-38
+activity#org.fdroid.fdroid.privileged.views.InstallConfirmActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:135:9-145:20
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:140:17-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:137:17-53
+	android:excludeFromRecents
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:139:17-50
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:141:17-63
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:138:17-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:136:17-72
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:142:13-144:63
+	android:value
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:144:21-61
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:143:21-67
+activity#org.fdroid.fdroid.privileged.views.UninstallDialogActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:146:9-149:61
+	android:excludeFromRecents
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:148:17-50
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:149:17-59
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:147:17-73
+activity#org.fdroid.fdroid.views.ManageReposActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:150:9-159:20
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:154:17-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:152:17-52
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:153:17-48
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:155:17-63
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:151:17-58
+activity#org.fdroid.fdroid.NfcNotEnabledActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:160:9-163:65
+	android:noHistory
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:162:17-41
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:163:17-63
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:161:17-54
+activity#org.fdroid.fdroid.views.RepoDetailsActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:164:9-173:20
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:167:17-72
+	android:label
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:166:17-53
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:168:17-58
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:169:17-63
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:165:17-58
+activity#org.fdroid.fdroid.AppDetails2
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:175:9-184:20
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:179:17-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:177:17-52
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:178:17-40
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:180:17-63
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:176:17-44
+activity#org.fdroid.fdroid.acra.CrashReportActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:185:9-191:52
+	android:process
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:188:17-48
+	android:excludeFromRecents
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:190:17-50
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:189:17-52
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:187:17-52
+	android:finishOnTaskLaunch
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:191:17-50
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:186:17-57
+activity#org.fdroid.fdroid.views.ScreenShotsActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:192:9-62
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:192:19-60
+activity#org.fdroid.fdroid.privileged.install.InstallExtensionDialogActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:194:9-196:61
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:196:17-59
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:195:17-82
+activity#org.fdroid.fdroid.data.ObbUrlActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:197:9-198:67
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:198:19-65
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:197:19-54
+receiver#org.fdroid.fdroid.privileged.install.InstallExtensionBootReceiver
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:199:9-204:20
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:200:17-80
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:201:13-203:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:202:17-78
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:202:25-76
+activity#org.fdroid.fdroid.installer.DefaultInstallerActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:206:9-208:61
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:208:17-59
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:207:17-67
+activity#org.fdroid.fdroid.installer.ErrorDialogActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:210:9-212:61
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:212:17-59
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:211:17-62
+receiver#org.fdroid.fdroid.receiver.StartupReceiver
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:214:9-220:20
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:214:19-59
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.HOME
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:215:13-219:29
+category#android.intent.category.HOME
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:218:17-72
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:218:27-70
+receiver#org.fdroid.fdroid.receiver.PackageManagerReceiver
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:222:9-230:20
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:222:19-66
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_CHANGED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:223:13-229:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:224:17-77
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:224:25-75
+action#android.intent.action.PACKAGE_CHANGED
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:225:17-79
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:225:25-77
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:226:17-79
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:226:25-77
+data
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:228:17-49
+	android:path
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:363:23-57
+	android:host
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:316:23-49
+	android:scheme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:228:23-47
+	android:pathPattern
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:323:23-60
+	tools:ignore
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:460:45-75
+	android:pathPrefix
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:319:23-49
+receiver#org.fdroid.fdroid.NotificationBroadcastReceiver
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:232:9-234:20
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:232:65-89
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:232:19-64
+receiver#org.fdroid.fdroid.receiver.DeviceStorageReceiver
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:236:9-240:20
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:236:19-65
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:237:13-239:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:238:17-82
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:238:25-80
+service#org.fdroid.fdroid.UpdateService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:242:9-245:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:245:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:244:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:243:17-46
+service#org.fdroid.fdroid.UpdateJobService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:246:9-249:75
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:248:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:249:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:247:17-49
+service#org.fdroid.fdroid.net.DownloaderService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:250:9-252:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:252:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:251:17-54
+service#org.fdroid.fdroid.installer.InstallerService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:253:9-256:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:256:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:255:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:254:17-59
+service#org.fdroid.fdroid.CleanCacheService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:257:9-260:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:260:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:259:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:258:17-50
+service#org.fdroid.fdroid.CleanCacheJobService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:261:9-264:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:264:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:263:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:262:17-53
+service#org.fdroid.fdroid.DeleteCacheService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:265:9-268:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:268:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:267:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:266:17-51
+service#org.fdroid.fdroid.net.ConnectivityMonitorService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:269:9-272:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:272:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:271:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:270:17-63
+service#org.fdroid.fdroid.installer.InstallManagerService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:273:9-275:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:275:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:274:17-64
+service#org.fdroid.fdroid.installer.InstallHistoryService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:276:9-278:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:278:17-41
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:277:17-64
+service#org.fdroid.fdroid.data.InstalledAppProviderService
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:279:9-282:43
+	android:exported
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:282:17-41
+	android:permission
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:281:17-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:280:17-65
+activity#org.fdroid.fdroid.views.main.MainActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:287:9-540:20
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:289:17-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:290:17-59
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:288:17-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:291:13-295:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:292:17-68
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:292:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:294:17-76
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:294:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:fdroid.app
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:300:13-307:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:301:17-68
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:301:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:303:17-75
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:303:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:304:17-77
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:304:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:f-droid.org+data:host:staging.f-droid.org+data:host:www.f-droid.org+data:pathPattern:/.*/packages/.*+data:pathPattern:/.*/packages/.*/+data:pathPrefix:/app/+data:pathPrefix:/packages/+data:pathPrefix:/repository/browse+data:scheme:https
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:309:13-325:29
+	android:autoVerify
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:309:28-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:f-droid.org+data:host:staging.f-droid.org+data:host:www.f-droid.org+data:pathPattern:/.*/packages/.*+data:pathPattern:/.*/packages/.*/+data:pathPrefix:/app/+data:pathPrefix:/packages/+data:pathPrefix:/repository/browse+data:scheme:http
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:327:13-343:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:details+data:scheme:market
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:345:13-352:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:play.google.com+data:path:/store/apps/details+data:scheme:http+data:scheme:https
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:354:13-364:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:apps+data:path:/android+data:scheme:amzn
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:366:13-373:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:amazon.com+data:host:www.amazon.com+data:path:/gp/mas/dl/android+data:scheme:http+data:scheme:https
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:375:13-386:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:fdroid.search
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:391:13-398:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:search+data:scheme:market
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:400:13-407:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:play.google.com+data:path:/store/search+data:scheme:http+data:scheme:https
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:409:13-419:29
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:421:13-423:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:422:17-70
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:422:25-68
+meta-data#android.app.searchable
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:425:13-427:57
+	android:resource
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:427:21-55
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:426:21-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:path:/FDROID/REPO+data:path:/fdroid/archive+data:path:/fdroid/repo+data:pathPattern:/.*/.*/.*/.*/fdroid/archive+data:pathPattern:/.*/.*/.*/.*/fdroid/archive/*+data:pathPattern:/.*/.*/.*/.*/fdroid/repo+data:pathPattern:/.*/.*/.*/.*/fdroid/repo/*+data:pathPattern:/.*/.*/.*/FDROID/REPO+data:pathPattern:/.*/.*/.*/fdroid/archive+data:pathPattern:/.*/.*/.*/fdroid/archive/*+data:pathPattern:/.*/.*/.*/fdroid/repo+data:pathPattern:/.*/.*/.*/fdroid/repo/*+data:pathPattern:/.*/.*/FDROID/REPO+data:pathPattern:/.*/.*/fdroid/archive+data:pathPattern:/.*/.*/fdroid/archive/*+data:pathPattern:/.*/.*/fdroid/repo+data:pathPattern:/.*/.*/fdroid/repo/*+data:pathPattern:/.*/FDROID/REPO+data:pathPattern:/.*/fdroid/archive+data:pathPattern:/.*/fdroid/archive/*+data:pathPattern:/.*/fdroid/repo+data:pathPattern:/.*/fdroid/repo/*+data:pathPattern:/fdroid/archive/*+data:pathPattern:/fdroid/repo/*+data:scheme:HTTP+data:scheme:HTTPS+data:scheme:http+data:scheme:https
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:447:13-500:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:FDROIDREPO+data:scheme:FDROIDREPOS+data:scheme:fdroidrepo+data:scheme:fdroidrepos
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:506:13-522:29
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:scheme:fdroidrepo+data:scheme:fdroidrepos
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:527:13-538:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:528:17-76
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:528:25-74
+activity#org.fdroid.fdroid.views.apps.AppListActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:542:9-63
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:542:19-61
+activity#org.fdroid.fdroid.views.installed.InstalledAppsActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:544:9-549:20
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:545:19-72
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:544:19-72
+activity#org.fdroid.fdroid.views.InstallHistoryActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:550:9-555:20
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:551:19-72
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:550:19-63
+activity#org.fdroid.fdroid.AboutActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:557:9-102
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:557:49-100
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:557:19-48
+activity#org.fdroid.fdroid.installer.FileInstallerActivity
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:558:9-111
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:558:67-109
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:558:19-66
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:121:13-123:64
+	android:resource
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:123:21-62
+	android:name
+		ADDED from C:\Users\jcall\Apps\FD2\app\src\main\AndroidManifest.xml:122:21-71
+activity#org.acra.dialog.CrashReportDialog
+ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:40:9-241
+	android:process
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:40:172-195
+	android:excludeFromRecents
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:40:19-52
+	android:launchMode
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:40:87-122
+	android:theme
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:40:196-239
+	android:finishOnTaskLaunch
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:40:53-86
+	android:name
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:40:123-171
+service#org.acra.sender.SenderService
+ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:42:9-113
+	android:process
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:42:88-111
+	android:exported
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:42:18-42
+	android:name
+		ADDED from [ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-1\files-1.1\acra-4.9.1.aar\e8b6588d09786c76de5fc42bc339737b\AndroidManifest.xml:42:43-87

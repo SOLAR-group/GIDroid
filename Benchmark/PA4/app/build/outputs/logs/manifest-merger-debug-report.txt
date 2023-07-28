@@ -1,0 +1,144 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b4624b6276720a2b533ce8c8e6a93b25\transformed\appcompat-v7-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\f3643a533a7d9f87dfd6625caf294374\transformed\support-v4-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\51eb89129bf16d8e9cc2a02ffe3984b7\transformed\support-fragment-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b350bc00bea201fede4e6d2ebe659276\transformed\support-core-utils-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\de8c6ac3c9ec9d448fbef6dde567cbda\transformed\support-media-compat-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\af0001d9870b710bb590387837ac7644\transformed\support-core-ui-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\3f3163a24e1f61efddb6d8b457ba0f5e\transformed\animated-vector-drawable-24.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\6149704f3f571110da942f28394ad381\transformed\support-vector-drawable-24.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\869dc287efcf9d8b53f62a23ed40bde0\transformed\support-compat-24.2.0\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:10:5-49:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b4624b6276720a2b533ce8c8e6a93b25\transformed\appcompat-v7-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b4624b6276720a2b533ce8c8e6a93b25\transformed\appcompat-v7-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\f3643a533a7d9f87dfd6625caf294374\transformed\support-v4-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\f3643a533a7d9f87dfd6625caf294374\transformed\support-v4-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\51eb89129bf16d8e9cc2a02ffe3984b7\transformed\support-fragment-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\51eb89129bf16d8e9cc2a02ffe3984b7\transformed\support-fragment-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b350bc00bea201fede4e6d2ebe659276\transformed\support-core-utils-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b350bc00bea201fede4e6d2ebe659276\transformed\support-core-utils-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\de8c6ac3c9ec9d448fbef6dde567cbda\transformed\support-media-compat-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\de8c6ac3c9ec9d448fbef6dde567cbda\transformed\support-media-compat-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\af0001d9870b710bb590387837ac7644\transformed\support-core-ui-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\af0001d9870b710bb590387837ac7644\transformed\support-core-ui-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\3f3163a24e1f61efddb6d8b457ba0f5e\transformed\animated-vector-drawable-24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\3f3163a24e1f61efddb6d8b457ba0f5e\transformed\animated-vector-drawable-24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\6149704f3f571110da942f28394ad381\transformed\support-vector-drawable-24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\6149704f3f571110da942f28394ad381\transformed\support-vector-drawable-24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\869dc287efcf9d8b53f62a23ed40bde0\transformed\support-compat-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\869dc287efcf9d8b53f62a23ed40bde0\transformed\support-compat-24.2.0\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:12:9-38
+	android:allowBackup
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.aaronjwood.portauthority.activity.MainActivity
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:18:13-44
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:16:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.aaronjwood.portauthority.activity.LanHostActivity
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:25:9-32:20
+	android:label
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:27:13-45
+	android:theme
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:28:13-44
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:26:13-53
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:29:13-31:58
+	android:value
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:31:17-55
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:30:17-63
+activity#com.aaronjwood.portauthority.activity.WanHostActivity
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:33:9-40:20
+	android:label
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:35:13-45
+	android:theme
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:34:13-53
+activity#com.aaronjwood.portauthority.activity.PreferencesActivity
+ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:41:9-48:20
+	android:label
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:43:13-45
+	android:theme
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:44:13-52
+	android:name
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:42:13-57
+uses-sdk
+INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b4624b6276720a2b533ce8c8e6a93b25\transformed\appcompat-v7-24.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b4624b6276720a2b533ce8c8e6a93b25\transformed\appcompat-v7-24.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\f3643a533a7d9f87dfd6625caf294374\transformed\support-v4-24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\f3643a533a7d9f87dfd6625caf294374\transformed\support-v4-24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\51eb89129bf16d8e9cc2a02ffe3984b7\transformed\support-fragment-24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\51eb89129bf16d8e9cc2a02ffe3984b7\transformed\support-fragment-24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b350bc00bea201fede4e6d2ebe659276\transformed\support-core-utils-24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b350bc00bea201fede4e6d2ebe659276\transformed\support-core-utils-24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\de8c6ac3c9ec9d448fbef6dde567cbda\transformed\support-media-compat-24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\de8c6ac3c9ec9d448fbef6dde567cbda\transformed\support-media-compat-24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\af0001d9870b710bb590387837ac7644\transformed\support-core-ui-24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\af0001d9870b710bb590387837ac7644\transformed\support-core-ui-24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\3f3163a24e1f61efddb6d8b457ba0f5e\transformed\animated-vector-drawable-24.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\3f3163a24e1f61efddb6d8b457ba0f5e\transformed\animated-vector-drawable-24.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\6149704f3f571110da942f28394ad381\transformed\support-vector-drawable-24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\6149704f3f571110da942f28394ad381\transformed\support-vector-drawable-24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\869dc287efcf9d8b53f62a23ed40bde0\transformed\support-compat-24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\869dc287efcf9d8b53f62a23ed40bde0\transformed\support-compat-24.2.0\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\jcall\.gradle\caches\transforms-3\b4624b6276720a2b533ce8c8e6a93b25\transformed\appcompat-v7-24.2.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml

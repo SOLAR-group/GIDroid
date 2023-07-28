@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="SignatureMismatch">Nauja versija pasirašyta kitu raktu. Kad instaliuoti naują versiją, pirna turi būti išdiegta senoji. Prašome tai padaryti ir tada pabandyti iš naujo. (Pastaba- išdiegiant bus ištrinta ir programėlės vidinė informacija)</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Eiti į pagrindinį puslapį"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Eiti į viršų"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Daugiau parinkčių"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Atlikta"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Peržiūrėti viską"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Pasirinkti programą"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"IŠJUNGTA"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ĮJUNGTI"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ieškoti..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Išvalyti užklausą"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Paieškos užklausa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Paieška"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Pateikti užklausą"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Paieška balsu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Bendrinti naudojant"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Bendrinti naudojant programą „<ns1:g id="APPLICATION_NAME">%s</ns1:g>“"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sutraukti"</string>
+    <string name="about_mail">El. paštas:</string>
+    <string name="about_site">Svetainė:</string>
+    <string name="about_title">Apie F-Droid</string>
+    <string name="about_version">Versija:</string>
+    <string name="add_key">Pridėti raktą</string>
+    <string name="added_on">Išleista %s</string>
+    <string name="antitracklist">Ši programėlė seka ir perduoda Jūsų veiksmus</string>
+    <string name="app_details">Programėlės detalės</string>
+    <string name="app_installed">Įdiegta</string>
+    <string name="app_list__name__downloading_in_progress">Atsiunčiama %1$s</string>
+    <string name="app_list__name__successfully_installed">%1$s įdiegta</string>
+    <string name="app_name">F-Droid</string>
+    <string name="app_not_installed">Neįdiegta</string>
+    <string name="back">Atgal</string>
+    <string name="cache_downloaded">Saugoti atsisiųstų programėlių instaliacinius paketus</string>
+    <string name="cancel">Atsisakyti</string>
+    <string name="category_Connectivity">Jungiamumas</string>
+    <string name="category_Development">Vystymas</string>
+    <string name="category_Games">Žaidimai</string>
+    <string name="category_Graphics">Grafika</string>
+    <string name="category_Internet">Internetas</string>
+    <string name="category_Money">Pinigai</string>
+    <string name="category_Multimedia">Multimedija</string>
+    <string name="category_Navigation">Navigacija</string>
+    <string name="category_Phone_SMS">Telefonas ir SMS</string>
+    <string name="category_Reading">Skaitymas</string>
+    <string name="category_Science_Education">Mokslas ir mokymasis</string>
+    <string name="category_Security">Sauga</string>
+    <string name="category_Sports_Health">Sportas ir sveikata</string>
+    <string name="category_System">Sistema</string>
+    <string name="category_Time">Laikas</string>
+    <string name="category_Writing">Rašymas</string>
+    <string name="crash_dialog_text">Įvyko netikėta klaida, dėl kurios sustojo programėlė. Ar norėtumėte el. paštu atsiųsti klaidos detales, kad padėtumėme išsprestį tai?</string>
+    <string name="crash_dialog_title">F-Droid sugriuvo</string>
+    <string name="delete">Šalinti</string>
+    <string name="deleting_repo">Šalinama pasirinkta saugykla…</string>
+    <string name="details_notinstalled">Neįdiegta</string>
+    <string name="display">Rodymas</string>
+    <string name="enable">Įjungti</string>
+    <string name="enable_nfc_send">Įgalinti NFC siuntimą…</string>
+    <string name="force_old_index">Priversti senąjį indeksavimo formatą</string>
+    <string name="global_error_updating_repos">Klaida naujinant: %s</string>
+    <string name="installIncompatible">Programėlė nesuderinama su Jūsų įrenginiu, įdiegti vistiek?</string>
+    <string name="keep_install_history">Saugoti įdiegimų istoriją</string>
+    <string name="keep_install_history_summary">Saugoti log bylą visiems įdiegimams ir išdiegimams F-Droid programėlėje</string>
+    <string name="less">Mažiau</string>
+    <string name="local_repo_name">Šio įrenginio saugyklos pavadinimas</string>
+    <string name="main_menu__categories">Kategorijos</string>
+    <string name="main_menu__latest_apps">Naujausios</string>
+    <string name="main_menu__swap_nearby">Netoliese</string>
+    <string name="menu_add_repo">Nauja saugykla</string>
+    <string name="menu_donate">Paaukoti</string>
+    <string name="menu_install">Įdiegti</string>
+    <string name="menu_launch">Vykdyti</string>
+    <string name="menu_manage">Saugyklos</string>
+    <string name="menu_search">Ieškoti</string>
+    <string name="menu_settings">Nustatymai</string>
+    <string name="menu_share">Dalintis</string>
+    <string name="menu_source">Išeities tekstai</string>
+    <string name="menu_uninstall">Išmesti</string>
+    <string name="menu_upgrade">Atnaujinti</string>
+    <string name="menu_website">Svetainė</string>
+    <string name="more">Daugiau</string>
+    <string name="newPerms">Nauja</string>
+    <string name="next">Toliau</string>
+    <string name="no">Ne</string>
+    <string name="notification_action_cancel">Atšaukti</string>
+    <string name="notification_action_install">Įdiegti</string>
+    <string name="notification_action_update">Atnaujinti</string>
+    <string name="notification_title_single_update_available">Galimas Atnaujinimas</string>
+    <string name="notification_title_summary_install_error">Įdiegimas nepavyko</string>
+    <string name="notify">Informuoti</string>
+    <string name="notify_on">Pranešti, kai atsiras atnaujinimų</string>
+    <string name="ok">Gerai</string>
+    <string name="other">Kita</string>
+    <string name="overwrite">Perrašyti</string>
+    <string name="pref_language">Kalba</string>
+    <string name="pref_language_default">Sistemos numatytoji</string>
+    <string name="preference_manage_installed_apps">Tvarkyti įdiegtas programėles</string>
+    <string name="repo_add_add">Pridėti</string>
+    <string name="repo_add_title">Pridėti naują saugyklą</string>
+    <string name="repo_add_url">Saugyklos adresas</string>
+    <string name="repo_confirm_delete_body">Ištrynus saugyklą, jos programų katalogas nebebus pasiekiamas su F-Droid.
+        Tačiau iki trynimo iš saugyklos įkeltos programos pašalintos nebus.
+    </string>
+    <string name="repo_confirm_delete_title">Pašalinti saugyklą?</string>
+    <string name="repo_description">Aprašymas</string>
+    <string name="repo_details">Repozitorija</string>
+    <string name="repo_disabled_notification">\"%1$s\" pažymėta kaip nenaudotina. Jei norite įkelti programas iš šios
+        saugyklos, turite pirma leisti tai savo nustatymuose.
+    </string>
+    <string name="repo_last_update">Paskiausias atnaujinimas</string>
+    <string name="repo_name">Pavadinimas</string>
+    <string name="repo_not_yet_updated">Ši saugykla dar nebuvo naudota. Norėdami pamatyti čia esančias programas, turite
+        saugyklą atnaujinti. Atnaujinus, programų aprašymai taps matomi.
+    </string>
+    <string name="repo_num_apps">Programų kiekis</string>
+    <string name="repos_unchanged">Įjungtose saugyklose nėra nieko naujo</string>
+    <string name="requires_features">Reikalauja: %1$s</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Paieška"</string>
+    <string name="show_incompat_versions">Nesuderintos versijos</string>
+    <string name="show_incompat_versions_on">Rodyti programų laidas, netinkamas šiam įrenginiui</string>
+    <string name="skip">Praleisti</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_connecting_to_repo">Jungiamasi prie
+        %1$s
+    </string>
+    <string name="swap_dont_show_again">Daugiau to nerodyti</string>
+    <string name="swap_send_fdroid">Siųsti F-Droid</string>
+    <string name="swap_welcome">Sveikiname, jūs naudojate F-Droid!</string>
+    <string name="system_install_button_install">Įdiegti</string>
+    <string name="system_uninstall_button">Išdiegti</string>
+    <string name="theme">Tema</string>
+    <string name="unsigned">Nepasirašyta</string>
+    <string name="unstable_updates">Nestabilūs atnaujinimai</string>
+    <string name="unstable_updates_summary">Pasiūlyti naujinimus nestabilioms versijoms</string>
+    <string name="unverified">Nepatikrinta</string>
+    <string name="update_auto_download_summary">Atnaujinimai parsiunčiami automatiškai o Jūs perspėjami juos instaliuoti</string>
+    <string name="update_interval">Automatinis programų sąrašų naujinimas</string>
+    <string name="updates">Atnaujinimai</string>
+    <string name="updates__tts__download_app">Atsisiųsti</string>
+    <string name="version">Versija</string>
+    <string name="warning_no_internet">Negalima atnaujinti, ar Jūs prisijungę prie interneto?</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="yes">Taip</string>
+</resources>

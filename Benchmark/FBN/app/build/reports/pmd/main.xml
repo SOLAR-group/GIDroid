@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.0.0" timestamp="2022-11-08T11:48:37.162">
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\AccelerometerManager.java">
+<violation beginline="79" endline="79" begincolumn="26" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="AccelerometerManager" variable="running" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'running'
+</violation>
+<violation beginline="151" endline="151" begincolumn="19" endcolumn="31" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="AccelerometerManager" variable="avgX" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'avgX'
+</violation>
+<violation beginline="152" endline="152" begincolumn="19" endcolumn="31" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="AccelerometerManager" variable="avgY" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'avgY'
+</violation>
+<violation beginline="153" endline="153" begincolumn="19" endcolumn="31" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="AccelerometerManager" variable="avgZ" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'avgZ'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\BluetoothManager.java">
+<violation beginline="92" endline="92" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="txList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'txList'
+</violation>
+<violation beginline="93" endline="93" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="listenerList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'listenerList'
+</violation>
+<violation beginline="94" endline="94" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="myAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myAdapter'
+</violation>
+<violation beginline="95" endline="95" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="mySocket" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mySocket'
+</violation>
+<violation beginline="96" endline="96" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="myInputStream" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myInputStream'
+</violation>
+<violation beginline="97" endline="97" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="myOutputStream" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myOutputStream'
+</violation>
+<violation beginline="98" endline="98" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="remoteName" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteName'
+</violation>
+<violation beginline="99" endline="99" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="myRxThread" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myRxThread'
+</violation>
+<violation beginline="100" endline="100" begincolumn="40" endcolumn="60" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" variable="myTxThread" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myTxThread'
+</violation>
+<violation beginline="305" endline="305" begincolumn="14" endcolumn="69" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="BluetoothManager" method="getPairedDevices" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\ComputerAI.java">
+<violation beginline="142" endline="151" begincolumn="5" endcolumn="5" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="ComputerAI" method="onOpponentEvent" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\HighscoreDB.java">
+<violation beginline="119" endline="120" begincolumn="18" endcolumn="74" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreDB" method="selectAll" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="132" endline="132" begincolumn="65" endcolumn="66" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreDB" method="selectByLevel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not add empty strings
+</violation>
+<violation beginline="135" endline="136" begincolumn="18" endcolumn="74" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreDB" method="selectByLevel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="152" endline="153" begincolumn="18" endcolumn="74" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreDB" method="selectLastByLevel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\HighscoreManager.java">
+<violation beginline="74" endline="74" begincolumn="23" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreManager" variable="currentLevel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'currentLevel'
+</violation>
+<violation beginline="75" endline="75" begincolumn="23" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreManager" variable="startTime" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'startTime'
+</violation>
+<violation beginline="76" endline="76" begincolumn="23" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreManager" variable="pausedTime" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'pausedTime'
+</violation>
+<violation beginline="78" endline="78" begincolumn="23" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HighscoreManager" variable="lastScoreDO" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'lastScoreDO'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\HomeScreen.java">
+<violation beginline="115" endline="115" begincolumn="26" endcolumn="46" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="finished" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'finished'
+</violation>
+<violation beginline="116" endline="116" begincolumn="26" endcolumn="46" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="homeShown" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'homeShown'
+</violation>
+<violation beginline="117" endline="117" begincolumn="26" endcolumn="46" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="playerSave" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'playerSave'
+</violation>
+<violation beginline="118" endline="118" begincolumn="26" endcolumn="45" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="myImageView" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myImageView'
+</violation>
+<violation beginline="119" endline="119" begincolumn="26" endcolumn="45" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="myLayout" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myLayout'
+</violation>
+<violation beginline="120" endline="120" begincolumn="26" endcolumn="45" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="myModPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myModPlayer'
+</violation>
+<violation beginline="121" endline="121" begincolumn="26" endcolumn="45" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="myPreferences" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myPreferences'
+</violation>
+<violation beginline="122" endline="122" begincolumn="26" endcolumn="45" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="mSoundManager" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mSoundManager'
+</violation>
+<violation beginline="123" endline="123" begincolumn="26" endcolumn="45" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="HomeScreen" variable="splashThread" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'splashThread'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\ModPlayer.java">
+<violation beginline="61" endline="61" begincolumn="29" endcolumn="44" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="ModPlayer" variable="resPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'resPlayer'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\NetworkManager.java">
+<violation beginline="110" endline="110" begincolumn="26" endcolumn="45" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="hasBluetooth" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'hasBluetooth'
+</violation>
+<violation beginline="145" endline="145" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="sessionBluetooth" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'sessionBluetooth'
+</violation>
+<violation beginline="146" endline="146" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="myContext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myContext'
+</violation>
+<violation beginline="147" endline="147" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remoteGameFieldData" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteGameFieldData'
+</violation>
+<violation beginline="148" endline="148" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="localIpAddress" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'localIpAddress'
+</violation>
+<violation beginline="149" endline="149" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="opponentAddress" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'opponentAddress'
+</violation>
+<violation beginline="150" endline="150" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remotePlayerAction" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remotePlayerAction'
+</violation>
+<violation beginline="151" endline="151" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="localStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'localStatus'
+</violation>
+<violation beginline="152" endline="152" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remoteStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteStatus'
+</violation>
+<violation beginline="153" endline="153" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="localPrefs" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'localPrefs'
+</violation>
+<violation beginline="154" endline="154" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remotePrefs" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remotePrefs'
+</violation>
+<violation beginline="155" endline="155" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remoteInterface" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteInterface'
+</violation>
+<violation beginline="156" endline="156" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remoteIpAddress" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteIpAddress'
+</violation>
+<violation beginline="157" endline="157" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="session" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'session'
+</violation>
+<violation beginline="158" endline="158" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="localPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'localPlayer'
+</violation>
+<violation beginline="159" endline="159" begincolumn="28" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remotePlayer" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remotePlayer'
+</violation>
+<violation beginline="165" endline="165" begincolumn="35" endcolumn="57" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="localActionList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'localActionList'
+</violation>
+<violation beginline="166" endline="166" begincolumn="35" endcolumn="57" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" variable="remoteActionList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteActionList'
+</violation>
+<violation beginline="270" endline="270" begincolumn="18" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$GameFieldData" variable="playerID" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'playerID'
+</violation>
+<violation beginline="271" endline="271" begincolumn="18" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$GameFieldData" variable="localActionID" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'localActionID'
+</violation>
+<violation beginline="271" endline="271" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$GameFieldData" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="272" endline="272" begincolumn="18" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$GameFieldData" variable="compressorSteps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'compressorSteps'
+</violation>
+<violation beginline="275" endline="275" begincolumn="18" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$GameFieldData" variable="attackBarBubbles" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'attackBarBubbles'
+</violation>
+<violation beginline="275" endline="275" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$GameFieldData" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="393" endline="393" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerAction" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="394" endline="394" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerAction" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="421" endline="421" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerAction" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="583" endline="583" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="584" endline="584" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="603" endline="603" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="604" endline="604" begincolumn="12" endcolumn="16" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="619" endline="619" begincolumn="25" endcolumn="29" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="620" endline="620" begincolumn="25" endcolumn="29" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="625" endline="625" begincolumn="25" endcolumn="29" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="626" endline="626" begincolumn="25" endcolumn="29" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="PlayerStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="739" endline="739" begincolumn="22" endcolumn="26" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="740" endline="740" begincolumn="22" endcolumn="26" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="745" endline="745" begincolumn="22" endcolumn="26" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="746" endline="746" begincolumn="22" endcolumn="26" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager$PlayerStatus" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1081" endline="1081" begincolumn="10" endcolumn="14" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="getLatestRemoteActionId" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1152" endline="1152" begincolumn="24" endcolumn="68" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="getRemoteActionPreview" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="1515" endline="1517" begincolumn="9" endcolumn="9" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="onUDPEvent" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+System.arraycopy is more efficient
+</violation>
+<violation beginline="1710" endline="1710" begincolumn="38" endcolumn="42" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="sendLocalPlayerAction" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1822" endline="1822" begincolumn="32" endcolumn="36" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="setLocalChecksum" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1833" endline="1833" begincolumn="33" endcolumn="37" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="setRemoteChecksum" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1880" endline="1880" begincolumn="34" endcolumn="38" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="toByteArray" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1927" endline="1927" begincolumn="17" endcolumn="21" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="toShort" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1990" endline="1992" begincolumn="7" endcolumn="7" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="NetworkManager" method="transmitHello" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+System.arraycopy is more efficient
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\ScrollingCredits.java">
+<violation beginline="75" endline="75" begincolumn="19" endcolumn="44" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="ScrollingCredits" variable="victoryScreenShown" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'victoryScreenShown'
+</violation>
+<violation beginline="77" endline="77" begincolumn="21" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="ScrollingCredits" variable="myModPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myModPlayer'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\SeekBarPreference.java">
+<violation beginline="84" endline="84" begincolumn="15" endcolumn="32" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="SeekBarPreference" variable="mMinValue" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mMinValue'
+</violation>
+<violation beginline="174" endline="187" begincolumn="7" endcolumn="7" rule="ShortInstantiation" ruleset="Performance" package="com.efortin.frozenbubble" class="SeekBarPreference" method="onKey" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\UDPSocket.java">
+<violation beginline="140" endline="140" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="txList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'txList'
+</violation>
+<violation beginline="141" endline="141" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="listenerList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'listenerList'
+</violation>
+<violation beginline="142" endline="142" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="mContext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mContext'
+</violation>
+<violation beginline="143" endline="143" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="remoteAddressRX" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteAddressRX'
+</violation>
+<violation beginline="144" endline="144" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="remoteAddressTX" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'remoteAddressTX'
+</violation>
+<violation beginline="145" endline="145" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="localAddress" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'localAddress'
+</violation>
+<violation beginline="146" endline="146" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="mRxSocket" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mRxSocket'
+</violation>
+<violation beginline="147" endline="147" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="mTxSocket" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTxSocket'
+</violation>
+<violation beginline="148" endline="148" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="mRxThread" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mRxThread'
+</violation>
+<violation beginline="149" endline="149" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="mTxThread" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTxThread'
+</violation>
+<violation beginline="150" endline="150" begincolumn="37" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="UDPSocket" variable="mLock" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mLock'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\efortin\frozenbubble\VirtualInput.java">
+<violation beginline="73" endline="73" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="isCPU" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'isCPU'
+</violation>
+<violation beginline="74" endline="74" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="isRemote" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'isRemote'
+</violation>
+<violation beginline="75" endline="75" begincolumn="24" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="mGameRef" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mGameRef'
+</violation>
+<violation beginline="76" endline="76" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="mTouchFire" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTouchFire'
+</violation>
+<violation beginline="77" endline="77" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="mWasCenter" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mWasCenter'
+</violation>
+<violation beginline="78" endline="78" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="mWasDown" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mWasDown'
+</violation>
+<violation beginline="79" endline="79" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="mWasLeft" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mWasLeft'
+</violation>
+<violation beginline="80" endline="80" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="mWasRight" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mWasRight'
+</violation>
+<violation beginline="81" endline="81" begincolumn="24" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="com.efortin.frozenbubble" class="VirtualInput" variable="mWasUp" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mWasUp'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\com\peculiargames\andmodplug\PlayerThread.java">
+<violation beginline="170" endline="170" begincolumn="19" endcolumn="36" rule="RedundantFieldInitializer" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" variable="mFlushed" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mFlushed'
+</violation>
+<violation beginline="171" endline="171" begincolumn="19" endcolumn="36" rule="RedundantFieldInitializer" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" variable="mPaused" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mPaused'
+</violation>
+<violation beginline="172" endline="172" begincolumn="19" endcolumn="36" rule="RedundantFieldInitializer" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" variable="mPausedWas" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mPausedWas'
+</violation>
+<violation beginline="248" endline="248" begincolumn="26" endcolumn="47" rule="RedundantFieldInitializer" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" variable="mPlayerListener" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mPlayerListener'
+</violation>
+<violation beginline="390" endline="394" begincolumn="22" endcolumn="71" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" method="getAndroidAudioTrack" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="444" endline="453" begincolumn="7" endcolumn="7" rule="ShortInstantiation" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" method="getAndroidAudioTrack" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="616" endline="616" begincolumn="5" endcolumn="9" rule="ShortInstantiation" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="618" endline="618" begincolumn="21" endcolumn="25" rule="ShortInstantiation" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+<violation beginline="1033" endline="1033" begincolumn="47" endcolumn="51" rule="ShortInstantiation" ruleset="Performance" package="com.peculiargames.andmodplug" class="PlayerThread" method="ModPlug_JGetSoundData" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Do not use the short type
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\org\jfedor\frozenbubble\BubbleSprite.java">
+<violation beginline="300" endline="300" begincolumn="37" endcolumn="56" rule="UseArrayListInsteadOfVector" ruleset="Performance" package="org.jfedor.frozenbubble" class="BubbleSprite" method="getNeighbors" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraylistinsteadofvector" priority="3">
+Use ArrayList instead of Vector
+</violation>
+<violation beginline="485" endline="485" begincolumn="38" endcolumn="51" rule="UseArrayListInsteadOfVector" ruleset="Performance" package="org.jfedor.frozenbubble" class="BubbleSprite" method="move" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraylistinsteadofvector" priority="3">
+Use ArrayList instead of Vector
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\org\jfedor\frozenbubble\FrozenBubble.java">
+<violation beginline="156" endline="156" begincolumn="25" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="arcadeGame" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'arcadeGame'
+</violation>
+<violation beginline="159" endline="159" begincolumn="25" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="numPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'numPlayers'
+</violation>
+<violation beginline="161" endline="161" begincolumn="25" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="playerSave" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'playerSave'
+</violation>
+<violation beginline="170" endline="170" begincolumn="22" endcolumn="50" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="activityCustomStarted" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'activityCustomStarted'
+</violation>
+<violation beginline="173" endline="173" begincolumn="22" endcolumn="49" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="mGameThread" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mGameThread'
+</violation>
+<violation beginline="174" endline="174" begincolumn="22" endcolumn="49" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="mGameView" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mGameView'
+</violation>
+<violation beginline="175" endline="175" begincolumn="22" endcolumn="49" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="myModPlayer" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myModPlayer'
+</violation>
+<violation beginline="176" endline="176" begincolumn="36" endcolumn="68" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" variable="myOrientationEventListener" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'myOrientationEventListener'
+</violation>
+<violation beginline="1202" endline="1214" begincolumn="9" endcolumn="9" rule="ShortInstantiation" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenBubble" method="onClick" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\org\jfedor\frozenbubble\FrozenGame.java">
+<violation beginline="259" endline="264" begincolumn="33" endcolumn="31" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenGame" method="FrozenGame" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="353" endline="356" begincolumn="35" endcolumn="57" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenGame" method="addScrollRow" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="1024" endline="1029" begincolumn="38" endcolumn="46" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenGame" method="releaseBubbles" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="1054" endline="1059" begincolumn="38" endcolumn="46" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenGame" method="releaseBubbles" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="1403" endline="1405" begincolumn="7" endcolumn="7" rule="AvoidArrayLoops" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenGame" method="scrollBubbles" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+System.arraycopy is more efficient
+</violation>
+<violation beginline="1455" endline="1460" begincolumn="32" endcolumn="35" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.jfedor.frozenbubble" class="FrozenGame" method="setGrid" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\org\jfedor\frozenbubble\GameView.java">
+<violation beginline="126" endline="126" begincolumn="27" endcolumn="48" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView" variable="levelStarted" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'levelStarted'
+</violation>
+<violation beginline="127" endline="127" begincolumn="27" endcolumn="48" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView" variable="mBlankScreen" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mBlankScreen'
+</violation>
+<violation beginline="128" endline="128" begincolumn="27" endcolumn="48" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView" variable="muteKeyToggle" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'muteKeyToggle'
+</violation>
+<violation beginline="129" endline="129" begincolumn="27" endcolumn="48" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView" variable="pauseKeyToggle" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'pauseKeyToggle'
+</violation>
+<violation beginline="240" endline="240" begincolumn="21" endcolumn="25" rule="AvoidUsingShortType" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$NetGameInterface" method="getLatestRemoteActionId" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidusingshorttype" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="258" endline="258" begincolumn="43" endcolumn="47" rule="AvoidUsingShortType" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$NetGameInterface" method="setLocalChecksum" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidusingshorttype" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="259" endline="259" begincolumn="44" endcolumn="48" rule="AvoidUsingShortType" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$NetGameInterface" method="setRemoteChecksum" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidusingshorttype" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="272" endline="272" begincolumn="21" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mCenter" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mCenter'
+</violation>
+<violation beginline="273" endline="273" begincolumn="21" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mDown" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mDown'
+</violation>
+<violation beginline="274" endline="274" begincolumn="21" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mLeft" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mLeft'
+</violation>
+<violation beginline="275" endline="275" begincolumn="21" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mRight" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mRight'
+</violation>
+<violation beginline="276" endline="276" begincolumn="21" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mUp" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mUp'
+</violation>
+<violation beginline="277" endline="277" begincolumn="21" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mTrackballDx" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTrackballDx'
+</violation>
+<violation beginline="278" endline="278" begincolumn="21" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mTouchSwap" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTouchSwap'
+</violation>
+<violation beginline="281" endline="281" begincolumn="21" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mTouchFireATS" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTouchFireATS'
+</violation>
+<violation beginline="282" endline="282" begincolumn="21" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mTouchDxATS" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTouchDxATS'
+</violation>
+<violation beginline="283" endline="283" begincolumn="21" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$PlayerInput" variable="mTouchLastX" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mTouchLastX'
+</violation>
+<violation beginline="589" endline="589" begincolumn="21" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$GameThread" variable="mImagesReady" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mImagesReady'
+</violation>
+<violation beginline="590" endline="590" begincolumn="21" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$GameThread" variable="mRun" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mRun'
+</violation>
+<violation beginline="591" endline="591" begincolumn="21" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$GameThread" variable="mShowNetwork" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mShowNetwork'
+</violation>
+<violation beginline="592" endline="592" begincolumn="21" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$GameThread" variable="mShowScores" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mShowScores'
+</violation>
+<violation beginline="593" endline="593" begincolumn="21" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="org.jfedor.frozenbubble" class="GameView$GameThread" variable="mSurfaceOK" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mSurfaceOK'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FBN\app\src\main\java\org\jfedor\frozenbubble\LevelManager.java">
+<violation beginline="131" endline="131" begincolumn="21" endcolumn="36" rule="ShortInstantiation" ruleset="Performance" package="org.jfedor.frozenbubble" class="LevelManager" method="LevelManager" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Use ArrayList instead of Vector
+</violation>
+<violation beginline="146" endline="146" begincolumn="21" endcolumn="36" rule="ShortInstantiation" ruleset="Performance" package="org.jfedor.frozenbubble" class="LevelManager" method="LevelManager" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#shortinstantiation" priority="2">
+Use ArrayList instead of Vector
+</violation>
+<violation beginline="149" endline="149" begincolumn="28" endcolumn="41" rule="InefficientEmptyStringCheck" ruleset="Performance" package="org.jfedor.frozenbubble" class="LevelManager" method="LevelManager" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#inefficientemptystringcheck" priority="3">
+String.trim().length()==0 is an inefficient way to validate an empty String.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="locale">en</string>
+    <string name="shortcut_collecting_toggle_short">Collect</string>
+    <string name="shortcut_collecting_toggle_long">Toggle collecting</string>
+    <string name="shortcut_upload_toggle_short">Upload</string>
+    <string name="shortcut_upload_toggle_long">Toggle upload</string>
+    <string name="unit_length_metric">m</string>
+    <string name="unit_length_imperial">ft</string>
+    <string name="unit_speed_metric">km/h</string>
+    <string name="unit_speed_imperial">mph</string>
+    <string name="network_type_unknown">Unknown</string>
+    <string name="network_group_unknown">Unknown</string>
+    <string name="app_title_preferences">Preferences</string>
+    <string name="dialog_want_enable_gps">Do you want open location settings to enable GPS?</string>
+    <string name="dialog_could_not_open_android_settings">Could not open Android settings. Open them manually to change.</string>
+    <string name="dialog_select_email_app">Select email application</string>
+    <string name="dialog_what_is_new">Developer\'s message!</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_register">Register</string>
+    <string name="dialog_enter_api_key">Enter</string>
+    <string name="dialog_export">Export</string>
+    <string name="dialog_upload">Upload</string>
+    <string name="dialog_keep">Keep</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_share">Share</string>
+    <string name="dialog_open">Open</string>
+    <string name="dialog_open_single">Open (single file only)</string>
+    <string name="dialog_send">Send</string>
+    <string name="dialog_send_comment">Send comment</string>
+    <string name="dialog_dont_show_again">Don\'t show this again</string>
+    <string name="dialog_proceed">Proceed</string>
+    <string name="dialog_settings">Settings</string>
+    <string name="main_dialog_not_compatible_title">Compatibility problems</string>
+    <string name="main_dialog_not_compatible_begin">The app may not work because:\n</string>
+    <string name="main_dialog_no_compatible_mobile_radio_message">&#8226; Mobile network hardware not detected.\n</string>
+    <string name="main_toast_background_task_already_running_collector">Collector service is running.</string>
+    <string name="main_toast_background_task_already_running_uploader">Uploader service is running.</string>
+    <string name="main_toast_background_task_already_running_export">Export task is running.</string>
+    <string name="main_toast_background_task_already_running_unknown">Background task is running.</string>
+    <string name="main_toast_background_task_already_running_common"><xliff:g id="task_name">%s</xliff:g> Please stop it before starting another task.</string>
+    <string name="enabled">enabled</string>
+    <string name="disabled">disabled</string>
+    <string name="unknown_error">Unknown error occurred!</string>
+    <string name="main_tab_last_title">Last saved</string>
+    <string name="main_tab_stats_title">Statistics</string>
+    <string name="main_tab_map_title">Map</string>
+    <string name="main_gps_accuracy_not_available">Not available</string>
+    <string name="main_signal_strength_not_available">Not available</string>
+    <string name="date_time_format_standard">yyyy-MM-dd HH:mm:ss</string>
+    <string name="main_gps_status_label">GPS status:</string>
+    <string name="main_stats_today_title">Today</string>
+    <string name="main_stats_local_title">Local since <xliff:g id="date_time">%s</xliff:g></string>
+    <string name="main_stats_locations_label">Measurements:</string>
+    <string name="main_stats_cells_label">Cells (discovered):</string>
+    <string name="main_stats_global_title">Total since <xliff:g id="date_time">%s</xliff:g></string>
+    <string name="main_stats_global_locations_label">Measurements:</string>
+    <string name="main_stats_global_cells_label">Discovered cells:</string>
+    <string name="main_stats_to_upload_title">To upload</string>
+    <string name="main_stats_to_upload_ocid_locations_label" translatable="false">OpenCellID.org:</string>
+    <string name="main_stats_to_upload_mls_locations_label" translatable="false">Mozilla Location Services:</string>
+    <string name="main_last_cell_title">Last saved measurement</string>
+    <string name="main_last_number_of_cells_label">Main / neighboring:</string>
+    <string name="main_last_number_of_cells_value" translatable="false"><xliff:g id="number_of_main">%1$d</xliff:g> / <xliff:g id="number_of_neighboring">%2$d</xliff:g></string>
+    <string name="main_last_network_type_label">Network type:</string>
+    <string name="main_last_long_cell_id_label">Long Cell ID:</string>
+    <string name="main_last_cell_id_rnc_label">Cell ID / RNC:</string>
+    <string name="main_last_cell_id_rnc_value" translatable="false"><xliff:g id="short_cell_id">%1$d</xliff:g> / <xliff:g id="rnc">%2$d</xliff:g></string>
+    <string name="main_last_cell_id_label">Cell ID:</string>
+    <string name="main_last_lac_label">LAC:</string>
+    <string name="main_last_mcc_label">MCC:</string>
+    <string name="main_last_mnc_label">MNC:</string>
+    <string name="main_last_signal_strength_label">Signal strength:</string>
+    <string name="main_last_signal_strength_value" translatable="false"><xliff:g id="signal_strength">%d</xliff:g> dBm</string>
+    <string name="main_last_latitude_label">Latitude:</string>
+    <string name="main_last_latitude_value" translatable="false"><xliff:g id="latitude">%.8f&#176;</xliff:g></string>
+    <string name="main_last_longitude_label">Longitude:</string>
+    <string name="main_last_longitude_value" translatable="false"><xliff:g id="longitude">%.8f&#176;</xliff:g></string>
+    <string name="main_last_gps_accuracy_label">Accuracy:</string>
+    <string name="main_last_gps_accuracy_value" translatable="false"><xliff:g id="accuracy_value">%1$.2f</xliff:g> <xliff:g id="accuracy_unit">%2$s</xliff:g></string>
+    <string name="main_last_date_time_label">Save time:</string>
+    <string name="main_map_my_location_button">Move to my location</string>
+    <string name="main_map_follow_me_button">Follow my location</string>
+    <string name="main_map_enable">Enable</string>
+    <string name="main_map_disable">Disable</string>
+    <string name="main_menu_start_button">Start collecting</string>
+    <string name="main_menu_stop_button">Stop collecting</string>
+    <string name="main_menu_upload_button">Upload</string>
+    <string name="main_menu_more_button">More</string>
+    <string name="main_menu_export_button">Export</string>
+    <string name="main_menu_clear_button">Clear all</string>
+    <string name="main_menu_help_button">Help</string>
+    <string name="main_menu_preferences_button">Preferences</string>
+    <string name="main_menu_network_type_button">Network type</string>
+    <string name="collector_notification_channel_name">Collector</string>
+    <string name="collector_notification_title">Collecting</string>
+    <string name="collector_notification_stats">Today <xliff:g id="number_of_measurements">%1$d</xliff:g> measurements of <xliff:g id="number_of_cells">%2$d</xliff:g> cells.</string>
+    <string name="collector_notification_status">GPS status: <xliff:g id="status">%s</xliff:g>.</string>
+    <string name="collector_gps_unavailable">Cannot start collecting because GPS is unavailable.</string>
+    <string name="uploader_notification_channel_name">Uploader</string>
+    <string name="uploader_notification_title">Uploading</string>
+    <string name="uploader_notification_progress_info">Uploaded <xliff:g id="progress_in_percent">%d</xliff:g>%%. Select to abort.</string>
+    <string name="uploader_result_dialog_title">Upload result</string>
+    <string name="uploader_starting">Starting upload&#8230;</string>
+    <string name="uploader_aborting">Aborting upload&#8230;</string>
+    <string name="uploader_already_running">Upload is already running.</string>
+    <string name="uploader_disabled">Upload disabled</string>
+    <string name="uploader_disabled_description">Upload disabled for this project.</string>
+    <string name="uploader_aborted">Upload aborted</string>
+    <string name="uploader_aborted_description">Nothing has been uploaded.</string>
+    <string name="uploader_success">Upload successful</string>
+    <string name="uploader_success_description">Upload successful. Thanks for your contribution!</string>
+    <string name="uploader_partially_succeeded">Partially uploaded</string>
+    <string name="uploader_partially_succeeded_description">Partially uploaded mean that some data has been successfully sent before upload has been aborted. This may be caused by your request or by an error which has been encountered.</string>
+    <string name="uploader_failure">Upload failed</string>
+    <string name="uploader_failure_description">Upload failed due to unknown reason. Please check if you have the latest version of the app. If you encounter this problem for a long time, please let me know.</string>
+    <string name="uploader_invalid_api_key">Invalid API key</string>
+    <string name="uploader_invalid_api_key_description">User with the API key entered in app preferences cannot be found. Please check if entered API key is correct.</string>
+    <string name="uploader_invalid_input_data">Invalid data</string>
+    <string name="uploader_invalid_input_data_description">Server refused the data send by the app. Please check if you have the latest version of the app. If you encounter this problem for a long time, please let me know.</string>
+    <string name="uploader_no_data">Nothing to upload</string>
+    <string name="uploader_no_data_description">There is no data to upload. Please collect some measurements before uploading.</string>
+    <string name="uploader_delete_failed">Error while deleting measurements</string>
+    <string name="uploader_delete_failed_description">Application encountered an error while deleting measurements from your device. Please restart your device and check again. If you still encounter this problem, please let me know.</string>
+    <string name="uploader_connection_error">Connection error</string>
+    <string name="uploader_connection_error_description">The server could not be reached because due to network related error which may be caused by missing, too slow or unstable Internet connection. Please check if you have latest application version and try again. If you encounter this problem for a long time, please let me know.</string>
+    <string name="uploader_server_error">Server error</string>
+    <string name="uploader_server_error_description">The server returned internal error which may mean that it is overloaded, temporarily unavailable or down for maintenance. Please try again later. If you encounter this problem for a long time, please let me know.</string>
+    <string name="uploader_limit_exceeded">Usage limit exceeded</string>
+    <string name="uploader_limit_exceeded_description">The daily usage limit for the app has been exceeded. Please try again tomorrow.</string>
+    <string name="uploader_result_message" translatable="false">OCID: <xliff:g id="message_for_ocid">%1$s</xliff:g> | MLS: <xliff:g id="message_for_mls">%2$s</xliff:g></string>
+    <string name="uploader_result_description" translatable="false">OCID: <xliff:g id="message_for_ocid">%1$s</xliff:g>\n\nMLS: <xliff:g id="message_for_mls">%2$s</xliff:g></string>
+    <string name="other_notification_channel_name">Other</string>
+    <string name="error_reporting_notification_channel_name">Error reporting</string>
+    <string name="error_reporting_notification_title">Unexpected error occurred</string>
+    <string name="error_reporting_notification_text">The app crashed. Please send error report to help fixing the problem.</string>
+    <string name="error_reporting_notification_comment_prompt">Add your comment</string>
+    <string name="export_toast_storage_read_only">External storage is read only.</string>
+    <string name="export_toast_no_file_types_selected">No file types selected for export.</string>
+    <string name="export_toast_no_storage">External storage not found.</string>
+    <string name="export_toast_no_handler_for_file_type">No application to handle the file.</string>
+    <string name="export_dialog_format_selection_title">Select file formats</string>
+    <string name="export_dialog_progress_title">Exporting</string>
+    <string name="export_dialog_progress_message">Saving to \"TowerCollector\" folder on external memory with current date and time as file name.</string>
+    <string name="export_dialog_finished_title">Export successful</string>
+    <string name="export_dialog_finished_message">The files have been saved to <xliff:g id="dir_name">%s</xliff:g>.\n\n<i>Please consider contribution to one of the projects by uploading your measurements!</i></string>
+    <string name="clear_dialog_title">Clear all data</string>
+    <string name="clear_dialog_message">Are you sure you want to permanently delete all locally stored data?</string>
+    <string name="delete_dialog_title">Delete exported</string>
+    <string name="delete_dialog_message">Are you sure you want to permanently delete exported data?</string>
+    <string name="clear_toast_finished">Database cleared</string>
+    <string name="clear_map_cache_finished">Map cache cleared</string>
+    <string name="clear_map_cache_failed">Failed to clear map cache</string>
+    <string name="export_toast_failed">Export failed: <xliff:g id="failure_reason">%s</xliff:g>.</string>
+    <string name="export_toast_failed_cause_unknown">unknown error</string>
+    <string name="export_toast_failed_cause_directory_not_exists">cannot create directory</string>
+    <string name="export_toast_failed_cause_directory_not_writable">directory is read-only</string>
+    <string name="export_toast_failed_cause_file_not_writable">file is read-only</string>
+    <string name="export_toast_no_data">No data to export.</string>
+    <string name="export_toast_cancelled">Export cancelled.</string>
+    <string name="updater_notification_ticker">New version of Tower Collector is available</string>
+    <string name="updater_notification_title">New version is available</string>
+    <string name="updater_notification_download_options">Select to view download options</string>
+    <string name="updater_dialog_new_version_available">Select download source</string>
+    <string name="updater_dialog_direct_download_label">Direct download</string>
+    <string name="updater_dialog_disable_auto_update">Disable update check</string>
+    <string name="splash_details_database_upgrade">Upgrading database</string>
+    <string name="splash_toast_database_upgrade_running">Database upgrade is running. This may take a while.</string>
+    <string name="main_help_gps_status_title">GPS status</string>
+    <string name="main_help_gps_status_description">Shows current GPS status. If you experience problems with getting measurements, please find a location with better signal reception and accuracy.</string>
+    <string name="main_help_invalid_system_time_title">Invalid system time</string>
+    <string name="main_help_invalid_system_time_description">Your current system date and/or time is invalid comparing to GPS time. Measurements will be saved with correct time but presented statistics may be inaccurate. Please set the date and time in your device.</string>
+    <string name="main_help_battery_optimizations_title">Battery optimizations enabled</string>
+    <string name="main_help_battery_optimizations_description">Battery optimizations are enabled for this app which may result in inaccurate and unreliable measurements being collected. Please disable battery optimizations in Android settings by selecting \'All Apps\', then Tower Collector: \'Don\'t optimize\'.</string>
+    <string name="main_help_power_save_mode_title">Battery saver enabled</string>
+    <string name="main_help_power_save_mode_description">Battery saver is enabled on the device which may result in inaccurate and unreliable measurements being collected. Please disable battery saver in Android battery settings.</string>
+    <string name="main_help_airplane_mode_title">Airplane mode enabled</string>
+    <string name="main_help_airplane_mode_description">Airplane / flight mode is enabled on your device which blocks the app from collecting measurements. Please disable airplane mode in Android settings.</string>
+    <string name="main_help_today_locations_title">Measurements today</string>
+    <string name="main_help_today_locations_description">Number of measurements collected by the application today.</string>
+    <string name="main_help_today_cells_title">Cells today</string>
+    <string name="main_help_today_cells_description">Number of cells collected (newly discovered) by the application today.</string>
+    <string name="main_help_local_locations_title">Measurements stored locally</string>
+    <string name="main_help_local_locations_description">Number of measurements collected by the application since last upload / deletion.</string>
+    <string name="main_help_local_cells_title">Cells stored locally</string>
+    <string name="main_help_local_cells_description">Number of cells collected (newly discovered) by the application since last upload / deletion.</string>
+    <string name="main_help_global_locations_title">Total number of measurements</string>
+    <string name="main_help_global_locations_description">Number of measurements collected by the application since the beginning.</string>
+    <string name="main_help_global_cells_title">Total number of discovered cells</string>
+    <string name="main_help_global_cells_description">Number of newly discovered (unique) cells collected by the application since the beginning.</string>
+    <string name="mail_help_last_number_of_cells_title">Number of cells</string>
+    <string name="mail_help_last_number_of_cells_description">Number of main and neighboring cells to which the phone had access to.</string>
+    <string name="main_help_last_network_type_title">Network type</string>
+    <string name="main_help_last_network_type_description">The type of mobile network to which the phone was connected.</string>
+    <string name="main_help_last_long_cell_id_title">Long Cell Tower ID</string>
+    <string name="main_help_last_long_cell_id_description">The long unique cell tower identifier to which the phone was connected.\nFor UMTS networks the LCID, also called UTRAN CID, is a concatenation of RNC (ID of the Radio Network Controller) and Cell ID (unique ID of the Cell Tower).\nFor LTE networks the LCID, also called E-UTRAN CID, is a concatenation of eNodeB (ID of the Radio Network Controller) and Cell ID (unique ID of the Cell Tower).</string>
+    <string name="main_help_last_cell_id_rnc_title">Cell Tower ID / RNC</string>
+    <string name="main_help_last_cell_id_rnc_description">The unique cell tower identifier and RNC (ID of the Radio Network Controller) to which the phone was connected. This ID is defined only for UMTS and LTE networks.</string>
+    <string name="main_help_last_cell_id_title">Cell Tower ID</string>
+    <string name="main_help_last_cell_id_description">The unique cell tower identifier to which the phone was connected.</string>
+    <string name="main_help_last_lac_title">Location Area Code</string>
+    <string name="main_help_last_lac_description">The unique identifier assigned to group of cell towers to which the phone was connected.</string>
+    <string name="main_help_last_mcc_title">Mobile Country Code</string>
+    <string name="main_help_last_mcc_description">The unique country code of network operator to which the phone was connected.</string>
+    <string name="main_help_last_mnc_title">Mobile Network Code</string>
+    <string name="main_help_last_mnc_description">The unique identifier of network provider within country to which the phone was connected.</string>
+    <string name="main_help_last_signal_strength_title">Signal strength</string>
+    <string name="main_help_last_signal_strength_description">Network signal strength measured while saving expressed in dBm (power ratio in decibels (dB) of the measured power referenced to 1 milliwatt (mW)). Doubling this value means a 10 times stronger signal strength. Values ​​closer to 0 indicate stronger signal.</string>
+    <string name="main_help_last_latitude_title">Latitude</string>
+    <string name="main_help_last_latitude_description">The geographical latitude of saved position. Positive value ​​represents the northern hemisphere, negative southern. The higher is absolute value the more far it is away from the equator.</string>
+    <string name="main_help_last_longitude_title">Longitude</string>
+    <string name="main_help_last_longitude_description">The geographical longitude of saved position. Positive value represents a position east of the Prime Meridian, negative west. The higher is absolute value the more far it is away from the Prime Meridian.</string>
+    <string name="main_help_last_gps_accuracy_title">GPS accuracy</string>
+    <string name="main_help_last_gps_accuracy_description">Accuracy of the position obtained from GPS.</string>
+    <string name="main_help_last_date_time_title">Save time</string>
+    <string name="main_help_last_date_time_description">Date and time when last measurement was saved.</string>
+    <string name="main_help_to_upload_common_locations_title">Measurements to upload</string>
+    <string name="main_help_to_upload_ocid_locations_description">Number of measurements waiting for upload to OpenCellID.org.</string>
+    <string name="main_help_to_upload_mls_locations_description">Number of measurements waiting for upload to Mozilla Location Services.</string>
+    <string name="collector_status_active">Collecting measurements</string>
+    <string name="collector_status_inactive">Measurements collection is stopped</string>
+    <string name="status_initializing">waiting for location</string>
+    <string name="status_ok">OK</string>
+    <string name="status_low_gps_accuracy">low accuracy <xliff:g id="accuracy_value">%1$.0f</xliff:g> <xliff:g id="accuracy_unit">%2$s</xliff:g></string>
+    <string name="status_no_gps_location">no location</string>
+    <string name="status_disabled">disabled</string>
+    <string name="invalid_system_time">System date/time is invalid</string>
+    <string name="airplane_mode">Airplane mode enabled</string>
+    <string name="battery_optimizations">Battery optimizations enabled</string>
+    <string name="battery_saver">Battery saver enabled</string>
+    <string name="web_browser_missing">Please install web browser to open the page</string>
+    <string name="uploader_all_projects_disabled">Upload to all projects is disabled</string>
+    <string name="export_format_csv" translatable="false">CSV</string>
+    <string name="export_format_gpx" translatable="false">GPX</string>
+    <string name="export_format_kml" translatable="false">KML</string>
+    <string name="export_format_kmz" translatable="false">KMZ</string>
+    <string name="export_format_csv_ocid">CSV for OpenCellID.org</string>
+    <string name="export_format_json_mls">JSON for Mozilla Location Services</string>
+    <string name="export_format_zip">Compress each exported file</string>
+    <string name="ocid_name" translatable="false">OpenCellID.org</string>
+    <string name="mls_name" translatable="false">Mozilla Location Services</string>
+    <string name="upload_configurator_dialog_title">Configure upload target</string>
+    <string name="enter_valid_api_key">You have to enter valid API Key in preferences</string>
+    <string name="reupload_measurements_if_upload_fails_for_one_of_projects">Try to upload measurements again if upload fails for one of the projects</string>
+    <string name="unsafe_operation_warning_title">Unsafe operation</string>
+    <string name="unsafe_operation_warning_message">This option can break the app\'s configuration and result in crash. In such case you have to clear the app data in Android settings. You need to fully close and reopen the app to see the changes!\n\nYou use it on your own risk!</string>
+    <string name="database_import_message">Database imported</string>
+    <string name="database_export_message">Database exported</string>
+    <string name="database_import_export_failed_message">Database operation failed</string>
+    <string name="preferences_import_message">Preferences imported</string>
+    <string name="preferences_export_message">Preferences exported</string>
+    <string name="preferences_import_export_failed_message">Preferences operation failed</string>
+</resources>

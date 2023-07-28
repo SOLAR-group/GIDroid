@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d إشعار جديد</item>
+    <item quantity="one">إشعار جديد واحد (%d)</item>
+    <item quantity="two">إشعاران جديدان (%d)</item>
+    <item quantity="few">%d إشعارات جديدة</item>
+    <item quantity="many">%d إشعارًا جديدًا</item>
+    <item quantity="other">%d إشعار جديد</item>
+  </plurals>
+    <string name="Activity">نشاط</string>
+    <string name="Distance">مسافة</string>
+    <string name="Elevation">ارتفاع</string>
+    <string name="Speed">سرعة</string>
+    <string name="Steps">خطوات</string>
+    <string name="Swimming">سباحة</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"تفعيل"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="action_donate">تبرع</string>
+    <string name="action_quit">أخرج</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="activity_detail_duration_label">مدة</string>
+    <string name="activity_detail_end_label">نهاية</string>
+    <string name="activity_detail_start_label">بدء</string>
+    <string name="activity_filter_date_from">من</string>
+    <string name="activity_filter_date_to">إلى</string>
+    <string name="activity_filter_to_placeholder">اليوم</string>
+    <string name="activity_summaries_statistics">إحصائيات</string>
+    <string name="always">دوما</string>
+    <string name="app_configure">تهيئة</string>
+    <string name="app_move_to_top">انقل إلى الأعلى</string>
+    <string name="appmanager_app_edit">حرر</string>
+    <string name="appmanager_cached_watchapps_watchfaces">تطبيقات في ذاكرة التخزين المؤقت</string>
+    <string name="appmanager_installed_watchapps">التطبيقات المثبتة</string>
+    <string name="appmanager_installed_watchfaces">مثبتة watchfaces</string>
+    <string name="appmanager_weather_install_provider">قم بتثبيت تطبيق إخطارات الطقس</string>
+    <string name="appmananger_app_delete">حذف</string>
+    <string name="appmananger_app_delete_cache">حذف وإزالة من ذاكرة التخزين المؤقت</string>
+    <string name="appmananger_app_reinstall">أعد التثبيت</string>
+    <string name="ascentSeconds">تصاعدي</string>
+    <string name="averageHR">معدل ضربات القلب</string>
+    <string name="averageKMPaceSeconds">وتيره</string>
+    <string name="backstroke">ظهر</string>
+    <string name="battery_detail_activity_title">معلومات البطارية</string>
+    <string name="battery_level">مستوى البطارية</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="bpm">نبضة في الدقيقة</string>
+    <string name="breaststroke">سباحة الصدر</string>
+    <string name="calendar_day">يوم</string>
+    <string name="calendar_month">شهر</string>
+    <string name="calendar_six_months">6 اشهر</string>
+    <string name="calendar_three_months">3 اشهر</string>
+    <string name="calendar_two_weeks">إسبوعين</string>
+    <string name="calendar_week">أسبوع</string>
+    <string name="calendar_year">سنة</string>
+    <string name="caloriesBurnt">سعرات حراريه</string>
+    <string name="calories_unit">سعره حراريه</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="check_all_applications">تحديد جميع التطبيقات</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="cm">سم</string>
+    <string name="controlcenter_calibrate_device">معايرة الجهاز</string>
+    <string name="controlcenter_change_fm_frequency">تغيير تردد FM</string>
+    <string name="controlcenter_change_led_color">تغيير لون ال LED</string>
+    <string name="controlcenter_connect">اتصل…</string>
+    <string name="controlcenter_delete_device">حذف الجهاز</string>
+    <string name="controlcenter_delete_device_dialogmessage">سيؤدي هذا إلى حذف الجهاز وجميع البيانات المرتبطة به!</string>
+    <string name="controlcenter_delete_device_name">حذف %1$s</string>
+    <string name="controlcenter_disconnect">قطع الاتصال</string>
+    <string name="controlcenter_fetch_activity_data">مزامنه</string>
+    <string name="controlcenter_find_device">ابحث عن الجهاز المفقود</string>
+    <string name="controlcenter_set_alias">تعيين الاسم المستعار</string>
+    <string name="controlcenter_snackbar_connecting">توصيل…</string>
+    <string name="controlcenter_snackbar_disconnecting">يتم قطع الاتصال</string>
+    <string name="controlcenter_snackbar_need_longpress">اضغط لفترة طويلة على البطاقة لقطع الاتصال</string>
+    <string name="controlcenter_snackbar_requested_screenshot">أخذ لقطة شاشة للجهاز</string>
+    <string name="controlcenter_take_screenshot">خد لقطة للشاشة</string>
+    <string msgid="3209159573327985035" name="copy">"نسخ"</string>
+    <string name="cpv_custom">ألوان معدلة</string>
+    <string name="cpv_default_title">اختر لونًا</string>
+    <string name="cpv_presets">ألوان جاهزة</string>
+    <string name="cpv_select">اختر</string>
+    <string name="cpv_transparency">الشفافية</string>
+    <string name="debugactivity_really_factoryreset">سيؤدي إجراء إعادة ضبط المصنع إلى حذف جميع البيانات من الجهاز المتصل (إذا كان مدعومًا). تقوم أجهزة Xiaomi / Huami أيضًا بتغيير Bluetooth MAC address ، بحيث تظهر كأجهزة جديدة في Gadgetbridge.</string>
+    <string name="debugactivity_really_factoryreset_title">حقا إعادة ضبط المصنع؟</string>
+    <string name="descentSeconds">تنازلي</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"إعدادات متقدمة"</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="find_lost_device_message">ابحث عن %1$s؟</string>
+    <string name="fossil_hr_edit_action_delete">حذف</string>
+    <string name="fossil_hr_new_action_cancel">إلغاء</string>
+    <string name="freestyle">حره</string>
+    <string name="ft">قدم</string>
+    <string name="fw_upgrade_notice">توشك على تثبيت %s.</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="km">كيلومتر</string>
+    <string name="km_h">كم/ ساعة</string>
+    <string name="laps">لفات</string>
+    <string name="laps_unit">لفات</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="maxAltitude">الحد الاقصي</string>
+    <string name="maxSpeed">أقصى</string>
+    <string name="meters_second">م / ث</string>
+    <string name="mi">ميل</string>
+    <string name="mi_h">ميل / ساعة</string>
+    <string name="minAltitude">الحد الادني</string>
+    <string name="minutes_km">دقيقة/كم</string>
+    <string name="minutes_mi">دقيقة / ميل</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="never">أبدا</string>
+    <string name="no">لا</string>
+    <string msgid="478774118347071097" name="not_set">"لم يتمّ تحديد قيمة."</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="power_mode_normal">عادي</string>
+    <string name="power_mode_saving">توفير الطاقة</string>
+    <string name="pref_applications_settings">قائمة التطبيقات</string>
+    <string name="pref_call_privacy_mode_complete">إخفاء الاسم والرقم</string>
+    <string name="pref_call_privacy_mode_name">إخفاء الاسم ولكن عرض الرقم</string>
+    <string name="pref_call_privacy_mode_number">إخفاء الرقم ولكن اعرض الاسم</string>
+    <string name="pref_call_privacy_mode_off">عرض الاسم والرقم</string>
+    <string name="pref_default">افتراضي</string>
+    <string name="pref_display_add_device_fab">زر توصيل جهاز جديد</string>
+    <string name="pref_display_add_device_fab_off">مرئي فقط في حالة عدم إضافة أي جهاز</string>
+    <string name="pref_display_add_device_fab_on">مرئي دائما</string>
+    <string name="pref_header_activitytrackers">متتبعات النشاط</string>
+    <string name="pref_header_datetime">التاريخ و الوقت</string>
+    <string name="pref_header_development">خيارات المطور</string>
+    <string name="pref_header_device_spec_settings">إعدادات الجهاز</string>
+    <string name="pref_header_general">الاعدادات العامة</string>
+    <string name="pref_header_location">موقع</string>
+    <string name="pref_header_notifications">إشعارات</string>
+    <string name="pref_header_notifications_and_calls">الإخطارات والمكالمات</string>
+    <string name="pref_header_privacy">خصوصية</string>
+    <string name="pref_message_privacy_mode_complete">إخفاء المحتوى</string>
+    <string name="pref_message_privacy_mode_off">عرض المحتوى</string>
+    <string name="pref_rtl_max_line_length">أقصى طول للخط من اليمين إلى اليسار</string>
+    <string name="pref_rtl_max_line_length_summary">يطيل أو يقصر الأسطر التي يتم فصل النص من اليمين إلى اليسار إليها</string>
+    <string name="pref_sensors_bp_calibration">معايرة ضغط الدم</string>
+    <string name="pref_summary_allow_high_mtu">يزيد من سرعة النقل، ولكن قد لا يعمل على بعض أجهزة Android.</string>
+    <string name="pref_summary_enable_pebblekit">تمكين الدعم التجريبي لتطبيقات Android باستخدام PebbleKit</string>
+    <string name="pref_summary_location_keep_uptodate">حاول الحصول على الموقع الحالي في وقت التشغيل ، واستخدم الموقع المخزن كبديل</string>
+    <string name="pref_summary_notifications_and_calls_enable_misscall">يتكرر في كل دقيقة</string>
+    <string name="pref_summary_rtl">قم بتمكين هذا إذا كان جهازك لا يمكنه عرض اللغات من اليمين إلى اليسار</string>
+    <string name="pref_summary_sunrise_sunset">أرسل أوقات شروق الشمس وغروبها بناءً على الموقع إلى مخطط Pebble الزمني</string>
+    <string name="pref_summary_sync_calendar">تمكين تنبيهات التقويم، حتى عند قطع الاتصال</string>
+    <string name="pref_summary_transliteration">قم بتمكين هذا إذا كان جهازك لا يدعم خط لغتك</string>
+    <string name="pref_theme_black_background">استخدام خلفية سوداء في السمة الداكنة</string>
+    <string name="pref_theme_dark">داكن</string>
+    <string name="pref_theme_light">فاتح</string>
+    <string name="pref_theme_system">نظام</string>
+    <string name="pref_title_audio_player">مشغل الصوت المفضل</string>
+    <string name="pref_title_call_privacy_mode">وضع خصوصية الاتصال</string>
+    <string name="pref_title_canned_messages_set">التحديث على الجهاز</string>
+    <string name="pref_title_canned_replies">الردود</string>
+    <string name="pref_title_custom_deviceicon">إظهار رمز إعلام خاص بالجهاز</string>
+    <string name="pref_title_datetime_syctimeonconnect">مزامنة التوقيت</string>
+    <string name="pref_title_development_miaddr">عنوان Mi Band</string>
+    <string name="pref_title_enable_calendar_sync">مزامنة التقويم</string>
+    <string name="pref_title_enable_outgoing_call">دعم المكالمات الصادرة</string>
+    <string name="pref_title_enable_pebblekit">السماح بالوصول إلى تطبيقات Android التابعة لجهات خارجية</string>
+    <string name="pref_title_equalizer_clear">واضح</string>
+    <string name="pref_title_general_autoreconnect">أعد الاتصال تلقائيًا</string>
+    <string name="pref_title_general_autostartonboot">ابدأ تلقائيًا</string>
+    <string name="pref_title_huami_force_new_protocol">بروتوكول المصادقه الجديد</string>
+    <string name="pref_title_language">لغة</string>
+    <string name="pref_title_location_aquire">الحصول على الموقع</string>
+    <string name="pref_title_location_keep_uptodate">تحديث الموقع باستمرار</string>
+    <string name="pref_title_location_latitude">خط العرض</string>
+    <string name="pref_title_location_longitude">خط الطول</string>
+    <string name="pref_title_message_privacy_mode">وضع خصوصية الرسائل</string>
+    <string name="pref_title_notification_filter">عدم الإزعاج</string>
+    <string name="pref_title_notification_use_as">استخدم قائمة التطبيقات ل…</string>
+    <string name="pref_title_notifications_and_calls_repeat_on_misscall">كرر لمدة X دقائق</string>
+    <string name="pref_title_notifications_call">المكالمات الهاتفية</string>
+    <string name="pref_title_notifications_repetitions">تكرار</string>
+    <string name="pref_title_notifications_sms">الرسائل القصيرة</string>
+    <string name="pref_title_notifications_timeout">الحد الأدنى من الوقت بين الإشعارات</string>
+    <string name="pref_title_pebble_activitytracker">متعقب النشاط المفضل</string>
+    <string name="pref_title_pebble_forceuntested">تمكين الميزات غير المختبرة</string>
+    <string name="pref_title_pebble_privacy_mode">وضع الخصوصية</string>
+    <string name="pref_title_pebble_reconnect_attempts">محاولات إعادة الاتصال</string>
+    <string name="pref_title_pebble_settings">إعدادات Pebble</string>
+    <string name="pref_title_rtl">من اليمين إلى اليسار</string>
+    <string name="pref_title_sunrise_sunset">شروق الشمس وغروبها</string>
+    <string name="pref_title_sync_caldendar">مزامنة أحداث التقويم</string>
+    <string name="pref_title_theme">سمة</string>
+    <string name="pref_title_timeformat">تنسيق الوقت</string>
+    <string name="pref_title_unit_system">الوحدات</string>
+    <string name="pref_title_vibration_strength">قوة الاهتزاز</string>
+    <string name="pref_title_weather">الطقس</string>
+    <string name="pref_title_weather_location">موقع الطقس (لمزود الطقس في LineageOS)</string>
+    <string name="pref_title_whenscreenon">… أيضًا عند تشغيل الشاشة</string>
+    <string msgid="7961817945132860002" name="preference_copied">"تم نسخ \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" إلى الحافظة."</string>
+    <string name="prefs_galaxy_buds_experimental">تجريبي</string>
+    <string name="prefs_left">يسار</string>
+    <string name="prefs_notifications_and_calls_reject">زر تجاهل / رفض المكالمة</string>
+    <string name="prefs_right">يمين</string>
+    <string name="prefs_sensors_button_bp_calibration">معايرة</string>
+    <string name="prefs_sensors_button_bp_calibration_sum">اضغط هنا لبدء المعايرة</string>
+    <string name="prefs_title_all_day_heart_rate">قياس معدل ضربات القلب طوال اليوم</string>
+    <string name="qhybrid_calibration_clockwise">في اتجاه عقارب الساعة</string>
+    <string name="qhybrid_calibration_counterclockwise">عكس عقارب الساعه</string>
+    <string name="qhybrid_pref_title_actions">أجراءات</string>
+    <string name="qhybrid_title_apps">تطبيقات</string>
+    <string name="qhybrid_title_calibration">معايرة</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="seconds_km">ثانية/كم</string>
+    <string name="seconds_m">ثانية/م</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="steps">خطوات</string>
+    <string name="steps_unit">خطوات</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>، <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="swimStyle">اسلوب السباحة</string>
+    <string name="title_activity_appmanager">مدير التطبيق</string>
+    <string name="title_activity_fw_app_insaller">FW / مثبت التطبيق</string>
+    <string name="title_activity_notification_management">إعدادات التنبيه</string>
+    <string name="title_activity_settings">إعدادات</string>
+    <string name="toast_aqurired_networklocation">تم الحصول على الموقع</string>
+    <string name="uncheck_all_applications">إلغاء تحديد جميع التطبيقات</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"إيقاف"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"تفعيل"</string>
+    <string name="watchface_dialog_widget_color">لون:</string>
+    <string name="watchface_dialog_widget_color_black">أسود</string>
+    <string name="watchface_dialog_widget_color_white">أبيض</string>
+    <string name="watchface_dialog_widget_preset_bottom">قاع</string>
+    <string name="watchface_dialog_widget_preset_left">يسار</string>
+    <string name="watchface_dialog_widget_preset_right">يمين</string>
+    <string name="watchface_dialog_widget_preset_top">قمة</string>
+    <string name="watchface_dialog_widget_type">نوع:</string>
+    <string name="watchface_widget_type_battery">بطارية</string>
+    <string name="watchface_widget_type_calories">سعرات حراريه</string>
+    <string name="watchface_widget_type_date">تاريخ</string>
+    <string name="watchface_widget_type_steps">خطوات</string>
+    <string name="watchface_widget_type_weather">طقس</string>
+    <string name="when_screen_off">عندما تكون الشاشة مغلقة</string>
+    <string name="yes">نعم</string>
+    <string name="zetime_title_heartrate">إعدادات معدل ضربات القلب</string>
+    <string name="zetime_title_settings">إعدادات ZeTime</string>
+</resources>

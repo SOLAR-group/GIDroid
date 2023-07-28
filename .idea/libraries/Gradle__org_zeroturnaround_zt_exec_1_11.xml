@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.zeroturnaround:zt-exec:1.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-exec/1.11/ee0092fd27178e1a966aa90771478338aa0c8f05/zt-exec-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-exec/1.11/ee0092fd27178e1a966aa90771478338aa0c8f05/zt-exec-1.11.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-exec/1.11/ee0092fd27178e1a966aa90771478338aa0c8f05/zt-exec-1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-exec/1.11/c16101d68a54140a42e925240d9b0ba40f96c7e2/zt-exec-1.11-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-exec/1.11/c16101d68a54140a42e925240d9b0ba40f96c7e2/zt-exec-1.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

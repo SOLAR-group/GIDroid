@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: arm64-v8a",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -411455810
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1838138245
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2004417977
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -928671451
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1844695031
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1718353701
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\jcall\\Apps\\GBN\\app\\build\\intermediates\\cxx\\Debug\\175o6y4x\\obj\\arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\jcall\\Apps\\GBN\\app\\build\\intermediates\\cxx\\Debug\\175o6y4x\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-BC:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 623416807
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\jcall\\Apps\\GBN\\app\\build\\intermediates\\cxx\\Debug\\175o6y4x\\obj\\arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\jcall\\Apps\\GBN\\app\\build\\intermediates\\cxx\\Debug\\175o6y4x\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-BC:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 881778982
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\\compile_commands.json.bin normally",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1997363889
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2137926014
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\Debug\\175o6y4x\\arm64-v8a\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1704570897
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt",
+    "tag_": "fullDebug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -218968198
+  }
+]

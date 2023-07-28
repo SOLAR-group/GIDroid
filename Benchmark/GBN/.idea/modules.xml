@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GBN.iml" filepath="$PROJECT_DIR$/.idea/modules/GBN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GBDaoGenerator/GBN.GBDaoGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/GBDaoGenerator/GBN.GBDaoGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GBN.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GBN.app.iml" />
+    </modules>
+  </component>
+</project>

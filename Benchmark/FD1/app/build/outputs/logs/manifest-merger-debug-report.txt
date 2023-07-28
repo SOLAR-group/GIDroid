@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\jcall\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\c0cddbcb2bc8479e529665d1c5db87bf\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\5861500acfc863b7035da42a520ef0d9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\jcall\.gradle\caches\transforms-3\4e5640acfa3303f029a6b28e05225f13\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\111e6e9be3df0e16ccb2077e691a9413\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:3:2-29
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:4:2-28
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:3:30-53
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:5:2-18:16
+MERGED from [androidx.core:core:1.7.0] C:\Users\jcall\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\jcall\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\5861500acfc863b7035da42a520ef0d9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\5861500acfc863b7035da42a520ef0d9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:7:4-47
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\jcall\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:5:15-47
+	android:icon
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:6:4-33
+activity#org.fdroid.fdroid.FDroid
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:8:3-14:14
+	android:exported
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:9:4-27
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:8:13-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:10:4-13:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:11:5-57
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:11:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:12:15-62
+activity#org.fdroid.fdroid.ManageRepo
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:15:3-42
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:15:13-39
+activity#org.fdroid.fdroid.Settings
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:16:3-39
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:16:13-36
+activity#org.fdroid.fdroid.AppDetails
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:17:3-42
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:17:13-39
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:20:2-64
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:20:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:21:2-76
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:21:19-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:22:2-77
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:22:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:23:2-78
+	android:name
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml:23:19-75
+uses-sdk
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+MERGED from [androidx.core:core:1.7.0] C:\Users\jcall\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\jcall\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\c0cddbcb2bc8479e529665d1c5db87bf\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\c0cddbcb2bc8479e529665d1c5db87bf\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\5861500acfc863b7035da42a520ef0d9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\5861500acfc863b7035da42a520ef0d9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\jcall\.gradle\caches\transforms-3\4e5640acfa3303f029a6b28e05225f13\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\jcall\.gradle\caches\transforms-3\4e5640acfa3303f029a6b28e05225f13\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\111e6e9be3df0e16ccb2077e691a9413\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\111e6e9be3df0e16ccb2077e691a9413\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\GinDroid\Benchmark\FD1\app\src\main\AndroidManifest.xml

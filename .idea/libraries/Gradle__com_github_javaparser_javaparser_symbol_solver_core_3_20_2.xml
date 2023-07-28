@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.javaparser:javaparser-symbol-solver-core:3.20.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.20.2/97af0e12e0bc771b734287a84b573139ef66be34/javaparser-symbol-solver-core-3.20.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.20.2/97af0e12e0bc771b734287a84b573139ef66be34/javaparser-symbol-solver-core-3.20.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.20.2/97af0e12e0bc771b734287a84b573139ef66be34/javaparser-symbol-solver-core-3.20.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.20.2/de6d175df650897d9ae381082cc44fa81b5baf2c/javaparser-symbol-solver-core-3.20.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.20.2/de6d175df650897d9ae381082cc44fa81b5baf2c/javaparser-symbol-solver-core-3.20.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:squareImageView="http://schemas.android.com/apk/de.danoeh.antennapod"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/cover_fragment"
+    android:padding="8dp"
+    android:gravity="center">
+
+    <de.danoeh.antennapod.ui.common.SquareImageView
+        android:id="@+id/imgvCover"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:importantForAccessibility="no"
+        android:scaleType="fitCenter"
+        squareImageView:direction="height"
+        tools:src="@android:drawable/sym_def_app_icon" />
+
+    <LinearLayout
+        android:id="@+id/cover_fragment_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/txtvPodcastTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:gravity="center_horizontal"
+            android:maxLines="2"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textIsSelectable="true"
+            tools:text="Podcast" />
+
+        <TextView
+            android:id="@+id/txtvEpisodeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/text_size_small"
+            android:maxLines="2"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textIsSelectable="true"
+            tools:text="Episode" />
+    </LinearLayout>
+
+</LinearLayout>

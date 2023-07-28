@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AbstractAppManagerFragmentTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AbstractAppManagerFragmentTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/nodomain.freeyourgadget.gadgetbridge.activities.appmanager.html">nodomain.freeyourgadget.gadgetbridge.activities.appmanager</a> &gt; AbstractAppManagerFragmentTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.722s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="test1"></a>
+<h3 class="failures">test1</h3>
+<span class="code">
+<pre>java.lang.RuntimeException: huh? java 11, need help!
+	at org.robolectric.util.reflector.UnsafeAccess$Danger11Plus.throwException(UnsafeAccess.java:92)
+	at org.robolectric.util.reflector.UnsafeAccess.throwException(UnsafeAccess.java:30)
+	at org.robolectric.internal.bytecode.Sandbox.runOnMainThread(Sandbox.java:102)
+	at org.robolectric.internal.bytecode.Sandbox.runOnMainThread(Sandbox.java:88)
+	at org.robolectric.internal.SandboxTestRunner$2.evaluate(SandboxTestRunner.java:226)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.robolectric.internal.SandboxTestRunner$1.evaluate(SandboxTestRunner.java:100)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.lang.RuntimeException: huh? java 11, need help!
+	at org.robolectric.util.reflector.UnsafeAccess$Danger11Plus.throwException(UnsafeAccess.java:92)
+	at org.robolectric.util.reflector.UnsafeAccess.throwException(UnsafeAccess.java:30)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:261)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:89)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Failed to parse package build\intermediates\apk_for_local_test\fullDebugUnitTest\apk-for-local-test.ap_: build\intermediates\apk_for_local_test\fullDebugUnitTest\apk-for-local-test.ap_ (at Binary XML file line #7): Requires newer sdk version #23 (current version is #19)
+	at org.robolectric.shadows.ShadowPackageParser.callParsePackage(ShadowPackageParser.java:63)
+	at org.robolectric.android.internal.AndroidEnvironment.loadAppPackage_measured(AndroidEnvironment.java:291)
+	at org.robolectric.android.internal.AndroidEnvironment.lambda$loadAppPackage$1(AndroidEnvironment.java:261)
+	at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+	at org.robolectric.android.internal.AndroidEnvironment.loadAppPackage(AndroidEnvironment.java:259)
+	at org.robolectric.android.internal.AndroidEnvironment.installAndCreateApplication(AndroidEnvironment.java:158)
+	at org.robolectric.android.internal.AndroidEnvironment.setUpApplicationState(AndroidEnvironment.java:149)
+	at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:298)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:247)
+	... 5 more
+Caused by: java.lang.RuntimeException: Failed to parse package build\intermediates\apk_for_local_test\fullDebugUnitTest\apk-for-local-test.ap_: build\intermediates\apk_for_local_test\fullDebugUnitTest\apk-for-local-test.ap_ (at Binary XML file line #7): Requires newer sdk version #23 (current version is #19)
+	at org.robolectric.shadows.ShadowPackageParser.callParsePackage(ShadowPackageParser.java:56)
+	... 13 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">test1</td>
+<td class="failures">2.722s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[Robolectric] nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AbstractAppManagerFragmentTest.test1: sdk=19; resources=BINARY
+W/PackageParser: build\intermediates\apk_for_local_test\fullDebugUnitTest\apk-for-local-test.ap_ (at Binary XML file line #7): Requires newer sdk version #23 (current version is #19)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 7 Feb 2023, 16:59:27</p>
+</div>
+</div>
+</body>
+</html>

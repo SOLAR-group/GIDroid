@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="lowerDrawer">
+        <item>\u2195 OUI-Datenbank aktualisieren</item>
+        <item>\u2195 Port-Datenbank aktualisieren</item>
+        <item>\u2699 Einstellungen</item>
+    </string-array>
+    <string-array name="records">
+        <item>Eintragstyp</item>
+        <item>A</item>
+        <item>AAAA</item>
+        <item>AFSDB</item>
+        <item>APL</item>
+        <item>CAA</item>
+        <item>CDNSKEY</item>
+        <item>CDS</item>
+        <item>CERT</item>
+        <item>CNAME</item>
+        <item>CSYNC</item>
+        <item>DHCID</item>
+        <item>DLV</item>
+        <item>DNAME</item>
+        <item>DNSKEY</item>
+        <item>DS</item>
+        <item>HINFO</item>
+        <item>HIP</item>
+        <item>IPSECKEY</item>
+        <item>KEY</item>
+        <item>KX</item>
+        <item>LOC</item>
+        <item>MX</item>
+        <item>NAPTR</item>
+        <item>NS</item>
+        <item>NSEC</item>
+        <item>NSEC3</item>
+        <item>NSEC3PARAM</item>
+        <item>OPENPGPKEY</item>
+        <item>PTR</item>
+        <item>RRSIG</item>
+        <item>RP</item>
+        <item>SIG</item>
+        <item>SOA</item>
+        <item>SRV</item>
+        <item>SSHFP</item>
+        <item>TA</item>
+        <item>TKEY</item>
+        <item>TLSA</item>
+        <item>TSIG</item>
+        <item>TXT</item>
+        <item>URI</item>
+    </string-array>
+    <string-array name="threads">
+        <item>500</item>
+        <item>450</item>
+        <item>400</item>
+        <item>350</item>
+        <item>300</item>
+        <item>250</item>
+        <item>200</item>
+        <item>150</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="upperDrawer">
+        <item>\u2601 WAN Host prüfen</item>
+        <item>\u263c Host aufwecken</item>
+        <item>\u2194 DNS-Suche</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AUS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="app_name">Port Authority</string>
+    <string name="bssid">BSSID</string>
+    <string name="copyHostname">Hostname kopieren</string>
+    <string name="copyIp">IP kopieren</string>
+    <string name="copyMac">MAC kopieren</string>
+    <string name="dnsInputError">Domäne eingeben und die Eintragstyp auswählen</string>
+    <string name="dnsLookup">DNS-Suche</string>
+    <string name="domainName">Domänename</string>
+    <string name="downloadingData">Daten werden heruntergeladen</string>
+    <string name="errAccessArp">Auf ARP-Einträge kann nicht zugegriffen werden</string>
+    <string name="errExternIp">Externe IP kann nicht abfragt werden</string>
+    <string name="errFindArp">ARP-Tabelle konnte nicht gefunden werden</string>
+    <string name="errParseArp">ARP-Einträge können nicht analysiert werden</string>
+    <string name="errReadArp">ARP-Tabelle konnte nicht gelesen werden</string>
+    <string name="externalIpLabel">WAN IP</string>
+    <string name="failedBssid">BSSID konnte nicht ermittelt werden</string>
+    <string name="failedDbInsert">Daten konnten nicht in die Datenbank eingefügt werden. Bitte führen Sie den Vorgang erneut aus</string>
+    <string name="failedLinkSpeed">Verbindungsgeschwindigkeit konnte nicht ermittelt werden</string>
+    <string name="failedOpenDb">Datenbank konnte nicht geöffnet werden</string>
+    <string name="failedSignal">Signalstärke konnte nicht ermittelt werden</string>
+    <string name="failedSsid">SSID konnte nicht ermittelt werden</string>
+    <string name="failedSubnetHosts">Anzahl der Host im Subnetz konnte nicht ermittelt werden</string>
+    <string name="failedWifiManager">WifiManager konnte für dieses Gerät nicht ermittelt werden</string>
+    <string name="fetching">Abrufen…</string>
+    <string name="getMacVendorFailed">Hersteller der MAC konnte nicht ermittelt werden</string>
+    <string name="hostDiscovery">Hosts finden</string>
+    <string name="hostScan">Auf Hosts prüfen</string>
+    <string name="internalIpLabel">LAN IP</string>
+    <string name="ipAddress">IP-Adresse</string>
+    <string name="lookupErr">Fehler bei der Prüfung des Typs %1$s: %2$s</string>
+    <string name="lookupTypeFail">Prüfung von Typ %1$s ist mit dem Fehlercode %2$s fehlgeschlagen</string>
+    <string name="macAddress">MAC</string>
+    <string name="macVendor">Hersteller</string>
+    <string name="noRecords">Keine Einträge des Typs %1$s gefunden</string>
+    <string name="noWifiConnection">Keine WiFi-Verbindung</string>
+    <string name="noWifiInterface">Keine WiFi-Schnittstelle gefunden</string>
+    <string name="notConnectedLan">Sie sind nicht mit dem lokalen Netzwerk verbunden!</string>
+    <string name="notConnectedWifi">Sie sind zu keinem WiFi-Netzwerk verbunden!</string>
+    <string name="openPorts">Offene Ports</string>
+    <string name="ouiDbMsg">Möchten Sie die OUI-Datenbank erstellen? Wenn ja, wird die offizielle OUI-Liste von Wireshark heruntergeladen. Bitte nehmen Sie zur Kenntnis, dass Sie ohne die Informationen keinen der MAC zugeordneten Hersteller auflösen können. Sie können diesen Vorgang jederzeit vom Menü aus starten.</string>
+    <string name="ouiDbTitle">OUI-Datenbank generieren</string>
+    <string name="portDbMsg">Möchten Sie die Port-Datenbank erstellen? Wenn ja, wird die offizielle Portliste von der IANA heruntergeladen. Bitte nehmen Sie zur Kenntnis, dass Sie ohne die Informationen keine Dienste identifizieren können. Sie können diesen Vorgang jederzeit vom Menü aus starten.</string>
+    <string name="portDbTitle">Port-Datenbank generieren</string>
+    <string name="portRangeStart">Beginn-Port</string>
+    <string name="portRangeStop">Ende-Port</string>
+    <string name="resetPortRange">Portbereich zurücksetzen</string>
+    <string name="scanPortRange">Portbereich prüfen</string>
+    <string name="scanWellKnownPorts">Bekannte Ports prüfen</string>
+    <string name="scanningDisclaimer">
+        Bitte nehmen Sie zur Kenntnis, dass Portscans gegen öffentliche Server normalerweise als bösartig angesehen wird.
+        Weiterhin können Scans dieser Art über das Netzwerk Ihres Mobilfunkanbieters langsamer sein als mit Ihrer eigenen WiFi-Verbindung und manchmal kann es auf Grund Ausprägung des Datenverkehrs zu unplausiblen Ergebnissen kommen.
+        Ihr Mobilfunkanbieter kann den Datenverkehr der durch diesen Scan verursacht wird, ebenfalls als bösartig einstufen.
+    </string>
+    <string name="scanningWarning">WARNUNG</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string name="signalLabel">Signal/Geschwindigkeit</string>
+    <string name="signalLink">%1$ddBm/%2$dMbps</string>
+    <string name="sort">Sortieren</string>
+    <string name="sortHostname">nach Hostname</string>
+    <string name="sortIp">nach IP</string>
+    <string name="sortVendor">nach Hersteller</string>
+    <string name="ssid">SSID</string>
+    <string name="ssidAccessTitle">Android %1$s SSID-Zugriff</string>
+    <string name="ssidCoarseMsg">Android %1$s erfordert die Berechtigung für den ungefähren Standort zum Lesen der SSID. Wenn Sie damit nicht einverstanden sind, dann lehnen sie die Berechtigungsanfrage ab und fahren ohne diese Funktion fort.</string>
+    <string name="ssidFineMsg">Android %1$s erfordert die Berechtigung für den genauen Standort zum Lesen der SSID. Wenn Sie damit nicht einverstanden sind, dann lehnen sie die Berechtigungsanfrage ab und fahren ohne diese Funktion fort.</string>
+    <string name="startingDnsLookup">DNS-Einträge werden abgerufen…</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subnetHosts">%1$d Hosts im Subnetz</string>
+    <string name="unsuppRecType">Eintragstyp %1$s nicht unterstützt</string>
+    <string name="wakeOnLan">Aufwecken</string>
+    <string name="waking">Wecke %1$s auf…</string>
+    <string name="wanHostHint">URL/IP</string>
+    <string name="wifiDisabled">WiFi nicht aktiviert</string>
+</resources>

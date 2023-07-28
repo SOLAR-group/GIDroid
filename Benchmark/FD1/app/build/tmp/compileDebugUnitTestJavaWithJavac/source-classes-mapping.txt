@@ -1,0 +1,2 @@
+org/fdroid/fdroid/RepoXMLHandlerTest.java
+ org.fdroid.fdroid.RepoXMLHandlerTest

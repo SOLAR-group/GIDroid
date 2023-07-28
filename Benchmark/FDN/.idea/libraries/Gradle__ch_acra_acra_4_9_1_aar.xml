@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: ch.acra:acra:4.9.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/acra-4.9.1.aar/1c36e8fccfb94fcca061d7009d96cb21/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44227e37e6f294cbecfbb3e321c476d1/transformed/acra-4.9.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/44227e37e6f294cbecfbb3e321c476d1/transformed/acra-4.9.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44227e37e6f294cbecfbb3e321c476d1/transformed/acra-4.9.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra/4.9.1/9321ba1a2b8865f785482928fdb2c2ac626e1d48/acra-4.9.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra/4.9.1/d653a33a26aed4a7bd2207e52ed14d817ea45c7d/acra-4.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

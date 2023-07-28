@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.javaparser:javaparser-core:3.20.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.20.2/95fc299fc354bb9834b9098ee126348a03914197/javaparser-core-3.20.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.20.2/95fc299fc354bb9834b9098ee126348a03914197/javaparser-core-3.20.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.20.2/95fc299fc354bb9834b9098ee126348a03914197/javaparser-core-3.20.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.20.2/d963179280c7804cbc8b2ca8f82744f7c4171ad1/javaparser-core-3.20.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.20.2/d963179280c7804cbc8b2ca8f82744f7c4171ad1/javaparser-core-3.20.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="unsigned">#ffCC0000</color>
+    <color name="unverified">#ff999999</color>
+    <color name="red">#ffdd2c00</color>
+
+    <!-- Ignore UnusedResources errors here, because the resources are loaded dynamically at runtime -->
+    <color tools:ignore="UnusedResources" name="category_connectivity">#CBEFEC</color>
+    <color tools:ignore="UnusedResources" name="category_development">#E2D6BC</color>
+    <color tools:ignore="UnusedResources" name="category_games">#F3B569</color>
+    <color tools:ignore="UnusedResources" name="category_graphics">#F65A5A</color>
+    <color tools:ignore="UnusedResources" name="category_internet">#73EABC</color>
+    <color tools:ignore="UnusedResources" name="category_money">#DDDDD0</color>
+    <color tools:ignore="UnusedResources" name="category_multimedia">#FF7F66</color>
+    <color tools:ignore="UnusedResources" name="category_navigation">#94D6FD</color>
+    <color tools:ignore="UnusedResources" name="category_phone_sms">#F3CFC0</color>
+    <color tools:ignore="UnusedResources" name="category_reading">#D6A07A</color>
+    <color tools:ignore="UnusedResources" name="category_science_education">#FFAD08</color>
+    <color tools:ignore="UnusedResources" name="category_security">#FFD15F</color>
+    <color tools:ignore="UnusedResources" name="category_sports_health">#ADCEDE</color>
+    <color tools:ignore="UnusedResources" name="category_system">#D3DB77</color>
+    <color tools:ignore="UnusedResources" name="category_theming">#DEEFE9</color>
+    <color tools:ignore="UnusedResources" name="category_time">#FF7043</color>
+    <color tools:ignore="UnusedResources" name="category_writing">#F2E9CE</color>
+
+    <color name="fdroid_blue">#ff1976d2</color>
+    <color name="fdroid_blue_dark">#ff0d47a1</color>
+    <color name="fdroid_blue_darkest">#ff042570</color>
+    <color name="fdroid_green">#ff8ab000</color>
+    <color name="fdroid_night">#ff222222</color>
+    <color name="fdroid_night_dark">#ff111111</color>
+
+    <color name="shadow">#cc222222</color>
+
+    <color name="perms_costs_money">#fff4511e</color>
+</resources>

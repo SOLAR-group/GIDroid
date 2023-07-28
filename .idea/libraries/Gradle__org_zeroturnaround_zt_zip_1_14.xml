@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.zeroturnaround:zt-zip:1.14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-zip/1.14/15aa6b3b6c1d99f6fcccb5ef921035de7481cce3/zt-zip-1.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-zip/1.14/15aa6b3b6c1d99f6fcccb5ef921035de7481cce3/zt-zip-1.14.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-zip/1.14/15aa6b3b6c1d99f6fcccb5ef921035de7481cce3/zt-zip-1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-zip/1.14/ca65ae85037b12f3dc0355c9dec3512f40da1fd0/zt-zip-1.14-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.zeroturnaround/zt-zip/1.14/ca65ae85037b12f3dc0355c9dec3512f40da1fd0/zt-zip-1.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

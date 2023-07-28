@@ -1,0 +1,4 @@
+# ninja log v5
+3	60	689713342	CMakeFiles/tiny-edhc.dir/ecdh_jni.c.o	613b892018f7d2e1
+1	74	689713342	CMakeFiles/tiny-edhc.dir/ecdh.c.o	57a7b3f9cfe2699e
+74	133	689713342	C:/Users/jcall/Apps/GBN/app/build/intermediates/cxx/Debug/175o6y4x/obj/x86/libtiny-edhc.so	fe679e98131464b2

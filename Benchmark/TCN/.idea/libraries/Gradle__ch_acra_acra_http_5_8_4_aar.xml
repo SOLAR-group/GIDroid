@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: ch.acra:acra-http:5.8.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1c9c52242c28fa2bfff9c457a615482b/transformed/jetified-acra-http-5.8.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c9c52242c28fa2bfff9c457a615482b/transformed/jetified-acra-http-5.8.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c9c52242c28fa2bfff9c457a615482b/transformed/jetified-acra-http-5.8.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra-http/5.8.4/5329035d9137a16c0150986f8f0f048f5f5fb444/acra-http-5.8.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra-http/5.8.4/507fe56d651333379925eed5dc63808636e952a3/acra-http-5.8.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

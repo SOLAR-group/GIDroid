@@ -1,0 +1,63 @@
+{
+  "Entries": [
+    {
+      "VersionCode": 2060170,
+      "Title": "Changes in version 2.6.1",
+      "Messages": [
+        "Fix crash when loading preferences.",
+        "Fix last export action not remembered.",
+        "Fix 'No apps can perform this action' when sharing exported file.",
+        "Add French translation. Thanks to Poussinou, m.dutendas, mondstern and others :)",
+        "Add information about background location permission to start at boot option."
+      ]
+    },
+    {
+      "VersionCode": 2060069,
+      "Title": "Changes in version 2.6.0",
+      "Description": "If you experience app crashes on Android 10 when collecting, please make sure to update your system. One of early Android 10 versions has a defect which I cannot work around or fix :(",
+      "Messages": [
+        "Improve request background location permission only when needed on Android 10 and 11.",
+        "Collect RSSI for GSM, Ec/No for WCDMA on Android 11 and ARFCN for various versions.",
+        "Fix exception when stopping Collector.",
+        "Fix issues with corrupted databases having only part of the tables created.",
+        "Fix error when checking database version before it gets created.",
+        "Improve error handling.",
+        "Many small improvements."
+      ]
+    },
+    {
+      "VersionCode": 2050168,
+      "Title": "Changes in version 2.5.1",
+      "Description": "If you experience app crashes on Android 10 when collecting, please make sure to update your system. One of early Android 10 versions has a defect which I cannot work around or fix :(",
+      "Messages": [
+        "Add option to open single exported file."
+      ]
+    },
+    {
+      "VersionCode": 2050067,
+      "Title": "Changes in version 2.5.0",
+      "Description": "If you experience app crashes on Android 10 when collecting, please make sure to update your system. One of early Android 10 versions has a defect which I cannot work around or fix :(",
+      "Messages": [
+        "Add option to share exported files.",
+        "Increase active tab indicator height.",
+        "Improve error handling."
+      ]
+    },
+    {
+      "VersionCode": 2040066,
+      "Title": "Changes in version 2.4.0",
+      "Messages": [
+        "Add upload of 5G (NR) and TD-SCDMA cells to OpenCellID.",
+        "Add export to KML and KMZ formats.",
+        "Add gzip compression of exported files with option to configure the format.",
+        "Add optional bar presenting Collector status.",
+        "Add link to application notification settings.",
+        "Fix database import not working due to transaction log not being deleted.",
+        "Fix exported file not deleted when export canceled and compression enabled.",
+        "Rename GPS status from 'initializing' to 'waiting for location' to be less confusing.",
+        "Update external libraries.",
+        "Many small fixes and improvements."
+      ]
+    }
+  ]
+}

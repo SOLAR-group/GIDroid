@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: org.sufficientlysecure:html-textview:4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8535192a2d9712bff5a4ef3ced7eff79/transformed/jetified-html-textview-4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8535192a2d9712bff5a4ef3ced7eff79/transformed/jetified-html-textview-4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8535192a2d9712bff5a4ef3ced7eff79/transformed/jetified-html-textview-4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sufficientlysecure/html-textview/4.0/aaa090b8092f718d248febb38ba1a22d10baa1a0/html-textview-4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sufficientlysecure/html-textview/4.0/53ba9ef73fe4ebe51cdee2c9f236559462c39a45/html-textview-4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

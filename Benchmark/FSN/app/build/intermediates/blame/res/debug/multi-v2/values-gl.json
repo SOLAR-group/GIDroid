@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jcall\\Apps\\FSN\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-2\\files-2.1\\69b05c9f8b9e76c05fed5025dbe996fb\\browser-1.2.0\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,162,264,376",
+                        "endColumns": "106,101,111,104",
+                        "endOffsets": "157,259,371,476"
+                    },
+                    "to": {
+                        "startLines": "30,32,33,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2923,3131,3233,3345",
+                        "endColumns": "106,101,111,104",
+                        "endOffsets": "3025,3228,3340,3445"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-2\\files-2.1\\717080d88aa1a33e094015d32b1dc2f0\\core-1.2.0-rc01\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "3750",
+                        "endColumns": "100",
+                        "endOffsets": "3846"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,313,421,506,607,735,820,901,993,1086,1183,1277,1378,1472,1568,1663,1755,1847,1927,2035,2142,2249,2358,2463,2577,2754,2853",
+                        "endColumns": "103,103,107,84,100,127,84,80,91,92,96,93,100,93,95,94,91,91,79,107,106,106,108,104,113,176,98,81",
+                        "endOffsets": "204,308,416,501,602,730,815,896,988,1081,1178,1272,1373,1467,1563,1658,1750,1842,1922,2030,2137,2244,2353,2458,2572,2749,2848,2930"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,313,421,506,607,735,820,901,993,1086,1183,1277,1378,1472,1568,1663,1755,1847,1927,2035,2142,2249,2358,2463,2577,2754,3668",
+                        "endColumns": "103,103,107,84,100,127,84,80,91,92,96,93,100,93,95,94,91,91,79,107,106,106,108,104,113,176,98,81",
+                        "endOffsets": "204,308,416,501,602,730,815,896,988,1081,1178,1272,1373,1467,1563,1658,1750,1842,1922,2030,2137,2244,2353,2458,2572,2749,2848,3745"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-2\\files-2.1\\1c9808e429abf680ccd4a9858ea887b5\\preference-1.1.0\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,175,276,356,494,663,751",
+                        "endColumns": "69,100,79,137,168,87,81",
+                        "endOffsets": "170,271,351,489,658,746,828"
+                    },
+                    "to": {
+                        "startLines": "29,31,35,36,39,40,41",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2853,3030,3450,3530,3851,4020,4108",
+                        "endColumns": "69,100,79,137,168,87,81",
+                        "endOffsets": "2918,3126,3525,3663,4015,4103,4185"
+                    }
+                }
+            ]
+        }
+    ]
+}

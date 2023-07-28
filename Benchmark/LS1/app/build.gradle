@@ -1,0 +1,142 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.neenbedankt.android-apt'
+//apply plugin: 'com.getkeepsafe.dexcount'
+apply plugin: "pmd"
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+task pmdMain(type: Pmd) {
+    dependsOn 'assembleDebug'
+    ruleSets = ['category/java/performance.xml']
+    source 'src/main/java'
+    include '**/*.java'
+}
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 30
+        versionName "4.4.2"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    sourceSets {
+        lightningPlus.setRoot('src/LightningPlus')
+        lightningLite.setRoot('src/LightningLite')
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles 'proguard-project.txt'
+        }
+
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles 'proguard-project.txt'
+        }
+    }
+
+    productFlavors {
+        lightningPlus {
+            buildConfigField "boolean", "FULL_VERSION", "true"
+            applicationId "acr.browser.lightning"
+            versionCode 91
+        }
+
+        lightningLite {
+            buildConfigField "boolean", "FULL_VERSION", "false"
+            applicationId "acr.browser.barebones"
+            versionCode 93
+        }
+    }
+
+    lintOptions {
+        abortOnError true
+    }
+
+    packagingOptions {
+        exclude '.readme'
+    }
+    flavorDimensions 'main'
+    testOptions {
+        unitTests {
+            includeAndroidResources=true
+        }
+	 unitTests.all {
+
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+            }
+
+        }
+    }
+
+}
+
+//dexcount {
+//    includeClasses = false
+//    includeFieldCount = false
+//    format = "tree"
+//    orderByMethodCount = true
+//    verbose = false
+//}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+
+
+    // support libraries
+    def supportLibVersion = '25.3.1'
+    implementation "com.android.support:palette-v7:$supportLibVersion"
+    implementation "com.android.support:appcompat-v7:$supportLibVersion"
+    implementation "com.android.support:design:$supportLibVersion"
+    implementation "com.android.support:recyclerview-v7:$supportLibVersion"
+    implementation "com.android.support:support-v4:$supportLibVersion"
+
+    // html parsing for reading mode
+    implementation 'org.jsoup:jsoup:1.10.2'
+
+    // event bus
+    implementation 'com.squareup:otto:1.3.8'
+
+    // dependency injection
+    def daggerVersion = '2.0.2'
+    implementation "com.google.dagger:dagger:$daggerVersion"
+    annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
+    implementation 'javax.annotation:javax.annotation-api:1.3.2'
+    annotationProcessor("javax.annotation:javax.annotation-api:1.3.2")
+    // view binding
+    implementation 'com.jakewharton:butterknife:7.0.1'
+
+    // permissions
+    implementation 'com.anthonycr.grant:permissions:1.1.2'
+
+    // proxy support
+    implementation 'net.i2p.android:client:0.8'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+
+    // tor proxy
+    def netcipherVersion = '2.0.0-alpha1'
+    implementation "info.guardianproject.netcipher:netcipher:$netcipherVersion"
+    implementation "info.guardianproject.netcipher:netcipher-webkit:$netcipherVersion"
+
+    implementation 'com.anthonycr.bonsai:bonsai:1.1.0'
+
+    implementation 'com.anthonycr.progress:animated-progress:1.0'
+
+    // memory leak analysis
+    def leakCanaryVersion = '1.5'
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion"
+    releaseImplementation "com.squareup.leakcanary:leakcanary-android-no-op:$leakCanaryVersion"
+
+    testImplementation "org.robolectric:robolectric:4.7"
+}

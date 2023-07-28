@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.aaronjwood.portauthority.free",
+  "variantName": "freeDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 53,
+      "versionName": "2.2.4-free",
+      "outputFile": "PortAuthority-2.2.4-free-debug.apk"
+    }
+  ]
+}

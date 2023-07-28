@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.shared:maven-invoker:3.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-invoker/3.0.1/d98b7d7aeb575a0d677a3c164232e86c6cd42f11/maven-invoker-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-invoker/3.0.1/d98b7d7aeb575a0d677a3c164232e86c6cd42f11/maven-invoker-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-invoker/3.0.1/d98b7d7aeb575a0d677a3c164232e86c6cd42f11/maven-invoker-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-invoker/3.0.1/70cce83cf3b5afd30e103b2f20798bc28aad35be/maven-invoker-3.0.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-invoker/3.0.1/70cce83cf3b5afd30e103b2f20798bc28aad35be/maven-invoker-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,207 @@
+apply plugin: 'com.android.application'
+apply plugin: 'checkstyle'
+apply plugin: 'pmd'
+
+/* gets the version name from the latest Git tag, stripping the leading v off */
+//def getVersionName = { ->
+//    def stdout = new ByteArrayOutputStream()
+//    exec {
+//        commandLine 'git', 'describe', '--tags', '--always'
+//        standardOutput = stdout
+//    }
+//    return stdout.toString().trim()
+//}
+
+def isCi = "true".equals(System.getenv("CI"))
+def preDexEnabled = "true".equals(System.getProperty("pre-dex", "true"))
+
+def fullApplicationId = "org.fdroid.fdroid"
+def basicApplicationId = "org.fdroid.basic"
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        versionCode 10
+        minSdkVersion 14
+        multiDexEnabled = true
+//        versionName getVersionName()
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        // use proguard on debug too since we have unknowingly broken
+        // release builds before.
+        all {
+//            minifyEnabled true
+//            useProguard true
+//            shrinkResources true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro', 'src/androidTest/proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            resValue "string", "applicationId", fullApplicationId + applicationIdSuffix
+            versionNameSuffix "-debug"
+            println 'buildTypes.debug defaultConfig.versionCode ' + defaultConfig.versionCode
+        }
+    }
+
+    flavorDimensions "base"
+    productFlavors {
+        full {
+            dimension "base"
+            applicationId fullApplicationId
+            resValue "string", "applicationId", fullApplicationId
+        }
+        basic {
+            dimension "base"
+            applicationId basicApplicationId
+            resValue "string", "applicationId", basicApplicationId
+        }
+    }
+
+    compileOptions {
+        compileOptions.encoding = "UTF-8"
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
+    dexOptions {
+        // Improve build server performance by allowing disabling of pre-dexing
+        // see http://tools.android.com/tech-docs/new-build-system/tips#TOC-Improving-Build-Server-performance
+        // Skip pre-dexing when running on CI or when disabled via -Dpre-dex=false.
+        preDexLibraries = preDexEnabled && !isCi
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+            // prevent tests from dying on android.util.Log calls
+            returnDefaultValues = true
+            all {
+                // All the usual Gradle options.
+                testLogging {
+                    events "skipped", "failed", "standardOut", "standardError"
+                    showStandardStreams = true
+                }
+            }
+        }
+    }
+
+    sourceSets {
+        test {
+            java.srcDirs += "$projectDir/src/testShared/java"
+        }
+
+        androidTest {
+            java.srcDirs += "$projectDir/src/testShared/java"
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError true
+
+        htmlReport true
+        xmlReport false
+        textReport false
+
+        lintConfig file("lint.xml")
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/INDEX.LIST'
+        exclude '.readme'
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:gridlayout-v7:27.1.1'
+    implementation 'com.android.support:support-annotations:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-vector-drawable:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support:palette-v7:27.1.1'
+    implementation 'com.android.support:preference-v14:27.1.1'
+
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.google.zxing:core:3.3.2'
+    implementation 'eu.chainfire:libsuperuser:1.0.0.201602271131'
+    implementation 'info.guardianproject.netcipher:netcipher:2.0.0-alpha1'
+    implementation 'info.guardianproject.panic:panic:0.5'
+    implementation 'commons-io:commons-io:2.5'
+    implementation 'commons-net:commons-net:3.5'
+    implementation 'ch.acra:acra:4.9.1'
+    implementation 'io.reactivex:rxjava:1.1.0'
+    implementation 'io.reactivex:rxandroid:0.23.0'
+    implementation 'com.hannesdorfmann:adapterdelegates3:3.0.1'
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
+
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.8.7'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.8.7'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.8.7'
+
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.59'
+    fullImplementation 'org.bouncycastle:bcpkix-jdk15on:1.59'
+    fullImplementation 'cc.mvdan.accesspoint:library:0.2.0'
+    fullImplementation 'org.jmdns:jmdns:3.5.3'
+    fullImplementation 'org.nanohttpd:nanohttpd:2.3.1'
+
+    testImplementation 'org.robolectric:robolectric:3.8'
+    testImplementation 'org.bouncycastle:bcprov-jdk15on:1.59'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-core:2.7.22'
+
+    testImplementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2"
+
+    androidTestImplementation 'com.android.support:support-annotations:25.3.1'
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support.test:rules:0.5'
+}
+
+//tasks.whenTaskAdded { task ->
+//    if (task.name.startsWith("lintBasic")) {
+//        android.lintOptions.abortOnError = false
+//    }
+//}
+
+checkstyle {
+    toolVersion = '7.2'
+}
+
+task checkstyle(type: Checkstyle) {
+    configFile file("${project.rootDir}/config/checkstyle/checkstyle.xml")
+    source 'src/main/java', 'src/test/java', 'src/androidTest/java'
+    include '**/*.java'
+
+    classpath = files()
+}
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+task pmdMain(type: Pmd) {
+    dependsOn 'assembleDebug'
+    ruleSets = ['category/java/performance.xml']
+    source 'src/main/java'
+    include '**/*.java'
+}

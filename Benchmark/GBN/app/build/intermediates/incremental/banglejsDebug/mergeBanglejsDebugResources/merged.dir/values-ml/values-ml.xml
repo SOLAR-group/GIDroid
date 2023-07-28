@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+    <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ഹോമിലേക്ക് പോവുക"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"മുകളിലേക്ക് പോവുക"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"കൂടുതൽ ഓപ്ഷനുകൾ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"പൂർത്തിയായി"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"എല്ലാം കാണുക"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"ആപ്പ് തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ഓഫ്"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ഓൺ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ഇല്ലാതാക്കുക"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"ഫംഗ്ഷന്‍+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"മെറ്റ+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"സ്‌പെയ്‌സ്"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"മെനു+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"തിരയുക…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ചോദ്യം മായ്‌ക്കുക"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"ചോദ്യം തിരയുക"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Search"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ചോദ്യം സമർപ്പിക്കുക"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"സംസാരത്തിലൂടെ തിരയുക"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ഇനിപ്പറയുന്നതുമായി പങ്കിടുക"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> എന്നതുമായി പങ്കിടുക"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ചുരുക്കുക"</string>
+    <string name="action_debug">തെറ്റുകൾ തിരുത്തുക</string>
+    <string name="action_donate">സംഭാവന ചെയ്യുക</string>
+    <string name="action_quit">പുറത്തു കടക്കുക</string>
+    <string name="action_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="app_configure">കോൺഫിഗർ ചെയ്യുക</string>
+    <string name="app_move_to_top">മുകളിലേക്ക് നീക്കുക</string>
+    <string name="application_name_generic">ഗാഡ്ജക്‌റ്റ് ബ്രിഡ്ജ്</string>
+    <string name="appmanager_app_openinstore">പെബിൾ ആപ്‌സ്റ്റോറിൽ തിരയുക</string>
+    <string name="appmanager_cached_watchapps_watchfaces">കാഷെയിലുള്ള അപ്ലിക്കേഷനുകൾ</string>
+    <string name="appmanager_health_activate">സജീവമാക്കുക</string>
+    <string name="appmanager_health_deactivate">നിർജ്ജീവമാക്കുക</string>
+    <string name="appmanager_hrm_activate">എച്ച്ആർ‌എം സജീവമാക്കുക</string>
+    <string name="appmanager_hrm_deactivate">എച്ച്ആർ‌എം നിർജ്ജീവമാക്കുക</string>
+    <string name="appmanager_installed_watchapps">ഇൻസ്റ്റാൾ ചെയ്ത അപ്പ്ലിക്കേഷനുകൾ</string>
+    <string name="appmanager_installed_watchfaces">ഇൻസ്റ്റാൾ ചെയ്ത വാച്ച്ഫേസുകൾ</string>
+    <string name="appmanager_weather_activate">സിസ്റ്റത്തിലെ കാലാവസ്ഥാ അപ്ലിക്കേഷൻ സജീവമാക്കുക</string>
+    <string name="appmanager_weather_deactivate">സിസ്റ്റത്തിലെ കാലാവസ്ഥാ അപ്ലിക്കേഷൻ നിർജ്ജീവമാക്കുക</string>
+    <string name="appmanager_weather_install_provider">Weather Notification അപ്ലിക്കേഷൻ ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+    <string name="appmananger_app_delete">ഇല്ലാതാക്കുക</string>
+    <string name="appmananger_app_delete_cache">കാഷെയിൽ നിന്ന് ഇല്ലാതാക്കുകയും നീക്കംചെയ്യുകയും ചെയ്യുക</string>
+    <string name="appmananger_app_reinstall">വീണ്ടും ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+    <string name="blacklist_all_for_notifications">നോട്ടിഫിക്കേഷനുകൾ എല്ലാം ബ്ലാക്ക്‌ലിസ്റ്റിൽ ഉൾപെടുത്തുക</string>
+    <string name="bottomsheet_action_expand_halfway">മുഴുവനായി വികസിപ്പിക്കുക</string>
+    <string name="character_counter_content_description">%2$d-ൽ %1$d പ്രതീകങ്ങൾ നൽകി</string>
+    <string name="character_counter_overflowed_content_description">അക്ഷര പരിധി, %2$d-ൽ %1$d കവിഞ്ഞു</string>
+    <string name="clear_text_end_icon_content_description">ടെക്‌സ്‌റ്റ് മായ്‌ക്കുക</string>
+    <string name="controlcenter_calibrate_device">ഉപകരണം കാലിബ്രേറ്റ് ചെയ്യുക</string>
+    <string name="controlcenter_change_fm_frequency">എഫ്എം ആവൃത്തി മാറ്റുക</string>
+    <string name="controlcenter_change_led_color">LED നിറം മാറ്റുക</string>
+    <string name="controlcenter_connect">ബന്ധിപ്പിക്കുക</string>
+    <string name="controlcenter_delete_device">ഉപകരണം ഇല്ലാതാക്കുക</string>
+    <string name="controlcenter_delete_device_dialogmessage">ഇത് ഉപകരണത്തെയും ബന്ധപ്പെട്ട എല്ലാ ഡാറ്റയെയും ഇല്ലാതാക്കും!</string>
+    <string name="controlcenter_delete_device_name">ഇല്ലാതാക്കുക %1$s</string>
+    <string name="controlcenter_disconnect">വിച്ഛേദിക്കുക</string>
+    <string name="controlcenter_fetch_activity_data">സമകാലികമാക്കുക</string>
+    <string name="controlcenter_find_device">നഷ്ടപ്പെട്ട ഉപകരണം കണ്ടെത്തുക</string>
+    <string name="controlcenter_navigation_drawer_close">നാവിഗേഷൻ ഡ്രോയർ അടയ്‌ക്കുക</string>
+    <string name="controlcenter_navigation_drawer_open">നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക</string>
+    <string name="controlcenter_set_alias">അപരനാമം സജ്ജമാക്കുക</string>
+    <string name="controlcenter_snackbar_connecting">ബന്ധിപ്പിക്കുന്നു</string>
+    <string name="controlcenter_snackbar_disconnecting">വിച്ഛേദിക്കുന്നു</string>
+    <string name="controlcenter_snackbar_need_longpress">വിച്ഛേദിക്കുന്നതിന് കാർഡ് ദീർഘനേരം അമർത്തുക</string>
+    <string name="controlcenter_snackbar_requested_screenshot">ഉപകരണത്തിന്റെ സ്ക്രീൻഷോട്ട് എടുക്കുന്നു</string>
+    <string name="controlcenter_take_screenshot">സ്ക്രീൻ ഷോട്ട് എടുക്കുക</string>
+    <string msgid="3209159573327985035" name="copy">"പകർത്തുക"</string>
+    <string name="debugactivity_really_factoryreset">ഫാക്ടറി റീസെറ്റിനു വിദേയമാക്കിയാൽ ഉപകരണത്തിൽ നിന്ന് എല്ലാ ഡാറ്റയും ഇല്ലാതാക്കും (പിന്തുണയ്‌ക്കുന്നുവെങ്കിൽ).Xiaomi / Huami ഉപകരണങ്ങളും ബ്ലൂടൂത്ത് MAC വിലാസത്തെ മാറ്റുന്നു, അതിനാൽ അവ ഗാഡ്‌ജെറ്റ്ബ്രിഡ്ജിലേക്ക് ഒരു പുതിയ ഉപകരണമായി ദൃശ്യമാകുന്നു.</string>
+    <string name="debugactivity_really_factoryreset_title">ഫാക്ടറി റീസെറ്റിനു സജ്ജമാക്കണോ \?</string>
+    <string name="error_icon_content_description">പിശക്</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"വിപുലമായത്"</string>
+    <string name="exposed_dropdown_menu_content_description">ഡ്രോപ്പ്‌ ഡൗൺ മെനു കാണിക്കുക</string>
+    <string name="fw_upgrade_notice">നിങ്ങൾ %s ഇൻസ്റ്റാൾ ചെയ്യാൻ പോകുന്നു.</string>
+    <string name="fw_upgrade_notice_amazfitbip">നിങ്ങളുടെ Amazfit Bip- ൽ %s ഫേംവെയർ ഇൻസ്റ്റാൾ ചെയ്യാൻ പോകുന്നു
+\n
+\n.Fw ഫയലും .res ഫയലും ഒടുവിൽ .gps ഫയലും ഇൻസ്റ്റാൾ ചെയ്യുന്നുവെന്ന് ഉറപ്പാക്കുക. .Fw ഫയൽ ഇൻസ്റ്റാൾ ചെയ്ത ശേഷം നിങ്ങളുടെ വാച്ച് റീബൂട്ട് ചെയ്യും.
+\n
+\nകുറിപ്പ്: ഈ ഫയലുകൾ മുമ്പ് ഇൻസ്റ്റാൾ ചെയ്ത ഫയലുകൾക്ക് സമാനമാണെങ്കിൽ നിങ്ങൾ .res, .gps എന്നിവ ഇൻസ്റ്റാൾ ചെയ്യേണ്ടതില്ല.
+\n
+\nനിങ്ങളുടെ സ്വന്തം അപകടസാധ്യതയിൽ പ്രോസസ്സ് ചെയ്തു!</string>
+    <string name="fw_upgrade_notice_amazfitbip_lite">നിങ്ങളുടെ അമാസ്ഫിറ്റ് ബിപ് ലൈറ്റിൽ %s ഫേംവെയർ ഇൻസ്റ്റാൾ ചെയ്യാൻ പോകുന്നു.
+\n
+\n.Fw ഫയൽ ഇൻസ്റ്റാൾ ചെയ്യുന്നുവെന്ന് ഉറപ്പാക്കുക, അതിനുശേഷം .res ഫയൽ. .Fw ഫയൽ ഇൻസ്റ്റാൾ ചെയ്ത ശേഷം നിങ്ങളുടെ വാച്ച് റീബൂട്ട് ചെയ്യും
+\n
+\nകുറിപ്പ്: നിങ്ങൾ മുമ്പ് ഇൻസ്റ്റാൾ ചെയ്തതുപോലെയാണെങ്കിൽ .res ഇൻസ്റ്റാൾ ചെയ്യേണ്ടതില്ല.
+\n
+\nനിങ്ങളുടെ സ്വന്തം അപകടസാധ്യതയിൽ പ്രോസസ്സ് ചെയ്തു!</string>
+    <string name="fw_upgrade_notice_amazfitcor">നിങ്ങളുടെ അമാസ്ഫിറ്റ് കോറിൽ %s ഫേംവെയർ ഇൻസ്റ്റാൾ ചെയ്യാൻ പോകുന്നു.
+\n
+\n.Fw ഫയൽ ഇൻസ്റ്റാൾ ചെയ്യുന്നുവെന്ന് ഉറപ്പാക്കുക, അതിനുശേഷം .res ഫയൽ. .Fw ഫയൽ ഇൻസ്റ്റാൾ ചെയ്ത ശേഷം നിങ്ങളുടെ വാച്ച് റീബൂട്ട് ചെയ്യും
+\n
+\nകുറിപ്പ്: നിങ്ങൾ മുമ്പ് ഇൻസ്റ്റാൾ ചെയ്തതുപോലെയാണെങ്കിൽ .res ഇൻസ്റ്റാൾ ചെയ്യേണ്ടതില്ല.
+\n
+\nനിങ്ങളുടെ സ്വന്തം അപകടസാധ്യതയിൽ പ്രോസസ്സ് ചെയ്തു!</string>
+    <string name="fw_upgrade_notice_amazfitcor2">നിങ്ങളുടെ അമാസ്ഫിറ്റ് കോർ 2 ൽ %s ഫേംവെയർ ഇൻസ്റ്റാൾ ചെയ്യാൻ പോകുന്നു.
+\n
+\n.Fw ഫയൽ ഇൻസ്റ്റാൾ ചെയ്യുന്നുവെന്ന് ഉറപ്പാക്കുക, അതിനുശേഷം .res ഫയൽ. .Fw ഫയൽ ഇൻസ്റ്റാൾ ചെയ്ത ശേഷം നിങ്ങളുടെ വാച്ച് റീബൂട്ട് ചെയ്യും
+\n
+\nകുറിപ്പ്: നിങ്ങൾ മുമ്പ് ഇൻസ്റ്റാൾ ചെയ്തതുപോലെയാണെങ്കിൽ .res ഇൻസ്റ്റാൾ ചെയ്യേണ്ടതില്ല.
+\n
+\nനിങ്ങളുടെ സ്വന്തം അപകടസാധ്യതയിൽ പ്രോസസ്സ് ചെയ്തു!
+\n
+\nനിങ്ങളുടെ ഉപകരണത്തിന്റെ പേര് \"അമാസ്ഫിറ്റ് ബാൻഡ് 2\" ആണെങ്കിൽ, പൂർണ്ണമായും അൺസ്റ്റെസ്റ്റുചെയ്തത്, ഒരുപക്ഷേ നിങ്ങൾ ഒരു ബീറ്റ്സ്_ഡബ്ല്യു ഫേംവെയർ ഫ്ലാഷ് ചെയ്യേണ്ടതുണ്ട്</string>
+    <string name="icon_content_description">ഡയലോഗ് ഐക്കൺ</string>
+    <string name="item_view_role_description">ടാബ്</string>
+    <string name="material_clock_toggle_content_description">AM അല്ലെങ്കിൽ PM തിരഞ്ഞെടുക്കുക</string>
+    <string name="material_hour_selection">മണിക്കൂർ തിരഞ്ഞെടുക്കുക</string>
+    <string name="material_hour_suffix">%1$s മണി</string>
+    <string name="material_minute_selection">മിനിറ്റ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="material_minute_suffix">%1$s മിനിറ്റ്</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">‌സമയം നൽകുന്നതിന് ക്ലോക്ക് മോഡിലേക്ക് ‌മാറുക.</string>
+    <string name="material_timepicker_hour">മണിക്കൂര്‍</string>
+    <string name="material_timepicker_minute">മിനിറ്റ്</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">സമയം തിരഞ്ഞെടുക്കുക</string>
+    <string name="material_timepicker_text_input_mode_description">സമയം നൽകുന്നതിന് ടെക്സ്റ്റ് ഇൻപുട്ട് ‌മോ‌ഡിലേക്ക് ‌മാറുക.</string>
+    <string name="mtrl_badge_numberless_content_description">പുതിയ അറിയിപ്പ്</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s നീക്കം ചെയ്യുക</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d-ലധികം പുതിയ അറിയിപ്പുകൾ</string>
+    <string name="mtrl_picker_a11y_next_month">അടുത്ത മാസത്തിലേക്ക് മാറ്റുക</string>
+    <string name="mtrl_picker_a11y_prev_month">മുമ്പത്തെ മാസത്തിലേക്ക് മാറ്റുക</string>
+    <string name="mtrl_picker_announce_current_selection">നിലവിൽ തിരഞ്ഞെടുത്തത്: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">തീയതി തിരഞ്ഞെടുക്കുക</string>
+    <string name="mtrl_picker_date_header_unselected">തിരഞ്ഞെടുത്ത തീയതി</string>
+    <string name="mtrl_picker_day_of_week_column_header">ദിവസത്തിന്റെ കോളം: %1$s</string>
+    <string name="mtrl_picker_invalid_format">അസാധുവായ ഫോർമാറ്റ്.</string>
+    <string name="mtrl_picker_invalid_format_example">ഉദാഹരണം: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s ഉപയോഗിക്കുക</string>
+    <string name="mtrl_picker_invalid_range">അസാധുവായ ശ്രേണി.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s വർഷത്തിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക</string>
+    <string name="mtrl_picker_out_of_range">ശ്രേണിക്ക് പുറത്താണ്: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">ആരംഭിക്കുന്ന തീയതി – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – അവസാനിക്കുന്ന തീയതി</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">ശ്രേണി തിരഞ്ഞെടുക്കുക</string>
+    <string name="mtrl_picker_range_header_unselected">ആരംഭിക്കുന്ന തീയതി – അവസാനിക്കുന്ന തീയതി</string>
+    <string name="mtrl_picker_save">സംരക്ഷിക്കുക</string>
+    <string name="mtrl_picker_text_input_date_hint">തീയതി</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">അവസാനിക്കുന്ന തീയതി</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">ആരംഭിക്കുന്ന തീയതി</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">കലണ്ടർ ഇൻപുട്ട് മോഡിലേക്ക് മാറുക</string>
+    <string name="mtrl_picker_toggle_to_day_selection">ദിവസം തിരഞ്ഞെടുക്കുന്നതിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">ടെക്‌സ്‌റ്റ് ഇൻപുട്ട് മോഡിലേക്ക് മാറുക</string>
+    <string name="mtrl_picker_toggle_to_year_selection">വർഷം തിരഞ്ഞെടുക്കുന്നതിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string msgid="478774118347071097" name="not_set">"സജ്ജീകരിച്ചിട്ടില്ല"</string>
+    <string name="password_toggle_content_description">പാസ്‌വേഡ് കാണിക്കുക</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ക്ലിപ്‌ബോർഡിലേക്ക് പകർത്തി."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Search"</string>
+    <string name="sonyswr12_settings_alarm_interval">മിനിറ്റുകൾക്കുള്ളിൽ സ്മാർട്ട് അലാറം ഇടവേള</string>
+    <string name="sonyswr12_settings_alarm_interval_summary">ഇൻസ്റ്റാൾ ചെയ്ത അലാറത്തിന് മുമ്പുള്ള ഇടവേളയാണ് സ്മാർട്ട് അലാറം ഇടവേള. ഈ ഇടവേള ഉപകരണം ഉപയോക്താവിനെ ഉണർത്താൻ ഉറക്കത്തിന്റെ ഭാരം കുറഞ്ഞ ഘട്ടം കണ്ടെത്താൻ ശ്രമിക്കുന്നു</string>
+    <string name="sonyswr12_settings_low_vibration">കുറഞ്ഞ വൈബ്രേഷൻ പ്രവർത്തനക്ഷമമാക്കി</string>
+    <string name="sonyswr12_settings_low_vibration_summary">ബാൻഡിൽ വൈബ്രേഷന്റെ കുറഞ്ഞ തീവ്രത പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="sonyswr12_settings_stamina">പവർ സേവിംഗ് മോഡ് ഓണാണ്</string>
+    <string name="sonyswr12_settings_stamina_summary">പവർ സേവിംഗ് മോഡ് ഹൃദയമിടിപ്പിന്റെ ആനുകാലിക യാന്ത്രിക അളവ് ഓഫുചെയ്യുന്നത് പ്രവർത്തന സമയം വർദ്ധിപ്പിക്കുന്നു</string>
+    <string name="sonyswr12_settings_title">Sony SWR12 ക്രമീകരണങ്ങൾ</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="title_activity_appmanager">അപ്ലിക്കേഷൻ മാനേജർ</string>
+    <string name="title_activity_calblacklist">ബ്ലാക്ക്‌ലിസ്റ് ചെയ്ത കലണ്ടറുകൾ</string>
+    <string name="title_activity_controlcenter_generic">ഗാഡ്ജക്‌റ്റ് ബ്രിഡ്ജ്</string>
+    <string name="title_activity_debug">തെറ്റുകൾ തിരുത്തുക</string>
+    <string name="title_activity_fw_app_insaller">FW / അപ്ലിക്കേഷൻ ഇൻസ്റ്റാളർ</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ഓഫാണ്"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ഓൺ"</string>
+    <string name="whitelist_all_for_notifications">നോട്ടിഫിക്കേഷനുകൾ എല്ലാം വൈറ്റ്‌ലിസ്റ്റ് ചെയ്യുക</string>
+</resources>

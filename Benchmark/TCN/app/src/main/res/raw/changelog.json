@@ -1,0 +1,53 @@
+{
+  "Entries": [
+    {
+      "VersionCode": 2140100,
+      "Title": "Changes in version 2.14.1",
+      "Messages": [
+        "Try to fix exception when button cancelling export or upload.",
+        "Improve error handling."
+      ]
+    },
+    {
+      "VersionCode": 2140099,
+      "Title": "Changes in version 2.14.0",
+      "Messages": [
+        "Change Uploader to show progress in dialog and notification to unify behavior with Export function.",
+        "Remove unnecessary prompt to select storage when disabling file logging.",
+        "Fixes related to data collection with NetMonster API.",
+        "Small bug fixes."
+      ]
+    },
+    {
+      "VersionCode": 2130098,
+      "Title": "Changes in version 2.13.0",
+      "Messages": [
+        "Distinguish newly discovered from old cells on the map.",
+        "Add Korean translation. Thank you zipi!",
+        "Update translation."
+      ]
+    },
+    {
+      "VersionCode": 2120097,
+      "Title": "Changes in version 2.12.0",
+      "Messages": [
+        "Improve support for 5G networks by utilizing NetMonster logic.",
+        "Improve error handling."
+      ]
+    },
+    {
+      "VersionCode": 2110094,
+      "Title": "Changes in version 2.11.0",
+      "Messages": [
+        "Fix number of discovered local cells higher than number of local cells.",
+        "Fix upload configuration not saved when don't show again is checked.",
+        "Fix export progress window sometimes stays open after export is finished.",
+        "Fix export result window appears one more time after restoring minimized application.",
+        "Fix crash when exporting data when storage folder is undefined.",
+        "Add option to contribute anonymously on upload configurator.",
+        "Improved descriptions and translations.",
+        "Small bug fixes."
+      ]
+    }
+  ]
+}

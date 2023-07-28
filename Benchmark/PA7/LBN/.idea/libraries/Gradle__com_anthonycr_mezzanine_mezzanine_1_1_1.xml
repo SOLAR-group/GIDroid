@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anthonycr.mezzanine:mezzanine:1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.mezzanine/mezzanine/1.1.1/5efe409f8d10e786ad3637d4bc162baa78b2f488/mezzanine-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.mezzanine/mezzanine/1.1.1/cd2f4cfa630d839115c2178b891c9f9854bbe60e/mezzanine-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.mezzanine/mezzanine/1.1.1/708f0473fa35cb17d127543c92dcc2f6114a666b/mezzanine-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

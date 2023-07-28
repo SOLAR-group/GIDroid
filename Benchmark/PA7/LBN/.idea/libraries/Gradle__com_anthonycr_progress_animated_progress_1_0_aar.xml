@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anthonycr.progress:animated-progress:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bd189375e0dd6b69ccff870d7f1dac4f/transformed/jetified-animated-progress-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd189375e0dd6b69ccff870d7f1dac4f/transformed/jetified-animated-progress-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd189375e0dd6b69ccff870d7f1dac4f/transformed/jetified-animated-progress-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.progress/animated-progress/1.0/e0e0ea75db5d10e8a151e7bc234ba7b26fa9c796/animated-progress-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.progress/animated-progress/1.0/46233cf3b32f7fab12c3ad039b49dc895c216a0e/animated-progress-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

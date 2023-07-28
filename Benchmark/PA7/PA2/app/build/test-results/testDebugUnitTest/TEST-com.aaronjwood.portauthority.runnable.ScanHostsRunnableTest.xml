@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aaronjwood.portauthority.runnable.ScanHostsRunnableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-29T10:42:22" hostname="DESKTOP-P1HHUKE" time="4.455">
+  <properties/>
+  <testcase name="test1" classname="com.aaronjwood.portauthority.runnable.ScanHostsRunnableTest" time="4.455"/>
+  <system-out><![CDATA[resources.arsc in APK 'C:\Users\jcall\.m2\repository\org\robolectric\android-all-instrumented\12-robolectric-7732740-i3\android-all-instrumented-12-robolectric-7732740-i3.jar' is compressed.
+
+Gin Memory: 139586608
+]]></system-out>
+  <system-err><![CDATA[System.logW: No Compatibility callbacks set! Querying change 171228096
+System.logW: No Compatibility callbacks set! Querying change 171228096
+System.logW: No Compatibility callbacks set! Querying change 171228096
+System.logW: No Compatibility callbacks set! Querying change 171228096
+System.logW: No Compatibility callbacks set! Querying change 171228096
+System.logW: No Compatibility callbacks set! Querying change 171228096
+System.logW: No Compatibility callbacks set! Querying change 171228096
+System.logW: No Compatibility callbacks set! Querying change 171228096
+]]></system-err>
+</testsuite>

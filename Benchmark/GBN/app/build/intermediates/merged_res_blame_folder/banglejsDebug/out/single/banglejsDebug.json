@@ -1,0 +1,2206 @@
+[
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_automatic_power_off_by_time.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_automatic_power_off_by_time.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_inactivity_extended.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_inactivity_extended.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_with_details.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_with_details.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_heartrate.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_heartrate.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_heartrate_sleep_alert_activity_stress.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_heartrate_sleep_alert_activity_stress.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miband6.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miband6.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_sound_position.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_sound_position.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_swimming.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_swimming.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_button_modes_left_right.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_button_modes_left_right.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fragment_statschart.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fragment_statschart.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_zetime.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_zetime.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/color_blacklist_checkboxes.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/color/blacklist_checkboxes.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_bike_trainer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_bike_trainer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_pageview.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_pageview.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_systemapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_systemapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_filter_alt_plus.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_filter_alt_plus.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_graphs.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_graphs.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_watchface.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_watchface.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_reserve_alarms_calendar.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_reserve_alarms_calendar.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_unknown_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_unknown_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_circle.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_circle.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitbip.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitbip.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_transliteration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_transliteration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_done.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_reminder_details.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_reminder_details.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_create.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_create.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_about_user.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/about_user.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_set_reminders.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_set_reminders.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_notification_low_battery.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_notification_low_battery.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_info.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_biking.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_biking.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_gpx_receiver.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_gpx_receiver.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fragment_charts.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fragment_charts.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fragment_steps_list.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fragment_steps_list.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_chair.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_chair.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_weather_notification.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_weather_notification.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_hearing.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_hearing.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_font_download.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_font_download.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_pause_when_taken_off.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_pause_when_taken_off.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_phone_missed_outline.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_phone_missed_outline.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_nightmode.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_nightmode.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_engineering.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_engineering.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_qhybrid_activity_widget_settings.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/qhybrid_activity_widget_settings.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_qhybrid_app_view.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/qhybrid_app_view.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_pebble_pairing.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_pebble_pairing.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_folder_delete.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_folder_delete.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_menu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_fragmentappmanager.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_fragmentappmanager.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_power_mode.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_power_mode.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_star_gray.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_star_gray.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_voice.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_voice.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_lock_open.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_lock_open.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_gadgetbridge_img.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/gadgetbridge_img.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_operating_sounds.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_operating_sounds.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_watchxplus.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_watchxplus.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_led_color.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_led_color.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_notification_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_notification_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_appblacklist.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_appblacklist.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_music_note.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_music_note.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_vibrations_enable.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_vibrations_enable.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_touch.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_touch.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_verified.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_verified.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_watchapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_watchapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_extension.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_extension.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_alert_circle_outline.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_alert_circle_outline.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_watch_bw.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_watch_bw.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_mtu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_mtu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_mi_band_pairing.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_mi_band_pairing.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_history.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_watchxplus_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_watchxplus_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_20.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_20.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_filter_2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_filter_2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_basketball.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_basketball.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_charts_durationdialog.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_charts_durationdialog.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_pause.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_dialog_frequency_picker.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/dialog_frequency_picker.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_custom_emoji_font.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_custom_emoji_font.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_edit.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_ambient_sound_control.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_ambient_sound_control.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_watchface.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_watchface.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_galaxy_buds_live_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_galaxy_buds_live_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_chartstabs.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_chartstabs.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfittrexpro.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfittrexpro.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_list.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_list.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_systemapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_systemapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_banglejs_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_banglejs_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_miband_preferences.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/miband_preferences.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitx.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitx.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_block.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_block.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_exercise.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_exercise.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_monochrome_photos.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_monochrome_photos.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_itag_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_itag_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_with_details_small.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_with_details_small.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_pressure.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_pressure.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_unknown_small.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_unknown_small.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_stacked.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_stacked.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_notification.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_notification.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_vesc_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_vesc_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_list_item_checkable.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/list_item_checkable.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_screenshot.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_screenshot.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_vesc_control.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_vesc_control.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_device_settings.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_device_settings.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_hplus_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_hplus_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_gps_edit.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_gps_edit.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitgts2mini.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitgts2mini.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_developer_mode.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_developer_mode.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_device_card_activity_card_preferences.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_device_card_activity_card_preferences.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_heartrate_sleep.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_heartrate_sleep.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_settings_applications.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_settings_applications.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_sony_overhead.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_sony_overhead.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_mood_bad.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_mood_bad.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_action_manage_apps.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_action_manage_apps.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitband5.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitband5.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_pebble.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_pebble.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/color_btn_dark.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/color/btn_dark.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_roidmi.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_roidmi.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitvergel.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitvergel.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_activity_take_screenshot_menu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/activity_take_screenshot_menu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout-land_fragment_sleepchart.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout-land/fragment_sleepchart.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_touch_sensor_single.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_touch_sensor_single.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_high_mtu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_high_mtu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_activity_controlcenterv2_main_drawer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/activity_controlcenterv2_main_drawer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miband2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miband2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_watchxplus.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_watchxplus.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_header_other.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_header_other.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_list_total_dashboard.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_list_total_dashboard.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_charts_preferences.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/charts_preferences.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_galaxy_buds_l.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_galaxy_buds_l.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_access_alarms.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_access_alarms.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_notification_disconnected.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_notification_disconnected.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_calendar_from.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_calendar_from.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_distance.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_distance.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_donotdisturb_no_auto.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_donotdisturb_no_auto.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_nothingear_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_nothingear_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_um25_data.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_um25_data.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fragment_sleepchart.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fragment_sleepchart.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_galaxy_buds_pro_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_galaxy_buds_pro_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_workout_start_on_phone.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_workout_start_on_phone.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_notification_disconnected.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_notification_disconnected.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_device_internet_access.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_device_internet_access.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_pingpong.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_pingpong.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_fossil_hr_watchface_settings.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/fossil_hr_watchface_settings.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_sleep_alarm_widget.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/sleep_alarm_widget.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_dialog_hybridhr_watchface_widget.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/dialog_hybridhr_watchface_widget.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_simple_spinner_item_themed.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/simple_spinner_item_themed.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_tracks.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_tracks.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_watch.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_watch.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_widget_alarms_activity_list.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/widget_alarms_activity_list.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_appmanager_context.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/appmanager_context.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_bt_connected_advertisement.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_bt_connected_advertisement.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_intensity_total2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_intensity_total2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_watchface.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_watchface.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_watch9_calibration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_watch9_calibration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_systemapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_systemapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_volume_up.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_volume_up.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_filter_b_and_w.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_filter_b_and_w.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_speak_to_chat_simple.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_speak_to_chat_simple.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_notifications_voice_guide.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_notifications_voice_guide.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_h30_h10.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_h30_h10.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_notification_low_battery.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_notification_low_battery.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_folder.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_folder.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_language.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_language.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_world_clock_details.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_world_clock_details.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_galaxy_buds.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_galaxy_buds.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_languagepack.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_languagepack.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_list_selector.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/list_selector.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_summary_details.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_summary_details.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_nothing_ear1.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_nothing_ear1.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_fake_ring_duration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_fake_ring_duration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_donate.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_donate.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_charts.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_charts.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_qhybrid_app_choser.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_qhybrid_app_choser.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_activities_count.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_activities_count.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/anim_flyright.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/anim/flyright.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_configure_alarms.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_configure_alarms.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_expose_hr_thirdparty.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_expose_hr_thirdparty.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_configure_reminders.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_configure_reminders.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_itag.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_itag.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_watchapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_watchapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_qhybrid_settings.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_qhybrid_settings.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_custom_chart_marker.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/custom_chart_marker.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_surround_mode.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_surround_mode.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_qhybrid_calibration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_qhybrid_calibration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_nav_header_main.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_controlcenterv2_app_bar_main.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_controlcenterv2_app_bar_main.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sync_calendar.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sync_calendar.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_miband6.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_miband6.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_create_new_folder.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_create_new_folder.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_buttonactions_with_longpress.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_buttonactions_with_longpress.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_folder.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_folder.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_sport_activity_filter.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/sport_activity_filter.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_banglejs.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_banglejs.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_distance_total.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_distance_total.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_buds_pro_left.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_buds_pro_left.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_activity_controlcenterv2_device_submenu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/activity_controlcenterv2_device_submenu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_screenorientation.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_screenorientation.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_bolt.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_bolt.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_unknown.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_unknown.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_notification_disconnected_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_notification_disconnected_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_galaxy_buds_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_galaxy_buds_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_reserve_reminders_calendar.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_reserve_reminders_calendar.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_star_gold.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_star_gold.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_zetime_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_zetime_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_legacy_external_pebble_js.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_legacy_external_pebble_js.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_videogame.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_videogame.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_appmanager.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_appmanager.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_banglejs_apps_management.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_banglejs_apps_management.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/color_alarm_dow.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/color/alarm_dow.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_zetime_preferences.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/zetime_preferences.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_heartrate_average.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_heartrate_average.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_app_blacklist.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_app_blacklist.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_autoheartrate.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_autoheartrate.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_qhybrid_package_settings_item.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/qhybrid_package_settings_item.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_device_actions.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_device_actions.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_switch_right.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_switch_right.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_rowing.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_rowing.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_hplus.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_hplus.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_swipeunlock.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_swipeunlock.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_shoe_prints_many.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_shoe_prints_many.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-v21_splash.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-v21/splash.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_reminder.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_reminder.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_find_phone.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_find_phone.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_languagepack.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_languagepack.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_menu_charts.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/menu_charts.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_world_clocks.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_world_clocks.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_folder_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_folder_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_activity_list_menu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/activity_list_menu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_autolight.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_autolight.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_configure_world_clocks.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_configure_world_clocks.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miscale2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miscale2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_phone.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_duration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_duration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_50.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_50.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_yoga.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_yoga.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_radio.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_radio.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_galaxy_buds_live_r.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_galaxy_buds_live_r.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_buds_pro_right.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_buds_pro_right.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_galaxy_buds_live.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_galaxy_buds_live.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_donotdisturb_withauto.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_donotdisturb_withauto.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_warning_gray.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_warning_gray.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_gps_location.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_gps_location.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_hydration_reminder.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_hydration_reminder.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_inactivity_noshed.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_inactivity_noshed.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_calories.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_calories.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_debug.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_debug.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_notification_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_notification_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_notification.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_notification.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fragment_weeksteps_chart.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fragment_weeksteps_chart.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_liftwrist_display_noshed.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_liftwrist_display_noshed.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_signal_cellular_connected_no_internet_4_bar.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_signal_cellular_connected_no_internet_4_bar.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_timer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_timer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fragment_gps.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fragment_gps.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_preferences.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/preferences.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_select_all.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_select_all.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_calendar_sync.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_calendar_sync.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/anim_bounceleft.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/anim/bounceleft.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfittrex.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfittrex.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_splash.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/splash.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_galaxy_buds_live.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_galaxy_buds_live.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_reconnect_bl_classic.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_reconnect_bl_classic.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_default_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_default_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_notification_disconnected.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_notification_disconnected.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_nutmini.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_nutmini.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_key_vibration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_key_vibration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_unknown.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_unknown.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_sony_wf_800n_right.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_sony_wf_800n_right.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_app_blacklist_menu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/app_blacklist_menu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_galaxy_buds_pro.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_galaxy_buds_pro.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_anc_optimizer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_anc_optimizer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_qhybrid_image_edit.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_qhybrid_image_edit.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_show_chart.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_show_chart.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_earbuds_battery.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_earbuds_battery.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_hiking.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_hiking.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_appinstaller.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_appinstaller.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_save.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_save.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_more_vert.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_more_vert.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_discovery_pairing_preferences.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/discovery_pairing_preferences.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_alarm.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_alarm.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miband.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miband.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_screen_rotation.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_screen_rotation.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitbips.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitbips.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_pebble_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_pebble_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_equalizer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_equalizer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miband_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miband_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_antilost.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_antilost.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_badmington.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_badmington.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_reconnect_ble.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_reconnect_ble.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_pairingkey.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_pairingkey.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_systemapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_systemapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_notification_filter.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_notification_filter.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_intensity.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_intensity.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_header_system.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_header_system.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_active_steps.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_active_steps.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_changelog_master.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/changelog_master.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_access_time.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_access_time.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_list_detail.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_list_detail.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_add.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_workout_send_gps_to_band.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_workout_send_gps_to_band.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_beep.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_beep.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_pending_actions.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_pending_actions.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_nothing_ear_l.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_nothing_ear_l.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_arrow_upward.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_arrow_upward.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_notifications_enable.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_notifications_enable.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_running.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_running.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_amazfit_bip.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_amazfit_bip.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_activity_hybridhr_watchface_designer_actionbar.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/activity_hybridhr_watchface_designer_actionbar.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/menu_activity_list_context_menu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/menu/activity_list_context_menu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_miband3.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_miband3.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_charging_full.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_charging_full.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitbipupro.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitbipupro.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_power_settings_new.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_power_settings_new.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_find_phone.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_find_phone.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_liftwrist_display_sensitivity.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_liftwrist_display_sensitivity.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_external_pebble_js.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_external_pebble_js.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_heart.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_tabs.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_tabs.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_sort_list_array_dialog_preference.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/sort_list_array_dialog_preference.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_wb_sunny.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_wb_sunny.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_sony_wf_800n_left.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_sony_wf_800n_left.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_goal_notification.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_goal_notification.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_inactivity.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_inactivity.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_relax_firmware_checks.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_relax_firmware_checks.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_donotdisturb_lift_wrist.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_donotdisturb_lift_wrist.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitcor.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitcor.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_nights_stay.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_nights_stay.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_distance.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_distance.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_widgets.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_widgets.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_watchapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_watchapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_filter_alt.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_filter_alt.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_notification_disconnected_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_notification_disconnected_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_nothingear.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_nothingear.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_languagepack.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_languagepack.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_miband6_new_auth_protocol_explanation.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_miband6_new_auth_protocol_explanation.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miband2_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miband2_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout-land_fragment_weeksteps_chart.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout-land/fragment_weeksteps_chart.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_list_numbered.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_list_numbered.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_device_intents.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_device_intents.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_speak_to_chat_with_settings.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_speak_to_chat_with_settings.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_eliptical.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_eliptical.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_password.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_password.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_share.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_filter_1.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_filter_1.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_buttonactions.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_buttonactions.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_controlcenterv2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_controlcenterv2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_h30_h10_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_h30_h10_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_nothing_ear_r.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_nothing_ear_r.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_widget.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/widget.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miscale2_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miscale2_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_notifications.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_vpn_key.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_vpn_key.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_qhybrid_apps_management.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_qhybrid_apps_management.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_sony_wf_800n.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_sony_wf_800n.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout-land_activity_notification_filter.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout-land/activity_notification_filter.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_level_list_battery.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/level_list_battery.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_calculate.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_calculate.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fragment_live_activity.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fragment_live_activity.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_smart_button.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_smart_button.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_delete.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_notification_low_battery.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_notification_low_battery.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_threadmill.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_threadmill.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_dateformat.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_dateformat.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_not_measured.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_not_measured.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_notification_low_battery.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_notification_low_battery.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_hybridhr_watchface_designer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_hybridhr_watchface_designer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_alarm_details.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_alarm_details.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_galaxy_buds.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_galaxy_buds.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_fake_timeoffset.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_fake_timeoffset.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_buds_pro_case.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_buds_pro_case.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_notification_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_notification_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_notification.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_notification.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitbipu.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitbipu.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_galaxy_buds_r.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_galaxy_buds_r.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_pinetime.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_pinetime.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_warning.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_shoe.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_shoe.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activitytracker.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activitytracker.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_fossilhybridhr_pre_fw20.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_fossilhybridhr_pre_fw20.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_refresh.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_graphic_eq.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_graphic_eq.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_total_steps.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_total_steps.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_with_details_horizontal.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_with_details_horizontal.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_insights.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_insights.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_lowlatency_fwupdate.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_lowlatency_fwupdate.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/anim_bounceright.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/anim/bounceright.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_roidmi_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_roidmi_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_no_watch.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_no_watch.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_filter_9_plus.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_filter_9_plus.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_80.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_80.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_intensity_total.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_intensity_total.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_miband6_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_miband6_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fossil_hr_row_installed_app.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fossil_hr_row_installed_app.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_auto_awesome.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_auto_awesome.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_data_management.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_data_management.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_sony_wf_800n_case.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_sony_wf_800n_case.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_qhybrid_hr_settings.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_qhybrid_hr_settings.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_settings_remote.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_settings_remote.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_rope_jump.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_rope_jump.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_canned_dismisscall_16.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_canned_dismisscall_16.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_miband5.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_miband5.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_shared_paths.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/shared_paths.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_amazfit_bip_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_amazfit_bip_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_sensor_calibration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_sensor_calibration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_pairingkey_explanation.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_pairingkey_explanation.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_spinner_with_image_layout.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/spinner_with_image_layout.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_remove_image.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_remove_image.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_fossil_hr_row_commute_action.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/fossil_hr_row_commute_action.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_map.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_canned_reply_16.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_canned_reply_16.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_message_outline.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_message_outline.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_controlcenterv2_content_main.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_controlcenterv2_content_main.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_translate.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_translate.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_notification.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_notification.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_sony_overhead_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_sony_overhead_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_charging_80.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_charging_80.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_custom_deviceicon.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_custom_deviceicon.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sonyswr12.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sonyswr12.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_date_range.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_date_range.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/anim_slidefromtop.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/anim/slidefromtop.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_commute_actions.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_commute_actions.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_charging_20.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_charging_20.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_sleep.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_sleep.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_timeformat.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_timeformat.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_settings.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_language_generic.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_language_generic.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_fossilhybridhr.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_fossilhybridhr.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_discovery.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_discovery.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_rotatewrist_cycleinfo.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_rotatewrist_cycleinfo.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_summary_dashboard_item.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_summary_dashboard_item.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_rotate_left.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_rotate_left.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_widget_preview.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/widget_preview.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_qhybrid_file_management.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_qhybrid_file_management.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_appmanager_watchapp.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_appmanager_watchapp.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_vesc.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_vesc.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_watchxplus_calibration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_watchxplus_calibration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_open_fw_app_installer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_open_fw_app_installer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_generic.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_generic.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_miband6_new_protocol.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_miband6_new_protocol.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitgtsgtr.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitgtsgtr.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_um25.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_um25.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitgtsgtr2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitgtsgtr2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_sleep_alarm_widget_info.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/sleep_alarm_widget_info.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_lovetoy_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_lovetoy_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_password.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_password.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_connect_two_devices.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_connect_two_devices.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_speaker.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_speaker.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_climbing.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_climbing.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_autoremove_message.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_autoremove_message.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_notification_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_notification_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_device_itemv2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/device_itemv2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_qhybrid_element_popup_view.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/qhybrid_element_popup_view.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_brightness_2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_brightness_2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_disconnectnotification_noshed.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_disconnectnotification_noshed.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_delete_forever.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_delete_forever.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_done_all.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_done_all.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_android_pairing.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_android_pairing.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_zetime.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_zetime.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_phone_outline.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_phone_outline.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_vibrationpatterns.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_vibrationpatterns.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_cal_blacklist.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_cal_blacklist.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_disconnectnotification.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_disconnectnotification.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_lovetoy.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_lovetoy.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_headphones_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_headphones_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_equalizer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_equalizer.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_qc35.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_qc35.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_phone_msg.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_phone_msg.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_drink.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_drink.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_cricket.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_cricket.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_warning_wh1000xm3.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_warning_wh1000xm3.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_audio_upsampling.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_audio_upsampling.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_galaxy_buds_live_l.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_galaxy_buds_live_l.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_watch9_pairing.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_watch9_pairing.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_switch_left.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_switch_left.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_calendar_today.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_calendar_today.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_walking.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_walking.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_devices_other.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_devices_other.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_layout_widget_duration_selector.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/layout_widget_duration_selector.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_widget_info.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/widget_info.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sleep_time.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sleep_time.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_automatic_power_off_when_taken_off.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_automatic_power_off_when_taken_off.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_drag_handle.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_drag_handle.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_bluetooth.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_bluetooth.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_tws_case.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_tws_case.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_headphones.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_headphones.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_side_nav_bar.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_action_find_lost_device.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_action_find_lost_device.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_list_dashboard_item.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_list_dashboard_item.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_ambient_sound_control_wind_noise_reduction.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_ambient_sound_control_wind_noise_reduction.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_watchapp.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_watchapp.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_banglejs.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_banglejs.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_vibration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_vibration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_pinetime_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_pinetime_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-banglejs-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_item_world_clock.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/item_world_clock.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_intensity_hollow.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_intensity_hollow.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_surround.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_surround.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_heart_rate_dialog.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/heart_rate_dialog.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_sony_wf_800n_disabled.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_sony_wf_800n_disabled.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_languagepack.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_languagepack.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_sony_headphones_device_info.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_sony_headphones_device_info.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_autoremove_notifications.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_autoremove_notifications.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_lefun_interface_language.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_lefun_interface_language.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xxhdpi_ic_notification_disconnected.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xxhdpi/ic_notification_disconnected.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_notifications_preferences.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/notifications_preferences.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_full.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_full.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_reply.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_reply.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-xhdpi_ic_notification_disconnected_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-xhdpi/ic_notification_disconnected_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_shoe_print.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_shoe_print.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_wearlocation.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_wearlocation.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_open_in_browser.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_open_in_browser.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_liftwrist_display_no_on.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_liftwrist_display_no_on.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_firmware.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_firmware.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_calendar_to.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_calendar_to.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_filter_3.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_filter_3.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_list_item.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_list_item.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_calblacklist.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_calblacklist.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_invert_colors.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_invert_colors.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_shortcut.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_shortcut.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_miband2.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_miband2.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-hdpi_ic_notification_disconnected_qhybrid.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-hdpi/ic_notification_disconnected_qhybrid.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_inactivity_dnd.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_inactivity_dnd.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable-mdpi_ic_watchface.png.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable-mdpi/ic_watchface.png"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_battery_info.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_battery_info.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_battery_charging_50.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_battery_charging_50.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_default.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_default.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_preference_checkbox.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/preference_checkbox.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/layout_activity_about.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/layout/activity_about.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_vibration.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_vibration.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_device_vesc.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_device_vesc.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_amazfitneo.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_amazfitneo.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_bluetooth_searching.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_bluetooth_searching.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_galaxy_buds_pro.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_galaxy_buds_pro.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_fitpro.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_fitpro.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/xml_devicesettings_liftwrist_display.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/xml/devicesettings_liftwrist_display.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/anim_flyleft.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/anim/flyleft.xml"
+    },
+    {
+        "merged": "nodomain.freeyourgadget.gadgetbridge.app-merged_res-29:/drawable_ic_activity_soccer.xml.flat",
+        "source": "nodomain.freeyourgadget.gadgetbridge.app-main-33:/drawable/ic_activity_soccer.xml"
+    }
+]

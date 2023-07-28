@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.spullara.cli-parser:cli-parser:1.1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.spullara.cli-parser/cli-parser/1.1.5/5d3b2388039e47b17f70ddcb74958e56a31a8af0/cli-parser-1.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.spullara.cli-parser/cli-parser/1.1.5/5d3b2388039e47b17f70ddcb74958e56a31a8af0/cli-parser-1.1.5.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.spullara.cli-parser/cli-parser/1.1.5/5d3b2388039e47b17f70ddcb74958e56a31a8af0/cli-parser-1.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.spullara.cli-parser/cli-parser/1.1.5/32826cdeff3d55509ac0e43c385fda2b759e717c/cli-parser-1.1.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.spullara.cli-parser/cli-parser/1.1.5/32826cdeff3d55509ac0e43c385fda2b759e717c/cli-parser-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

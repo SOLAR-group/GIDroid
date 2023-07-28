@@ -1,0 +1,85 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\incremental\\mergeBasicDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\03de3ea3d03b0b066a50efc506aa4e62\\res\\values-v17\\values-v17.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
+                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
+                    },
+                    "to": {
+                        "startLines": "27,30,34,37,40,43,47,51,54,57,60,64,67,71",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1155,1328,1556,1714,1864,2036,2264,2506,2677,2851,3020,3293,3493,3697",
+                        "endLines": "29,33,36,39,42,46,50,53,56,59,63,66,70,74",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1323,1551,1709,1859,2031,2259,2501,2672,2846,3015,3288,3488,3692,4021"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jcall\\Apps\\FD2\\app\\src\\main\\res\\values-v17\\styles.xml",
+                    "from": {
+                        "startLines": "13,9,7,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "438,311,252,118",
+                        "endLines": "13,11,7,5",
+                        "endColumns": "49,12,55,12",
+                        "endOffsets": "483,430,303,244"
+                    },
+                    "to": {
+                        "startLines": "2,3,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,105,227,283",
+                        "endLines": "2,5,6,9",
+                        "endColumns": "49,12,55,12",
+                        "endOffsets": "100,222,278,407"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jcall\\Apps\\FD2\\app\\src\\main\\res\\values-v17\\styles_detail.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "244"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "412",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "596"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-27.1.1.aar\\3e3ff90efef5bb5e2aa7a09552915af4\\res\\values-v17\\values-v17.xml",
+                    "from": {
+                        "startLines": "2,7,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,280,441",
+                        "endLines": "6,10,14",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "275,436,604"
+                    },
+                    "to": {
+                        "startLines": "14,19,23",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "601,826,987",
+                        "endLines": "18,22,26",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "821,982,1150"
+                    }
+                }
+            ]
+        }
+    ]
+}

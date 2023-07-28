@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="lowerDrawer">
+        <item>\u2699 設定</item>
+    </string-array>
+    <string-array name="records">
+        <item>レコードタイプ</item>
+        <item>A</item>
+        <item>A6</item>
+        <item>AAAA</item>
+        <item>AFSDB</item>
+        <item>APL</item>
+        <item>CERT</item>
+        <item>CNAME</item>
+        <item>DHCID</item>
+        <item>DLV</item>
+        <item>DNAME</item>
+        <item>DNSKEY</item>
+        <item>DS</item>
+        <item>IPSECKEY</item>
+        <item>KEY</item>
+        <item>KX</item>
+        <item>LOC</item>
+        <item>MX</item>
+        <item>NAPTR</item>
+        <item>NS</item>
+        <item>NSEC</item>
+        <item>NSEC3</item>
+        <item>NSEC3PARAM</item>
+        <item>PTR</item>
+        <item>RP</item>
+        <item>RRSIG</item>
+        <item>SIG</item>
+        <item>SOA</item>
+        <item>SRV</item>
+        <item>SSHFP</item>
+        <item>TLSA</item>
+        <item>TXT</item>
+        <item>URI</item>
+    </string-array>
+    <string-array name="threads">
+        <item>500</item>
+        <item>450</item>
+        <item>400</item>
+        <item>350</item>
+        <item>300</item>
+        <item>250</item>
+        <item>200</item>
+        <item>150</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="upperDrawer">
+        <item>\u2601 WAN ホストをスキャン</item>
+        <item>\u2194 DNS 検索</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="action_settings">設定</string>
+    <string name="app_name">Port Authority</string>
+    <string name="bssid">BSSID</string>
+    <string name="dnsLookup">DNS 検索</string>
+    <string name="domainName">ドメイン名</string>
+    <string name="externalIpLabel">WAN IP</string>
+    <string name="fetching">取得中…</string>
+    <string name="hostDiscovery">ホストの探索</string>
+    <string name="internalIpLabel">LAN IP</string>
+    <string name="macAddress">MAC</string>
+    <string name="macVendor">ベンダー</string>
+    <string name="openPorts">ポートを開く</string>
+    <string name="portRangeStart">開始ポート</string>
+    <string name="portRangeStop">終了ポート</string>
+    <string name="resetPortRange">ポートの範囲をリセット</string>
+    <string name="scanPortRange">ポートの範囲をスキャン</string>
+    <string name="scanWellKnownPorts">よく知られたポートをスキャン</string>
+    <string name="scanningDisclaimer">
+        公開サーバーに対するポートスキャンの実行は、通常、悪意があるとみなされることにご注意ください。
+        さらに、自身の WiFi 接続ではなく、キャリアのネットワーク上でこれらの種類のスキャンを実行すると、遅くなったり、トラフィックシェーピングのために結果が不正確になることがあります。
+        また、このスキャンで生成されたトラフィックをキャリアが悪質なものとみなすことがあります。
+    </string>
+    <string name="scanningWarning">警告</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string name="signalLabel">シグナル/速度</string>
+    <string name="ssid">SSID</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="wanHostHint">URL/IP</string>
+    <string name="wifiDisabled">WiFi 接続がありません</string>
+</resources>

@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">F-Droid</string>
+
+    <string name="SignatureMismatch">Den nye version er signeret med en nøgle som er forskellig fra den gamle nøgle. Den gamle version skal afinstalleres, før den nye version kan installeres. Gør venligst dette, og forsøg igen. (Bemærk at afinstallation sletter al data appen har lagret internt)</string>
+    <string name="installIncompatible">App er ikke kompatibel med enhed,  installer alligevel?</string>
+    <string name="version">Version</string>
+    <string name="delete">Slet</string>
+    <string name="enable_nfc_send">Aktiver NFC Send…</string>
+    <string name="cache_downloaded">Behold cache-lagrede apps</string>
+    <string name="updates">Opdateringer</string>
+    <string name="unstable_updates">Ustabile opdateringer</string>
+    <string name="unstable_updates_summary">Foreslå opdateringer til ustabile versioner</string>
+    <string name="other">Andet</string>
+
+    <string name="update_interval">Automatisk opdateringsinterval</string>
+    <string name="notify">Vis tilgængelige opdateringer</string>
+    <string name="notify_on">Vis en notifikation når opdateringer er tilgængelige</string>
+    <string name="system_installer">Privilegeret Udvidelse</string>
+    <string name="system_installer_on">Brug Privilegeret Udvidelse til at installere, opdatere og fjerne pakker</string>
+    <string name="uninstall_system">Opdater/Afinstaller Privilegeret Udvidelse</string>
+    <string name="uninstall_system_summary">Åbn skærmen med detaljer om Privilegeret Udvidelse for at
+        opdatere/afinstallere den
+    </string>
+    <string name="local_repo_name">Dit Lokale Depots navn</string>
+    <string name="local_repo_name_summary">Dit lokale depots annoncerede titel: %s</string>
+    <string name="local_repo_https_on">Brug krypteret HTTPS:// forbindelse til lokalt depot</string>
+
+    <string name="login_title">Autentificering påkrævet</string>
+    <string name="login_name">Brugernavn</string>
+    <string name="login_password">Adgangskode</string>
+    <string name="repo_edit_credentials">Ændr Adgangskode</string>
+    <string name="repo_error_empty_username">Tomt brugernavn, akkreditiver uændret</string>
+
+    <string name="app_details">Programdetaljer</string>
+    <string name="no_such_app">Intet sådan app fundet.</string>
+
+    <string name="about_title">Om F-Droid</string>
+    <string name="about_version">Version</string>
+    <string name="about_site">Hjemmeside</string>
+    <string name="about_source">Kildekode</string>
+    <string name="about_mail">E-mail</string>
+    <string name="about_license">Licens</string>
+
+    <string name="app_incompatible">Inkompatibel</string>
+    <string name="app_installed">Installeret</string>
+    <string name="app_not_installed">Ikke Installeret</string>
+    <string name="app_inst_known_source">Installeret (fra %s)</string>
+    <string name="app_inst_unknown_source">Installeret (fra ukendt kilde)</string>
+
+    <string name="added_on">Tilføjet den %s</string>
+
+    <string name="ok">OK</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="repo_add_title">Tilføj nyt depot</string>
+    <string name="repo_add_add">Tilføj</string>
+    <string name="links">Links</string>
+    <string name="more">Mere</string>
+    <string name="less">Mindre</string>
+
+    <string name="back">Tilbage</string>
+    <string name="cancel">Annuller</string>
+    <string name="enable">Aktiver</string>
+    <string name="add_key">Tilføj Nøgle</string>
+    <string name="overwrite">Overskriv</string>
+
+    <string name="bluetooth_activity_not_found">Ingen Bluetooth afsendelsesmetode fundet, vælg en!</string>
+    <string name="choose_bt_send">Vælg Bluetooth afsendelsesmetode</string>
+
+    <string name="repo_add_url">Depot adresse</string>
+    <string name="repo_add_fingerprint">Fingeraftryk (valgfri)</string>
+    <string name="bad_fingerprint">Misdannet fingeraftryk</string>
+    <string name="invalid_url">Dette er ikke en gyldig URL.</string>
+    <string name="malformed_repo_uri">Ignorerer misdannet depot URI: %s</string>
+
+    <string name="menu_manage">Depoter</string>
+    <string name="menu_settings">Indstillinger</string>
+    <string name="menu_search">Søg</string>
+    <string name="menu_add_repo">Nyt Depot</string>
+
+    <string name="menu_launch">Kør</string>
+    <string name="menu_share">Del</string>
+    <string name="menu_install">Installer</string>
+    <string name="menu_uninstall">Afinstaller</string>
+    <string name="menu_ignore_all">Ignorer Alle Opdateringer</string>
+    <string name="menu_ignore_this">Ignorer Denne Opdatering</string>
+    <string name="menu_website">Hjemmeside</string>
+    <string name="menu_issues">Problemer</string>
+    <string name="menu_changelog">Ændringslog</string>
+    <string name="menu_source">Kildekode</string>
+    <string name="menu_upgrade">Opgrader</string>
+    <string name="menu_donate">Doner</string>
+    <string name="menu_bitcoin">Bitcoin</string>
+    <string name="menu_litecoin">Litecoin</string>
+    <string name="menu_flattr">Flattr</string>
+
+
+    <string name="details_notinstalled">Ikke installeret</string>
+    <string name="antiadslist">Appen indeholder annoncering</string>
+    <string name="antitracklist">Denne app sporer og indberetter din aktivitet</string>
+    <string name="antinonfreeadlist">Appen fremmer ikke-frie tilføjelser</string>
+    <string name="antinonfreenetlist">Appen fremmer ikke-frie netværkstjenester</string>
+    <string name="antinonfreedeplist">Denne app afhænger af andre ikke-frie apps</string>
+    <string name="antiupstreamnonfreelist">Kildekoden opstrøms er ikke udelukkende fri</string>
+
+    <string name="display">Vis</string>
+
+    <string name="expert">Eksperttilstand</string>
+    <string name="expert_on">Vis ekstra info og aktiver ekstra indstillinger</string>
+
+    <string name="search_hint">Søg efter apps</string>
+
+    <string name="appcompatibility">Applikationskompatibilitet</string>
+    <string name="show_incompat_versions">Inkompatible versioner</string>
+    <string name="show_incompat_versions_on">Vis versioner af appen som er inkompatible med enheden</string>
+
+    <string name="local_repo">Lokalt Depot</string>
+    <string name="local_repo_running">F-Droid er klar til at udveksle</string>
+    <string name="touch_to_configure_local_repo">Berør for at se detaljer og tillade andre at udveksle dine apps.</string>
+    <string name="deleting_repo">Sletter aktuelle depot…</string>
+    <string name="adding_apks_format">Tilføjer %s til depot…</string>
+    <string name="writing_index_jar">Skriver signeret indeksfil (inden.jar)…</string>
+    <string name="copying_icons">Kopierer applikationsikoner ind i depotet…</string>
+    <string name="icon">Ikon</string>
+    <string name="next">Næste</string>
+    <string name="skip">Spring over</string>
+
+    <string name="proxy">Proxy</string>
+    <string name="enable_proxy_title">Aktiver HTTP Proxy</string>
+    <string name="enable_proxy_summary">Konfigurer HTTP Proxy for alle netværksforespørgsler</string>
+    <string name="proxy_host">Proxyvært</string>
+    <string name="proxy_host_summary">Proxy værtsnavn (e.g. 127.0.0.1)</string>
+    <string name="proxy_port">Proxyport</string>
+    <string name="proxy_port_summary">Proxy portnummer (e.g. 8118)</string>
+
+    <string name="status_download">Henter\n%2$s / %3$s (%4$d%%) fra\n%1$s</string>
+
+    <string name="status_download_unknown_size">Henter\n%2$s fra\n%1$s</string>
+    <string name="update_notification_title">Opdaterer depoter</string>
+    <string name="status_processing_xml_percent">Behandler %2$s / %3$s (%4$d%%) fra %1$s</string>
+    <string name="status_connecting_to_repo">Forbinder til\n%1$s</string>
+    <string name="status_inserting_apps">Gemmer app-detaljer</string>
+    <string name="repos_unchanged">Alle depoter er opdaterede</string>
+    <string name="all_other_repos_fine">Alle andre depoter gav ingen fejl.</string>
+    <string name="global_error_updating_repos">Fejl under opdatering: %s</string>
+    <string name="no_permissions">Ingen tilladelser bliver brugt.</string>
+    <string name="permissions">Tilladelser</string>
+    <string name="no_handler_app">Du har ikke nogen app som kan håndtere %s.</string>
+    <string name="theme">Tema</string>
+    <string name="unsigned">Usigneret</string>
+    <string name="unverified">Ubekræftet</string>
+    <string name="repo_details">Depot</string>
+    <string name="repo_url">Adresse</string>
+    <string name="repo_num_apps">Antal apps</string>
+    <string name="repo_fingerprint">Fingeraftryk for signerings nøglen (SHA-256)</string>
+    <string name="repo_description">Beskrivelse</string>
+    <string name="repo_last_update">Sidste opdatering</string>
+    <string name="repo_name">Navn</string>
+    <string name="unsigned_description">Dette betyder at listen over apps ikke kunne bekræftes. Du skal være forsigtig med apps hentet fra usignerede indekser.</string>
+    <string name="repo_not_yet_updated">Dette depot har ikke været benyttet endnu. Du skal aktivere det for at se de apps det har.</string>
+    <string name="unknown">Ukendt</string>
+    <string name="repo_confirm_delete_title">Slet Depot?</string>
+    <string name="repo_confirm_delete_body">Slettes et depot vil dets apps ikke længere være tilgængelige i F-Droid. 
+\n 
+\nBemærk: Alle tidligere installerede apps vil blive på din enhed.</string>
+    <string name="repo_disabled_notification">Deaktiverede %1$s. 
+\n 
+\nDu skal genaktivere dette depot for at installere apps fra det.</string>
+    <string name="repo_added">Gemte F-Droid depot %1$s.</string>
+    <string name="repo_searching_address">Leder efter F-Droid depot på\n%1$s</string>
+    <string name="minsdk_or_later">%s eller nyere</string>
+    <string name="up_to_maxsdk">Op til %s</string>
+    <string name="minsdk_up_to_maxsdk">%1$s op til %2$s</string>
+    <string name="not_on_same_wifi">Din enhed er ikke på samme Wi-Fi som det lokale depot du lige tilføjede! Prøv at
+        tilslutte dig dette netværk: %s
+    </string>
+    <string name="requires_features">Kræver: %1$s</string>
+    <string name="pref_language">Sprog</string>
+    <string name="pref_language_default">Systemstandard</string>
+
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_ap">Hotspot</string>
+
+    <string name="category_Connectivity">Tilslutningsmuligheder</string>
+    <string name="category_Development">Udvikling</string>
+    <string name="category_Games">Spil</string>
+    <string name="category_Graphics">Grafik</string>
+    <string name="category_Internet">Internet</string>
+    <string name="category_Money">Penge</string>
+    <string name="category_Multimedia">Multimedie</string>
+    <string name="category_Navigation">Navigation</string>
+    <string name="category_Phone_SMS">Telefon &amp; SMS</string>
+    <string name="category_Reading">Læsning</string>
+    <string name="category_Science_Education">Videnskab &amp; Uddannelse</string>
+    <string name="category_Security">Sikkerhed</string>
+    <string name="category_Sports_Health">Sport &amp; Sundhed</string>
+    <string name="category_System">System</string>
+    <string name="category_Theming">Temaer</string>
+    <string name="category_Time">Tid</string>
+    <string name="category_Writing">Skrivning</string>
+
+    <string name="empty_installed_app_list">Ingen apps installeret. 
+\n 
+\nDer er apps på din enhed, men de er ikke tilgængelige i F-Droid. Det kan være fordi, at du skal opdatere dine depoter eller også tilbyder depoterne reelt ikke dine apps.</string>
+    <string name="empty_can_update_app_list">Tillykke!\nDine apps er opdaterede.</string>
+
+    <string name="requesting_root_access_body">Anmoder om root-adgang…</string>
+    <string name="root_access_denied_title">Root-adgang nægtet</string>
+    <string name="root_access_denied_body">Enten er din Android-enhed ikke rooted eller også har du nægtet F-Droid
+        root-adgang.
+    </string>
+    <string name="install_error_unknown">Kunne ikke installere på grund af en ukendt fejl</string>
+    <string name="linking_apks">Kobler APK\'er sammen med depotet…</string>
+    <string name="uninstall_error_unknown">Afinstallation mislykkedes grundet en ukendt fejl</string>
+    <string name="system_install_denied_signature">Udvidelsens signatur er forkert! Opret venligst en fejlrapport!
+    </string>
+    <string name="system_install_denied_permissions">De privilegerede tilladelser er ikke blevet givet til udvidelsen!
+        Opret venligst en fejlrapport!
+    </string>
+    <string name="system_install_button_install">Installer</string>
+    <string name="system_install_post_success">F-Droid Privilegeret udvidelse installeret</string>
+    <string name="system_install_post_fail">Installation af F-Droid Privilegeret Udvidelse fejlede</string>
+    <string name="system_install_post_success_message">F-Droid Privilegeret udvidelse blev installeret. Denne gør det muligt for F-Droid selvstændigt at installere, opdatere og afinstallere apps .</string>
+    <string name="system_install_post_fail_message">Installation af F-Droid Privilegeret Udvidelse fejlede.
+        Installationsmetoden er ikke understøttet af alle Android distributioner, konsulter venligst F-Droid
+        fejldatabasen for mere information.
+    </string>
+    <string name="system_install_installing_rebooting">Installerer og genstarter…</string>
+    <string name="system_install_question">Vil du installere F-Droid Privilegeret Udvidelse?</string>
+    <string name="system_install_warning">Dette tager op til 10 sekunder.</string>
+    <string name="system_install_warning_lollipop">Dette tager op til 10 sekunder og enheden vil <b>genstarte</b> bagefter.</string>
+    <string name="system_uninstall">Vil du afinstallere F-Droid Privilegeret Udvidelse?</string>
+    <string name="system_uninstall_button">Afinstaller</string>
+
+    <string name="swap_nfc_title">Rør for at udveksle</string>
+    <string name="swap_nfc_description">Hvis din ven har F-Droid og NFC slået til, lad da jeres enheder røre hinanden.
+    </string>
+    <string name="swap_join_same_wifi">Tilslut dig samme Wi-Fi som din ven</string>
+    <string name="swap_join_same_wifi_desc">For at bytte ved hjælp af Wi-Fi skal du sikre dig at I er på det samme
+        netværk. Hvis I ikke har adgang til det samme netværk, kan en af jer oprette et Wi-Fi Hotspot.
+    </string>
+    <string name="swap_join_this_hotspot">Hjælp din ven med at tilslutte sig dit hotspot</string>
+    <string name="swap">Byt apps</string>
+    <string name="swap_success">Udveksling succesfuld!</string>
+    <string name="swap_no_wifi_network">Intet netværk endnu</string>
+    <string name="swap_active_hotspot">%1$s (dit hotspot)</string>
+    <string name="swap_view_available_networks">Rør for at åbne tilgængelige netværk</string>
+    <string name="swap_switch_to_wifi">Rør for at skifte til et Wi-Fi netværk</string>
+    <string name="open_qr_code_scanner">Åbn QR Scanner</string>
+    <string name="swap_welcome">Velkommen til F-Droid!</string>
+    <string name="swap_confirm_connect">Vil du gerne modtage apps fra %1$s nu?</string>
+    <string name="swap_dont_show_again">Vis ikke dette igen</string>
+    <string name="swap_scan_or_type_url">En person skal skanne koden, eller skrive den andens URL i en browser.</string>
+    <string name="swap_choose_apps">Vælg Apps</string>
+    <string name="swap_scan_qr">Skan QR-kode</string>
+    <string name="swap_people_nearby">Folk i nærheden</string>
+    <string name="swap_scanning_for_peers">Leder efter fok i nærheden…</string>
+    <string name="swap_nearby">Nærliggende Udveksling</string>
+    <string name="swap_intro">Forbind til og byt apps med folk i nærheden af dig.</string>
+    <string name="swap_visible_bluetooth">Synlig gennem Bluetooth</string>
+    <string name="swap_setting_up_bluetooth">Sætter Bluetooth op…</string>
+    <string name="swap_not_visible_bluetooth">Ikke synlig gennem Bluetooth</string>
+    <string name="swap_visible_wifi">Synlig gennem Wi-Fi</string>
+    <string name="swap_setting_up_wifi">Sætter Wi-Fi op…</string>
+    <string name="swap_not_visible_wifi">Ikke synlig gennem Wi-Fi</string>
+    <string name="swap_wifi_device_name">Enhedsnavn</string>
+    <string name="swap_cant_find_peers">Kan du ikke finde den du leder efter?</string>
+    <string name="swap_send_fdroid">Send F-Droid</string>
+    <string name="swap_no_peers_nearby">Fandt ingen folk i nærheden at udveksle med.</string>
+    <string name="swap_connecting">Forbinder</string>
+    <string name="swap_confirm">Bekræft udveksling</string>
+    <string name="swap_qr_isnt_for_swap">Den QR-kode du skannede ligner ikke en udvekslingskode.</string>
+    <string name="loading">Indlæser…</string>
+    <string name="swap_connection_misc_error">Der opstod en fejl under forbindelsen til enheden, kan udveksle med den!</string>
+    <string name="swap_not_enabled">Udveksling ikke aktiveret</string>
+    <string name="swap_not_enabled_description">Inden udveksling skal din enhed gøres synlig.</string>
+
+    <string name="install_confirm">kræver adgang til</string>
+    <string name="install_confirm_update">Vil du installere en opdatering til eksisterende app? Dine eksisterende data vil ikke gå tabt. Den opdaterede app vil få adgang til:</string>
+    <string name="install_confirm_update_system">Vil du installere en opdatering til denne indbyggede app? Dine eksisterende data vil ikke gå tabt. Den opdaterede app vil få adgang til:</string>
+    <string name="install_confirm_update_no_perms">Vil du installere en opdatering til denne eksisterende app? Dine eksisterende data vil ikke gå tabt. Den kræver ingen speciel adgang.</string>
+    <string name="install_confirm_update_system_no_perms">Vil du installere en opdatering til denne indbyggede app? Dine eksisterende data vil ikke gå tabt. Den kræver ingen speciel adgang.</string>
+    <string name="newPerms">Ny</string>
+    <string name="allPerms">Alle</string>
+    <string name="perm_costs_money">Dette koster dig muligvis penge</string>
+    <string name="uninstall_update_confirm">Vil du erstatte denne app med fabriksversionen?</string>
+    <string name="uninstall_confirm">Vil du afinstallere denne app?</string>
+    <string name="download_error">Hentning mislykkedes!</string>
+
+    <string name="perms_new_perm_prefix">Nye:</string>
+    <string name="perms_description_app">Udbudt af %1$s.</string>
+    <string name="downloading">Henter…</string>
+
+    <string name="interval_never">Aldrig</string>
+    <string name="interval_1h">Hver time</string>
+    <string name="interval_4h">Hver fjerde time</string>
+    <string name="interval_12h">Hver tolvte time</string>
+    <string name="interval_1d">Dagligt</string>
+    <string name="interval_1w">Ugentligt</string>
+    <string name="interval_2w">Hver anden uge</string>
+
+    <string name="theme_light">Lys</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="theme_night">Nat</string>
+    <string name="menu_email">E-Mail forfatter</string>
+    <string name="antinonfreeassetslist">Denne app indeholder ikke-frit indhold</string>
+
+    <string name="empty_search_available_app_list">Ingen sådanne programmer tilgængelige.</string>
+
+    <string name="crash_dialog_title">F-Droid er gået ned</string>
+    <string name="crash_dialog_text">En uventet fejl har tvunget applikationen til at stoppe. Vil du sende en e-mail med detaljer som hjælper med at ordne problemet?</string>
+    <string name="crash_dialog_comment_prompt">Du kan tilføje ekstra information og kommentarer her:</string>
+    <string name="update_auto_download">Hent automatisk opdateringer</string>
+    <string name="update_auto_download_summary">Opdateringer hentes automatisk, og du vil blive underrettet når de er klar til installation</string>
+    <string name="repo_provider">Depot: %s</string>
+
+    <string name="useTor">Brug Tor</string>
+    <string name="useTorSummary">Hent altid gennem Tor for øget beskyttelse af privatlivet. Kræver Orbot</string>
+    <string name="system_install_not_supported">Installation af F-Droid Priviligeret Udvidelse er i øjeblikket ikke
+        understøttet på Android 5.1 eller senere.
+    </string>
+
+    <string name="swap_stopping_wifi">Deaktiverer Wi-Fi…</string>
+    <string name="download_pending">Venter på at kunne begynde hentning…</string>
+    <string name="install_error_notify_title">Fejl ved installation af %s</string>
+    <string name="uninstall_error_notify_title">Fejl ved afinstallering af %s</string>
+
+
+    <string name="installing">Installerer…</string>
+    <string name="uninstalling">Afinstallerer…</string>
+
+    <string name="keep_hour">1 Time</string>
+    <string name="keep_day">1 Dag</string>
+    <string name="keep_week">1 Uge</string>
+    <string name="keep_month">1 Måned</string>
+    <string name="keep_year">1 År</string>
+    <string name="keep_forever">Forevigt</string>
+
+    <string name="keep_install_history">Behold installationshistorik</string>
+    <string name="keep_install_history_summary">Opbevar en log af installationer og afinstallationer i F-Droid</string>
+    <string name="update_auto_install">Installer automatisk opdateringer</string>
+    <string name="update_auto_install_summary">Download og installer app opdateringer i baggrunden</string>
+    <string name="warning_no_internet">Kan ikke opdatere, er du forbundet til Internettet?</string>
+<string name="main_menu__latest_apps">Seneste</string>
+    <string name="main_menu__categories">Kategorier</string>
+    <string name="main_menu__swap_nearby">I nærheden</string>
+
+    <string name="preference_manage_installed_apps">Administrer installerede apps</string>
+
+
+    <string name="notification_action_update">Opdatér</string>
+    <string name="notification_action_cancel">Annullér</string>
+    <string name="notification_action_install">Installér</string>
+
+    <string name="app_list__name__downloading_in_progress">Henter %1$s</string>
+    <string name="app_list__name__successfully_installed">%1$s installeret</string>
+    <string name="updates__tts__download_app">Hent</string>
+    <string name="notification_title_single_update_available">Opdatering tilgængelig</string>
+    <string name="notification_title_summary_install_error">Installationen fejlede</string>
+    <string name="by_author_format">af %s</string>
+    <string name="app_details_donate_prompt_unknown_author">Gi\' en kop kaffe til udviklerne bag %1$s!</string>
+    <string name="app_details_donate_prompt">%1$s er udviklet af %2$s. Gi\' dem en kop kaffe!</string>
+
+    <string name="app_version_x_available">Version %1$s tilgængelig</string>
+    <string name="app_version_x_installed">Version %1$s</string>
+    <string name="app_recommended_version_installed">Version %1$s (Anbefalet)</string>
+    <string name="app__newly_added">Nyhed</string>
+    <string name="app__tts__cancel_download">Stop download</string>
+    <string name="app__install_downloaded_update">Opdatér</string>
+
+    <string name="installed_apps__activity_title">Installerede Apps</string>
+    <string name="installed_app__updates_ignored">Opdateringer ignoreres</string>
+    <string name="installed_app__updates_ignored_for_suggested_version">Opdateringer ignoreres for version %1$s</string>
+    <string name="updates__tts__download_updates_for_all_apps">Hent alle opdateringer</string>
+
+    <string name="updates__hide_updateable_apps">Skjul apps</string>
+    <string name="updates__show_updateable_apps">Vis apps</string>
+
+    <plurals name="updates__download_updates_for_apps">
+	<item quantity="one">Hent opdatering for %1$d app.</item>
+	<item quantity="other">Hent opdateringer for %1$d apps.</item>
+</plurals>
+
+    <string name="versions">Versioner</string>
+    <string name="clear_search">Ryd søgning</string>
+
+    <string name="repositories_summary">Tilføj yderligere applikationsdepoter</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_license">Licens: %s</string>
+    <string name="latest__empty_state__no_recent_apps">Ingen seneste apps fundet</string>
+    <string name="latest__empty_state__never_updated">Når din liste over apps er opdateret, vil de seneste apps blive vist her</string>
+    <string name="latest__empty_state__no_enabled_repos">Når du aktiverer et depot og lader det opdatere, vil de seneste apps blive vist her</string>
+
+    <string name="categories__empty_state__no_categories">Ingen kategorier at vise</string>
+
+    <string name="preference_category__my_apps">Mine apps</string>
+    <string name="details_new_in_version">Ny i version %s</string>
+
+    <string name="antifeatureswarning">Denne app indeholder funktionalitet, som du muligvis ikke synes om.</string>
+    <string name="antifeatures">Antifunktionalitet</string>
+    <string name="download_404">Den efterspurgte fil kunne ikke findes.</string>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Vis %d</item>
+        <item quantity="other">Vis alle %d</item>
+    </plurals>
+
+    <string name="nearby_splash__download_apps_from_people_nearby">Ingen Internet? Hent apps fra folk i nærheden af dig!</string>
+    <string name="nearby_splash__find_people_button">Find folk i nærheden af mig</string>
+    <string name="nearby_splash__both_parties_need_fdroid">Begge parter skal have %1$s for at benytte i nærheden.</string>
+
+    <string name="app__tts__downloading_progress">Henter, %1$d%% hentet</string>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+%1$d mere…</item>
+        <item quantity="other">+%1$d mere…</item>
+    </plurals>
+    <string name="notification_title_single_ready_to_install">Klar til installation</string>
+    <string name="notification_title_single_ready_to_install_update">Opdatering klar til installation</string>
+    <string name="notification_title_single_install_error">Installationen fejlede</string>
+    <string name="notification_content_single_downloading">Henter \"%1$s\"…</string>
+    <string name="notification_content_single_downloading_update">Henter opdatering til \"%1$s\"…</string>
+    <string name="notification_content_single_installing">Installerer \"%1$s\"…</string>
+    <string name="notification_content_single_installed">Installation fuldført</string>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d opdatering</item>
+        <item quantity="other">%1$d opdateringer</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d app installeret</item>
+        <item quantity="other">%1$d apps installeret</item>
+    </plurals>
+    <string name="notification_title_summary_update_available">Opdatering tilgængelig</string>
+    <string name="notification_title_summary_downloading">Henter…</string>
+    <string name="notification_title_summary_downloading_update">Henter opdatering…</string>
+    <string name="notification_title_summary_ready_to_install">Klar til installation</string>
+    <string name="notification_title_summary_ready_to_install_update">Opdatering klar til installation</string>
+    <string name="notification_title_summary_installing">Installerer</string>
+    <string name="notification_title_summary_installed">Installation fuldført</string>
+    <string name="tts_category_name">Kategori %1$s</string>
+
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Vis %1$d app i kategorien %2$s</item>
+        <item quantity="other">Vis %1$d apps i kategorien %2$s</item>
+    </plurals>
+
+    <string name="details_last_updated_today">Opdateret i dag</string>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Opdateret i går</item>
+        <item quantity="other">Opdateret for %1$d dage siden</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Opdateret for %1$d uge siden</item>
+        <item quantity="other">Opdateret for %1$d uger siden</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Opdateret for %1$d måned siden</item>
+        <item quantity="other">Opdateret for %1$d måneder siden</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Opdateret for %1$d år siden</item>
+        <item quantity="other">Opdateret for %1$d år siden</item>
+    </plurals>
+    <string name="force_old_index">Gennemtving gammelt indeksformat</string>
+    <string name="force_old_index_summary">I tilfælde af, at der er fejl eller problemer med kompatibilitet, brug XML-app-index</string>
+    <string name="app_details__incompatible_mismatched_signature">Forskellig signatur til installeret version</string>
+    <string name="app_details__no_versions__show_incompat_versions">For at vise uforenelige versioner her alligevel, aktiver \"%1$s\" indstilling.</string>
+    <string name="app_details__no_versions__no_compatible_signatures">Ingen versioner med kompatibel signatur</string>
+    <string name="app_details__no_versions__none_compatible_with_device">Ingen versioner, der er kompatibel med enheden</string>
+    <string name="app_installed_media">Fil installeret til %s</string>
+    <string name="app_permission_storage">F-Droid skal have adgang til lagring for at installere til dette lagermedium. Tillad det på den næste skærm for at fortsætte installationen.</string>
+
+    <string name="app_list_download_ready">Hentet, klar til at installere</string>
+    <string name="app_list__dismiss_app_update">Opdatering ignoreret</string>
+    <string name="app_list__dismiss_vulnerable_app">Sårbarhed ignoreret</string>
+    <string name="app_list__dismiss_downloading_app">Hentning annulleret</string>
+
+    <string name="updates__app_with_known_vulnerability__prompt_uninstall">Vi har fundet en sårbarhed med %1$s. Vi anbefaler, at du afinstallerer denne app med det samme.</string>
+    <string name="updates__app_with_known_vulnerability__prompt_upgrade">Vi har fundet en sårbarhed med %1$s. Vi anbefaler, at du opgraderer til den nyeste version med det samme.</string>
+    <string name="updates__app_with_known_vulnerability__ignore">Ignorer</string>
+
+    <string name="status_inserting_x_apps">Gemmer app detaljer (%1$d/%2$d) fra %3$s</string>
+<string name="over_data">Over mobildata</string>
+    <string name="over_network_always_summary">Brug altid denne forbindelse når tilgængelig</string>
+    <string name="over_network_on_demand_summary">Brug kun denne forbindelse når jeg klikker for at hente</string>
+    <string name="over_network_never_summary">Hent aldrig noget over denne forbindelse</string>
+    <string name="repo_add_mirror">Tilføj spejl</string>
+    <string name="sort_search">Sorter søgning</string>
+
+    <string name="repo_exists_add_mirror">Dette er en kopi af %1$s, tilføj som et spejl?</string>
+    <string name="antidisabledalgorithmlist">Denne app har en svag sikkerhedssignatur</string>
+    <string name="antiknownvulnlist">Denne app indeholder en kendt sårbarhed</string>
+
+    <string name="show_root_apps">Inkluder root-apps</string>
+    <string name="show_root_apps_on">Vis apps som kræver root-rettigheder</string>
+    </resources>

@@ -1,0 +1,267 @@
+be/digitalia/fosdem/api/FosdemUrls.java
+ be.digitalia.fosdem.api.FosdemUrls
+be/digitalia/fosdem/BuildConfig.java
+ be.digitalia.fosdem.BuildConfig
+com/viewpagerindicator/PageIndicator.java
+ com.viewpagerindicator.PageIndicator
+be/digitalia/fosdem/model/DownloadScheduleResult.java
+ be.digitalia.fosdem.model.DownloadScheduleResult
+be/digitalia/fosdem/utils/ClickableArrowKeyMovementMethod.java
+ be.digitalia.fosdem.utils.ClickableArrowKeyMovementMethod
+be/digitalia/fosdem/fragments/MapFragment.java
+ be.digitalia.fosdem.fragments.MapFragment
+be/digitalia/fosdem/utils/HttpUtils.java
+ be.digitalia.fosdem.utils.HttpUtils
+ be.digitalia.fosdem.utils.HttpUtils$1
+ be.digitalia.fosdem.utils.HttpUtils$HttpResult
+ be.digitalia.fosdem.utils.HttpUtils$ProgressUpdateListener
+be/digitalia/fosdem/parsers/RoomStatusesParser.java
+ be.digitalia.fosdem.parsers.RoomStatusesParser
+be/digitalia/fosdem/fragments/TracksListFragment.java
+ be.digitalia.fosdem.fragments.TracksListFragment
+ be.digitalia.fosdem.fragments.TracksListFragment$TrackViewHolder
+ be.digitalia.fosdem.fragments.TracksListFragment$TracksAdapter
+ be.digitalia.fosdem.fragments.TracksListFragment$TracksLoader
+be/digitalia/fosdem/model/Event.java
+ be.digitalia.fosdem.model.Event
+ be.digitalia.fosdem.model.Event$1
+be/digitalia/fosdem/model/Person.java
+ be.digitalia.fosdem.model.Person
+ be.digitalia.fosdem.model.Person$1
+be/digitalia/fosdem/loaders/TrackScheduleLoader.java
+ be.digitalia.fosdem.loaders.TrackScheduleLoader
+be/digitalia/fosdem/model/Link.java
+ be.digitalia.fosdem.model.Link
+ be.digitalia.fosdem.model.Link$1
+be/digitalia/fosdem/activities/TrackScheduleEventActivity.java
+ be.digitalia.fosdem.activities.TrackScheduleEventActivity
+ be.digitalia.fosdem.activities.TrackScheduleEventActivity$TrackScheduleEventAdapter
+be/digitalia/fosdem/utils/ArrayUtils.java
+ be.digitalia.fosdem.utils.ArrayUtils
+be/digitalia/fosdem/services/AlarmIntentService.java
+ be.digitalia.fosdem.services.AlarmIntentService
+be/digitalia/fosdem/fragments/RoomImageDialogFragment.java
+ be.digitalia.fosdem.fragments.RoomImageDialogFragment
+be/digitalia/fosdem/db/LocalBroadcastCursor.java
+ be.digitalia.fosdem.db.LocalBroadcastCursor
+ be.digitalia.fosdem.db.LocalBroadcastCursor$1
+be/digitalia/fosdem/viewmodels/EventDetailsViewModel.java
+ be.digitalia.fosdem.viewmodels.EventDetailsViewModel
+ be.digitalia.fosdem.viewmodels.EventDetailsViewModel$1
+ be.digitalia.fosdem.viewmodels.EventDetailsViewModel$2
+ be.digitalia.fosdem.viewmodels.EventDetailsViewModel$3
+ be.digitalia.fosdem.viewmodels.EventDetailsViewModel$4
+ be.digitalia.fosdem.viewmodels.EventDetailsViewModel$EventDetails
+ be.digitalia.fosdem.viewmodels.EventDetailsViewModel$ToggleBookmarkAsyncTask
+be/digitalia/fosdem/fragments/PersonsListFragment.java
+ be.digitalia.fosdem.fragments.PersonsListFragment
+ be.digitalia.fosdem.fragments.PersonsListFragment$PersonViewHolder
+ be.digitalia.fosdem.fragments.PersonsListFragment$PersonsAdapter
+ be.digitalia.fosdem.fragments.PersonsListFragment$PersonsLoader
+be/digitalia/fosdem/activities/RoomImageDialogActivity.java
+ be.digitalia.fosdem.activities.RoomImageDialogActivity
+ be.digitalia.fosdem.activities.RoomImageDialogActivity$1
+ be.digitalia.fosdem.activities.RoomImageDialogActivity$2
+be/digitalia/fosdem/alarms/FosdemAlarmManager.java
+ be.digitalia.fosdem.alarms.FosdemAlarmManager
+ be.digitalia.fosdem.alarms.FosdemAlarmManager$1
+ be.digitalia.fosdem.alarms.FosdemAlarmManager$2
+be/digitalia/fosdem/api/RoomStatusesLiveData.java
+ be.digitalia.fosdem.api.RoomStatusesLiveData
+ be.digitalia.fosdem.api.RoomStatusesLiveData$1
+ be.digitalia.fosdem.api.RoomStatusesLiveData$2
+ be.digitalia.fosdem.api.RoomStatusesLiveData$3
+be/digitalia/fosdem/adapters/RecyclerViewCursorAdapter.java
+ be.digitalia.fosdem.adapters.RecyclerViewCursorAdapter
+be/digitalia/fosdem/utils/ThemeUtils.java
+ be.digitalia.fosdem.utils.ThemeUtils
+be/digitalia/fosdem/activities/MainActivity.java
+ be.digitalia.fosdem.activities.MainActivity
+ be.digitalia.fosdem.activities.MainActivity$1
+ be.digitalia.fosdem.activities.MainActivity$2
+ be.digitalia.fosdem.activities.MainActivity$3
+ be.digitalia.fosdem.activities.MainActivity$3$1
+ be.digitalia.fosdem.activities.MainActivity$4
+ be.digitalia.fosdem.activities.MainActivity$5
+ be.digitalia.fosdem.activities.MainActivity$6
+ be.digitalia.fosdem.activities.MainActivity$DownloadScheduleReminderDialogFragment
+ be.digitalia.fosdem.activities.MainActivity$DownloadScheduleReminderDialogFragment$1
+ be.digitalia.fosdem.activities.MainActivity$Section
+be/digitalia/fosdem/model/Track.java
+ be.digitalia.fosdem.model.Track
+ be.digitalia.fosdem.model.Track$1
+ be.digitalia.fosdem.model.Track$Type
+be/digitalia/fosdem/livedata/AsyncTaskLiveData.java
+ be.digitalia.fosdem.livedata.AsyncTaskLiveData
+ be.digitalia.fosdem.livedata.AsyncTaskLiveData$1
+be/digitalia/fosdem/utils/StringUtils.java
+ be.digitalia.fosdem.utils.StringUtils
+ be.digitalia.fosdem.utils.StringUtils$ListsTagHandler
+ be.digitalia.fosdem.utils.StringUtils$SimpleStringSplitter
+be/digitalia/fosdem/utils/ByteCountInputStream.java
+ be.digitalia.fosdem.utils.ByteCountInputStream
+ be.digitalia.fosdem.utils.ByteCountInputStream$ByteCountListener
+be/digitalia/fosdem/api/LiveRoomStatusesLiveData.java
+ be.digitalia.fosdem.api.LiveRoomStatusesLiveData
+ be.digitalia.fosdem.api.LiveRoomStatusesLiveData$1
+ be.digitalia.fosdem.api.LiveRoomStatusesLiveData$2
+be/digitalia/fosdem/widgets/MultiChoiceHelper.java
+ be.digitalia.fosdem.widgets.MultiChoiceHelper
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$1
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$AdapterDataSetObserver
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$MultiChoiceModeListener
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$MultiChoiceModeWrapper
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$SavedState
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$SavedState$1
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$ViewHolder
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$ViewHolder$1
+ be.digitalia.fosdem.widgets.MultiChoiceHelper$ViewHolder$2
+be/digitalia/fosdem/activities/EventDetailsActivity.java
+ be.digitalia.fosdem.activities.EventDetailsActivity
+be/digitalia/fosdem/widgets/SaveStatePhotoView.java
+ be.digitalia.fosdem.widgets.SaveStatePhotoView
+ be.digitalia.fosdem.widgets.SaveStatePhotoView$1
+ be.digitalia.fosdem.widgets.SaveStatePhotoView$SavedState
+ be.digitalia.fosdem.widgets.SaveStatePhotoView$SavedState$1
+be/digitalia/fosdem/viewmodels/EventViewModel.java
+ be.digitalia.fosdem.viewmodels.EventViewModel
+ be.digitalia.fosdem.viewmodels.EventViewModel$1
+be/digitalia/fosdem/db/DatabaseHelper.java
+ be.digitalia.fosdem.db.DatabaseHelper
+be/digitalia/fosdem/parsers/EventsParser.java
+ be.digitalia.fosdem.parsers.EventsParser
+be/digitalia/fosdem/fragments/NextLiveListFragment.java
+ be.digitalia.fosdem.fragments.NextLiveListFragment
+ be.digitalia.fosdem.fragments.NextLiveListFragment$NextLiveLoader
+be/digitalia/fosdem/activities/SettingsActivity.java
+ be.digitalia.fosdem.activities.SettingsActivity
+be/digitalia/fosdem/fragments/BaseLiveListFragment.java
+ be.digitalia.fosdem.fragments.BaseLiveListFragment
+be/digitalia/fosdem/model/Building.java
+ be.digitalia.fosdem.model.Building
+be/digitalia/fosdem/loaders/SimpleCursorLoader.java
+ be.digitalia.fosdem.loaders.SimpleCursorLoader
+be/digitalia/fosdem/activities/PersonInfoActivity.java
+ be.digitalia.fosdem.activities.PersonInfoActivity
+be/digitalia/fosdem/fragments/SettingsFragment.java
+ be.digitalia.fosdem.fragments.SettingsFragment
+ be.digitalia.fosdem.fragments.SettingsFragment$1
+ be.digitalia.fosdem.fragments.SettingsFragment$2
+ be.digitalia.fosdem.fragments.SettingsFragment$AboutDialogFragment
+be/digitalia/fosdem/fragments/EventDetailsFragment.java
+ be.digitalia.fosdem.fragments.EventDetailsFragment
+ be.digitalia.fosdem.fragments.EventDetailsFragment$1
+ be.digitalia.fosdem.fragments.EventDetailsFragment$2
+ be.digitalia.fosdem.fragments.EventDetailsFragment$3
+ be.digitalia.fosdem.fragments.EventDetailsFragment$4
+ be.digitalia.fosdem.fragments.EventDetailsFragment$5
+ be.digitalia.fosdem.fragments.EventDetailsFragment$FloatingActionButtonProvider
+ be.digitalia.fosdem.fragments.EventDetailsFragment$LinkClickListener
+ be.digitalia.fosdem.fragments.EventDetailsFragment$PersonClickableSpan
+ be.digitalia.fosdem.fragments.EventDetailsFragment$ViewHolder
+be/digitalia/fosdem/providers/SearchSuggestionProvider.java
+ be.digitalia.fosdem.providers.SearchSuggestionProvider
+be/digitalia/fosdem/activities/SearchResultActivity.java
+ be.digitalia.fosdem.activities.SearchResultActivity
+be/digitalia/fosdem/FosdemApplication.java
+ be.digitalia.fosdem.FosdemApplication
+be/digitalia/fosdem/model/Day.java
+ be.digitalia.fosdem.model.Day
+ be.digitalia.fosdem.model.Day$1
+be/digitalia/fosdem/utils/NfcUtils.java
+ be.digitalia.fosdem.utils.NfcUtils
+ be.digitalia.fosdem.utils.NfcUtils$1
+ be.digitalia.fosdem.utils.NfcUtils$CreateNfcAppDataCallback
+be/digitalia/fosdem/parsers/IterableAbstractPullParser.java
+ be.digitalia.fosdem.parsers.IterableAbstractPullParser
+ be.digitalia.fosdem.parsers.IterableAbstractPullParser$1
+ be.digitalia.fosdem.parsers.IterableAbstractPullParser$ParserIterator
+be/digitalia/fosdem/adapters/ConcatAdapter.java
+ be.digitalia.fosdem.adapters.ConcatAdapter
+ be.digitalia.fosdem.adapters.ConcatAdapter$InternalObserver
+be/digitalia/fosdem/widgets/PhotoViewDrawerLayout.java
+ be.digitalia.fosdem.widgets.PhotoViewDrawerLayout
+be/digitalia/fosdem/fragments/PersonInfoListFragment.java
+ be.digitalia.fosdem.fragments.PersonInfoListFragment
+ be.digitalia.fosdem.fragments.PersonInfoListFragment$HeaderAdapter
+ be.digitalia.fosdem.fragments.PersonInfoListFragment$HeaderAdapter$ViewHolder
+ be.digitalia.fosdem.fragments.PersonInfoListFragment$PersonEventsLoader
+be/digitalia/fosdem/parsers/AbstractJsonPullParser.java
+ be.digitalia.fosdem.parsers.AbstractJsonPullParser
+be/digitalia/fosdem/fragments/SearchResultListFragment.java
+ be.digitalia.fosdem.fragments.SearchResultListFragment
+ be.digitalia.fosdem.fragments.SearchResultListFragment$TextSearchLoader
+be/digitalia/fosdem/model/RoomStatus.java
+ be.digitalia.fosdem.model.RoomStatus
+be/digitalia/fosdem/db/DatabaseManager.java
+ be.digitalia.fosdem.db.DatabaseManager
+ be.digitalia.fosdem.db.DatabaseManager$1
+be/digitalia/fosdem/fragments/TracksFragment.java
+ be.digitalia.fosdem.fragments.TracksFragment
+ be.digitalia.fosdem.fragments.TracksFragment$DaysAdapter
+ be.digitalia.fosdem.fragments.TracksFragment$ViewHolder
+be/digitalia/fosdem/utils/ICalendarWriter.java
+ be.digitalia.fosdem.utils.ICalendarWriter
+be/digitalia/fosdem/receivers/AlarmReceiver.java
+ be.digitalia.fosdem.receivers.AlarmReceiver
+be/digitalia/fosdem/adapters/EventsAdapter.java
+ be.digitalia.fosdem.adapters.EventsAdapter
+ be.digitalia.fosdem.adapters.EventsAdapter$ViewHolder
+com/viewpagerindicator/UnderlinePageIndicator.java
+ com.viewpagerindicator.UnderlinePageIndicator
+ com.viewpagerindicator.UnderlinePageIndicator$1
+ com.viewpagerindicator.UnderlinePageIndicator$2
+ com.viewpagerindicator.UnderlinePageIndicator$SavedState
+ com.viewpagerindicator.UnderlinePageIndicator$SavedState$1
+be/digitalia/fosdem/fragments/NowLiveListFragment.java
+ be.digitalia.fosdem.fragments.NowLiveListFragment
+ be.digitalia.fosdem.fragments.NowLiveListFragment$NowLiveLoader
+be/digitalia/fosdem/widgets/ContentLoadingProgressBar.java
+ be.digitalia.fosdem.widgets.ContentLoadingProgressBar
+ be.digitalia.fosdem.widgets.ContentLoadingProgressBar$1
+ be.digitalia.fosdem.widgets.ContentLoadingProgressBar$2
+be/digitalia/fosdem/fragments/RecycledViewPoolProvider.java
+ be.digitalia.fosdem.fragments.RecycledViewPoolProvider
+be/digitalia/fosdem/api/FosdemApi.java
+ be.digitalia.fosdem.api.FosdemApi
+ be.digitalia.fosdem.api.FosdemApi$1
+ be.digitalia.fosdem.api.FosdemApi$2
+be/digitalia/fosdem/providers/BookmarksExportProvider.java
+ be.digitalia.fosdem.providers.BookmarksExportProvider
+ be.digitalia.fosdem.providers.BookmarksExportProvider$DownloadThread
+be/digitalia/fosdem/parsers/AbstractPullParser.java
+ be.digitalia.fosdem.parsers.AbstractPullParser
+be/digitalia/fosdem/utils/DateUtils.java
+ be.digitalia.fosdem.utils.DateUtils
+be/digitalia/fosdem/loaders/BaseLiveLoader.java
+ be.digitalia.fosdem.loaders.BaseLiveLoader
+ be.digitalia.fosdem.loaders.BaseLiveLoader$1
+be/digitalia/fosdem/fragments/BookmarksListFragment.java
+ be.digitalia.fosdem.fragments.BookmarksListFragment
+ be.digitalia.fosdem.fragments.BookmarksListFragment$BookmarksLoader
+ be.digitalia.fosdem.fragments.BookmarksListFragment$BookmarksLoader$1
+be/digitalia/fosdem/activities/TrackScheduleActivity.java
+ be.digitalia.fosdem.activities.TrackScheduleActivity
+be/digitalia/fosdem/fragments/TrackScheduleListFragment.java
+ be.digitalia.fosdem.fragments.TrackScheduleListFragment
+ be.digitalia.fosdem.fragments.TrackScheduleListFragment$Callbacks
+be/digitalia/fosdem/adapters/BookmarksAdapter.java
+ be.digitalia.fosdem.adapters.BookmarksAdapter
+ be.digitalia.fosdem.adapters.BookmarksAdapter$1
+ be.digitalia.fosdem.adapters.BookmarksAdapter$RemoveBookmarksAsyncTask
+be/digitalia/fosdem/fragments/RecyclerViewFragment.java
+ be.digitalia.fosdem.fragments.RecyclerViewFragment
+ be.digitalia.fosdem.fragments.RecyclerViewFragment$1
+ be.digitalia.fosdem.fragments.RecyclerViewFragment$ViewHolder
+be/digitalia/fosdem/livedata/SingleEvent.java
+ be.digitalia.fosdem.livedata.SingleEvent
+be/digitalia/fosdem/fragments/LiveFragment.java
+ be.digitalia.fosdem.fragments.LiveFragment
+ be.digitalia.fosdem.fragments.LiveFragment$LivePagerAdapter
+ be.digitalia.fosdem.fragments.LiveFragment$ViewHolder
+be/digitalia/fosdem/adapters/TrackScheduleAdapter.java
+ be.digitalia.fosdem.adapters.TrackScheduleAdapter
+ be.digitalia.fosdem.adapters.TrackScheduleAdapter$EventClickListener
+ be.digitalia.fosdem.adapters.TrackScheduleAdapter$ViewHolder
+be/digitalia/fosdem/parsers/Parser.java
+ be.digitalia.fosdem.parsers.Parser

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="lowerDrawer">
+        <item>\u2195 Atualizar dados de OUI</item>
+        <item>\u2195 Atualizar dados de Portas</item>
+        <item>\u2699 Configurações</item>
+    </string-array>
+    <string-array name="records">
+        <item>Tipo de Registro</item>
+        <item>A</item>
+        <item>AAAA</item>
+        <item>AFSDB</item>
+        <item>APL</item>
+        <item>CAA</item>
+        <item>CDNSKEY</item>
+        <item>CDS</item>
+        <item>CERT</item>
+        <item>CNAME</item>
+        <item>CSYNC</item>
+        <item>DHCID</item>
+        <item>DLV</item>
+        <item>DNAME</item>
+        <item>DNSKEY</item>
+        <item>DS</item>
+        <item>HINFO</item>
+        <item>HIP</item>
+        <item>IPSECKEY</item>
+        <item>KEY</item>
+        <item>KX</item>
+        <item>LOC</item>
+        <item>MX</item>
+        <item>NAPTR</item>
+        <item>NS</item>
+        <item>NSEC</item>
+        <item>NSEC3</item>
+        <item>NSEC3PARAM</item>
+        <item>OPENPGPKEY</item>
+        <item>PTR</item>
+        <item>RRSIG</item>
+        <item>RP</item>
+        <item>SIG</item>
+        <item>SOA</item>
+        <item>SRV</item>
+        <item>SSHFP</item>
+        <item>TA</item>
+        <item>TKEY</item>
+        <item>TLSA</item>
+        <item>TSIG</item>
+        <item>TXT</item>
+        <item>URI</item>
+    </string-array>
+    <string-array name="threads">
+        <item>500</item>
+        <item>450</item>
+        <item>400</item>
+        <item>350</item>
+        <item>300</item>
+        <item>250</item>
+        <item>200</item>
+        <item>150</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="upperDrawer">
+        <item>\u2601 Analisar WAN Host</item>
+        <item>\u263c Ativar Host</item>
+        <item>\u2194 Consulta DNS</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="action_settings">Configurações</string>
+    <string name="app_name">Port Authority</string>
+    <string name="bssid">BSSID</string>
+    <string name="copyHostname">Copiar nome do host</string>
+    <string name="copyIp">Copiar IP</string>
+    <string name="copyMac">Copiar MAC</string>
+    <string name="dnsInputError">Digite um domínio e selecione um tipo de registro</string>
+    <string name="dnsLookup">Consulta DNS</string>
+    <string name="domainName">Nome do domínio</string>
+    <string name="downloadingData">Baixando Dados</string>
+    <string name="errAccessArp">Incapaz de acessar as entradas do ARP</string>
+    <string name="errExternIp">Não foi possível obter seu IP externo</string>
+    <string name="errFindArp">Incapaz de encontrar a tabela ARP</string>
+    <string name="errParseArp">Incapaz de processar as entradas do ARP</string>
+    <string name="errReadArp">Incapaz de ler a tabela ARP</string>
+    <string name="externalIpLabel">IP do WAN</string>
+    <string name="failedBssid">Falha ao obter BSSID</string>
+    <string name="failedDbInsert">Falha ao inserir dados à base de dados. Tente executar esta operação novamente</string>
+    <string name="failedLinkSpeed">Falha ao obter a velocidade da conexão</string>
+    <string name="failedOpenDb">Falha ao abrir a base de dados</string>
+    <string name="failedSignal">Falha ao obter a força do sinal</string>
+    <string name="failedSsid">Falha ao obter SSID</string>
+    <string name="failedSubnetHosts">Falha ao obter quantidade de hosts na sub-rede</string>
+    <string name="failedWifiManager">Falha ao obter Gerenciador do Wifi para este dispositivo</string>
+    <string name="fetching">Extraindo…</string>
+    <string name="getMacVendorFailed">Falha ao obter MAC do fabricante</string>
+    <string name="hostDiscovery">Descobrir Servidores</string>
+    <string name="hostScan">Procurando por Servidores</string>
+    <string name="internalIpLabel">IP do LAN</string>
+    <string name="ipAddress">Endereço IP</string>
+    <string name="lookupErr">Erro na consulta do tipo %1$s: %2$s</string>
+    <string name="lookupTypeFail">Consulta do tipo %1$s falhou com o código de resposta %2$s</string>
+    <string name="macAddress">MAC</string>
+    <string name="macVendor">Fabricante</string>
+    <string name="noRecords">Não foram encontrados registros para o tipo %1$s</string>
+    <string name="noWifiConnection">WiFi não encontrado</string>
+    <string name="noWifiInterface">Nenhuma interface WiFi encontrada</string>
+    <string name="notConnectedLan">Você não está conectado à rede local</string>
+    <string name="notConnectedWifi">Você não está conectado à rede WiFi!</string>
+    <string name="openPorts">Portas Abertas</string>
+    <string name="ouiDbMsg">Você quer criar a base de dados de OUI? Isto irá baixar a lista oficial de OUI do Wireshark. Note que você não será capaz de determinar nenhum fornecedor do MAC sem estes dados. Também poderá fazer isto mais tarde via menu.</string>
+    <string name="ouiDbTitle">Gerar base de dados de OUI</string>
+    <string name="portDbMsg">"Você quer criar a base de dados de Portas? Isto irá baixar a lista oficial de Portas do IANA. Note que você não será capaz de identificar serviços sem estes dados. Também poderá fazer isto mais tarde via menu.</string>
+    <string name="portDbTitle">Gerar base de dados de Portas</string>
+    <string name="portRangeStart">Iniciar a Porta</string>
+    <string name="portRangeStop">Parar a Porta</string>
+    <string name="resetPortRange">Redefinir Intervalo das Portas</string>
+    <string name="scanPortRange">Examinar Intervalo das Portas</string>
+    <string name="scanWellKnownPorts">Examinar Portas Conhecidas</string>
+    <string name="scanningDisclaimer">        
+        Por favor, esteja ciente de que executar examinador das Portas contra servidores públicos é normalmente considerado malicioso.
+        Além disso, a execução destes tipos de análises na rede da sua operadora (em vez da sua própria conexão WiFi ou LAN) será mais lenta e às vezes produzirá resultados imprecisos devido à modelagem de tráfego. 
+        Sua operadora também pode considerar o tráfego gerado por este tipo de análise como sendo malicioso.
+    </string>
+    <string name="scanningWarning">ATENÇÃO</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="signalLabel">Sinal/Velocidade</string>
+    <string name="signalLink">%1$ddBm/%2$dMbps</string>
+    <string name="sort">Ordenar</string>
+    <string name="sortHostname">Por nome de host</string>
+    <string name="sortIp">Por IP</string>
+    <string name="sortVendor">Por fabricante</string>
+    <string name="ssid">SSID</string>
+    <string name="ssidAccessTitle">Android %1$s Acesso ao SSID</string>
+    <string name="ssidCoarseMsg">Android %1$s requer permissão de localização via provedor da sua rede para ler o SSID. Se isto é algo com que você não se sinta confortável, basta negar a permissão e continuar sem esta funcionalidade.</string>
+    <string name="ssidFineMsg">Android %1$s requer permissão de localização precisa (GPS+) para ler o SSID. Se isto é algo com que você não se sinta confortável, basta negar a permissão e continuar sem esta funcionalidade.</string>
+    <string name="startingDnsLookup">Extraindo registros do DNS…</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subnetHosts">%1$d hosts na sua sub-rede</string>
+    <string name="unsuppRecType">Tipo de registro %1$s não suportado</string>
+    <string name="wakeOnLan">Ativar</string>
+    <string name="waking">Ativando %1$s…</string>
+    <string name="wanHostHint">URL/IP</string>
+    <string name="wifiDisabled">WiFi desativado</string>
+</resources>

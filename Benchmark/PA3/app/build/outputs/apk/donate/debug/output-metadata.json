@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.aaronjwood.portauthority.donate",
+  "variantName": "processDonateDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 61,
+      "versionName": "2.3.3-donate",
+      "outputFile": "PortAuthority-2.3.3-donate-debug.apk"
+    }
+  ]
+}

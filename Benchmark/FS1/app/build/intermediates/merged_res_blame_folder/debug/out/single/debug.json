@@ -1,0 +1,898 @@
+[
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_track_schedule.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\track_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_ua2114.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_ua2114.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo1.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo1.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_place_white_wear.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\ic_place_white_wear.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo8.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo8.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_list_longpressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\list_longpressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_avd_bookmark_remove_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\avd_bookmark_remove_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_delete_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_delete_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_file_upload_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_file_upload_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\xml-v22_shortcuts.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\xml-v22\\shortcuts.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_directions_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_directions_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\animator_bookmark_zoom_in.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\animator\\bookmark_zoom_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_search.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v26_ic_shortcut_live.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-v26\\ic_shortcut_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_room_k3.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\room_k3.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h1301.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h1301.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo8.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo8.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progress_primary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_map.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\map.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_place_white_24dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_place_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_event_details.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\fragment_event_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_room_image.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\dialog_room_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_recyclerview_fastscroll.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\recyclerview_fastscroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_room_k4.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\room_k4.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_local_offer_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\ic_local_offer_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_search_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_search_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_fosdem_progress_horizontal_holo_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\fosdem_progress_horizontal_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_list_focused_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\list_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progress_bg_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo7.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo7.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_play_circle_outline_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_play_circle_outline_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_zoom_in.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\zoom_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_navigation_header.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\navigation_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_ua2220.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_ua2220.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_aw1126.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_aw1126.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_list_focused_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\list_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h1302.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h1302.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_info_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_info_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_place_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-anydpi-v21\\ic_place_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_partial_zoom_in.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\partial_zoom_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_k4401.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_k4401.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_zoom_out.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\zoom_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_person.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\person.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_k4601.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_k4601.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_place_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_place_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_action_mode_bookmarks.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\action_mode_bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_k4201.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_k4201.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\animator_bookmark_zoom_out.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\animator\\bookmark_zoom_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo7.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo7.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_list_longpressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\list_longpressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progress_secondary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_room_image_dialog.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\room_image_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_campusmap.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\campusmap.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_room_janson.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\room_janson.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_list_longpressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\list_longpressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_aw1117.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_aw1117.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo4.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo4.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_notifications_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_ud2120.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_ud2120.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progress_bg_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\animator_bookmark_check_in.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\animator\\bookmark_check_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo8.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo8.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_list_longpressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\list_longpressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo6.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo6.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_aw1124.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_aw1124.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\animator_sync_rotation.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\animator\\sync_rotation.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progress_secondary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo3.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo3.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_bookmarks.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_place_white_wear.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_place_white_wear.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_list_longpressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\list_longpressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_place_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\ic_place_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_fastscroll_track_material_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\fastscroll_track_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bookmark_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_bookmark_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo3.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo3.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_abc_item_background_holo_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_item_schedule_event.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\item_schedule_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h2215.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h2215.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_simple_list_item_1_material.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\simple_list_item_1_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\xml_main_searchable.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\xml\\main_searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_share_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_share_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_stat_fosdem.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_stat_fosdem.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo3.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo3.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_k3401.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_k3401.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo1.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo1.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_event_add_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_event_add_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\raw_keep.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\raw\\keep.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo2.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo2.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_k3601.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_k3601.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_avd_sync_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\avd_sync_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo7.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo7.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_stat_fosdem.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\ic_stat_fosdem.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_k3201.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_k3201.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_ub2147.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_ub2147.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_access_time_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\ic_access_time_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_filter_list_selected_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_filter_list_selected_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_list_longpressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\list_longpressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo2.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo2.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bookmark_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_bookmark_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v26_ic_shortcut_bookmarks.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-v26\\ic_shortcut_bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_people_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_people_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo8.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo8.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h2214.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h2214.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shortcut_live.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_shortcut_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shortcut_bookmarks.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_shortcut_bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_simple_list_item_2_material.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\simple_list_item_2_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_fosdem_progress_indeterminate_horizontal_holo_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\fosdem_progress_indeterminate_horizontal_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo1.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo1.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_aw1121.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_aw1121.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_room_h2.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\room_h2.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo3.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo3.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_track_schedule_event.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\track_schedule_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_local_offer_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\ic_local_offer_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_content.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\content.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progress_primary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_place_white_wear.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\ic_place_white_wear.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_aw1105.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_aw1105.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progress_primary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_place_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\ic_place_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progress_bg_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v26_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-v26\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo7.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo7.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\xml-v26_settings.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\xml-v26\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_list_focused_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\list_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_room_h1.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\room_h1.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_event.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\event.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_room_u2.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\room_u2.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_access_time_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\ic_access_time_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_header_person_info.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\header_person_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo2.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo2.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo1.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo1.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_room_aw1125.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\room_aw1125.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_access_time_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_access_time_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo2.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo2.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h1308.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h1308.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo4.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo4.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo5.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo5.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_list_focused_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\list_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo6.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo6.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_item_event.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\item_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_event_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_event_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_fastscroll_thumb_material_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\fastscroll_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_item_link.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\item_link.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_partial_zoom_out.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\partial_zoom_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progress_secondary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h2213.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h2213.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_list_longpressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\list_longpressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\menu_main_navigation.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\menu\\main_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_activated_background.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\activated_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_list_longpressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\list_longpressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\animator_bookmark_check_out.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\animator\\bookmark_check_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_place_white_24dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\ic_place_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_list_focused_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\list_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_place_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\ic_place_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_stat_fosdem.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_fosdem.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_room.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\shape_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_fosdem_title.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\fosdem_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_list_focused_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\list_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_map_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_map_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_room_k1105.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\room_k1105.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_info_outline_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_info_outline_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo4.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo4.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_ub2252.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_ub2252.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_avd_bookmark_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_avd_bookmark_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_place_white_24dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\ic_place_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_access_time_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\ic_access_time_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo5.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo5.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo5.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo5.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\animator_bookmark_toggle_in.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\animator\\bookmark_toggle_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\animator_bookmark_toggle_out.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\animator\\bookmark_toggle_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_list_selector_background_transition_holo_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_stat_fosdem.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\ic_stat_fosdem.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bookmark_outline_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_bookmark_outline_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progress_secondary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_content_extended_title.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\content_extended_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h2211.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h2211.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_tracks.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\fragment_tracks.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_live.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\fragment_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_room_ay.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-ldpi\\room_ay.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_navigation_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_navigation_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout-sw600dp-land_track_schedule.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout-sw600dp-land\\track_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_aw1115.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_aw1115.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_h1309.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_h1309.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_filter_list_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_filter_list_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_navigation_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_navigation_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_place_white_24dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\ic_place_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_list_focused_holo_dark.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\list_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fosdem_progressbar_indeterminate_holo6.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\fosdem_progressbar_indeterminate_holo6.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progress_primary_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_list_focused_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\list_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_room_ud2218.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\room_ud2218.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\xml_settings.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_avd_bookmark_add_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\avd_bookmark_add_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fosdem_progressbar_indeterminate_holo5.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-hdpi\\fosdem_progressbar_indeterminate_holo5.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_local_offer_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_local_offer_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_room_aw1.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\room_aw1.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progress_bg_holo_light.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_sync_white_24dp.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable\\ic_sync_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fosdem_progressbar_indeterminate_holo4.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\fosdem_progressbar_indeterminate_holo4.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_local_offer_grey600_18dp.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\ic_local_offer_grey600_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_room_aw1120.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-mdpi\\room_aw1120.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_place_white_wear.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xhdpi\\ic_place_white_wear.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\FS1\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fosdem_progressbar_indeterminate_holo6.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\FS1\\app\\src\\main\\res\\drawable-xxhdpi\\fosdem_progressbar_indeterminate_holo6.png"
+    }
+]

@@ -1,0 +1,2 @@
+‰[Robolectric] nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AbstractAppManagerFragmentTest.test1: sdk=19; resources=BINARY
+¸W/PackageParser: build\intermediates\apk_for_local_test\fullDebugUnitTest\apk-for-local-test.ap_ (at Binary XML file line #7): Requires newer sdk version #23 (current version is #19)

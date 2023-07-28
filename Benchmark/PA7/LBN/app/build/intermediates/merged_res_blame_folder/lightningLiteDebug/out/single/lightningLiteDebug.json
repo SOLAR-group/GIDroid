@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_ad_block.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_ad_block.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_bookmarks.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\color_state_color_icons_dark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\color\\state_color_icons_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_delete.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_toolbar_elevate_black.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\toolbar_elevate_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\anim-v21_bezier_decelerate.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\anim-v21\\bezier_decelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\anim_slide_out_to_right.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_expand.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_expand.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_bookmark_drawer.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\bookmark_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\anim_slide_up_in.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\anim\\slide_up_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_insert.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_insert.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_list_bg_dark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\list_bg_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_card_bg_elevate.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\card_bg_elevate.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_refresh.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_browser_content.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\browser_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_tab_strip.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_strip.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_webpage.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_webpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_simple_list_item.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\simple_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_filepaths.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\color_state_color_icons_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\color\\state_color_icons_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\anim_fade_in_scale.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\anim\\fade_in_scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_privacy.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_privacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-hdpi_ic_notification_incognito.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-hdpi\\ic_notification_incognito.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\anim_slide_down_out.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\anim\\slide_down_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-mdpi_ic_notification_incognito.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-mdpi\\ic_notification_incognito.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_debug.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_debug.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_edit_text.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_browser_activity.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\browser_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_plus.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_edit_bookmark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_edit_bookmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_tab_drawer.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_folder.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_folder.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-hdpi_drawer_left_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-hdpi\\drawer_left_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_bookmark_list_item.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\bookmark_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-mdpi_drawer_left_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-mdpi\\drawer_left_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_secured.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_secured.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_list_bg.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\list_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_list_dialog.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\list_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_video_loading_progress.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\video_loading_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_desktop.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_desktop.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\menu_incognito.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\menu\\incognito.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\menu-large_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\menu-large\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_tab_list_item_horizontal.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_list_item_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\raw_default_bookmarks.dat.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\raw\\default_bookmarks.dat"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_reading.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_reading.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\menu-xlarge_incognito.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\menu-xlarge\\incognito.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_general.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_general.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_display.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_ssl_info.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_ssl_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_forward.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\menu_reading.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\menu\\reading.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_back.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-xhdpi_drawer_left_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-xhdpi\\drawer_left_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_advanced.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_advanced.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preferences_headers.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preferences_headers.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_home.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_list_bg_light.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\list_bg_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_text_size.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_text_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_toolbar_elevate.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\toolbar_elevate.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-xhdpi_drawer_right_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-xhdpi\\drawer_right_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_unsecured.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_unsecured.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_toolbar_settings.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\toolbar_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_bookmark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_bookmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_two_line_autocomplete.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\two_line_autocomplete.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_incognito_mode.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\incognito_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_block.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_block.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_search.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_page_tools.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_page_tools.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-xhdpi_empty.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-xhdpi\\empty.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_toolbar_content.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\toolbar_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\menu-large_incognito.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\menu-large\\incognito.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_tab_list_item.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_tabs.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_manual_proxy.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_manual_proxy.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\menu-xlarge_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\menu-xlarge\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_reading_view.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\reading_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-hdpi_drawer_right_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-hdpi\\drawer_right_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_list_item.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-xxhdpi_ic_notification_incognito.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notification_incognito.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_auth_request.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_auth_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_star.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_invert.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_invert.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_card_bg.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-xhdpi_ic_notification_incognito.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-xhdpi\\ic_notification_incognito.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable-mdpi_drawer_right_shadow.9.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable-mdpi\\drawer_right_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_action_collapse.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_action_collapse.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_seek_bar.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_seek_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\anim_fade_out_scale.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\anim\\fade_out_scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_toolbar_elevate_dark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\toolbar_elevate_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\xml_preference_about.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\xml\\preference_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_ic_frozen.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\ic_frozen.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_search_interface.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\search_interface.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\layout_dialog_ssl_warning.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_ssl_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\drawable_state_ic_bookmark.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\drawable\\state_ic_bookmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\anim_slide_in_from_right.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\merged_res\\lightningLiteDebug\\menu_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

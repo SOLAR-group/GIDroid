@@ -1,0 +1,489 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Copyright 2014 A.C.R. Development -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="acr.browser.lightning"
+5    android:installLocation="auto"
+6    android:versionCode="101"
+7    android:versionName="5.1.0" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="21"
+10-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:8:5-66
+13-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:11:5-78
+16-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:12:5-78
+17-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+18-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:13:5-87
+18-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:13:22-85
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:14:5-71
+19-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:14:22-68
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:15:5-65
+20-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:15:22-62
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:16:5-80
+21-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:16:22-77
+22
+23    <uses-feature
+23-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:18:5-20:35
+24        android:name="android.hardware.camera"
+24-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:19:9-47
+25        android:required="false" />
+25-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:20:9-33
+26    <uses-feature
+26-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:21:5-23:35
+27        android:name="android.hardware.camera.autofocus"
+27-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:22:9-57
+28        android:required="false" />
+28-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:23:9-33
+29    <uses-feature
+29-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:25:5-27:35
+30        android:name="android.hardware.location.gps"
+30-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:26:9-53
+31        android:required="false" />
+31-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:27:9-33
+32    <uses-feature
+32-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:28:5-30:35
+33        android:name="android.hardware.location"
+33-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:29:9-49
+34        android:required="false" />
+34-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:30:9-33
+35    <uses-feature
+35-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:31:5-33:35
+36        android:name="android.hardware.touchscreen"
+36-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:32:9-52
+37        android:required="false" />
+37-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:33:9-33
+38
+39    <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+40    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+40-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:26:5-77
+40-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:26:22-74
+41
+42    <application
+42-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:35:5-190:19
+43        android:name="acr.browser.lightning.BrowserApp"
+43-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:36:9-35
+44        android:allowBackup="true"
+44-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:37:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.7.0-alpha01] C:\Users\jcall\.gradle\caches\transforms-3\ccc479a90eb57630e7d69dc050e0c0c6\transformed\core-1.7.0-alpha01\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:hardwareAccelerated="true"
+47-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:38:9-43
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:39:9-43
+49        android:label="@string/app_name"
+49-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:42:9-41
+50        android:roundIcon="@mipmap/ic_launcher"
+50-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:40:9-48
+51        android:usesCleartextTraffic="true" >
+51-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:41:9-44
+52        <meta-data
+52-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:43:9-45:35
+53            android:name="android.webkit.WebView.MetricsOptOut"
+53-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:44:13-64
+54            android:value="true" />
+54-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:45:13-33
+55        <meta-data
+55-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:46:9-48:34
+56            android:name="android.max_aspect"
+56-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:47:13-46
+57            android:value="2.1" />
+57-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:48:13-32
+58
+59        <activity
+59-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:50:9-139:20
+60            android:name="acr.browser.lightning.DefaultBrowserActivity"
+60-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:51:13-72
+61            android:alwaysRetainTaskState="true"
+61-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:52:13-49
+62            android:clearTaskOnLaunch="false"
+62-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:53:13-46
+63            android:colorMode="wideColorGamut"
+63-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:54:13-47
+64            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|keyboard"
+64-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:55:13-115
+65            android:launchMode="singleTask"
+65-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:56:13-44
+66            android:theme="@style/Theme.LightTheme"
+66-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:57:13-52
+67            android:windowSoftInputMode="stateHidden|adjustResize" >
+67-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:58:13-67
+68            <intent-filter>
+68-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:59:13-66:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:60:17-68
+69-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:60:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+71-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:63:17-76
+72-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:63:27-74
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:17-77
+73-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:27-75
+74                <category android:name="android.intent.category.APP_BROWSER" />
+74-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:65:17-79
+74-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:65:27-77
+75            </intent-filter>
+76            <intent-filter>
+76-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:67:13-78:29
+77                <action android:name="android.intent.action.VIEW" />
+77-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:17-68
+77-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+79-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:17-77
+80-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:27-75
+81
+82                <data android:scheme="file" />
+82-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+82-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+83                <data android:mimeType="text/html" />
+83-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+83-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+84                <data android:mimeType="text/plain" />
+84-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+84-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+85                <data android:mimeType="application/xhtml+xml" />
+85-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+85-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+86                <data android:mimeType="application/vnd.wap.xhtml+xml" />
+86-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+86-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+87            </intent-filter>
+88            <intent-filter>
+88-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:79:13-89:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:17-68
+89-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+91-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:17-77
+92-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:27-75
+93
+94                <data android:scheme="http" />
+94-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+94-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+95                <data android:scheme="https" />
+95-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+95-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+96                <data android:scheme="about" />
+96-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+96-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+97                <data android:scheme="javascript" />
+97-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+97-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+98            </intent-filter>
+99            <!--
+100                  For these schemes where any of these particular MIME types
+101                  have been supplied, we are a good candidate.
+102            -->
+103            <intent-filter>
+103-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:94:13-107:29
+104                <action android:name="android.intent.action.VIEW" />
+104-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:17-68
+104-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:25-66
+105
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:17-77
+106-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:27-75
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+107-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+108
+109                <data android:scheme="http" />
+109-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+109-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+110                <data android:scheme="https" />
+110-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+110-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+111                <data android:scheme="inline" />
+111-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+111-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+112                <data android:mimeType="text/html" />
+112-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+112-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+113                <data android:mimeType="text/plain" />
+113-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+113-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+114                <data android:mimeType="application/xhtml+xml" />
+114-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+114-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+115                <data android:mimeType="application/vnd.wap.xhtml+xml" />
+115-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+115-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+116            </intent-filter>
+117            <!-- For viewing saved web archives. -->
+118            <intent-filter>
+118-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:109:13-119:29
+119                <action android:name="android.intent.action.VIEW" />
+119-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:17-68
+119-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:68:25-66
+120
+121                <category android:name="android.intent.category.BROWSABLE" />
+121-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:17-77
+121-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:27-75
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+122-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+123
+124                <data android:scheme="http" />
+124-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+124-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+125                <data android:scheme="https" />
+125-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+125-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+126                <data android:scheme="file" />
+126-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+126-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+127                <data android:mimeType="application/x-webarchive-xml" />
+127-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+127-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:74:23-51
+128            </intent-filter>
+129            <intent-filter>
+129-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:120:13-128:29
+130                <action android:name="android.intent.action.WEB_SEARCH" />
+130-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:121:17-74
+130-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:121:25-72
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+132-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:17-77
+133-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:64:27-75
+134
+135                <data android:scheme="http" />
+135-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+135-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+136                <data android:scheme="https" />
+136-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:17-46
+136-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:73:23-44
+137            </intent-filter>
+138            <intent-filter>
+138-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:129:13-133:29
+139                <action android:name="android.intent.action.WEB_SEARCH" />
+139-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:121:17-74
+139-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:121:25-72
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+141-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+142            </intent-filter>
+143            <intent-filter>
+143-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:134:13-138:29
+144                <action android:name="info.guardianproject.panic.action.TRIGGER" />
+144-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:135:17-83
+144-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:135:25-81
+145
+146                <category android:name="android.intent.category.DEFAULT" />
+146-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+146-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+147            </intent-filter>
+148        </activity>
+149        <activity
+149-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:140:9-155:20
+150            android:name="acr.browser.lightning.IncognitoBrowserActivity"
+150-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:141:13-74
+151            android:alwaysRetainTaskState="true"
+151-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:142:13-49
+152            android:colorMode="wideColorGamut"
+152-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:143:13-47
+153            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|keyboard"
+153-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:144:13-115
+154            android:launchMode="singleInstance"
+154-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:145:13-48
+155            android:parentActivityName="acr.browser.lightning.DefaultBrowserActivity"
+155-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:147:13-86
+156            android:process=":incognito"
+156-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:146:13-41
+157            android:theme="@style/Theme.DarkTheme"
+157-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:148:13-51
+158            android:windowSoftInputMode="stateHidden|adjustResize" >
+158-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:149:13-67
+159            <intent-filter>
+159-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:150:13-154:29
+160                <action android:name="android.intent.action.INCOGNITO" />
+160-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:151:17-73
+160-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:151:25-71
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+162-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+163            </intent-filter>
+164        </activity>
+165        <activity
+165-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:156:9-167:20
+166            android:name="acr.browser.lightning.settings.activity.SettingsActivity"
+166-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:157:13-63
+167            android:colorMode="wideColorGamut"
+167-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:158:13-47
+168            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|keyboard"
+168-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:159:13-115
+169            android:label="@string/settings"
+169-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:160:13-45
+170            android:theme="@style/Theme.SettingsTheme" >
+170-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:161:13-55
+171            <intent-filter>
+171-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:162:13-166:29
+172                <action android:name="android.intent.action.SETTINGS" />
+172-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:163:17-72
+172-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:163:25-70
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+174-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+175            </intent-filter>
+176        </activity>
+177        <activity
+177-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:168:9-179:20
+178            android:name="acr.browser.lightning.reading.activity.ReadingActivity"
+178-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:169:13-61
+179            android:colorMode="wideColorGamut"
+179-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:170:13-47
+180            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|keyboard"
+180-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:171:13-115
+181            android:label="@string/reading_mode"
+181-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:172:13-49
+182            android:theme="@style/Theme.SettingsTheme" >
+182-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:173:13-55
+183            <intent-filter>
+183-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:174:13-178:29
+184                <action android:name="android.intent.action.READING" />
+184-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:175:17-71
+184-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:175:25-69
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:17-75
+186-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:62:27-73
+187            </intent-filter>
+188        </activity>
+189
+190        <provider
+191            android:name="androidx.core.content.FileProvider"
+191-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:182:13-62
+192            android:authorities="acr.browser.lightning.fileprovider"
+192-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:183:13-64
+193            android:exported="false"
+193-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:184:13-37
+194            android:grantUriPermissions="true" >
+194-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:185:13-47
+195            <meta-data
+195-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:186:13-188:52
+196                android:name="android.support.FILE_PROVIDER_PATHS"
+196-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:187:17-67
+197                android:resource="@xml/filepaths" />
+197-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:188:17-50
+198        </provider>
+199
+200        <service
+200-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:29:9-32:45
+201            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+201-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:30:13-80
+202            android:enabled="false"
+202-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:31:13-36
+203            android:process=":leakcanary" />
+203-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:32:13-42
+204        <service
+204-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:33:9-36:45
+205            android:name="com.squareup.leakcanary.DisplayLeakService"
+205-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:34:13-70
+206            android:enabled="false"
+206-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:35:13-36
+207            android:process=":leakcanary" />
+207-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:36:13-42
+208
+209        <provider
+209-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:38:9-46:20
+210            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+210-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:39:13-83
+211            android:authorities="com.squareup.leakcanary.fileprovider.acr.browser.lightning"
+211-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:40:13-88
+212            android:exported="false"
+212-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:41:13-37
+213            android:grantUriPermissions="true" >
+213-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:42:13-47
+214            <meta-data
+214-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:186:13-188:52
+215                android:name="android.support.FILE_PROVIDER_PATHS"
+215-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:187:17-67
+216                android:resource="@xml/leak_canary_file_paths" />
+216-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:188:17-50
+217        </provider>
+218
+219        <activity
+219-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:48:9-61:20
+220            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+220-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:49:13-80
+221            android:enabled="false"
+221-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:50:13-36
+222            android:icon="@mipmap/leak_canary_icon"
+222-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:51:13-52
+223            android:label="@string/leak_canary_display_activity_label"
+223-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:52:13-71
+224            android:process=":leakcanary"
+224-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:53:13-42
+225            android:taskAffinity="com.squareup.leakcanary.acr.browser.lightning"
+225-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:54:13-76
+226            android:theme="@style/leak_canary_LeakCanary.Base" >
+226-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:55:13-63
+227            <intent-filter>
+227-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:56:13-60:29
+228                <action android:name="android.intent.action.MAIN" />
+228-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:60:17-68
+228-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:60:25-66
+229
+230                <category android:name="android.intent.category.LAUNCHER" />
+230-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:63:17-76
+230-->C:\Users\jcall\Apps\LBN\app\src\main\AndroidManifest.xml:63:27-74
+231            </intent-filter>
+232        </activity>
+233        <activity
+233-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:62:9-71:68
+234            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+234-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:63:13-93
+235            android:enabled="false"
+235-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:64:13-36
+236            android:excludeFromRecents="true"
+236-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:65:13-46
+237            android:icon="@mipmap/leak_canary_icon"
+237-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:66:13-52
+238            android:label="@string/leak_canary_storage_permission_activity_label"
+238-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:67:13-82
+239            android:process=":leakcanary"
+239-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:68:13-42
+240            android:roundIcon="@mipmap/leak_canary_icon"
+240-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:69:13-57
+241            android:taskAffinity="com.squareup.leakcanary.acr.browser.lightning"
+241-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:70:13-76
+242            android:theme="@style/leak_canary_Theme.Transparent" />
+242-->[com.squareup.leakcanary:leakcanary-android:1.6.3] C:\Users\jcall\.gradle\caches\transforms-3\d81b7ec1ce64a23376422a996a3892e1\transformed\jetified-leakcanary-android-1.6.3\AndroidManifest.xml:71:13-65
+243    </application>
+244
+245</manifest>

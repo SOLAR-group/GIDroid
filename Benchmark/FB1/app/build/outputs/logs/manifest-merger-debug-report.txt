@@ -1,0 +1,116 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:1-61:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\b23df96c5afb8fe26bcea358b6fd4617\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:1-61:12
+	package
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:3:3-36
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:5:3-29
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:4:3-27
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:7:3-11:33
+	android:largeScreens
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:10:5-32
+	android:smallScreens
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:8:5-32
+	android:normalScreens
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:9:5-33
+	android:anyDensity
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:11:5-30
+uses-sdk
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:13:3-15:36
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:13:3-15:36
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\b23df96c5afb8fe26bcea358b6fd4617\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\b23df96c5afb8fe26bcea358b6fd4617\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:13:3-15:36
+	android:targetSdkVersion
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:15:5-33
+	android:minSdkVersion
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:14:5-30
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:17:3-60:17
+	android:label
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:21:5-37
+	android:debuggable
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:19:5-31
+	android:icon
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:20:5-47
+	android:allowBackup
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:18:5-31
+activity#org.jfedor.frozenbubble.FrozenBubble
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:23:5-33:16
+	android:label
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:26:7-39
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:28:7-42
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:25:7-57
+	android:alwaysRetainTaskState
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:27:7-43
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:24:7-34
+intent-filter#action:name:org.jfedor.frozenbubble.GAME+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:29:7-32:23
+action#org.jfedor.frozenbubble.GAME
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:30:9-63
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:30:17-60
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:31:9-68
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:31:19-65
+activity#org.jfedor.frozenbubble.InterstitialActivity
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:35:5-38:16
+	android:label
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:37:7-35
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:36:7-66
+activity#com.efortin.frozenbubble.PreferencesActivity
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:40:5-43:16
+	android:theme
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:42:7-60
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:41:7-66
+activity#com.efortin.frozenbubble.ScrollingCredits
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:45:5-49:16
+	android:label
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:48:7-41
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:47:7-57
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:46:7-63
+activity#com.efortin.frozenbubble.SplashScreen
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:51:5-59:16
+	android:label
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:54:7-59
+	android:configChanges
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:53:7-57
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:52:7-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:55:7-58:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:56:9-61
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:56:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:57:9-69
+	android:name
+		ADDED from C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:57:19-66

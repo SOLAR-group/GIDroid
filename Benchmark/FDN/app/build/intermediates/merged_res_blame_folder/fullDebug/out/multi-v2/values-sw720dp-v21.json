@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jcall\\Apps\\FDN\\app\\build\\intermediates\\incremental\\mergeFullDebugResources\\merged.dir\\values-sw720dp-v21\\values-sw720dp-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jcall\\Apps\\FDN\\app\\src\\main\\res\\values-sw720dp-v21\\dimens.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "297",
+                        "endColumns": "41",
+                        "endOffsets": "334"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    }
+                }
+            ]
+        }
+    ]
+}

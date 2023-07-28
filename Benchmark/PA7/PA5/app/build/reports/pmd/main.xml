@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.0.0" timestamp="2022-11-09T16:49:50.663">
+<file name="C:\Users\jcall\Apps\PA5\app\src\main\java\com\aaronjwood\portauthority\activity\HostActivity.java">
+<violation beginline="277" endline="277" begincolumn="18" endcolumn="19" rule="UseStringBufferForStringAppends" ruleset="Performance" package="com.aaronjwood.portauthority.activity" class="HostActivity" method="formatOpenPort" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="282" endline="282" begincolumn="18" endcolumn="19" rule="UseStringBufferForStringAppends" ruleset="Performance" package="com.aaronjwood.portauthority.activity" class="HostActivity" method="formatOpenPort" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\PA5\app\src\main\java\com\aaronjwood\portauthority\async\ScanHostsAsyncTask.java">
+<violation beginline="108" endline="108" begincolumn="30" endcolumn="98" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanHostsAsyncTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="173" endline="173" begincolumn="35" endcolumn="60" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanHostsAsyncTask" method="onProgressUpdate" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="177" endline="177" begincolumn="71" endcolumn="85" rule="UseArrayListInsteadOfVector" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanHostsAsyncTask" method="onProgressUpdate" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraylistinsteadofvector" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="188" endline="188" begincolumn="35" endcolumn="60" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanHostsAsyncTask" method="onProgressUpdate" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="200" endline="200" begincolumn="32" endcolumn="59" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanHostsAsyncTask" method="onProgressUpdate" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="203" endline="203" begincolumn="36" endcolumn="59" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanHostsAsyncTask" method="onProgressUpdate" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\PA5\app\src\main\java\com\aaronjwood\portauthority\async\ScanPortsAsyncTask.java">
+<violation beginline="65" endline="65" begincolumn="38" endcolumn="106" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanPortsAsyncTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="70" endline="70" begincolumn="35" endcolumn="107" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.async" class="ScanPortsAsyncTask" method="doInBackground" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\PA5\app\src\main\java\com\aaronjwood\portauthority\db\Database.java">
+<violation beginline="73" endline="77" begincolumn="9" endcolumn="9" rule="UseArrayListInsteadOfVector" ruleset="Performance" package="com.aaronjwood.portauthority.db" class="Database" method="onUpgrade" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraylistinsteadofvector" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\PA5\app\src\main\java\com\aaronjwood\portauthority\parser\OuiParser.java">
+<violation beginline="15" endline="15" begincolumn="31" endcolumn="50" rule="UseArrayListInsteadOfVector" ruleset="Performance" package="com.aaronjwood.portauthority.parser" class="OuiParser" method="parseLine" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraylistinsteadofvector" priority="3">
+This call to String.startsWith can be rewritten using String.charAt(0)
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\PA5\app\src\main\java\com\aaronjwood\portauthority\runnable\ScanHostsRunnable.java">
+<violation beginline="39" endline="39" begincolumn="34" endcolumn="45" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanHostsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="42" endline="42" begincolumn="32" endcolumn="88" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanHostsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\PA5\app\src\main\java\com\aaronjwood\portauthority\runnable\ScanPortsRunnable.java">
+<violation beginline="52" endline="52" begincolumn="29" endcolumn="40" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanPortsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="56" endline="56" begincolumn="32" endcolumn="59" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanPortsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="65" endline="65" begincolumn="44" endcolumn="62" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanPortsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="68" endline="68" begincolumn="43" endcolumn="97" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanPortsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="69" endline="69" begincolumn="43" endcolumn="67" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanPortsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="73" endline="73" begincolumn="39" endcolumn="118" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.aaronjwood.portauthority.runnable" class="ScanPortsRunnable" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+</pmd>

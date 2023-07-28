@@ -1,0 +1,4 @@
+#Wed Nov 09 16:41:16 GMT 2022
+base.0=C\:\\Users\\jcall\\Apps\\PA1\\app\\build\\intermediates\\dex\\freeDebug\\mergeDexFreeDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

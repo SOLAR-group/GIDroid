@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TrackScheduleActivity">
+
+    <FrameLayout
+        android:id="@+id/schedule"
+        android:layout_width="@dimen/schedule_column_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="128dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Toolbar.Fosdem"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:elevation="4dp"
+        android:gravity="top" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/event"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/detail_card_view_margin_start"
+        android:layout_marginLeft="@dimen/detail_card_view_margin_start"
+        android:layout_marginTop="@dimen/detail_card_view_margin_top"
+        android:layout_marginEnd="@dimen/detail_card_view_margin_end"
+        android:layout_marginRight="@dimen/detail_card_view_margin_end"
+        android:layout_marginBottom="@dimen/detail_card_view_margin_bottom"
+        app:cardElevation="@dimen/detail_card_view_elevation"
+        app:cardPreventCornerOverlap="false" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/detail_fab_margin_end"
+        android:layout_marginRight="@dimen/detail_fab_margin_end"
+        android:contentDescription="@string/add_bookmark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@drawable/ic_bookmark_outline_white_24dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

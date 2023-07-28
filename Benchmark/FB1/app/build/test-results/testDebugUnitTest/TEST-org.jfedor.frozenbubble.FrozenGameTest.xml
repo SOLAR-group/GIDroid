@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jfedor.frozenbubble.FrozenGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T17:02:45" hostname="DESKTOP-P1HHUKE" time="5.243">
+  <properties/>
+  <testcase name="testPause" classname="org.jfedor.frozenbubble.FrozenGameTest" time="5.243"/>
+  <system-out><![CDATA[
+Gin Memory: 158833504
+]]></system-out>
+  <system-err><![CDATA[[2023.02.07 17:02:50] (Coverage): Error during class instrumentation: org.robolectric.shadows.ShadowApplicationPackageManager: java.lang.RuntimeException: java.io.IOException: Class android/content/pm/ModuleInfo not found
+System.logW: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.$$robo$$dalvik_system_CloseGuard$open(CloseGuard.java:184)
+	at dalvik.system.CloseGuard.open(CloseGuard.java)
+	at android.database.sqlite.SQLiteDatabase.$$robo$$android_database_sqlite_SQLiteDatabase$openInner(SQLiteDatabase.java:805)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java)
+	at android.database.sqlite.SQLiteDatabase.$$robo$$android_database_sqlite_SQLiteDatabase$open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java)
+	at android.database.sqlite.SQLiteDatabase.$$robo$$android_database_sqlite_SQLiteDatabase$openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java)
+	at android.app.ContextImpl.$$robo$$android_app_ContextImpl$openOrCreateDatabase(ContextImpl.java:804)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java)
+	at android.content.ContextWrapper.$$robo$$android_content_ContextWrapper$openOrCreateDatabase(ContextWrapper.java:221)
+	at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java)
+	at android.database.sqlite.SQLiteOpenHelper.$$robo$$android_database_sqlite_SQLiteOpenHelper$getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java)
+	at android.database.sqlite.SQLiteOpenHelper.$$robo$$android_database_sqlite_SQLiteOpenHelper$getWritableDatabase(SQLiteOpenHelper.java:164)
+	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java)
+	at com.efortin.frozenbubble.HighscoreDB.<init>(HighscoreDB.java:88)
+	at com.efortin.frozenbubble.HighscoreManager.<init>(HighscoreManager.java:82)
+	at org.jfedor.frozenbubble.FrozenGameTest.testPause(FrozenGameTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:591)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:274)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2023.02.07 17:02:50] (Coverage): Error during class instrumentation: org.robolectric.shadows.ShadowLocationManager: java.lang.RuntimeException: java.io.IOException: Class android/location/LocationRequest not found
+]]></system-err>
+</testsuite>

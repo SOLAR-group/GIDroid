@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: net.i2p.android:helper:0.8@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/55f108c2775b5f5382cf28895bc2bbfa/transformed/helper-0.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/55f108c2775b5f5382cf28895bc2bbfa/transformed/helper-0.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/55f108c2775b5f5382cf28895bc2bbfa/transformed/helper-0.8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/helper/0.8/2579fa1eb9151941f091c369df0894277e0ff824/helper-0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/helper/0.8/635e872f707a7c418af90af59629fba7db0785c6/helper-0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

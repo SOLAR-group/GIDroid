@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: net.i2p.android:client:0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9885c45748b9e8197a22b72ae006dddd/transformed/client-0.8/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9885c45748b9e8197a22b72ae006dddd/transformed/client-0.8/jars/libs/mstreaming.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9885c45748b9e8197a22b72ae006dddd/transformed/client-0.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9885c45748b9e8197a22b72ae006dddd/transformed/client-0.8/jars/libs/streaming.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9885c45748b9e8197a22b72ae006dddd/transformed/client-0.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9885c45748b9e8197a22b72ae006dddd/transformed/client-0.8/jars/libs/i2p.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/client/0.8/302d381d0777b3ac66509cfbcbc6912704cf6343/client-0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/client/0.8/5f351f52f82801efdd82255f64274b37e2a2c5fa/client-0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

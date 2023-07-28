@@ -1,0 +1,86 @@
+{
+   "layout": [
+      {
+         "type": "comp",
+         "name": "widgetDate",
+         "goal_ring": false,
+         "color": "white",
+         "size": {
+            "w": 76,
+            "h": 76
+         },
+         "pos": {
+            "x": 120,
+            "y": 58
+         }
+      },
+      {
+         "type": "comp",
+         "name": "widgetCustom0",
+         "goal_ring": false,
+         "color": "white",
+         "data": {
+            "update_timeout": 60,
+            "timeout_hide_text": false,
+            "timeout_show_circle": true
+         },
+         "size": {
+            "w": 76,
+            "h": 76
+         },
+         "pos": {
+            "x": 182,
+            "y": 120
+         }
+      },
+      {
+         "type": "comp",
+         "name": "widgetCustom1",
+         "goal_ring": false,
+         "color": "white",
+         "data": {
+            "update_timeout": 60,
+            "timeout_hide_text": false,
+            "timeout_show_circle": true
+         },
+         "size": {
+            "w": 76,
+            "h": 76
+         },
+         "pos": {
+            "x": 120,
+            "y": 182
+         }
+      },
+      {
+         "type": "comp",
+         "name": "widgetCustom2",
+         "goal_ring": false,
+         "color": "white",
+         "data": {
+            "update_timeout": 60,
+            "timeout_hide_text": false,
+            "timeout_show_circle": true
+         },
+         "size": {
+            "w": 76,
+            "h": 76
+         },
+         "pos": {
+            "x": 58,
+            "y": 120
+         }
+      }
+   ],
+   "config": {
+      "timeout_display_full": 3600000,
+      "timeout_display_partial": 900000,
+      "wrist_flick_hands_relative": true,
+      "wrist_flick_duration": 2200,
+      "wrist_flick_move_hour": 360,
+      "wrist_flick_move_minute": -360,
+      "powersave_display": false,
+      "powersave_hands": false,
+      "light_up_on_notification": true
+   }
+}

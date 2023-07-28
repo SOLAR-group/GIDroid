@@ -1,0 +1,3 @@
+C:/Users/jcall/Apps/GBN/app/.cxx/Debug/h2g5o2i6/arm64-v8a/CMakeFiles/tiny-edhc.dir
+C:/Users/jcall/Apps/GBN/app/.cxx/Debug/h2g5o2i6/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/jcall/Apps/GBN/app/.cxx/Debug/h2g5o2i6/arm64-v8a/CMakeFiles/rebuild_cache.dir

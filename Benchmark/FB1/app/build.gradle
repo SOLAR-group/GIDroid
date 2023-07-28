@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        applicationId "be.digitalia.fosdem"
+        minSdkVersion 16
+        multiDexEnabled = true
+        // Supported languages
+        resConfigs "en"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources true
+            all {
+                // All the usual Gradle options.
+                testLogging {
+                    events "skipped", "failed", "standardOut", "standardError"
+                    showStandardStreams = true
+                }
+            }
+        }
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+    }
+
+
+}
+
+
+
+dependencies {
+testImplementation 'junit:junit:4.12'
+    testImplementation 'org.robolectric:robolectric:4.7.2'
+    testImplementation 'androidx.test:core:1.4.0'
+}

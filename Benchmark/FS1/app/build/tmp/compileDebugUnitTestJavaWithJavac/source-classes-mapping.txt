@@ -1,0 +1,4 @@
+be/digitalia/fosdem/activities/MockCursor.java
+ be.digitalia.fosdem.activities.MockCursor
+be/digitalia/fosdem/activities/TrackScheduleEventActivityTest.java
+ be.digitalia.fosdem.activities.TrackScheduleEventActivityTest

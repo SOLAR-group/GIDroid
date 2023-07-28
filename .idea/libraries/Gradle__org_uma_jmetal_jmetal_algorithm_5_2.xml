@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.uma.jmetal:jmetal-algorithm:5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-algorithm/5.2/4b3febc70ee333406f8a2d079f05bdb42f304405/jmetal-algorithm-5.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-algorithm/5.2/4b3febc70ee333406f8a2d079f05bdb42f304405/jmetal-algorithm-5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-algorithm/5.2/b81291d8d272d310d1a98f910eba743754ebd79/jmetal-algorithm-5.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-algorithm/5.2/b81291d8d272d310d1a98f910eba743754ebd79/jmetal-algorithm-5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

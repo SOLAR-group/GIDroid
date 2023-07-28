@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="be.digitalia.fosdem"
+    android:versionCode="21"
+    android:versionName="1.20" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="4" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/app_frozen_bubble"
+        android:label="@string/app_name" >
+        <activity
+            android:name="org.jfedor.frozenbubble.FrozenBubble"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="org.jfedor.frozenbubble.GAME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.jfedor.frozenbubble.InterstitialActivity"
+            android:label="Interstitial" >
+        </activity>
+        <activity
+            android:name="com.efortin.frozenbubble.PreferencesActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.efortin.frozenbubble.ScrollingCredits"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/menu_about" >
+        </activity>
+        <activity
+            android:name="com.efortin.frozenbubble.SplashScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

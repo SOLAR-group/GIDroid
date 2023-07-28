@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jcall\\Apps\\GBN\\app\\build\\intermediates\\incremental\\mergeFullDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-3\\a0283757c4913eec9f5425a202018119\\transformed\\jetified-colorpicker-1.0.2\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,151,196,238",
+                        "endColumns": "44,50,44,41,48",
+                        "endOffsets": "95,146,191,233,282"
+                    }
+                }
+            ]
+        }
+    ]
+}

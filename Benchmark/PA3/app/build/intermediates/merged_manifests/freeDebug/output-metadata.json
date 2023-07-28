@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.aaronjwood.portauthority.free",
+  "variantName": "freeDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 61,
+      "versionName": "2.3.3-free",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

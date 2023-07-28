@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from default config. -->
+    <string name="about_activity_title" translatable="false">@string/about_activity_title_generic</string>
+    <!-- Value from default config. -->
+    <string name="about_description" translatable="false">@string/about_description_generic</string>
+    <!-- Value from default config. -->
+    <string name="app_name" translatable="false">@string/application_name_generic</string>
+    <!-- Value from default config. -->
+    <string name="gadgetbridge_running" translatable="false">@string/gadgetbridge_running_generic</string>
+    <!-- Value from default config. -->
+    <string name="pebble_content_provider" translatable="false">com.getpebble.android.provider</string>
+    <!-- Value from default config. -->
+    <string name="title_activity_controlcenter" translatable="false">@string/title_activity_controlcenter_generic</string>
+    <!-- Value from the variant -->
+    <string name="applicationId" translatable="false">nodomain.freeyourgadget.gadgetbridge</string>
+
+</resources>

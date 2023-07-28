@@ -1,0 +1,184 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: arm64-v8a",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1250004376
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\jcall\\Apps\\FBN\\app\\build\\.cxx\\Release\\3y272vu1\\arm64-v8a\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1548485973
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\jcall\\Apps\\FBN\\app\\build\\.cxx\\Release\\3y272vu1\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1539193811
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\jcall\\Apps\\FBN\\app\\build\\.cxx\\Release\\3y272vu1\\arm64-v8a\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1752999349
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1422385244
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\jcall\\Apps\\FBN\\app\\build\\.cxx\\Release\\3y272vu1\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1623220939
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\jcall\\Apps\\FBN\\app\\build\\.cxx\\Release\\3y272vu1\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1390132927
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : C:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dC:\\Users\\jcall\\Apps\\FBN\\app\\build\\intermediates\\cxx\\Release\\3y272vu1/obj\nNDK_LIBS_OUT\u003dC:\\Users\\jcall\\Apps\\FBN\\app\\build\\intermediates\\cxx\\Release\\3y272vu1/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1592557208
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dC:\\Users\\jcall\\Apps\\FBN\\app\\build\\intermediates\\cxx\\Release\\3y272vu1/obj\nNDK_LIBS_OUT\u003dC:\\Users\\jcall\\Apps\\FBN\\app\\build\\intermediates\\cxx\\Release\\3y272vu1/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1909078645
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1315098739
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1115021991
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\jcall\\Apps\\FBN\\app\\build\\.cxx\\Release\\3y272vu1\\arm64-v8a\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -841704865
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\jcall\\Apps\\FBN\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 203341589
+  }
+]

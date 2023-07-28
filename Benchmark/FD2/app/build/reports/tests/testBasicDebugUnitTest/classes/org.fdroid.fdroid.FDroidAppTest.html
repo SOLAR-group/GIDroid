@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.fdroid.fdroid.FDroidAppTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.fdroid.fdroid.FDroidAppTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.fdroid.fdroid.html">org.fdroid.fdroid</a> &gt; FDroidAppTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.141s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="onCreate"></a>
+<h3 class="failures">onCreate</h3>
+<span class="code">
+<pre>java.lang.NoClassDefFoundError: android/content/Context
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructors(Class.java:1943)
+	at org.junit.runners.model.TestClass.&lt;init&gt;(TestClass.java:47)
+	at org.junit.runners.ParentRunner.createTestClass(ParentRunner.java:88)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:83)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:65)
+	at org.robolectric.internal.SandboxTestRunner$HelperTestRunner.&lt;init&gt;(SandboxTestRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.&lt;init&gt;(RobolectricTestRunner.java:550)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:378)
+	at org.robolectric.internal.SandboxTestRunner$2.evaluate(SandboxTestRunner.java:230)
+	at org.robolectric.internal.SandboxTestRunner.runChild(SandboxTestRunner.java:130)
+	at org.robolectric.internal.SandboxTestRunner.runChild(SandboxTestRunner.java:42)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.robolectric.internal.SandboxTestRunner$1.evaluate(SandboxTestRunner.java:84)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: couldn't load android.content.Context
+	at org.robolectric.internal.bytecode.SandboxClassLoader.maybeInstrumentClass(SandboxClassLoader.java:132)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.lambda$findClass$0(SandboxClassLoader.java:107)
+	at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:50)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.findClass(SandboxClassLoader.java:106)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 50 more
+Caused by: java.lang.RuntimeException: failed to instrument android.content.Context
+	at org.robolectric.internal.bytecode.ClassInstrumentor.instrument(ClassInstrumentor.java:125)
+	at org.robolectric.internal.bytecode.InvokeDynamicClassInstrumentor.instrument(InvokeDynamicClassInstrumentor.java:18)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.instrumentToBytes(ClassInstrumentor.java:67)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.lambda$maybeInstrumentClass$2(SandboxClassLoader.java:124)
+	at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:50)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.maybeInstrumentClass(SandboxClassLoader.java:123)
+	... 55 more
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.objectweb.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.robolectric.internal.bytecode.ClassNodeProvider.createClassNode(ClassNodeProvider.java:24)
+	at org.robolectric.internal.bytecode.ClassNodeProvider.getClassNode(ClassNodeProvider.java:16)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.isOverridingFinalMethod(ClassInstrumentor.java:218)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.createInstrumentableMethodIfNotAlreadyPresent(ClassInstrumentor.java:236)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.instrument(ClassInstrumentor.java:105)
+	... 60 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">onCreate</td>
+<td class="failures">0.141s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.1</a> at 7 Feb 2023, 17:15:38</p>
+</div>
+</div>
+</body>
+</html>

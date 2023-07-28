@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="lowerDrawer">
+        <item>\u2195 OUIデータベースの更新</item>
+        <item>\u2195 ポートデータベースの更新</item>
+        <item>\u2699 設定</item>
+    </string-array>
+    <string-array name="records">
+        <item>レコードタイプ</item>
+        <item>A</item>
+        <item>AAAA</item>
+        <item>AFSDB</item>
+        <item>APL</item>
+        <item>CAA</item>
+        <item>CDNSKEY</item>
+        <item>CDS</item>
+        <item>CERT</item>
+        <item>CNAME</item>
+        <item>CSYNC</item>
+        <item>DHCID</item>
+        <item>DLV</item>
+        <item>DNAME</item>
+        <item>DNSKEY</item>
+        <item>DS</item>
+        <item>HINFO</item>
+        <item>HIP</item>
+        <item>IPSECKEY</item>
+        <item>KEY</item>
+        <item>KX</item>
+        <item>LOC</item>
+        <item>MX</item>
+        <item>NAPTR</item>
+        <item>NS</item>
+        <item>NSEC</item>
+        <item>NSEC3</item>
+        <item>NSEC3PARAM</item>
+        <item>OPENPGPKEY</item>
+        <item>PTR</item>
+        <item>RRSIG</item>
+        <item>RP</item>
+        <item>SIG</item>
+        <item>SOA</item>
+        <item>SRV</item>
+        <item>SSHFP</item>
+        <item>TA</item>
+        <item>TKEY</item>
+        <item>TLSA</item>
+        <item>TSIG</item>
+        <item>TXT</item>
+        <item>URI</item>
+    </string-array>
+    <string-array name="threads">
+        <item>500</item>
+        <item>450</item>
+        <item>400</item>
+        <item>350</item>
+        <item>300</item>
+        <item>250</item>
+        <item>200</item>
+        <item>150</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="upperDrawer">
+        <item>\u2601 WAN ホストをスキャン</item>
+        <item>\u263c ウェイクアップホスト</item>
+        <item>\u2194 DNS 検索</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="action_settings">設定</string>
+    <string name="app_name">Port Authority</string>
+    <string name="bssid">BSSID</string>
+    <string name="dnsLookup">DNS 検索</string>
+    <string name="domainName">ドメイン名</string>
+    <string name="externalIpLabel">WAN IP</string>
+    <string name="fetching">取得中…</string>
+    <string name="hostDiscovery">ホストの探索</string>
+    <string name="internalIpLabel">LAN IP</string>
+    <string name="macAddress">MAC</string>
+    <string name="macVendor">ベンダー</string>
+    <string name="openPorts">ポートを開く</string>
+    <string name="portRangeStart">開始ポート</string>
+    <string name="portRangeStop">終了ポート</string>
+    <string name="resetPortRange">ポートの範囲をリセット</string>
+    <string name="scanPortRange">ポートの範囲をスキャン</string>
+    <string name="scanWellKnownPorts">よく知られたポートをスキャン</string>
+    <string name="scanningDisclaimer">
+        公開サーバーに対するポートスキャンの実行は、通常、悪意があるとみなされることにご注意ください。
+        さらに、自身の WiFi 接続ではなく、キャリアのネットワーク上でこれらの種類のスキャンを実行すると、遅くなったり、トラフィックシェーピングのために結果が不正確になることがあります。
+        また、このスキャンで生成されたトラフィックをキャリアが悪質なものとみなすことがあります。
+    </string>
+    <string name="scanningWarning">警告</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
+    <string name="signalLabel">シグナル/速度</string>
+    <string name="ssid">SSID</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="wanHostHint">URL/IP</string>
+    <string name="wifiDisabled">WiFi 接続がありません</string>
+</resources>

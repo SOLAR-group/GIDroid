@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="lowerDrawer">
+        <item>\u2195 MAJ Base de données OUI</item>
+        <item>\u2195 MAJ Liste Ports</item>
+        <item>\u2699 Paramètres</item>
+    </string-array>
+    <string-array name="records">
+        <item>Type d\'Enregistrement</item>
+        <item>A</item>
+        <item>AAAA</item>
+        <item>AFSDB</item>
+        <item>APL</item>
+        <item>CAA</item>
+        <item>CDNSKEY</item>
+        <item>CDS</item>
+        <item>CERT</item>
+        <item>CNAME</item>
+        <item>CSYNC</item>
+        <item>DHCID</item>
+        <item>DLV</item>
+        <item>DNAME</item>
+        <item>DNSKEY</item>
+        <item>DS</item>
+        <item>HINFO</item>
+        <item>HIP</item>
+        <item>IPSECKEY</item>
+        <item>KEY</item>
+        <item>KX</item>
+        <item>LOC</item>
+        <item>MX</item>
+        <item>NAPTR</item>
+        <item>NS</item>
+        <item>NSEC</item>
+        <item>NSEC3</item>
+        <item>NSEC3PARAM</item>
+        <item>OPENPGPKEY</item>
+        <item>PTR</item>
+        <item>RRSIG</item>
+        <item>RP</item>
+        <item>SIG</item>
+        <item>SOA</item>
+        <item>SRV</item>
+        <item>SSHFP</item>
+        <item>TA</item>
+        <item>TKEY</item>
+        <item>TLSA</item>
+        <item>TSIG</item>
+        <item>TXT</item>
+        <item>URI</item>
+    </string-array>
+    <string-array name="threads">
+        <item>500</item>
+        <item>450</item>
+        <item>400</item>
+        <item>350</item>
+        <item>300</item>
+        <item>250</item>
+        <item>200</item>
+        <item>150</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="upperDrawer">
+        <item>\u2601 Scanner l\'hôte WAN</item>
+        <item>\u263c Hôte de réveil</item>
+        <item>\u2194 Recherche DNS</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="app_name">Gestion des Ports</string>
+    <string name="bssid">BSSID</string>
+    <string name="copyHostname">Copier le nom d\'hôte</string>
+    <string name="copyIp">Copier l\'IP</string>
+    <string name="copyMac">Copier le MAC</string>
+    <string name="dnsInputError">Entrez un domaine et sélectionnez un type d\'enregistrement</string>
+    <string name="dnsLookup">Recherche DNS</string>
+    <string name="domainName">Nom Domaine</string>
+    <string name="downloadingData">Téléchargement des données</string>
+    <string name="externalIpLabel">WAN IP</string>
+    <string name="failedBssid">Échec de l\'obtention du BSSID</string>
+    <string name="failedLinkSpeed">Impossible d\'obtenir la vitesse de liaison</string>
+    <string name="failedOpenDb">Échec de l\'ouverture de la base de données</string>
+    <string name="failedSignal">Échec de l\'obtention de la force du signal</string>
+    <string name="failedSsid">Échec de l\'obtention du SSID</string>
+    <string name="failedSubnetHosts">Échec de l\'obtention du nombre d\'hôtes dans le sous-réseau</string>
+    <string name="failedWifiManager">Échec de l\'obtention du WifiManager pour cet appareil</string>
+    <string name="fetching">Récupération…</string>
+    <string name="getMacVendorFailed">Fournisseur MAC indisponible</string>
+    <string name="hostDiscovery">Trouver les Hôtes</string>
+    <string name="hostScan">Recherche d\'Hôtes</string>
+    <string name="internalIpLabel">LAN IP</string>
+    <string name="ipAddress">Adresse IP</string>
+    <string name="macAddress">MAC</string>
+    <string name="macVendor">Fournisseur</string>
+    <string name="noWifiConnection">Pas de connexion Wi-Fi</string>
+    <string name="notConnectedLan">Vous n\'êtes pas connecté au réseau local</string>
+    <string name="notConnectedWifi">Vous n\'êtes connecté à aucun réseau Wi-Fi!</string>
+    <string name="openPorts">Ports Ouverts</string>
+    <string name="portRangeStart">Port de Départ</string>
+    <string name="portRangeStop">Port de Fin</string>
+    <string name="resetPortRange">Réinitialiser l\'intervalle de ports</string>
+    <string name="scanPortRange">Scanner l\'intervalle de ports</string>
+    <string name="scanWellKnownPorts">Scanner les Ports Connus</string>
+    <string name="scanningDisclaimer">Sachez que scanner des ports sur des serveurs publics est généralement considéré comme malveillant. En outre, l\'exécution de ce type d\'analyse sur le réseau de votre opérateur plutôt que sur votre propre connexion Wi-Fi sera plus lent et produira parfois des résultats inexacts en raison de la mise en forme du trafic. Votre opérateur peut également considérer que le trafic généré par cette analyse est malveillant.</string>
+    <string name="scanningWarning">ATTENTION</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="signalLabel">Signal/Vitesse</string>
+    <string name="signalLink">%1$ddBm/%2$dMbps</string>
+    <string name="sort">Trier</string>
+    <string name="sortHostname">Par nom d\'hôte</string>
+    <string name="sortVendor">Par fournisseur</string>
+    <string name="ssid">SSID</string>
+    <string name="startingDnsLookup">Récupération des enregistrements DNS...</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subnetHosts">%1$d hôtes dans votre sous-réseau</string>
+    <string name="wakeOnLan">Wake Up</string>
+    <string name="waking">Réveil de %1$s…</string>
+    <string name="wanHostHint">URL/IP</string>
+    <string name="wifiDisabled">Wi-Fi désactivé</string>
+</resources>

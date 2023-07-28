@@ -1,0 +1,4 @@
+#Wed Nov 09 15:33:00 GMT 2022
+base.0=C\:\\Users\\jcall\\Apps\\FSN\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

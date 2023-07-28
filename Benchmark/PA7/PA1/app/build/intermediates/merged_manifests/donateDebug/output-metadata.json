@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.aaronjwood.portauthority.donate",
+  "variantName": "donateDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 53,
+      "versionName": "2.2.4-donate",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

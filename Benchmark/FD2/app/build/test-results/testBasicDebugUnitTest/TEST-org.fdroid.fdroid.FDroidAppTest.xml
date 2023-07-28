@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.fdroid.fdroid.FDroidAppTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-02-07T17:15:38" hostname="DESKTOP-P1HHUKE" time="0.141">
+  <properties/>
+  <testcase name="onCreate" classname="org.fdroid.fdroid.FDroidAppTest" time="0.141">
+    <failure message="java.lang.NoClassDefFoundError: android/content/Context" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: android/content/Context
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructors(Class.java:1943)
+	at org.junit.runners.model.TestClass.&lt;init&gt;(TestClass.java:47)
+	at org.junit.runners.ParentRunner.createTestClass(ParentRunner.java:88)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:83)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:65)
+	at org.robolectric.internal.SandboxTestRunner$HelperTestRunner.&lt;init&gt;(SandboxTestRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.&lt;init&gt;(RobolectricTestRunner.java:550)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:378)
+	at org.robolectric.internal.SandboxTestRunner$2.evaluate(SandboxTestRunner.java:230)
+	at org.robolectric.internal.SandboxTestRunner.runChild(SandboxTestRunner.java:130)
+	at org.robolectric.internal.SandboxTestRunner.runChild(SandboxTestRunner.java:42)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.robolectric.internal.SandboxTestRunner$1.evaluate(SandboxTestRunner.java:84)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: couldn't load android.content.Context
+	at org.robolectric.internal.bytecode.SandboxClassLoader.maybeInstrumentClass(SandboxClassLoader.java:132)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.lambda$findClass$0(SandboxClassLoader.java:107)
+	at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:50)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.findClass(SandboxClassLoader.java:106)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 50 more
+Caused by: java.lang.RuntimeException: failed to instrument android.content.Context
+	at org.robolectric.internal.bytecode.ClassInstrumentor.instrument(ClassInstrumentor.java:125)
+	at org.robolectric.internal.bytecode.InvokeDynamicClassInstrumentor.instrument(InvokeDynamicClassInstrumentor.java:18)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.instrumentToBytes(ClassInstrumentor.java:67)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.lambda$maybeInstrumentClass$2(SandboxClassLoader.java:124)
+	at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:50)
+	at org.robolectric.internal.bytecode.SandboxClassLoader.maybeInstrumentClass(SandboxClassLoader.java:123)
+	... 55 more
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.objectweb.asm.ClassReader.&lt;init&gt;(Unknown Source)
+	at org.robolectric.internal.bytecode.ClassNodeProvider.createClassNode(ClassNodeProvider.java:24)
+	at org.robolectric.internal.bytecode.ClassNodeProvider.getClassNode(ClassNodeProvider.java:16)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.isOverridingFinalMethod(ClassInstrumentor.java:218)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.createInstrumentableMethodIfNotAlreadyPresent(ClassInstrumentor.java:236)
+	at org.robolectric.internal.bytecode.ClassInstrumentor.instrument(ClassInstrumentor.java:105)
+	... 60 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aaronjwood.portauthority"
+4    android:installLocation="auto" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="17"
+7-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="25" />
+8-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:6:5-79
+10-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:6:22-76
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:7:5-76
+11-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:7:22-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:8:5-67
+12-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:8:22-64
+13
+14    <application
+14-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:10:5-49:19
+15        android:allowBackup="true"
+15-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:11:9-35
+16        android:debuggable="true"
+17        android:icon="@drawable/icon"
+17-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:12:9-38
+18        android:label="@string/app_name"
+18-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:13:9-41
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:14:9-40
+20        <activity
+20-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:15:9-24:20
+21            android:name="com.aaronjwood.portauthority.activity.MainActivity"
+21-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:16:13-50
+22            android:label="@string/app_name"
+22-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:17:13-45
+23            android:theme="@style/AppTheme" >
+23-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:18:13-44
+24            <intent-filter>
+24-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:19:13-23:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:20:17-69
+25-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:20:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:22:17-77
+27-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:22:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:25:9-32:20
+31            android:name="com.aaronjwood.portauthority.activity.LanHostActivity"
+31-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:26:13-53
+32            android:label="@string/app_name"
+32-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:27:13-45
+33            android:theme="@style/AppTheme" >
+33-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:28:13-44
+34            <meta-data
+34-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:29:13-31:58
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:30:17-63
+36                android:value=".activity.MainActivity" />
+36-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:31:17-55
+37        </activity>
+38        <activity
+38-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:33:9-40:20
+39            android:name="com.aaronjwood.portauthority.activity.WanHostActivity"
+39-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:34:13-53
+40            android:label="@string/app_name"
+40-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:35:13-45
+41            android:theme="@style/AppTheme" >
+41-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:36:13-44
+42            <meta-data
+42-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:29:13-31:58
+43                android:name="android.support.PARENT_ACTIVITY"
+43-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:30:17-63
+44                android:value=".activity.MainActivity" />
+44-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:31:17-55
+45        </activity>
+46        <activity
+46-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:41:9-48:20
+47            android:name="com.aaronjwood.portauthority.activity.PreferencesActivity"
+47-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:42:13-57
+48            android:label="@string/app_name"
+48-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:43:13-45
+49            android:theme="@style/PreferencesTheme" >
+49-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:44:13-52
+50            <meta-data
+50-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:29:13-31:58
+51                android:name="android.support.PARENT_ACTIVITY"
+51-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:30:17-63
+52                android:value=".activity.MainActivity" />
+52-->C:\Users\jcall\Apps\PA6\app\src\main\AndroidManifest.xml:31:17-55
+53        </activity>
+54    </application>
+55
+56</manifest>

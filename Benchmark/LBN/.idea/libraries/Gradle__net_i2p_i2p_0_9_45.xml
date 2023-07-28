@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: net.i2p:i2p:0.9.45">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p/i2p/0.9.45/c818e309fb13441fc73ab3e4432ac41e32fbe9d0/i2p-0.9.45.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p/i2p/0.9.45/9449521c24eb96d97d2cfbb4eaa84f78398af4a3/i2p-0.9.45-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p/i2p/0.9.45/5e89f3159f7edee4c0142d0d74b4f0f29cdaa6d7/i2p-0.9.45-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="proxy_choices_array">
+        <item>Ninguno</item>
+        <item>Orbot</item>
+        <item>I2P</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="url_content_array">
+        <item>Dominio (por defecto)</item>
+        <item>Dirección URL</item>
+        <item>Título</item>
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="action_add_bookmark">Añadir marcador</string>
+    <string name="action_add_to_homescreen">Añadir a pantalla de inicio</string>
+    <string name="action_allow">Permitir</string>
+    <string name="action_auto">Auto</string>
+    <string name="action_back">Atrás</string>
+    <string name="action_blank">Página en blanco</string>
+    <string name="action_bookmarks">Marcadores</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_copy">Copiar enlace</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_delete_all_bookmarks">Borrar todos los marcadores</string>
+    <string name="action_dont_allow">No permitir</string>
+    <string name="action_download">Descargar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_find">Buscar en la página</string>
+    <string name="action_folder">Carpeta</string>
+    <string name="action_follow_me">Contáctame</string>
+    <string name="action_forward">Adelante</string>
+    <string name="action_history">Historial</string>
+    <string name="action_homepage">Por defecto</string>
+    <string name="action_incognito">Nueva pestaña de incógnito</string>
+    <string name="action_manual">Manual</string>
+    <string name="action_new_tab">Nueva pestaña</string>
+    <string name="action_no">No</string>
+    <string name="action_ok">Aceptar</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_rename">Renombrar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_webpage">Página web</string>
+    <string name="action_yes">Sí</string>
+    <string name="agent">Agente de usuario</string>
+    <string name="agent_custom">Personalizado</string>
+    <string name="agent_default">Por defecto</string>
+    <string name="agent_desktop">Escritorio</string>
+    <string name="agent_mobile">Móvil</string>
+    <string name="android_open_source_project">Android Open Source Project</string>
+    <string name="apache">Licencia Apache 2.0</string>
+    <string name="app_name">Lightning</string>
+    <string name="app_restart">Reinicia la aplicación para que el cambio tenga efecto.</string>
+    <string name="black_theme">Tema negro (AMOLED)</string>
+    <string name="block">Bloquear imágenes</string>
+    <string name="block_ads">Bloquear anuncios</string>
+    <string name="bookmark_export_path">Marcadores exportados a</string>
+    <string name="bookmark_settings">Ajustes de marcadores</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="cache">Vaciar caché al salir</string>
+    <string name="cannot_download">Sólo se puede descargar de URLs \"http\" o \"https\".</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_cache">Limpiar caché</string>
+    <string name="clear_cookies">Limpiar cookies</string>
+    <string name="clear_cookies_exit">Vaciar cookies al salir</string>
+    <string name="clear_history">Limpiar historial</string>
+    <string name="clear_history_exit">Vaciar historial al salir</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="clear_web_storage">Borrar almacenamiento web</string>
+    <string name="clear_web_storage_exit">Borrar almacenamiento web al salir</string>
+    <string name="close_all_tabs">Cerrar todas las pestañas</string>
+    <string name="close_other_tabs">Cerrar las demás pestañas</string>
+    <string name="close_tab">Cerrar pestaña</string>
+    <string name="color_mode">Habilitar modo de color</string>
+    <string name="cookies">Habilitar cookies</string>
+    <string name="dark_theme">Tema oscuro</string>
+    <string name="debug_leak_canary">LeakCanary</string>
+    <string name="debug_title">Ajustes de depuración</string>
+    <string name="dialog_adobe_not_installed">No se detecta Adobe Flash Player.\nPor favor, instálalo.</string>
+    <string name="dialog_bookmark">¿Qué quieres hacer con este marcador?</string>
+    <string name="dialog_cookies">¿Quieres borrar todas las cookies?</string>
+    <string name="dialog_copy_link">Copiar enlace</string>
+    <string name="dialog_download">¿Quieres descargar este archivo? (%1$s)</string>
+    <string name="dialog_download_image">Descargar imagen</string>
+    <string name="dialog_edit_bookmark">Editar marcador</string>
+    <string name="dialog_folder">¿Qué te gustaría hacer con esta carpeta?</string>
+    <string name="dialog_history">¿Quieres borrar el historial?</string>
+    <string name="dialog_history_long_press">¿Qué quieres hacer con este elemento del historial?</string>
+    <string name="dialog_image">¿Qué quieres hacer con esta imagen?</string>
+    <string name="dialog_import_error">No se ha detectado navegador del cual importar marcadores.</string>
+    <string name="dialog_link">¿Qué quieres hacer con este enlace?</string>
+    <string name="dialog_open_background_tab">Abrir en pestaña de fondo</string>
+    <string name="dialog_open_incognito_tab">Abrir en pestaña incógnito</string>
+    <string name="dialog_open_new_tab">Abrir en nueva pestaña</string>
+    <string name="dialog_remove_bookmark">Remover marcador</string>
+    <string name="dialog_remove_folder">Remover carpeta</string>
+    <string name="dialog_remove_from_history">Remover del historial</string>
+    <string name="dialog_rename_folder">Renombrar carpeta</string>
+    <string name="dialog_title_close_browser">Cerrar navegador</string>
+    <string name="dialog_title_share">Compartir esta página</string>
+    <string name="do_not_track">Solicitar \'Do Not Track\'</string>
+    <string name="download">Ruta de descargas</string>
+    <string name="download_no_sdcard_dlg_msg">Se requiere de almacenamiento USB para descargar el archivo.</string>
+    <string name="download_no_sdcard_dlg_title">No hay tarjeta SD</string>
+    <string name="download_pending">Iniciando descarga\u2026</string>
+    <string name="download_sdcard_busy_dlg_msg">El almacenamiento está ocupado. Para permitir las descargar, desactiva el almacenamiento USB desde el área de notificación.</string>
+    <string name="download_sdcard_busy_dlg_title">Almacenamiento USB no disponible</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="export_bookmarks">Exportar marcadores a una copia de seguridad</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="faq">FAQ</string>
+    <string name="faq_description">Preguntas frecuentes</string>
+    <string name="folder">Nombre de la carpeta</string>
+    <string name="folder_custom">Personalizado</string>
+    <string name="folder_default">Por defecto</string>
+    <string name="freeware">Software gratuito</string>
+    <string name="fullScreenOption">Ocultar barra de estado al navegar</string>
+    <string name="fullscreen">Modo de pantalla completa</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_title">Título</string>
+    <string name="hint_url">Dirección URL</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="home">Página de inicio</string>
+    <string name="host">Host:</string>
+    <string name="hosts_source">Fuente de bloqueo de anuncios del archivo hosts</string>
+    <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
+    <string name="http_proxy">Proxy HTTP</string>
+    <string name="i2p_not_running">I2P no está corriendo.</string>
+    <string name="i2p_tunnels_not_ready">Los túneles I2P no están preparados aún.</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="import_backup">Importar marcadores desde una copia de seguridad</string>
+    <string name="import_bookmark_error">No se pudo importar los marcadores del archivo</string>
+    <string name="incognito_cookies">Habilitar cookies en el modo incógnito</string>
+    <string name="install_i2p_android">¿Instalar I2P Android?</string>
+    <string name="install_orbot">Por favor, instala Orbot para usar Tor.</string>
+    <string name="invert_color">Invertir color</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="java">Habilitar JavaScript</string>
+    <string name="jsoup">jsoup: Java HTML Parser</string>
+    <string name="library_netcipher">NetCipher</string>
+    <string name="license_gnu">GNU Lesser General Public License</string>
+    <string name="licenses">Licencias de código abierto (open source)</string>
+    <string name="light_theme">Tema claro</string>
+    <string name="loading">Cargando…</string>
+    <string name="loading_failed">No se pudo cargar la página.</string>
+    <string name="location">Permitir acceso a tu ubicación</string>
+    <string name="manual_proxy">Proxy manual</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="max_tabs">Se ha alcanzado el máximo de pestañas</string>
+    <string name="message_added_to_homescreen">Acceso directo añadido a la pantalla de inicio</string>
+    <string name="message_blocked_local">Se ha bloqueado la carga del archivo local</string>
+    <string name="message_cache_cleared">La caché se ha borrado</string>
+    <string name="message_certificate_date_invalid">la fecha del certificado no es válida</string>
+    <string name="message_certificate_domain_mismatch">el dominio del certificado no coincide con el dominio del sitio web</string>
+    <string name="message_certificate_expired">el certificado está caducado</string>
+    <string name="message_certificate_invalid">el certificado no es válido</string>
+    <string name="message_certificate_not_yet_valid">el certificado no es válido todavía</string>
+    <string name="message_certificate_untrusted">el certificado no es confiable</string>
+    <string name="message_clear_history">El historial se ha borrado</string>
+    <string name="message_cookies_cleared">Las cookies se han borrado</string>
+    <string name="message_form_resubmission">¿Quieres mandar los datos de nuevo?</string>
+    <string name="message_import">Los marcadores se han importado</string>
+    <string name="message_insecure_connection">La conexión a este sitio no es segura:\n%1$s\n¿Continuar en cualquier caso?</string>
+    <string name="message_link_copied">El enlace se ha copiado al portapapeles</string>
+    <string name="message_location">\n¿Quieres usar tu geolocalización?</string>
+    <string name="message_text_copied">El texto se ha copiado al portapapeles</string>
+    <string name="message_web_storage_cleared">Almacenamiento web borrado</string>
+    <string name="mit_license">MIT License</string>
+    <string name="mpl_license">Mozilla Public License v. 2.0</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="name_grayscale">Escala de grises</string>
+    <string name="name_increase_contrast">Aumentar contraste</string>
+    <string name="name_inverted">Invertido</string>
+    <string name="name_inverted_grayscale">Escala de grises invertida</string>
+    <string name="name_normal">Normal</string>
+    <string name="no">No</string>
+    <string name="overViewMode">Visualizar la página de lejos al cargar</string>
+    <string name="password">Almacenar tus contraseñas</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="port">Puerto:</string>
+    <string name="powered_by_duck">Proporcionadas por DuckDuckGo</string>
+    <string name="powered_by_google">Proporcionadas por Google</string>
+    <string name="problem_download">La dirección no es válida, no se pudo descargar</string>
+    <string name="problem_location_download">No se pudo descargar en la localización específica</string>
+    <string name="reading_mode">Modo de lectura</string>
+    <string name="recommended">(Recomendado)</string>
+    <string name="reflow">Activar la recolocación dinámica de texto</string>
+    <string name="remove_identifying_headers">Remover encabezados de identificación</string>
+    <string name="rendering_mode">Modo de renderizado</string>
+    <string name="reopening_recent_tab">Pestaña reabierta</string>
+    <string name="restore">Restaurar pestañas cerradas al iniciar</string>
+    <string name="search">Motor de búsqueda</string>
+    <string name="search_engine_custom">Dirección personalizada</string>
+    <string name="search_hint">Buscar</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="search_suggestions">Sugerencias de búsqueda</string>
+    <string name="search_suggestions_off">Sin sugerencias de búsqueda</string>
+    <string name="settings">Ajustes</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_about_explain">Detalles sobre la versión, autor y licencias.</string>
+    <string name="settings_adblock">Ajustes de bloqueo de anuncios</string>
+    <string name="settings_advanced">Ajustes avanzados</string>
+    <string name="settings_display">Ajustes de pantalla</string>
+    <string name="settings_general">Ajustes generales</string>
+    <string name="settings_privacy">Ajustes de privacidad</string>
+    <string name="size">Tamaño de la tipografía</string>
+    <string name="size_large">Grande</string>
+    <string name="size_largest">Muy grande</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">Pequeño</string>
+    <string name="size_smallest">Muy pequeño</string>
+    <string name="snacktory">Snacktory</string>
+    <string name="start_i2p_android">¿Iniciar I2P Android?</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stock_browser">Navegador de sistema</string>
+    <string name="stock_browser_available">Detectado navegador de sistema soportado</string>
+    <string name="stock_browser_unavailable">Navegador de sistema no detectado</string>
+    <string name="suggestion">Buscar</string>
+    <string name="supported_browsers_title">Navegadores compatibles</string>
+    <string name="swap_bookmarks_and_tabs">Cambiar marcador y tabuladores</string>
+    <string name="sync_history">Sincronizar historial con Google</string>
+    <string name="tabs">Pestañas</string>
+    <string name="tabs_in_drawer">Mostrar pestañas en el cajón de navegación</string>
+    <string name="text_encoding">Codificación de texto</string>
+    <string name="theme">Tema de la app</string>
+    <string name="third_party">Bloquear cookies de terceras partes</string>
+    <string name="title_chooser">Elige un archivo</string>
+    <string name="title_clear_cookies">Borrar cookies</string>
+    <string name="title_clear_history">Borrar historial</string>
+    <string name="title_custom_homepage">Página de inicio personalizada</string>
+    <string name="title_download_location">Ruta para las descargas</string>
+    <string name="title_edit_bookmark">Editar marcador</string>
+    <string name="title_error">Error</string>
+    <string name="title_file_chooser">Selector de archivos</string>
+    <string name="title_form_resubmission">Resubir el formulario</string>
+    <string name="title_rename_folder">Renombrar carpeta</string>
+    <string name="title_search_engine">Motor de búsqueda</string>
+    <string name="title_sign_in">Iniciar sesión</string>
+    <string name="title_text_size">Tamaño de la tipografía</string>
+    <string name="title_user_agent">Agente de usuario</string>
+    <string name="title_warning">Aviso</string>
+    <string name="untitled">Sin título</string>
+    <string name="url_contents">Contenido de la caja de la URL</string>
+    <string name="url_twitter">twitter.com/RestainoAnthony</string>
+    <string name="use_i2p_prompt">Parece que tienes I2P instalado. ¿Quieres usar I2P?</string>
+    <string name="use_tor_prompt">Parece que tienes Orbot instalado. ¿Quieres usar Tor?</string>
+    <string name="version">Versión</string>
+    <string name="wideViewPort">Utilizar viewport normal</string>
+    <string name="window">Permitir a los sitios abrir nuevas ventanas</string>
+    <string name="would_you_like_to_start_i2p_android">Parece que I2P Android no se está ejecutando. ¿Desea ejecutarlo?</string>
+    <string name="yes">Sí</string>
+    <string name="you_must_have_i2p_android">Ha de tener I2P Android instalado y ejecutándose. ¿Le gustaría instalarlo?</string>
+</resources>

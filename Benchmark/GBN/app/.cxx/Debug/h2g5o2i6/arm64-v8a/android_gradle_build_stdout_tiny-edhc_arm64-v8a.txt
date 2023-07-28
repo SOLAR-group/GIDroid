@@ -1,0 +1,9 @@
+ninja: Entering directory `C:\Users\jcall\Apps\GBN\app\.cxx\Debug\h2g5o2i6\arm64-v8a'
+[1/3] Building C object CMakeFiles/tiny-edhc.dir/ecdh_jni.c.o
+[2/3] Building C object CMakeFiles/tiny-edhc.dir/ecdh.c.o
+C:/Users/jcall/Apps/GBN/app/src/main/c/ecdh.c:854:9: warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+        printf("reduction r\n");
+        ^
+C:/Users/jcall/Apps/GBN/app/src/main/c/ecdh.c:854:9: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 warning generated.
+[3/3] Linking C shared library C:\Users\jcall\Apps\GBN\app\build\intermediates\cxx\Debug\h2g5o2i6\obj\arm64-v8a\libtiny-edhc.so

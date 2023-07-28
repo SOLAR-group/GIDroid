@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="LightAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="icon_color">@color/icon_light</item>
+        <item name="icon_background_color">@color/icon_background_light</item>
+        <item name="dot_color">@color/dot_light</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+        <item name="toolbar_background_color">@color/toolbar_light</item>
+    </style>
+
+    <style name="LightPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="DarkAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="icon_color">@color/icon_dark</item>
+        <item name="icon_background_color">@color/icon_background_dark</item>
+        <item name="dot_color">@color/dot_dark</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        <item name="toolbar_background_color">@color/toolbar_dark</item>
+    </style>
+
+    <style name="DarkPopupTheme" parent="ThemeOverlay.AppCompat">
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="DefaultSplashScreenAppTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/black_transp_70</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

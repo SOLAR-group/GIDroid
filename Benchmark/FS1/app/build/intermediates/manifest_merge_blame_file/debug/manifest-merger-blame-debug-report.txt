@@ -1,0 +1,271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="be.digitalia.fosdem"
+4    android:installLocation="auto"
+5    android:versionCode="1500160"
+6    android:versionName="1.6.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:9:5-66
+12-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:9:22-64
+13    <uses-permission android:name="android.permission.NFC" />
+13-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:10:5-61
+13-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:10:22-59
+14
+15    <!-- Permissions required for alarms -->
+16    <uses-permission
+16-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:13:5-15:37
+17        android:name="android.permission.WAKE_LOCK"
+17-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:14:9-52
+18        android:maxSdkVersion="25" />
+18-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:15:9-35
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:16:5-80
+19-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:16:22-78
+20    <uses-permission
+20-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:17:5-19:37
+21        android:name="android.permission.VIBRATE"
+21-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:18:9-50
+22        android:maxSdkVersion="18" />
+22-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:19:9-35
+23
+24    <!-- Make touch screen optional since all screens can be used with a pad -->
+25    <uses-feature
+25-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:22:5-24:35
+26        android:name="android.hardware.touchscreen"
+26-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:23:9-52
+27        android:required="false" />
+27-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:24:9-33
+28
+29    <application
+29-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:26:5-136:19
+30        android:name="be.digitalia.fosdem.FosdemApplication"
+30-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:27:9-42
+31        android:allowBackup="false"
+31-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:28:9-36
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\bbc5c93593a298ed4610baa13b8ec69c\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:29:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:30:9-41
+36        android:supportsRtl="true"
+36-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:31:9-35
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:32:9-40
+38        <activity
+38-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:33:9-50:20
+39            android:name="be.digitalia.fosdem.activities.MainActivity"
+39-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:34:13-52
+40            android:exported="true"
+40-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:37:13-36
+41            android:label="@string/app_name"
+41-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:35:13-45
+42            android:theme="@style/AppTheme.NoActionBar.WindowDrawsSystemBarBackgrounds" >
+42-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:36:13-88
+43            <intent-filter>
+43-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:38:13-42:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:39:17-68
+44-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:39:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:41:17-76
+46-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:41:27-74
+47            </intent-filter>
+48
+49            <meta-data
+49-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:44:13-46:67
+50                android:name="android.app.default_searchable"
+50-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:45:17-62
+51                android:value=".activities.SearchResultActivity" />
+51-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:46:17-65
+52            <meta-data
+52-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:47:13-49:52
+53                android:name="android.app.shortcuts"
+53-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:48:17-53
+54                android:resource="@xml/shortcuts" />
+54-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:49:17-50
+55        </activity>
+56        <activity
+56-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:51:9-58:20
+57            android:name="be.digitalia.fosdem.activities.TrackScheduleActivity"
+57-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:52:13-61
+58            android:parentActivityName="be.digitalia.fosdem.activities.MainActivity"
+58-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:53:13-66
+59            android:theme="@style/AppTheme.NoActionBar" >
+59-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:54:13-56
+60            <meta-data
+60-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:55:13-57:59
+61                android:name="android.support.PARENT_ACTIVITY"
+61-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:56:17-63
+62                android:value=".activities.MainActivity" />
+62-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:57:17-57
+63        </activity>
+64        <activity
+64-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:59:9-61:52
+65            android:name="be.digitalia.fosdem.activities.TrackScheduleEventActivity"
+65-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:60:13-66
+66            android:label="@string/event_details" />
+66-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:61:13-50
+67        <activity
+67-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:62:9-77:20
+68            android:name="be.digitalia.fosdem.activities.EventDetailsActivity"
+68-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:63:13-60
+69            android:exported="false"
+69-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:66:13-37
+70            android:label="@string/event_details"
+70-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:64:13-50
+71            android:parentActivityName="be.digitalia.fosdem.activities.TrackScheduleActivity" >
+71-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:65:13-75
+72            <intent-filter>
+72-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:67:13-73:29
+73                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+73-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:68:17-76
+73-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:68:25-74
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:70:17-75
+75-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:70:27-73
+76
+77                <data android:mimeType="application/be.digitalia.fosdem" />
+77-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:72:23-70
+78            </intent-filter>
+79
+80            <meta-data
+80-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:55:13-57:59
+81                android:name="android.support.PARENT_ACTIVITY"
+81-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:56:17-63
+82                android:value=".activities.TrackScheduleActivity" />
+82-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:57:17-57
+83        </activity>
+84        <activity
+84-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:78:9-80:58
+85            android:name="be.digitalia.fosdem.activities.PersonInfoActivity"
+85-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:79:13-58
+86            android:theme="@style/AppTheme.NoActionBar" />
+86-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:80:13-56
+87        <activity
+87-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:81:9-97:20
+88            android:name="be.digitalia.fosdem.activities.SearchResultActivity"
+88-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:82:13-60
+89            android:exported="false"
+89-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:85:13-37
+90            android:label="@string/search_events"
+90-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:83:13-50
+91            android:launchMode="singleTop" >
+91-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:84:13-43
+92            <intent-filter>
+92-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:86:13-88:29
+93                <action android:name="android.intent.action.SEARCH" />
+93-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:87:17-70
+93-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:87:25-68
+94            </intent-filter>
+95            <intent-filter>
+95-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:89:13-92:29
+96                <action android:name="com.google.android.gms.actions.SEARCH_ACTION" />
+96-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:90:17-86
+96-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:90:25-84
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:70:17-75
+98-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:70:27-73
+99            </intent-filter>
+100
+101            <meta-data
+101-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:94:13-96:58
+102                android:name="android.app.searchable"
+102-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:95:17-54
+103                android:resource="@xml/main_searchable" />
+103-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:96:17-56
+104        </activity>
+105        <!-- Clearing the Task Affinity allows this dialog activity to be displayed without bringing to front the main application with it. -->
+106        <activity
+106-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:99:9-103:66
+107            android:name="be.digitalia.fosdem.activities.RoomImageDialogActivity"
+107-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:100:13-63
+108            android:excludeFromRecents="true"
+108-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:101:13-46
+109            android:taskAffinity=""
+109-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:102:13-36
+110            android:theme="@style/AlertDialogTheme.NoActionBar" />
+110-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:103:13-64
+111        <activity
+111-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:104:9-112:20
+112            android:name="be.digitalia.fosdem.activities.SettingsActivity"
+112-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:105:13-56
+113            android:exported="true"
+113-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:107:13-36
+114            android:label="@string/settings" >
+114-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:106:13-45
+115            <intent-filter>
+115-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:108:13-111:29
+116                <action android:name="android.intent.action.MAIN" />
+116-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:39:17-68
+116-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:39:25-66
+117
+118                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES" />
+118-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:110:17-92
+118-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:110:27-90
+119            </intent-filter>
+120        </activity>
+121
+122        <receiver
+122-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:114:9-120:20
+123            android:name="be.digitalia.fosdem.receivers.AlarmReceiver"
+123-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:115:13-52
+124            android:exported="false" >
+124-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:116:13-37
+125            <intent-filter>
+125-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:117:13-119:29
+126                <action android:name="android.intent.action.BOOT_COMPLETED" />
+126-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:118:17-78
+126-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:118:25-76
+127            </intent-filter>
+128        </receiver>
+129
+130        <service
+130-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:122:9-125:71
+131            android:name="be.digitalia.fosdem.services.AlarmIntentService"
+131-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:123:13-56
+132            android:exported="false"
+132-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:124:13-37
+133            android:permission="android.permission.BIND_JOB_SERVICE" />
+133-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:125:13-69
+134
+135        <provider
+136            android:name="be.digitalia.fosdem.providers.SearchSuggestionProvider"
+136-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:128:13-63
+137            android:authorities="be.digitalia.fosdem.search"
+137-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:129:13-58
+138            android:exported="true" />
+138-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:130:13-36
+139        <provider
+140            android:name="be.digitalia.fosdem.providers.BookmarksExportProvider"
+140-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:132:13-62
+141            android:authorities="be.digitalia.fosdem.bookmarks"
+141-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:133:13-61
+142            android:exported="false"
+142-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:134:13-37
+143            android:grantUriPermissions="true" />
+143-->C:\Users\jcall\Apps\FS1\app\src\main\AndroidManifest.xml:135:13-47
+144        <provider
+144-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\74276d7cdc956e55cd817bd50167acb5\transformed\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+145            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+145-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\74276d7cdc956e55cd817bd50167acb5\transformed\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+146            android:authorities="be.digitalia.fosdem.lifecycle-process"
+146-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\74276d7cdc956e55cd817bd50167acb5\transformed\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+147            android:exported="false"
+147-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\74276d7cdc956e55cd817bd50167acb5\transformed\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+148            android:multiprocess="true" />
+148-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\74276d7cdc956e55cd817bd50167acb5\transformed\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+149    </application>
+150
+151</manifest>

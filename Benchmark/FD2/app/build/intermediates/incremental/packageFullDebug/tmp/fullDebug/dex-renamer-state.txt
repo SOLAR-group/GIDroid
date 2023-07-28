@@ -1,0 +1,10 @@
+#Tue Nov 08 13:03:14 GMT 2022
+base.2=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\dex\\fullDebug\\mergeDexFullDebug\\out
+path.2=classes3.dex
+base.1=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\dex\\fullDebug\\mergeDexFullDebug\\out
+path.1=classes2.dex
+base.0=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\dex\\fullDebug\\mergeDexFullDebug\\out
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

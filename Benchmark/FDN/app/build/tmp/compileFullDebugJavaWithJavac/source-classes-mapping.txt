@@ -1,0 +1,850 @@
+org/fdroid/fdroid/QrGenAsyncTask.java
+ org.fdroid.fdroid.QrGenAsyncTask
+kellinwood/security/zipsigner/optional/SignatureBlockGenerator.java
+ kellinwood.security.zipsigner.optional.SignatureBlockGenerator
+kellinwood/zipio/ZioEntryOutputStream.java
+ kellinwood.zipio.ZioEntryOutputStream
+org/fdroid/fdroid/views/updates/UpdatesItemTouchCallback.java
+ org.fdroid.fdroid.views.updates.UpdatesItemTouchCallback
+org/fdroid/fdroid/views/categories/CategoryAdapter.java
+ org.fdroid.fdroid.views.categories.CategoryAdapter
+org/fdroid/fdroid/data/Apk.java
+ org.fdroid.fdroid.data.Apk
+ org.fdroid.fdroid.data.Apk$1
+org/fdroid/fdroid/installer/Installer.java
+ org.fdroid.fdroid.installer.Installer
+kellinwood/logging/LoggerInterface.java
+ kellinwood.logging.LoggerInterface
+org/fdroid/fdroid/net/bluetooth/httpish/headers/ETagHeader.java
+ org.fdroid.fdroid.net.bluetooth.httpish.headers.ETagHeader
+org/fdroid/fdroid/data/RepoPersister.java
+ org.fdroid.fdroid.data.RepoPersister
+org/fdroid/fdroid/CleanCacheService.java
+ org.fdroid.fdroid.CleanCacheService
+javax/jmdns/impl/FDroidServiceInfo.java
+ javax.jmdns.impl.FDroidServiceInfo
+ javax.jmdns.impl.FDroidServiceInfo$1
+org/fdroid/fdroid/data/InstalledApp.java
+ org.fdroid.fdroid.data.InstalledApp
+kellinwood/security/zipsigner/optional/JKS.java
+ kellinwood.security.zipsigner.optional.JKS
+org/fdroid/fdroid/privileged/views/TabsAdapter.java
+ org.fdroid.fdroid.privileged.views.TabsAdapter
+ org.fdroid.fdroid.privileged.views.TabsAdapter$DummyTabFactory
+org/fdroid/fdroid/data/FDroidProvider.java
+ org.fdroid.fdroid.data.FDroidProvider
+kellinwood/security/zipsigner/optional/CertCreator.java
+ kellinwood.security.zipsigner.optional.CertCreator
+org/fdroid/fdroid/views/panic/ExitActivity.java
+ org.fdroid.fdroid.views.panic.ExitActivity
+ org.fdroid.fdroid.views.panic.ExitActivity$1
+org/fdroid/fdroid/NotificationHelper.java
+ org.fdroid.fdroid.NotificationHelper
+ org.fdroid.fdroid.NotificationHelper$1
+ org.fdroid.fdroid.NotificationHelper$2
+ org.fdroid.fdroid.NotificationHelper$3
+kellinwood/security/zipsigner/optional/KeyNameConflictException.java
+ kellinwood.security.zipsigner.optional.KeyNameConflictException
+org/fdroid/fdroid/ProgressListener.java
+ org.fdroid.fdroid.ProgressListener
+kellinwood/logging/NullLoggerFactory.java
+ kellinwood.logging.NullLoggerFactory
+ kellinwood.logging.NullLoggerFactory$1
+org/fdroid/fdroid/Utils.java
+ org.fdroid.fdroid.Utils
+ org.fdroid.fdroid.Utils$HtmlTagHandler
+ org.fdroid.fdroid.Utils$Profiler
+org/fdroid/fdroid/acra/CrashReportSender.java
+ org.fdroid.fdroid.acra.CrashReportSender
+org/fdroid/fdroid/views/apps/CategorySpan.java
+ org.fdroid.fdroid.views.apps.CategorySpan
+org/fdroid/fdroid/localrepo/peers/BluetoothPeer.java
+ org.fdroid.fdroid.localrepo.peers.BluetoothPeer
+ org.fdroid.fdroid.localrepo.peers.BluetoothPeer$1
+org/fdroid/fdroid/localrepo/LocalRepoKeyStore.java
+ org.fdroid.fdroid.localrepo.LocalRepoKeyStore
+ org.fdroid.fdroid.localrepo.LocalRepoKeyStore$1
+ org.fdroid.fdroid.localrepo.LocalRepoKeyStore$InitException
+ org.fdroid.fdroid.localrepo.LocalRepoKeyStore$KerplappKeyManager
+org/fdroid/fdroid/views/ShareChooserDialog.java
+ org.fdroid.fdroid.views.ShareChooserDialog
+ org.fdroid.fdroid.views.ShareChooserDialog$1
+ org.fdroid.fdroid.views.ShareChooserDialog$1VH
+ org.fdroid.fdroid.views.ShareChooserDialog$2
+ org.fdroid.fdroid.views.ShareChooserDialog$3
+ org.fdroid.fdroid.views.ShareChooserDialog$3$1
+ org.fdroid.fdroid.views.ShareChooserDialog$3$2
+ org.fdroid.fdroid.views.ShareChooserDialog$ShareChooserDialogListener
+org/fdroid/fdroid/views/swap/device/camera/CameraCharacteristicsMinApiLevel21.java
+ org.fdroid.fdroid.views.swap.device.camera.CameraCharacteristicsMinApiLevel21
+org/fdroid/fdroid/data/PackageProvider.java
+ org.fdroid.fdroid.data.PackageProvider
+ org.fdroid.fdroid.data.PackageProvider$1
+ org.fdroid.fdroid.data.PackageProvider$Helper
+ org.fdroid.fdroid.data.PackageProvider$Query
+org/fdroid/fdroid/data/AppPrefs.java
+ org.fdroid.fdroid.data.AppPrefs
+org/fdroid/fdroid/ProgressBufferedInputStream.java
+ org.fdroid.fdroid.ProgressBufferedInputStream
+org/fdroid/fdroid/views/swap/SwapConnecting.java
+ org.fdroid.fdroid.views.swap.SwapConnecting
+ org.fdroid.fdroid.views.swap.SwapConnecting$1
+ org.fdroid.fdroid.views.swap.SwapConnecting$ConnectSwapReceiver
+ org.fdroid.fdroid.views.swap.SwapConnecting$PrepareSwapReceiver
+ org.fdroid.fdroid.views.swap.SwapConnecting$Receiver
+org/fdroid/fdroid/views/updates/items/UpdateableAppListItemController.java
+ org.fdroid.fdroid.views.updates.items.UpdateableAppListItemController
+org/fdroid/fdroid/privileged/IPrivilegedService.java
+ org.fdroid.fdroid.privileged.IPrivilegedService
+ org.fdroid.fdroid.privileged.IPrivilegedService$Default
+ org.fdroid.fdroid.privileged.IPrivilegedService$Stub
+ org.fdroid.fdroid.privileged.IPrivilegedService$Stub$Proxy
+org/fdroid/fdroid/net/Downloader.java
+ org.fdroid.fdroid.net.Downloader
+ org.fdroid.fdroid.net.Downloader$1
+ org.fdroid.fdroid.net.Downloader$WrappedInputStream
+org/fdroid/fdroid/UpdateJobService.java
+ org.fdroid.fdroid.UpdateJobService
+org/fdroid/fdroid/views/installed/InstalledAppsActivity.java
+ org.fdroid.fdroid.views.installed.InstalledAppsActivity
+org/fdroid/fdroid/views/SeekBarForegroundThumb.java
+ org.fdroid.fdroid.views.SeekBarForegroundThumb
+org/fdroid/fdroid/views/apps/AppListActivity.java
+ org.fdroid.fdroid.views.apps.AppListActivity
+ org.fdroid.fdroid.views.apps.AppListActivity$1
+ org.fdroid.fdroid.views.apps.AppListActivity$2
+ org.fdroid.fdroid.views.apps.AppListActivity$3
+ org.fdroid.fdroid.views.apps.AppListActivity$4
+ org.fdroid.fdroid.views.apps.AppListActivity$5
+ org.fdroid.fdroid.views.apps.AppListActivity$SortClause
+org/fdroid/fdroid/data/AppProvider.java
+ org.fdroid.fdroid.data.AppProvider
+ org.fdroid.fdroid.data.AppProvider$AppQuerySelection
+ org.fdroid.fdroid.data.AppProvider$Helper
+ org.fdroid.fdroid.data.AppProvider$Query
+org/fdroid/fdroid/data/InstalledAppProvider.java
+ org.fdroid.fdroid.data.InstalledAppProvider
+ org.fdroid.fdroid.data.InstalledAppProvider$1
+ org.fdroid.fdroid.data.InstalledAppProvider$Helper
+ org.fdroid.fdroid.data.InstalledAppProvider$QueryBuilder
+org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$2
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$3
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$4
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$5
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$AppDetailsRecyclerViewAdapterCallbacks
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$AppDetailsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$DonateViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$DonateViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$ExpandableLinearLayoutViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$2
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$3
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$4
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$LinksViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$LinksViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$NoVersionsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$NoVersionsViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$NoVersionsViewHolder$2
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$PermissionsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$PermissionsViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$SafeURLSpan
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$ScreenShotsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionsViewHolder$1
+kellinwood/zipio/ZipInput.java
+ kellinwood.zipio.ZipInput
+org/fdroid/fdroid/views/InstallHistoryActivity.java
+ org.fdroid.fdroid.views.InstallHistoryActivity
+org/fdroid/fdroid/compat/PRNGFixes.java
+ org.fdroid.fdroid.compat.PRNGFixes
+ org.fdroid.fdroid.compat.PRNGFixes$LinuxPRNGSecureRandom
+ org.fdroid.fdroid.compat.PRNGFixes$LinuxPRNGSecureRandomProvider
+kellinwood/logging/AbstractLogger.java
+ kellinwood.logging.AbstractLogger
+org/fdroid/fdroid/views/OverscrollLinearLayoutManager.java
+ org.fdroid.fdroid.views.OverscrollLinearLayoutManager
+ org.fdroid.fdroid.views.OverscrollLinearLayoutManager$OnOverscrollListener
+org/fdroid/fdroid/views/updates/items/AppStatusListItemController.java
+ org.fdroid.fdroid.views.updates.items.AppStatusListItemController
+ org.fdroid.fdroid.views.updates.items.AppStatusListItemController$1
+org/fdroid/fdroid/data/RepoProvider.java
+ org.fdroid.fdroid.data.RepoProvider
+ org.fdroid.fdroid.data.RepoProvider$Helper
+org/fdroid/fdroid/installer/InstallManagerService.java
+ org.fdroid.fdroid.installer.InstallManagerService
+ org.fdroid.fdroid.installer.InstallManagerService$1
+ org.fdroid.fdroid.installer.InstallManagerService$2
+ org.fdroid.fdroid.installer.InstallManagerService$3
+kellinwood/zipio/ZioEntry.java
+ kellinwood.zipio.ZioEntry
+org/fdroid/fdroid/AboutActivity.java
+ org.fdroid.fdroid.AboutActivity
+ org.fdroid.fdroid.AboutActivity$1
+org/fdroid/fdroid/net/LocalHTTPD.java
+ org.fdroid.fdroid.net.LocalHTTPD
+ org.fdroid.fdroid.net.LocalHTTPD$1
+ org.fdroid.fdroid.net.LocalHTTPD$2
+org/fdroid/fdroid/localrepo/SwapService.java
+ org.fdroid.fdroid.localrepo.SwapService
+ org.fdroid.fdroid.localrepo.SwapService$1
+ org.fdroid.fdroid.localrepo.SwapService$2
+ org.fdroid.fdroid.localrepo.SwapService$3
+ org.fdroid.fdroid.localrepo.SwapService$4
+ org.fdroid.fdroid.localrepo.SwapService$5
+ org.fdroid.fdroid.localrepo.SwapService$Binder
+ org.fdroid.fdroid.localrepo.SwapService$SwapStep
+org/fdroid/fdroid/views/hiding/CalculatorActivity.java
+ org.fdroid.fdroid.views.hiding.CalculatorActivity
+org/fdroid/fdroid/views/PreferencesFragment.java
+ org.fdroid.fdroid.views.PreferencesFragment
+ org.fdroid.fdroid.views.PreferencesFragment$1
+ org.fdroid.fdroid.views.PreferencesFragment$2
+ org.fdroid.fdroid.views.PreferencesFragment$3
+ org.fdroid.fdroid.views.PreferencesFragment$4
+ org.fdroid.fdroid.views.PreferencesFragment$5
+ org.fdroid.fdroid.views.PreferencesFragment$6
+org/fdroid/fdroid/data/NewRepoConfig.java
+ org.fdroid.fdroid.data.NewRepoConfig
+org/fdroid/fdroid/compat/PackageManagerCompat.java
+ org.fdroid.fdroid.compat.PackageManagerCompat
+org/fdroid/fdroid/data/ValueObject.java
+ org.fdroid.fdroid.data.ValueObject
+org/fdroid/fdroid/views/updates/UpdatesViewBinder.java
+ org.fdroid.fdroid.views.updates.UpdatesViewBinder
+ org.fdroid.fdroid.views.updates.UpdatesViewBinder$1
+ org.fdroid.fdroid.views.updates.UpdatesViewBinder$2
+kellinwood/logging/StreamLogger.java
+ kellinwood.logging.StreamLogger
+org/fdroid/fdroid/data/SanitizedFile.java
+ org.fdroid.fdroid.data.SanitizedFile
+org/fdroid/fdroid/localrepo/type/BluetoothSwap.java
+ org.fdroid.fdroid.localrepo.type.BluetoothSwap
+ org.fdroid.fdroid.localrepo.type.BluetoothSwap$1
+ org.fdroid.fdroid.localrepo.type.BluetoothSwap$NoBluetoothType
+org/fdroid/fdroid/data/Schema.java
+ org.fdroid.fdroid.data.Schema
+ org.fdroid.fdroid.data.Schema$AntiFeatureTable
+ org.fdroid.fdroid.data.Schema$AntiFeatureTable$Cols
+ org.fdroid.fdroid.data.Schema$ApkAntiFeatureJoinTable
+ org.fdroid.fdroid.data.Schema$ApkAntiFeatureJoinTable$Cols
+ org.fdroid.fdroid.data.Schema$ApkTable
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols$AntiFeatures
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols$Package
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols$Repo
+ org.fdroid.fdroid.data.Schema$AppMetadataTable
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$ForWriting
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$ForWriting$Categories
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$InstalledApp
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$Package
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$SuggestedApk
+ org.fdroid.fdroid.data.Schema$AppPrefsTable
+ org.fdroid.fdroid.data.Schema$AppPrefsTable$Cols
+ org.fdroid.fdroid.data.Schema$CatJoinTable
+ org.fdroid.fdroid.data.Schema$CatJoinTable$Cols
+ org.fdroid.fdroid.data.Schema$CategoryTable
+ org.fdroid.fdroid.data.Schema$CategoryTable$Cols
+ org.fdroid.fdroid.data.Schema$InstalledAppTable
+ org.fdroid.fdroid.data.Schema$InstalledAppTable$Cols
+ org.fdroid.fdroid.data.Schema$InstalledAppTable$Cols$Package
+ org.fdroid.fdroid.data.Schema$PackageTable
+ org.fdroid.fdroid.data.Schema$PackageTable$Cols
+ org.fdroid.fdroid.data.Schema$RepoTable
+ org.fdroid.fdroid.data.Schema$RepoTable$Cols
+kellinwood/security/zipsigner/ResourceAdapter.java
+ kellinwood.security.zipsigner.ResourceAdapter
+ kellinwood.security.zipsigner.ResourceAdapter$Item
+kellinwood/security/zipsigner/ProgressEvent.java
+ kellinwood.security.zipsigner.ProgressEvent
+org/fdroid/fdroid/compat/SupportedArchitectures.java
+ org.fdroid.fdroid.compat.SupportedArchitectures
+org/fdroid/fdroid/net/bluetooth/httpish/Request.java
+ org.fdroid.fdroid.net.bluetooth.httpish.Request
+ org.fdroid.fdroid.net.bluetooth.httpish.Request$Methods
+org/fdroid/fdroid/views/main/SettingsView.java
+ org.fdroid.fdroid.views.main.SettingsView
+kellinwood/zipio/ZipListingHelper.java
+ kellinwood.zipio.ZipListingHelper
+kellinwood/logging/LoggerManager.java
+ kellinwood.logging.LoggerManager
+org/fdroid/fdroid/net/ImageLoaderForUIL.java
+ org.fdroid.fdroid.net.ImageLoaderForUIL
+ org.fdroid.fdroid.net.ImageLoaderForUIL$1
+org/fdroid/fdroid/AppUpdateStatusManager.java
+ org.fdroid.fdroid.AppUpdateStatusManager
+ org.fdroid.fdroid.AppUpdateStatusManager$1
+ org.fdroid.fdroid.AppUpdateStatusManager$AppUpdateStatus
+ org.fdroid.fdroid.AppUpdateStatusManager$AppUpdateStatus$1
+ org.fdroid.fdroid.AppUpdateStatusManager$Status
+org/fdroid/fdroid/views/swap/SwapAppsView.java
+ org.fdroid.fdroid.views.swap.SwapAppsView
+ org.fdroid.fdroid.views.swap.SwapAppsView$1
+ org.fdroid.fdroid.views.swap.SwapAppsView$2
+ org.fdroid.fdroid.views.swap.SwapAppsView$2$1
+ org.fdroid.fdroid.views.swap.SwapAppsView$AppListAdapter
+ org.fdroid.fdroid.views.swap.SwapAppsView$AppListAdapter$ViewHolder
+ org.fdroid.fdroid.views.swap.SwapAppsView$AppListAdapter$ViewHolder$1
+ org.fdroid.fdroid.views.swap.SwapAppsView$AppListAdapter$ViewHolder$2
+ org.fdroid.fdroid.views.swap.SwapAppsView$AppListAdapter$ViewHolder$3
+org/fdroid/fdroid/localrepo/peers/BonjourFinder.java
+ org.fdroid.fdroid.localrepo.peers.BonjourFinder
+ org.fdroid.fdroid.localrepo.peers.BonjourFinder$1
+ org.fdroid.fdroid.localrepo.peers.BonjourFinder$1$1
+org/fdroid/fdroid/installer/ApkSignatureVerifier.java
+ org.fdroid.fdroid.installer.ApkSignatureVerifier
+kellinwood/security/zipsigner/optional/LoadKeystoreException.java
+ kellinwood.security.zipsigner.optional.LoadKeystoreException
+org/fdroid/fdroid/compat/FileCompat.java
+ org.fdroid.fdroid.compat.FileCompat
+ org.fdroid.fdroid.compat.FileCompat$1
+ org.fdroid.fdroid.compat.FileCompat$Symlink21
+com/google/zxing/integration/android/IntentResult.java
+ com.google.zxing.integration.android.IntentResult
+org/fdroid/fdroid/CleanCacheService21.java
+ org.fdroid.fdroid.CleanCacheService21
+org/fdroid/fdroid/privileged/IPrivilegedCallback.java
+ org.fdroid.fdroid.privileged.IPrivilegedCallback
+ org.fdroid.fdroid.privileged.IPrivilegedCallback$Default
+ org.fdroid.fdroid.privileged.IPrivilegedCallback$Stub
+ org.fdroid.fdroid.privileged.IPrivilegedCallback$Stub$Proxy
+org/fdroid/fdroid/views/swap/ConfirmReceive.java
+ org.fdroid.fdroid.views.swap.ConfirmReceive
+ org.fdroid.fdroid.views.swap.ConfirmReceive$1
+ org.fdroid.fdroid.views.swap.ConfirmReceive$2
+kellinwood/security/zipsigner/Base64.java
+ kellinwood.security.zipsigner.Base64
+org/fdroid/fdroid/receiver/WifiStateChangeReceiver.java
+ org.fdroid.fdroid.receiver.WifiStateChangeReceiver
+org/fdroid/fdroid/Hasher.java
+ org.fdroid.fdroid.Hasher
+org/fdroid/fdroid/NotificationBroadcastReceiver.java
+ org.fdroid.fdroid.NotificationBroadcastReceiver
+org/fdroid/fdroid/localrepo/LocalRepoManager.java
+ org.fdroid.fdroid.localrepo.LocalRepoManager
+ org.fdroid.fdroid.localrepo.LocalRepoManager$1
+ org.fdroid.fdroid.localrepo.LocalRepoManager$IndexXmlBuilder
+org/fdroid/fdroid/IndexV1Updater.java
+ org.fdroid.fdroid.IndexV1Updater
+ org.fdroid.fdroid.IndexV1Updater$1
+ org.fdroid.fdroid.IndexV1Updater$2
+ org.fdroid.fdroid.IndexV1Updater$3
+ org.fdroid.fdroid.IndexV1Updater$4
+org/fdroid/fdroid/privileged/views/UninstallDialogActivity.java
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity$1
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity$2
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity$3
+org/fdroid/fdroid/net/DownloaderService.java
+ org.fdroid.fdroid.net.DownloaderService
+ org.fdroid.fdroid.net.DownloaderService$1
+ org.fdroid.fdroid.net.DownloaderService$ServiceHandler
+org/fdroid/fdroid/NfcNotEnabledActivity.java
+ org.fdroid.fdroid.NfcNotEnabledActivity
+org/fdroid/fdroid/views/apps/AppListItemController.java
+ org.fdroid.fdroid.views.apps.AppListItemController
+ org.fdroid.fdroid.views.apps.AppListItemController$1
+ org.fdroid.fdroid.views.apps.AppListItemController$2
+ org.fdroid.fdroid.views.apps.AppListItemController$3
+ org.fdroid.fdroid.views.apps.AppListItemController$4
+ org.fdroid.fdroid.views.apps.AppListItemController$5
+ org.fdroid.fdroid.views.apps.AppListItemController$6
+ org.fdroid.fdroid.views.apps.AppListItemController$7
+ org.fdroid.fdroid.views.apps.AppListItemController$8
+ org.fdroid.fdroid.views.apps.AppListItemController$9
+org/fdroid/fdroid/net/bluetooth/BluetoothConnection.java
+ org.fdroid.fdroid.net.bluetooth.BluetoothConnection
+org/fdroid/fdroid/views/main/MainViewController.java
+ org.fdroid.fdroid.views.main.MainViewController
+ org.fdroid.fdroid.views.main.MainViewController$1
+org/fdroid/fdroid/privileged/views/InstallConfirmActivity.java
+ org.fdroid.fdroid.privileged.views.InstallConfirmActivity
+ org.fdroid.fdroid.privileged.views.InstallConfirmActivity$1
+ org.fdroid.fdroid.privileged.views.InstallConfirmActivity$2
+org/fdroid/fdroid/views/updates/UpdatesAdapter.java
+ org.fdroid.fdroid.views.updates.UpdatesAdapter
+ org.fdroid.fdroid.views.updates.UpdatesAdapter$1
+ org.fdroid.fdroid.views.updates.UpdatesAdapter$2
+org/fdroid/fdroid/views/updates/items/UpdateableApp.java
+ org.fdroid.fdroid.views.updates.items.UpdateableApp
+ org.fdroid.fdroid.views.updates.items.UpdateableApp$Delegate
+org/fdroid/fdroid/data/QueryBuilder.java
+ org.fdroid.fdroid.data.QueryBuilder
+org/fdroid/fdroid/DeleteCacheService.java
+ org.fdroid.fdroid.DeleteCacheService
+org/fdroid/fdroid/installer/InstallerFactory.java
+ org.fdroid.fdroid.installer.InstallerFactory
+org/fdroid/fdroid/installer/ApkVerifier.java
+ org.fdroid.fdroid.installer.ApkVerifier
+ org.fdroid.fdroid.installer.ApkVerifier$ApkPermissionUnequalException
+ org.fdroid.fdroid.installer.ApkVerifier$ApkVerificationException
+org/fdroid/fdroid/net/BluetoothDownloader.java
+ org.fdroid.fdroid.net.BluetoothDownloader
+org/fdroid/fdroid/data/LoggingQuery.java
+ org.fdroid.fdroid.data.LoggingQuery
+ org.fdroid.fdroid.data.LoggingQuery$1
+ org.fdroid.fdroid.data.LoggingQuery$LogGetCountCursorWrapper
+org/fdroid/fdroid/installer/ApkCache.java
+ org.fdroid.fdroid.installer.ApkCache
+ org.fdroid.fdroid.installer.ApkCache$1
+org/fdroid/fdroid/views/swap/InitialLoadingView.java
+ org.fdroid.fdroid.views.swap.InitialLoadingView
+org/fdroid/fdroid/localrepo/peers/Peer.java
+ org.fdroid.fdroid.localrepo.peers.Peer
+org/fdroid/fdroid/views/swap/device/camera/CameraCharacteristicsChecker.java
+ org.fdroid.fdroid.views.swap.device.camera.CameraCharacteristicsChecker
+ org.fdroid.fdroid.views.swap.device.camera.CameraCharacteristicsChecker$FDroidDeviceException
+org/fdroid/fdroid/privileged/views/AppDiff.java
+ org.fdroid.fdroid.privileged.views.AppDiff
+org/fdroid/fdroid/localrepo/peers/BluetoothFinder.java
+ org.fdroid.fdroid.localrepo.peers.BluetoothFinder
+ org.fdroid.fdroid.localrepo.peers.BluetoothFinder$1
+ org.fdroid.fdroid.localrepo.peers.BluetoothFinder$1$1
+ org.fdroid.fdroid.localrepo.peers.BluetoothFinder$2
+ org.fdroid.fdroid.localrepo.peers.BluetoothFinder$3
+org/fdroid/fdroid/views/RepoAdapter.java
+ org.fdroid.fdroid.views.RepoAdapter
+ org.fdroid.fdroid.views.RepoAdapter$1
+ org.fdroid.fdroid.views.RepoAdapter$EnabledListener
+org/fdroid/fdroid/views/swap/SwapWorkflowActivity.java
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$1
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$2
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$3
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$4
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$5
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$6
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$7
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$InnerView
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$PrepareInitialSwapRepo
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$PrepareSwapRepo
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$PrepareSwapRepo$1
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$SwapDebug
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity$SwapDebug$1
+org/fdroid/fdroid/data/TempApkProvider.java
+ org.fdroid.fdroid.data.TempApkProvider
+ org.fdroid.fdroid.data.TempApkProvider$Helper
+org/fdroid/fdroid/data/CategoryProvider.java
+ org.fdroid.fdroid.data.CategoryProvider
+ org.fdroid.fdroid.data.CategoryProvider$1
+ org.fdroid.fdroid.data.CategoryProvider$Helper
+ org.fdroid.fdroid.data.CategoryProvider$Query
+kellinwood/security/zipsigner/optional/PasswordObfuscator.java
+ kellinwood.security.zipsigner.optional.PasswordObfuscator
+org/fdroid/fdroid/installer/FileInstaller.java
+ org.fdroid.fdroid.installer.FileInstaller
+org/fdroid/fdroid/Preferences.java
+ org.fdroid.fdroid.Preferences
+ org.fdroid.fdroid.Preferences$ChangeListener
+ org.fdroid.fdroid.Preferences$Theme
+kellinwood/security/zipsigner/DefaultResourceAdapter.java
+ kellinwood.security.zipsigner.DefaultResourceAdapter
+ kellinwood.security.zipsigner.DefaultResourceAdapter$1
+org/fdroid/fdroid/net/bluetooth/httpish/Response.java
+ org.fdroid.fdroid.net.bluetooth.httpish.Response
+ org.fdroid.fdroid.net.bluetooth.httpish.Response$Builder
+org/fdroid/fdroid/receiver/PackageManagerReceiver.java
+ org.fdroid.fdroid.receiver.PackageManagerReceiver
+org/fdroid/fdroid/views/updates/items/KnownVulnAppListItemController.java
+ org.fdroid.fdroid.views.updates.items.KnownVulnAppListItemController
+ org.fdroid.fdroid.views.updates.items.KnownVulnAppListItemController$1
+org/fdroid/fdroid/views/updates/DismissResult.java
+ org.fdroid.fdroid.views.updates.DismissResult
+org/fdroid/fdroid/localrepo/peers/PeerFinder.java
+ org.fdroid.fdroid.localrepo.peers.PeerFinder
+org/fdroid/fdroid/UpdateService.java
+ org.fdroid.fdroid.UpdateService
+ org.fdroid.fdroid.UpdateService$1
+ org.fdroid.fdroid.UpdateService$2
+ org.fdroid.fdroid.UpdateService$StillOnWifiAsyncTask
+org/fdroid/fdroid/installer/ApkFileProvider.java
+ org.fdroid.fdroid.installer.ApkFileProvider
+org/fdroid/fdroid/acra/CrashReportActivity.java
+ org.fdroid.fdroid.acra.CrashReportActivity
+kellinwood/security/zipsigner/optional/CustomKeySigner.java
+ kellinwood.security.zipsigner.optional.CustomKeySigner
+kellinwood/security/zipsigner/ZipSigner.java
+ kellinwood.security.zipsigner.ZipSigner
+ kellinwood.security.zipsigner.ZipSigner$AutoKeyObservable
+org/fdroid/fdroid/views/LinearLayoutManagerSnapHelper.java
+ org.fdroid.fdroid.views.LinearLayoutManagerSnapHelper
+ org.fdroid.fdroid.views.LinearLayoutManagerSnapHelper$LinearSnapHelperListener
+com/google/zxing/encode/Contents.java
+ com.google.zxing.encode.Contents
+ com.google.zxing.encode.Contents$Type
+org/fdroid/fdroid/views/hiding/HidingManager.java
+ org.fdroid.fdroid.views.hiding.HidingManager
+ org.fdroid.fdroid.views.hiding.HidingManager$1
+ org.fdroid.fdroid.views.hiding.HidingManager$2
+kellinwood/security/zipsigner/ProgressHelper.java
+ kellinwood.security.zipsigner.ProgressHelper
+org/fdroid/fdroid/data/ApkProvider.java
+ org.fdroid.fdroid.data.ApkProvider
+ org.fdroid.fdroid.data.ApkProvider$1
+ org.fdroid.fdroid.data.ApkProvider$Helper
+ org.fdroid.fdroid.data.ApkProvider$Query
+org/fdroid/fdroid/views/swap/WifiQrView.java
+ org.fdroid.fdroid.views.swap.WifiQrView
+ org.fdroid.fdroid.views.swap.WifiQrView$1
+ org.fdroid.fdroid.views.swap.WifiQrView$2
+org/fdroid/fdroid/views/apps/StandardAppListItemController.java
+ org.fdroid.fdroid.views.apps.StandardAppListItemController
+org/fdroid/fdroid/installer/PrivilegedInstaller.java
+ org.fdroid.fdroid.installer.PrivilegedInstaller
+ org.fdroid.fdroid.installer.PrivilegedInstaller$1
+ org.fdroid.fdroid.installer.PrivilegedInstaller$2
+ org.fdroid.fdroid.installer.PrivilegedInstaller$2$1
+ org.fdroid.fdroid.installer.PrivilegedInstaller$3
+ org.fdroid.fdroid.installer.PrivilegedInstaller$3$1
+kellinwood/security/zipsigner/optional/DistinguishedNameValues.java
+ kellinwood.security.zipsigner.optional.DistinguishedNameValues
+org/fdroid/fdroid/views/installed/InstalledAppListAdapter.java
+ org.fdroid.fdroid.views.installed.InstalledAppListAdapter
+org/fdroid/fdroid/views/swap/NfcView.java
+ org.fdroid.fdroid.views.swap.NfcView
+ org.fdroid.fdroid.views.swap.NfcView$1
+ org.fdroid.fdroid.views.swap.NfcView$2
+org/fdroid/fdroid/net/bluetooth/httpish/headers/Header.java
+ org.fdroid.fdroid.net.bluetooth.httpish.headers.Header
+kellinwood/security/zipsigner/HexDumpEncoder.java
+ kellinwood.security.zipsigner.HexDumpEncoder
+org/fdroid/fdroid/localrepo/CacheSwapAppsService.java
+ org.fdroid.fdroid.localrepo.CacheSwapAppsService
+kellinwood/zipio/ZioEntryInputStream.java
+ kellinwood.zipio.ZioEntryInputStream
+org/fdroid/fdroid/privileged/views/CaffeinatedScrollView.java
+ org.fdroid.fdroid.privileged.views.CaffeinatedScrollView
+org/fdroid/fdroid/receiver/StartupReceiver.java
+ org.fdroid.fdroid.receiver.StartupReceiver
+kellinwood/zipio/CentralEnd.java
+ kellinwood.zipio.CentralEnd
+org/fdroid/fdroid/views/swap/StartSwapView.java
+ org.fdroid.fdroid.views.swap.StartSwapView
+ org.fdroid.fdroid.views.swap.StartSwapView$1
+ org.fdroid.fdroid.views.swap.StartSwapView$10
+ org.fdroid.fdroid.views.swap.StartSwapView$2
+ org.fdroid.fdroid.views.swap.StartSwapView$3
+ org.fdroid.fdroid.views.swap.StartSwapView$4
+ org.fdroid.fdroid.views.swap.StartSwapView$5
+ org.fdroid.fdroid.views.swap.StartSwapView$6
+ org.fdroid.fdroid.views.swap.StartSwapView$7
+ org.fdroid.fdroid.views.swap.StartSwapView$8
+ org.fdroid.fdroid.views.swap.StartSwapView$9
+ org.fdroid.fdroid.views.swap.StartSwapView$PeopleNearbyAdapter
+kellinwood/security/zipsigner/AutoKeyException.java
+ kellinwood.security.zipsigner.AutoKeyException
+org/fdroid/fdroid/views/ScreenShotsRecyclerViewAdapter.java
+ org.fdroid.fdroid.views.ScreenShotsRecyclerViewAdapter
+ org.fdroid.fdroid.views.ScreenShotsRecyclerViewAdapter$Listener
+ org.fdroid.fdroid.views.ScreenShotsRecyclerViewAdapter$ScreenShotViewHolder
+org/fdroid/fdroid/net/bluetooth/BluetoothClient.java
+ org.fdroid.fdroid.net.bluetooth.BluetoothClient
+org/fdroid/fdroid/data/DBHelper.java
+ org.fdroid.fdroid.data.DBHelper
+org/fdroid/fdroid/Provisioner.java
+ org.fdroid.fdroid.Provisioner
+ org.fdroid.fdroid.Provisioner$1
+ org.fdroid.fdroid.Provisioner$Provision
+ org.fdroid.fdroid.Provisioner$ProvisionPlaintext
+ org.fdroid.fdroid.Provisioner$RepositoryProvision
+org/fdroid/fdroid/net/bluetooth/FileDetails.java
+ org.fdroid.fdroid.net.bluetooth.FileDetails
+org/fdroid/fdroid/receiver/DeviceStorageReceiver.java
+ org.fdroid.fdroid.receiver.DeviceStorageReceiver
+org/fdroid/fdroid/data/AppPrefsProvider.java
+ org.fdroid.fdroid.data.AppPrefsProvider
+ org.fdroid.fdroid.data.AppPrefsProvider$1
+ org.fdroid.fdroid.data.AppPrefsProvider$Helper
+ org.fdroid.fdroid.data.AppPrefsProvider$Query
+org/fdroid/fdroid/views/main/WhatsNewViewBinder.java
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder$1
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder$2
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder$3
+org/fdroid/fdroid/installer/DefaultInstaller.java
+ org.fdroid.fdroid.installer.DefaultInstaller
+kellinwood/security/zipsigner/HexEncoder.java
+ kellinwood.security.zipsigner.HexEncoder
+org/fdroid/fdroid/installer/ErrorDialogActivity.java
+ org.fdroid.fdroid.installer.ErrorDialogActivity
+ org.fdroid.fdroid.installer.ErrorDialogActivity$1
+ org.fdroid.fdroid.installer.ErrorDialogActivity$2
+org/fdroid/fdroid/views/updates/items/UpdateableAppsHeader.java
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$Delegate
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$ViewHolder
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$ViewHolder$1
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$ViewHolder$2
+kellinwood/security/zipsigner/optional/Fingerprint.java
+ kellinwood.security.zipsigner.optional.Fingerprint
+org/fdroid/fdroid/views/updates/items/KnownVulnApp.java
+ org.fdroid.fdroid.views.updates.items.KnownVulnApp
+ org.fdroid.fdroid.views.updates.items.KnownVulnApp$Delegate
+kellinwood/security/zipsigner/ZipSignature.java
+ kellinwood.security.zipsigner.ZipSignature
+org/fdroid/fdroid/net/bluetooth/httpish/headers/ContentLengthHeader.java
+ org.fdroid.fdroid.net.bluetooth.httpish.headers.ContentLengthHeader
+org/fdroid/fdroid/views/main/MainActivity.java
+ org.fdroid.fdroid.views.main.MainActivity
+ org.fdroid.fdroid.views.main.MainActivity$1
+ org.fdroid.fdroid.views.main.MainActivity$NonScrollingHorizontalLayoutManager
+org/fdroid/fdroid/privileged/views/AppSecurityPermissions.java
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$1
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$MyPermissionGroupInfo
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$MyPermissionInfo
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$PermissionGroupInfoComparator
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$PermissionInfoComparator
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$PermissionItemView
+org/fdroid/fdroid/views/apps/AppListItemState.java
+ org.fdroid.fdroid.views.apps.AppListItemState
+org/fdroid/fdroid/net/bluetooth/BluetoothConstants.java
+ org.fdroid.fdroid.net.bluetooth.BluetoothConstants
+org/fdroid/fdroid/views/swap/SendFDroidView.java
+ org.fdroid.fdroid.views.swap.SendFDroidView
+ org.fdroid.fdroid.views.swap.SendFDroidView$1
+ org.fdroid.fdroid.views.swap.SendFDroidView$2
+org/fdroid/fdroid/data/TempAppProvider.java
+ org.fdroid.fdroid.data.TempAppProvider
+ org.fdroid.fdroid.data.TempAppProvider$Helper
+org/fdroid/fdroid/net/ConnectivityMonitorService.java
+ org.fdroid.fdroid.net.ConnectivityMonitorService
+ org.fdroid.fdroid.net.ConnectivityMonitorService$1
+org/fdroid/fdroid/data/OrderClause.java
+ org.fdroid.fdroid.data.OrderClause
+org/fdroid/fdroid/NfcHelper.java
+ org.fdroid.fdroid.NfcHelper
+org/fdroid/fdroid/FDroidApp.java
+ org.fdroid.fdroid.FDroidApp
+ org.fdroid.fdroid.FDroidApp$1
+ org.fdroid.fdroid.FDroidApp$2
+ org.fdroid.fdroid.FDroidApp$3
+ org.fdroid.fdroid.FDroidApp$4
+ org.fdroid.fdroid.FDroidApp$5
+org/fdroid/fdroid/data/ObbUrlActivity.java
+ org.fdroid.fdroid.data.ObbUrlActivity
+org/fdroid/fdroid/CleanCacheJobService.java
+ org.fdroid.fdroid.CleanCacheJobService
+org/fdroid/fdroid/views/installed/InstalledAppListItemController.java
+ org.fdroid.fdroid.views.installed.InstalledAppListItemController
+org/fdroid/fdroid/views/swap/JoinWifiView.java
+ org.fdroid.fdroid.views.swap.JoinWifiView
+ org.fdroid.fdroid.views.swap.JoinWifiView$1
+ org.fdroid.fdroid.views.swap.JoinWifiView$2
+ org.fdroid.fdroid.views.swap.JoinWifiView$3
+org/fdroid/fdroid/views/RepoDetailsActivity.java
+ org.fdroid.fdroid.views.RepoDetailsActivity
+ org.fdroid.fdroid.views.RepoDetailsActivity$1
+ org.fdroid.fdroid.views.RepoDetailsActivity$2
+ org.fdroid.fdroid.views.RepoDetailsActivity$3
+ org.fdroid.fdroid.views.RepoDetailsActivity$4
+ org.fdroid.fdroid.views.RepoDetailsActivity$5
+ org.fdroid.fdroid.views.RepoDetailsActivity$6
+org/fdroid/fdroid/views/apps/AppListItemDivider.java
+ org.fdroid.fdroid.views.apps.AppListItemDivider
+org/fdroid/fdroid/installer/InstallHistoryService.java
+ org.fdroid.fdroid.installer.InstallHistoryService
+ org.fdroid.fdroid.installer.InstallHistoryService$1
+org/fdroid/fdroid/data/InstalledAppProviderService.java
+ org.fdroid.fdroid.data.InstalledAppProviderService
+ org.fdroid.fdroid.data.InstalledAppProviderService$1
+ org.fdroid.fdroid.data.InstalledAppProviderService$2
+ org.fdroid.fdroid.data.InstalledAppProviderService$3
+ org.fdroid.fdroid.data.InstalledAppProviderService$4
+com/google/zxing/integration/android/IntentIntegrator.java
+ com.google.zxing.integration.android.IntentIntegrator
+ com.google.zxing.integration.android.IntentIntegrator$1
+org/fdroid/fdroid/RepoUpdater.java
+ org.fdroid.fdroid.RepoUpdater
+ org.fdroid.fdroid.RepoUpdater$1
+ org.fdroid.fdroid.RepoUpdater$2
+ org.fdroid.fdroid.RepoUpdater$3
+ org.fdroid.fdroid.RepoUpdater$SigningException
+ org.fdroid.fdroid.RepoUpdater$UpdateException
+org/fdroid/fdroid/installer/InstallerService.java
+ org.fdroid.fdroid.installer.InstallerService
+ org.fdroid.fdroid.installer.InstallerService$1
+org/fdroid/fdroid/localrepo/type/SwapType.java
+ org.fdroid.fdroid.localrepo.type.SwapType
+ org.fdroid.fdroid.localrepo.type.SwapType$1
+ org.fdroid.fdroid.localrepo.type.SwapType$2
+ org.fdroid.fdroid.localrepo.type.SwapType$3
+kellinwood/security/zipsigner/KeySet.java
+ kellinwood.security.zipsigner.KeySet
+org/fdroid/fdroid/net/HttpDownloader.java
+ org.fdroid.fdroid.net.HttpDownloader
+org/fdroid/fdroid/installer/FileInstallerActivity.java
+ org.fdroid.fdroid.installer.FileInstallerActivity
+ org.fdroid.fdroid.installer.FileInstallerActivity$1
+ org.fdroid.fdroid.installer.FileInstallerActivity$2
+org/fdroid/fdroid/views/panic/PanicPreferencesFragment.java
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment$1
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment$2
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment$3
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment$4
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment$5
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment$6
+ org.fdroid.fdroid.views.panic.PanicPreferencesFragment$7
+org/fdroid/fdroid/Languages.java
+ org.fdroid.fdroid.Languages
+org/fdroid/fdroid/RepoXMLHandler.java
+ org.fdroid.fdroid.RepoXMLHandler
+ org.fdroid.fdroid.RepoXMLHandler$IndexReceiver
+org/fdroid/fdroid/localrepo/type/WifiSwap.java
+ org.fdroid.fdroid.localrepo.type.WifiSwap
+ org.fdroid.fdroid.localrepo.type.WifiSwap$1
+ org.fdroid.fdroid.localrepo.type.WifiSwap$2
+ org.fdroid.fdroid.localrepo.type.WifiSwap$3
+ org.fdroid.fdroid.localrepo.type.WifiSwap$4
+ org.fdroid.fdroid.localrepo.type.WifiSwap$5
+ org.fdroid.fdroid.localrepo.type.WifiSwap$5$1
+ org.fdroid.fdroid.localrepo.type.WifiSwap$5$1$1
+org/fdroid/fdroid/views/ScreenShotsActivity.java
+ org.fdroid.fdroid.views.ScreenShotsActivity
+ org.fdroid.fdroid.views.ScreenShotsActivity$DepthPageTransformer
+ org.fdroid.fdroid.views.ScreenShotsActivity$ScreenShotPageFragment
+ org.fdroid.fdroid.views.ScreenShotsActivity$ScreenShotPagerAdapter
+org/fdroid/fdroid/data/RepoPushRequest.java
+ org.fdroid.fdroid.data.RepoPushRequest
+kellinwood/logging/LoggerFactory.java
+ kellinwood.logging.LoggerFactory
+org/fdroid/fdroid/views/ManageReposActivity.java
+ org.fdroid.fdroid.views.ManageReposActivity
+ org.fdroid.fdroid.views.ManageReposActivity$1
+ org.fdroid.fdroid.views.ManageReposActivity$2
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$1
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$2
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$3
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$4
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$5
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$5$1
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$5$2
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$6
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepoState
+com/google/zxing/encode/QRCodeEncoder.java
+ com.google.zxing.encode.QRCodeEncoder
+org/fdroid/fdroid/CompatibilityChecker.java
+ org.fdroid.fdroid.CompatibilityChecker
+org/fdroid/fdroid/net/DownloaderFactory.java
+ org.fdroid.fdroid.net.DownloaderFactory
+org/fdroid/fdroid/localrepo/peers/BonjourPeer.java
+ org.fdroid.fdroid.localrepo.peers.BonjourPeer
+ org.fdroid.fdroid.localrepo.peers.BonjourPeer$1
+org/fdroid/fdroid/views/main/CategoriesViewBinder.java
+ org.fdroid.fdroid.views.main.CategoriesViewBinder
+ org.fdroid.fdroid.views.main.CategoriesViewBinder$1
+ org.fdroid.fdroid.views.main.CategoriesViewBinder$2
+ org.fdroid.fdroid.views.main.CategoriesViewBinder$3
+ org.fdroid.fdroid.views.main.CategoriesViewBinder$4
+org/fdroid/fdroid/data/App.java
+ org.fdroid.fdroid.data.App
+ org.fdroid.fdroid.data.App$1
+ org.fdroid.fdroid.data.App$2
+org/fdroid/fdroid/BuildConfig.java
+ org.fdroid.fdroid.BuildConfig
+org/fdroid/fdroid/views/updates/items/AppStatus.java
+ org.fdroid.fdroid.views.updates.items.AppStatus
+ org.fdroid.fdroid.views.updates.items.AppStatus$Delegate
+org/fdroid/fdroid/compat/CursorAdapterCompat.java
+ org.fdroid.fdroid.compat.CursorAdapterCompat
+org/fdroid/fdroid/net/WifiStateChangeService.java
+ org.fdroid.fdroid.net.WifiStateChangeService
+ org.fdroid.fdroid.net.WifiStateChangeService$WifiInfoThread
+kellinwood/security/zipsigner/optional/JksKeyStore.java
+ kellinwood.security.zipsigner.optional.JksKeyStore
+org/fdroid/fdroid/data/Repo.java
+ org.fdroid.fdroid.data.Repo
+org/fdroid/fdroid/views/panic/PanicPreferencesActivity.java
+ org.fdroid.fdroid.views.panic.PanicPreferencesActivity
+org/fdroid/fdroid/views/swap/SelectAppsView.java
+ org.fdroid.fdroid.views.swap.SelectAppsView
+ org.fdroid.fdroid.views.swap.SelectAppsView$1
+ org.fdroid.fdroid.views.swap.SelectAppsView$2
+ org.fdroid.fdroid.views.swap.SelectAppsView$AppListAdapter
+ org.fdroid.fdroid.views.swap.SelectAppsView$AppListAdapter$1
+org/fdroid/fdroid/views/main/MainViewAdapter.java
+ org.fdroid.fdroid.views.main.MainViewAdapter
+org/fdroid/fdroid/installer/DefaultInstallerActivity.java
+ org.fdroid.fdroid.installer.DefaultInstallerActivity
+org/fdroid/fdroid/acra/CrashReportSenderFactory.java
+ org.fdroid.fdroid.acra.CrashReportSenderFactory
+org/fdroid/fdroid/FDroidCertPins.java
+ org.fdroid.fdroid.FDroidCertPins
+org/fdroid/fdroid/views/swap/device/camera/CameraCharacteristicsMaxApiLevel20.java
+ org.fdroid.fdroid.views.swap.device.camera.CameraCharacteristicsMaxApiLevel20
+org/fdroid/fdroid/net/bluetooth/BluetoothServer.java
+ org.fdroid.fdroid.net.bluetooth.BluetoothServer
+ org.fdroid.fdroid.net.bluetooth.BluetoothServer$ClientConnection
+ org.fdroid.fdroid.net.bluetooth.BluetoothServer$ClientConnection$1
+kellinwood/security/zipsigner/optional/KeyStoreFileManager.java
+ kellinwood.security.zipsigner.optional.KeyStoreFileManager
+org/fdroid/fdroid/data/QuerySelection.java
+ org.fdroid.fdroid.data.QuerySelection
+org/fdroid/fdroid/localrepo/type/BonjourBroadcast.java
+ org.fdroid.fdroid.localrepo.type.BonjourBroadcast
+org/fdroid/fdroid/views/updates/items/AppUpdateData.java
+ org.fdroid.fdroid.views.updates.items.AppUpdateData
+kellinwood/zipio/ZipOutput.java
+ kellinwood.zipio.ZipOutput
+org/fdroid/fdroid/views/apps/CategoryTextWatcher.java
+ org.fdroid.fdroid.views.apps.CategoryTextWatcher
+ org.fdroid.fdroid.views.apps.CategoryTextWatcher$SearchTermsChangedListener
+org/fdroid/fdroid/localrepo/peers/WifiPeer.java
+ org.fdroid.fdroid.localrepo.peers.WifiPeer
+ org.fdroid.fdroid.localrepo.peers.WifiPeer$1
+kellinwood/security/zipsigner/ProgressListener.java
+ kellinwood.security.zipsigner.ProgressListener
+kellinwood/logging/ConsoleLoggerFactory.java
+ kellinwood.logging.ConsoleLoggerFactory
+org/fdroid/fdroid/views/panic/PanicResponderActivity.java
+ org.fdroid.fdroid.views.panic.PanicResponderActivity
+org/fdroid/fdroid/views/LiveSeekBarPreference.java
+ org.fdroid.fdroid.views.LiveSeekBarPreference
+ org.fdroid.fdroid.views.LiveSeekBarPreference$1
+ org.fdroid.fdroid.views.LiveSeekBarPreference$SeekBarLiveUpdater
+org/fdroid/fdroid/views/BannerUpdatingRepos.java
+ org.fdroid.fdroid.views.BannerUpdatingRepos
+ org.fdroid.fdroid.views.BannerUpdatingRepos$1
+org/fdroid/fdroid/views/apps/AppListAdapter.java
+ org.fdroid.fdroid.views.apps.AppListAdapter
+org/fdroid/fdroid/views/categories/AppPreviewAdapter.java
+ org.fdroid.fdroid.views.categories.AppPreviewAdapter
+org/fdroid/fdroid/AppDetails2.java
+ org.fdroid.fdroid.AppDetails2
+ org.fdroid.fdroid.AppDetails2$1
+ org.fdroid.fdroid.AppDetails2$10
+ org.fdroid.fdroid.AppDetails2$2
+ org.fdroid.fdroid.AppDetails2$3
+ org.fdroid.fdroid.AppDetails2$4
+ org.fdroid.fdroid.AppDetails2$5
+ org.fdroid.fdroid.AppDetails2$6
+ org.fdroid.fdroid.AppDetails2$7
+ org.fdroid.fdroid.AppDetails2$8
+ org.fdroid.fdroid.AppDetails2$9
+ org.fdroid.fdroid.AppDetails2$AppObserver
+org/fdroid/fdroid/views/categories/AppCardController.java
+ org.fdroid.fdroid.views.categories.AppCardController
+ org.fdroid.fdroid.views.categories.AppCardController$1
+org/fdroid/fdroid/views/whatsnew/WhatsNewAdapter.java
+ org.fdroid.fdroid.views.whatsnew.WhatsNewAdapter
+ org.fdroid.fdroid.views.whatsnew.WhatsNewAdapter$ItemDecorator
+ org.fdroid.fdroid.views.whatsnew.WhatsNewAdapter$SpanSizeLookup
+org/fdroid/fdroid/views/apps/FeatureImage.java
+ org.fdroid.fdroid.views.apps.FeatureImage
+ org.fdroid.fdroid.views.apps.FeatureImage$1
+ org.fdroid.fdroid.views.apps.FeatureImage$2
+ org.fdroid.fdroid.views.apps.FeatureImage$2$1
+ org.fdroid.fdroid.views.apps.FeatureImage$3
+ org.fdroid.fdroid.views.apps.FeatureImage$ImageLoadingAdapter
+org/fdroid/fdroid/views/categories/CategoryController.java
+ org.fdroid.fdroid.views.categories.CategoryController
+ org.fdroid.fdroid.views.categories.CategoryController$1
+ org.fdroid.fdroid.views.categories.CategoryController$ItemDecorator

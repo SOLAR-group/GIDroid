@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\jcall\\Apps\\GBN\\app\\src\\main\\c\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\RelWithDebInfo\\692e663s\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\jcall\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\jcall\\Apps\\GBN\\app\\.cxx\\RelWithDebInfo\\692e663s\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "tiny-edhc::@6890427a1f51a3e7e1df": {
+      "artifactName": "tiny-edhc",
+      "abi": "x86",
+      "output": "C:\\Users\\jcall\\Apps\\GBN\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\692e663s\\obj\\x86\\libtiny-edhc.so",
+      "runtimeFiles": []
+    }
+  }
+}

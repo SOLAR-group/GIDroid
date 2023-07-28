@@ -1,0 +1,4 @@
+#Wed Nov 09 16:49:47 GMT 2022
+base.0=C\:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\dex\\donateDebug\\mergeDexDonateDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.pfichtner:durationformatter:0.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pfichtner/durationformatter/0.1.1/cf6e09475eb0af74b2fa828c961d12992914404a/durationformatter-0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pfichtner/durationformatter/0.1.1/a7c1583129d3cf25a13bd1a6de80b093390c6374/durationformatter-0.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pfichtner/durationformatter/0.1.1/f0b4f8277b4de07339b85d9b5c1734e4f2a9b77b/durationformatter-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

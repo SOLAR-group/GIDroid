@@ -1,0 +1,983 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- This file should be outside of release manifest (in this case app/src/mock/Manifest.xml -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="org.fdroid.basic"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+7-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:29:5-32:7
+8        android:minSdkVersion="25"
+8-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:30:13-39
+9        android:targetSdkVersion="25" />
+9-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:31:13-42
+10
+11    <!-- required to enable/disable system animations from the app itself during Espresso test runs -->
+12    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE" />
+12-->C:\Users\jcall\Apps\FDN\app\src\debug\AndroidManifest.xml:6:5-77
+12-->C:\Users\jcall\Apps\FDN\app\src\debug\AndroidManifest.xml:6:22-75
+13
+14    <supports-screens
+14-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:34:5-41:7
+15        android:anyDensity="true"
+15-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:35:13-38
+16        android:largeScreens="true"
+16-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:36:13-40
+17        android:normalScreens="true"
+17-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:37:13-41
+18        android:resizeable="true"
+18-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:38:13-38
+19        android:smallScreens="true"
+19-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:39:13-40
+20        android:xlargeScreens="true" />
+20-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:40:13-41
+21
+22    <uses-feature
+22-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:43:5-45:39
+23        android:name="android.hardware.telephony"
+23-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:44:13-54
+24        android:required="false" />
+24-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:45:13-37
+25    <uses-feature
+25-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:46:5-48:39
+26        android:name="android.hardware.wifi"
+26-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:47:13-49
+27        android:required="false" />
+27-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:48:13-37
+28    <uses-feature
+28-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:49:5-51:39
+29        android:name="android.hardware.touchscreen"
+29-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:50:13-56
+30        android:required="false" />
+30-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:51:13-37
+31
+32    <uses-permission android:name="android.permission.INTERNET" />
+32-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:53:5-66
+32-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:53:22-64
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:54:5-78
+33-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:54:22-76
+34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+34-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:55:5-75
+34-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:55:22-73
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:56:5-80
+35-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:56:22-78
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:57:5-80
+36-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:57:22-78
+37    <uses-permission android:name="android.permission.NFC" />
+37-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:58:5-61
+37-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:58:22-59
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:59:5-67
+38-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:59:22-65
+39    <uses-permission android:name="android.permission.REORDER_TASKS" />
+39-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:24:5-72
+39-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:24:22-69
+40
+41    <application
+41-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:61:5-551:19
+42        android:name="org.fdroid.fdroid.FDroidApp"
+42-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:62:13-38
+43        android:allowBackup="true"
+43-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:66:13-39
+44        android:debuggable="true"
+45        android:description="@string/app_description"
+45-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:65:13-58
+46        android:extractNativeLibs="false"
+47        android:fullBackupContent="true"
+47-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:67:13-45
+48        android:icon="@drawable/ic_launcher"
+48-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:63:13-49
+49        android:label="@string/app_name"
+49-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:64:13-45
+50        android:supportsRtl="true"
+50-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:69:13-39
+51        android:theme="@style/AppThemeLight" >
+51-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:68:13-49
+52        <provider
+53            android:name="org.fdroid.fdroid.data.AppProvider"
+54            android:authorities="org.fdroid.basic.data.AppProvider"
+55            android:exported="false" />
+56        <provider
+57            android:name="org.fdroid.fdroid.data.RepoProvider"
+58            android:authorities="org.fdroid.basic.data.RepoProvider"
+59            android:exported="false" />
+60        <provider
+61            android:name="org.fdroid.fdroid.data.ApkProvider"
+62            android:authorities="org.fdroid.basic.data.ApkProvider"
+63            android:exported="false" />
+64        <provider
+65            android:name="org.fdroid.fdroid.data.TempApkProvider"
+66            android:authorities="org.fdroid.basic.data.TempApkProvider"
+67            android:exported="false" />
+68        <provider
+69            android:name="org.fdroid.fdroid.data.TempAppProvider"
+70            android:authorities="org.fdroid.basic.data.TempAppProvider"
+71            android:exported="false" />
+72        <provider
+73            android:name="org.fdroid.fdroid.data.InstalledAppProvider"
+74            android:authorities="org.fdroid.basic.data.InstalledAppProvider"
+75            android:exported="false" />
+76        <provider
+77            android:name="org.fdroid.fdroid.data.AppPrefsProvider"
+78            android:authorities="org.fdroid.basic.data.AppPrefsProvider"
+79            android:exported="false" />
+80        <provider
+81            android:name="org.fdroid.fdroid.data.PackageProvider"
+82            android:authorities="org.fdroid.basic.data.PackageProvider"
+83            android:exported="false" />
+84        <provider
+85            android:name="org.fdroid.fdroid.data.CategoryProvider"
+86            android:authorities="org.fdroid.basic.data.CategoryProvider"
+87            android:exported="false" />
+88        <provider
+89            android:name="org.fdroid.fdroid.installer.ApkFileProvider"
+90            android:authorities="org.fdroid.basic.installer.ApkFileProvider"
+91            android:exported="false"
+92            android:grantUriPermissions="true" >
+93            <meta-data
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+95                android:resource="@xml/apk_file_provider" />
+96        </provider>
+97        <provider
+98            android:name="android.support.v4.content.FileProvider"
+99            android:authorities="org.fdroid.basic.installer"
+100            android:exported="false"
+101            android:grantUriPermissions="true" >
+102            <meta-data
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+104                android:resource="@xml/installer_file_provider" />
+105        </provider>
+106
+107        <activity
+107-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:135:9-145:20
+108            android:name="org.fdroid.fdroid.privileged.views.InstallConfirmActivity"
+108-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:136:17-72
+109            android:configChanges="layoutDirection|locale"
+109-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:141:17-63
+110            android:excludeFromRecents="true"
+110-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:139:17-50
+111            android:label="@string/menu_install"
+111-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:137:17-53
+112            android:parentActivityName="org.fdroid.fdroid.views.main.MainActivity"
+112-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:140:17-70
+113            android:theme="@style/MinWithDialogBaseThemeLight" >
+113-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:138:17-67
+114            <meta-data
+114-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:142:13-144:63
+115                android:name="android.support.PARENT_ACTIVITY"
+115-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:143:21-67
+116                android:value=".views.main.MainActivity" />
+116-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:144:21-61
+117        </activity>
+118        <activity
+118-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:146:9-149:61
+119            android:name="org.fdroid.fdroid.privileged.views.UninstallDialogActivity"
+119-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:147:17-73
+120            android:excludeFromRecents="true"
+120-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:148:17-50
+121            android:theme="@style/AppThemeTransparent" />
+121-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:149:17-59
+122        <activity
+122-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:150:9-159:20
+123            android:name="org.fdroid.fdroid.views.ManageReposActivity"
+123-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:151:17-58
+124            android:configChanges="layoutDirection|locale"
+124-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:155:17-63
+125            android:label="@string/menu_manage"
+125-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:152:17-52
+126            android:launchMode="singleTask"
+126-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:153:17-48
+127            android:parentActivityName="org.fdroid.fdroid.views.main.MainActivity" >
+127-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:154:17-70
+128            <meta-data
+128-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:142:13-144:63
+129                android:name="android.support.PARENT_ACTIVITY"
+129-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:143:21-67
+130                android:value=".views.main.MainActivity" />
+130-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:144:21-61
+131        </activity>
+132        <activity
+132-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:160:9-163:65
+133            android:name="org.fdroid.fdroid.NfcNotEnabledActivity"
+133-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:161:17-54
+134            android:configChanges="layoutDirection|locale"
+134-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:163:17-63
+135            android:noHistory="true" />
+135-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:162:17-41
+136        <activity
+136-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:164:9-173:20
+137            android:name="org.fdroid.fdroid.views.RepoDetailsActivity"
+137-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:165:17-58
+138            android:configChanges="layoutDirection|locale"
+138-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:169:17-63
+139            android:label="@string/repo_details"
+139-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:166:17-53
+140            android:parentActivityName="org.fdroid.fdroid.views.ManageReposActivity"
+140-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:167:17-72
+141            android:windowSoftInputMode="stateHidden" >
+141-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:168:17-58
+142            <meta-data
+142-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:142:13-144:63
+143                android:name="android.support.PARENT_ACTIVITY"
+143-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:143:21-67
+144                android:value=".views.ManageReposActivity" />
+144-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:144:21-61
+145        </activity>
+146        <activity
+146-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:175:9-184:20
+147            android:name="org.fdroid.fdroid.AppDetails2"
+147-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:176:17-44
+148            android:configChanges="layoutDirection|locale"
+148-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:180:17-63
+149            android:exported="true"
+149-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:178:17-40
+150            android:label="@string/app_details"
+150-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:177:17-52
+151            android:parentActivityName="org.fdroid.fdroid.views.main.MainActivity" >
+151-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:179:17-70
+152            <meta-data
+152-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:142:13-144:63
+153                android:name="android.support.PARENT_ACTIVITY"
+153-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:143:21-67
+154                android:value=".views.main.MainActivity" />
+154-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:144:21-61
+155        </activity>
+156        <activity
+156-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:185:9-191:52
+157            android:name="org.fdroid.fdroid.acra.CrashReportActivity"
+157-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:186:17-57
+158            android:excludeFromRecents="true"
+158-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:190:17-50
+159            android:finishOnTaskLaunch="true"
+159-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:191:17-50
+160            android:launchMode="singleInstance"
+160-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:189:17-52
+161            android:process=":error_report"
+161-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:188:17-48
+162            android:theme="@style/AppThemeDark" />
+162-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:187:17-52
+163        <activity android:name="org.fdroid.fdroid.views.ScreenShotsActivity" />
+163-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:192:9-62
+163-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:192:19-60
+164        <!-- Note: AppThemeTransparent, this activity shows dialogs only -->
+165        <activity
+165-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:194:9-195:67
+166            android:name="org.fdroid.fdroid.data.ObbUrlActivity"
+166-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:194:19-54
+167            android:theme="@android:style/Theme.NoDisplay" />
+167-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:195:19-65
+168        <!-- Note: AppThemeTransparent, this activity shows dialogs only -->
+169        <activity
+169-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:197:9-199:61
+170            android:name="org.fdroid.fdroid.installer.DefaultInstallerActivity"
+170-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:198:17-67
+171            android:theme="@style/AppThemeTransparent" />
+171-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:199:17-59
+172        <!-- Note: AppThemeTransparent, this activity shows dialogs only -->
+173        <activity
+173-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:201:9-203:61
+174            android:name="org.fdroid.fdroid.installer.ErrorDialogActivity"
+174-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:202:17-62
+175            android:theme="@style/AppThemeTransparent" />
+175-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:203:17-59
+176
+177        <receiver android:name="org.fdroid.fdroid.receiver.StartupReceiver" >
+177-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:205:9-211:20
+177-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:205:19-59
+178            <intent-filter>
+178-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:206:13-210:29
+179                <action android:name="android.intent.action.BOOT_COMPLETED" />
+179-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:207:17-78
+179-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:207:25-76
+180
+181                <category android:name="android.intent.category.HOME" />
+181-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:209:17-72
+181-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:209:27-70
+182            </intent-filter>
+183        </receiver>
+184        <receiver android:name="org.fdroid.fdroid.receiver.PackageManagerReceiver" >
+184-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:213:9-221:20
+184-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:213:19-66
+185            <intent-filter>
+185-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:214:13-220:29
+186                <action android:name="android.intent.action.PACKAGE_ADDED" />
+186-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:215:17-77
+186-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:215:25-75
+187                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+187-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:216:17-79
+187-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:216:25-77
+188                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+188-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:217:17-79
+188-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:217:25-77
+189
+190                <data android:scheme="package" />
+190-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+190-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+191            </intent-filter>
+192        </receiver>
+193        <receiver
+193-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:223:9-225:20
+194            android:name="org.fdroid.fdroid.NotificationBroadcastReceiver"
+194-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:223:19-64
+195            android:exported="false" >
+195-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:223:65-89
+196
+197            <!-- Doesn't require an intent-filter because it is explicitly invoked via Intent.setClass() -->
+198        </receiver>
+199        <receiver android:name="org.fdroid.fdroid.receiver.DeviceStorageReceiver" >
+199-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:227:9-231:20
+199-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:227:19-65
+200            <intent-filter>
+200-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:228:13-230:29
+201                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+201-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:229:17-82
+201-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:229:25-80
+202            </intent-filter>
+203        </receiver>
+204
+205        <service
+205-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:233:9-236:43
+206            android:name="org.fdroid.fdroid.UpdateService"
+206-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:234:17-46
+207            android:exported="false"
+207-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:236:17-41
+208            android:permission="android.permission.BIND_JOB_SERVICE" />
+208-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:235:17-73
+209        <service
+209-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:237:9-240:75
+210            android:name="org.fdroid.fdroid.UpdateJobService"
+210-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:238:17-49
+211            android:exported="false"
+211-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:239:17-41
+212            android:permission="android.permission.BIND_JOB_SERVICE" />
+212-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:240:17-73
+213        <service
+213-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:241:9-243:43
+214            android:name="org.fdroid.fdroid.net.DownloaderService"
+214-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:242:17-54
+215            android:exported="false" />
+215-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:243:17-41
+216        <service
+216-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:244:9-247:43
+217            android:name="org.fdroid.fdroid.installer.InstallerService"
+217-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:245:17-59
+218            android:exported="false"
+218-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:247:17-41
+219            android:permission="android.permission.BIND_JOB_SERVICE" />
+219-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:246:17-73
+220        <service
+220-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:248:9-251:43
+221            android:name="org.fdroid.fdroid.CleanCacheService"
+221-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:249:17-50
+222            android:exported="false"
+222-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:251:17-41
+223            android:permission="android.permission.BIND_JOB_SERVICE" />
+223-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:250:17-73
+224        <service
+224-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:252:9-255:43
+225            android:name="org.fdroid.fdroid.CleanCacheJobService"
+225-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:253:17-53
+226            android:exported="false"
+226-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:255:17-41
+227            android:permission="android.permission.BIND_JOB_SERVICE" />
+227-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:254:17-73
+228        <service
+228-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:256:9-259:43
+229            android:name="org.fdroid.fdroid.DeleteCacheService"
+229-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:257:17-51
+230            android:exported="false"
+230-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:259:17-41
+231            android:permission="android.permission.BIND_JOB_SERVICE" />
+231-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:258:17-73
+232        <service
+232-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:260:9-263:43
+233            android:name="org.fdroid.fdroid.net.ConnectivityMonitorService"
+233-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:261:17-63
+234            android:exported="false"
+234-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:263:17-41
+235            android:permission="android.permission.BIND_JOB_SERVICE" />
+235-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:262:17-73
+236        <service
+236-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:264:9-266:43
+237            android:name="org.fdroid.fdroid.installer.InstallManagerService"
+237-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:265:17-64
+238            android:exported="false" />
+238-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:266:17-41
+239        <service
+239-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:267:9-269:43
+240            android:name="org.fdroid.fdroid.installer.InstallHistoryService"
+240-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:268:17-64
+241            android:exported="false" />
+241-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:269:17-41
+242        <service
+242-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:270:9-273:43
+243            android:name="org.fdroid.fdroid.data.InstalledAppProviderService"
+243-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:271:17-65
+244            android:exported="false"
+244-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:273:17-41
+245            android:permission="android.permission.BIND_JOB_SERVICE" />
+245-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:272:17-73
+246
+247        <!-- Warning: Please add all new services to HidingManager -->
+248
+249        <activity
+249-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:278:9-531:20
+250            android:name="org.fdroid.fdroid.views.main.MainActivity"
+250-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:279:17-56
+251            android:launchMode="singleTop"
+251-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:280:17-47
+252            android:windowSoftInputMode="adjustResize" >
+252-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:281:17-59
+253            <intent-filter>
+253-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:282:13-286:29
+254                <action android:name="android.intent.action.MAIN" />
+254-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:17-68
+254-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:25-66
+255
+256                <category android:name="android.intent.category.LAUNCHER" />
+256-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:285:17-76
+256-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:285:27-74
+257            </intent-filter>
+258
+259            <!-- App URLs -->
+260
+261            <intent-filter>
+261-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:291:13-298:29
+262                <action android:name="android.intent.action.VIEW" />
+262-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+262-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+263
+264                <category android:name="android.intent.category.DEFAULT" />
+264-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+264-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+265                <category android:name="android.intent.category.BROWSABLE" />
+265-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+265-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+266
+267                <data android:scheme="fdroid.app" />
+267-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+267-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+268            </intent-filter>
+269            <intent-filter android:autoVerify="true" >
+269-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:300:13-316:29
+269-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:300:28-53
+270                <action android:name="android.intent.action.VIEW" />
+270-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+270-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+271
+272                <category android:name="android.intent.category.DEFAULT" />
+272-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+272-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+273                <category android:name="android.intent.category.BROWSABLE" />
+273-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+273-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+274
+275                <data android:scheme="https" />
+275-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+275-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+276                <data android:host="f-droid.org" />
+276-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+277                <data android:host="www.f-droid.org" />
+277-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+278                <data android:host="staging.f-droid.org" />
+278-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+279                <data android:pathPrefix="/app/" />
+279-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+280                <data android:pathPrefix="/packages/" />
+280-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+281                <data android:pathPrefix="/repository/browse" />
+281-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+282                <!-- support localized URLs -->
+283                <data android:pathPattern="/.*/packages/.*" />
+283-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+284                <data android:pathPattern="/.*/packages/.*/" />
+284-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+285            </intent-filter>
+286            <intent-filter>
+286-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:318:13-334:29
+287                <action android:name="android.intent.action.VIEW" />
+287-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+287-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+288
+289                <category android:name="android.intent.category.DEFAULT" />
+289-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+289-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+290                <category android:name="android.intent.category.BROWSABLE" />
+290-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+290-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+291
+292                <data android:scheme="http" />
+292-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+292-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+293                <data android:host="f-droid.org" />
+293-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+294                <data android:host="www.f-droid.org" />
+294-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+295                <data android:host="staging.f-droid.org" />
+295-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+296                <data android:pathPrefix="/app/" />
+296-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+297                <data android:pathPrefix="/packages/" />
+297-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+298                <data android:pathPrefix="/repository/browse" />
+298-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+299                <!-- support localized URLs -->
+300                <data android:pathPattern="/.*/packages/.*" />
+300-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+301                <data android:pathPattern="/.*/packages/.*/" />
+301-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+302            </intent-filter>
+303            <intent-filter>
+303-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:336:13-343:29
+304                <action android:name="android.intent.action.VIEW" />
+304-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+304-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+305
+306                <category android:name="android.intent.category.DEFAULT" />
+306-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+306-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+307                <category android:name="android.intent.category.BROWSABLE" />
+307-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+307-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+308
+309                <data
+309-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+310                    android:host="details"
+311                    android:scheme="market" />
+311-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+312            </intent-filter>
+313            <intent-filter>
+313-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:345:13-355:29
+314                <action android:name="android.intent.action.VIEW" />
+314-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+314-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+315
+316                <category android:name="android.intent.category.DEFAULT" />
+316-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+316-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+317                <category android:name="android.intent.category.BROWSABLE" />
+317-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+317-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+318
+319                <data android:scheme="http" />
+319-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+319-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+320                <data android:scheme="https" />
+320-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+320-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+321                <data android:host="play.google.com" /> <!-- they don't do www. -->
+321-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+322                <data android:path="/store/apps/details" />
+322-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+323            </intent-filter>
+324            <intent-filter>
+324-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:357:13-364:29
+325                <action android:name="android.intent.action.VIEW" />
+325-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+325-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+326
+327                <category android:name="android.intent.category.DEFAULT" />
+327-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+327-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+328                <category android:name="android.intent.category.BROWSABLE" />
+328-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+328-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+329
+330                <data
+330-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+331                    android:host="apps"
+332                    android:path="/android"
+333                    android:scheme="amzn" />
+333-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+334            </intent-filter>
+335            <intent-filter>
+335-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:366:13-377:29
+336                <action android:name="android.intent.action.VIEW" />
+336-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+336-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+337
+338                <category android:name="android.intent.category.DEFAULT" />
+338-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+338-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+339                <category android:name="android.intent.category.BROWSABLE" />
+339-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+339-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+340
+341                <data android:scheme="http" />
+341-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+341-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+342                <data android:scheme="https" />
+342-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+342-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+343                <data android:host="amazon.com" />
+343-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+344                <data android:host="www.amazon.com" />
+344-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+345                <data android:path="/gp/mas/dl/android" />
+345-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+346            </intent-filter>
+347
+348            <!-- Search URLs -->
+349
+350            <intent-filter>
+350-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:382:13-389:29
+351                <action android:name="android.intent.action.VIEW" />
+351-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+351-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+352
+353                <category android:name="android.intent.category.DEFAULT" />
+353-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+353-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+354                <category android:name="android.intent.category.BROWSABLE" />
+354-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+354-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+355
+356                <data android:scheme="fdroid.search" />
+356-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+356-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+357            </intent-filter>
+358            <intent-filter>
+358-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:391:13-398:29
+359                <action android:name="android.intent.action.VIEW" />
+359-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+359-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+360
+361                <category android:name="android.intent.category.DEFAULT" />
+361-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+361-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+362                <category android:name="android.intent.category.BROWSABLE" />
+362-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+362-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+363
+364                <data
+364-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+365                    android:host="search"
+366                    android:scheme="market" />
+366-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+367            </intent-filter>
+368            <intent-filter>
+368-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:400:13-410:29
+369                <action android:name="android.intent.action.VIEW" />
+369-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+369-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+370
+371                <category android:name="android.intent.category.DEFAULT" />
+371-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+371-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+372                <category android:name="android.intent.category.BROWSABLE" />
+372-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+372-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+373
+374                <data android:scheme="http" />
+374-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+374-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+375                <data android:scheme="https" />
+375-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+375-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+376                <data android:host="play.google.com" /> <!-- they don't do www. -->
+376-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+377                <data android:path="/store/search" />
+377-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+378            </intent-filter>
+379            <intent-filter>
+379-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:412:13-414:29
+380                <action android:name="android.intent.action.SEARCH" />
+380-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:413:17-70
+380-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:413:25-68
+381            </intent-filter>
+382
+383            <meta-data
+383-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:416:13-418:57
+384                android:name="android.app.searchable"
+384-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:417:21-58
+385                android:resource="@xml/searchable" />
+385-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:418:21-55
+386
+387            <!-- Repo URLs -->
+388
+389
+390            <!--
+391            This intent serves two purposes: Swapping apps between devices and adding a
+392            repo from a website (e.g. https://guardianproject.info/fdroid/repo).
+393            We intercept both of these situations in the FDroid activity, and then redirect
+394            to the appropriate handler (swap handling, manage repos respectively) from there.
+395
+396            The reason for this is that the only differentiating factor is the presence
+397            of a "swap=1" in the query string, and intent-filter is unable to deal with
+398            query parameters. An alternative would be to do something like fdroidswap:// as
+399            a scheme, but then we need to copy/paste all of this intent-filter stuff and
+400            keep it up to date when it changes or a bug is found.
+401
+402            This filter supports HTTP and HTTPS schemes. There is an additional filter for
+403            fdroidrepo:// and fdroidrepos://
+404            -->
+405            <intent-filter>
+405-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:438:13-491:29
+406                <action android:name="android.intent.action.VIEW" />
+406-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+406-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+407
+408                <category android:name="android.intent.category.BROWSABLE" />
+408-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+408-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+409                <category android:name="android.intent.category.DEFAULT" />
+409-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+409-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+410
+411                <!--
+412                Android's scheme matcher is case-sensitive, so include
+413                ALL CAPS versions to support ALL CAPS URLs in QR Codes.
+414                QR Codes have a special ALL CAPS mode that uses a reduced
+415                character set, making for more compact QR Codes.
+416                -->
+417                <data android:scheme="http" />
+417-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+417-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+418                <data android:scheme="HTTP" />
+418-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+418-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+419                <data android:scheme="https" />
+419-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+419-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+420                <data android:scheme="HTTPS" />
+420-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+420-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+421                <data android:host="*" />
+421-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+422
+423                <!--
+424                The pattern matcher here is poorly implemented, in particular the * is
+425                non-greedy, so you have to do stupid tricks to match patterns that have
+426                repeat characters in them. http://stackoverflow.com/a/8599921/306864
+427                -->
+428                <data android:path="/fdroid/repo" />
+428-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+429                <data android:pathPattern="/fdroid/repo/*" />
+429-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+430                <data android:pathPattern="/.*/fdroid/repo" />
+430-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+431                <data android:pathPattern="/.*/fdroid/repo/*" />
+431-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+432                <data android:pathPattern="/.*/.*/fdroid/repo" />
+432-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+433                <data android:pathPattern="/.*/.*/fdroid/repo/*" />
+433-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+434                <data android:pathPattern="/.*/.*/.*/fdroid/repo" />
+434-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+435                <data android:pathPattern="/.*/.*/.*/fdroid/repo/*" />
+435-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+436                <data android:pathPattern="/.*/.*/.*/.*/fdroid/repo" />
+436-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+437                <data android:pathPattern="/.*/.*/.*/.*/fdroid/repo/*" />
+437-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+438                <data android:path="/fdroid/archive" />
+438-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+439                <data android:pathPattern="/fdroid/archive/*" />
+439-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+440                <data android:pathPattern="/.*/fdroid/archive" />
+440-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+441                <data android:pathPattern="/.*/fdroid/archive/*" />
+441-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+442                <data android:pathPattern="/.*/.*/fdroid/archive" />
+442-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+443                <data android:pathPattern="/.*/.*/fdroid/archive/*" />
+443-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+444                <data android:pathPattern="/.*/.*/.*/fdroid/archive" />
+444-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+445                <data android:pathPattern="/.*/.*/.*/fdroid/archive/*" />
+445-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+446                <data android:pathPattern="/.*/.*/.*/.*/fdroid/archive" />
+446-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+447                <data android:pathPattern="/.*/.*/.*/.*/fdroid/archive/*" />
+447-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+448                <!--
+449                Some QR Code scanners don't respect custom schemes like fdroidrepo://,
+450                so this is a workaround, since the local repo URL is all uppercase in
+451                the QR Code for sending the local repo to another device.
+452                -->
+453                <data android:path="/FDROID/REPO" />
+453-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+454                <data android:pathPattern="/.*/FDROID/REPO" />
+454-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+455                <data android:pathPattern="/.*/.*/FDROID/REPO" />
+455-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+456                <data android:pathPattern="/.*/.*/.*/FDROID/REPO" />
+456-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+457            </intent-filter>
+458
+459            <!--
+460            Same as the intent filter listening for repositories via https://*/fdroid/repo, except this
+461            looks for fdroidrepos://* and doesn't care what the path is.
+462            -->
+463            <intent-filter>
+463-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:497:13-513:29
+464                <action android:name="android.intent.action.VIEW" />
+464-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:17-68
+464-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:292:25-66
+465
+466                <category android:name="android.intent.category.BROWSABLE" />
+466-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:17-77
+466-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:295:27-75
+467                <category android:name="android.intent.category.DEFAULT" />
+467-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+467-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+468
+469                <!--
+470                Android's scheme matcher is case-sensitive, so include
+471                ALL CAPS versions to support ALL CAPS URLs in QR Codes.
+472                QR Codes have a special ALL CAPS mode that uses a reduced
+473                character set, making for more compact QR Codes.
+474                -->
+475                <data android:scheme="fdroidrepo" />
+475-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+475-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+476                <data android:scheme="FDROIDREPO" />
+476-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+476-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+477                <data android:scheme="fdroidrepos" />
+477-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+477-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+478                <data android:scheme="FDROIDREPOS" />
+478-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+478-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+479            </intent-filter>
+480
+481            <!-- Handle NFC tags detected from outside our application -->
+482
+483            <intent-filter>
+483-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:518:13-529:29
+484                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+484-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:519:17-76
+484-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:519:25-74
+485
+486                <category android:name="android.intent.category.DEFAULT" />
+486-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:17-75
+486-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:294:27-73
+487
+488                <!--
+489                URIs that come in via NFC have scheme/host normalized to all lower case
+490                https://developer.android.com/reference/android/nfc/NfcAdapter.html#ACTION_NDEF_DISCOVERED
+491                -->
+492                <data android:scheme="fdroidrepo" />
+492-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+492-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+493                <data android:scheme="fdroidrepos" />
+493-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:17-49
+493-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:219:23-47
+494            </intent-filter>
+495        </activity>
+496        <activity android:name="org.fdroid.fdroid.views.apps.AppListActivity" />
+496-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:533:9-63
+496-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:533:19-61
+497        <activity
+497-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:535:9-540:20
+498            android:name="org.fdroid.fdroid.views.installed.InstalledAppsActivity"
+498-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:535:19-72
+499            android:parentActivityName="org.fdroid.fdroid.views.main.MainActivity" >
+499-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:536:19-72
+500            <meta-data
+500-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:142:13-144:63
+501                android:name="android.support.PARENT_ACTIVITY"
+501-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:143:21-67
+502                android:value=".views.main.MainActivity" />
+502-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:144:21-61
+503        </activity>
+504        <activity
+504-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:541:9-546:20
+505            android:name="org.fdroid.fdroid.views.InstallHistoryActivity"
+505-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:541:19-63
+506            android:parentActivityName="org.fdroid.fdroid.views.main.MainActivity" >
+506-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:542:19-72
+507            <meta-data
+507-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:142:13-144:63
+508                android:name="android.support.PARENT_ACTIVITY"
+508-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:143:21-67
+509                android:value=".views.main.MainActivity" />
+509-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:144:21-61
+510        </activity>
+511        <activity
+511-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:548:9-102
+512            android:name="org.fdroid.fdroid.AboutActivity"
+512-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:548:19-48
+513            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+513-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:548:49-100
+514        <activity
+514-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:549:9-111
+515            android:name="org.fdroid.fdroid.installer.FileInstallerActivity"
+515-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:549:19-66
+516            android:theme="@style/AppThemeTransparent" />
+516-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:549:67-109
+517        <activity
+517-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:40:9-241
+518            android:name="org.acra.dialog.CrashReportDialog"
+518-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:40:123-171
+519            android:excludeFromRecents="true"
+519-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:40:19-52
+520            android:finishOnTaskLaunch="true"
+520-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:40:53-86
+521            android:launchMode="singleInstance"
+521-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:40:87-122
+522            android:process=":acra"
+522-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:40:172-195
+523            android:theme="@android:style/Theme.Dialog" />
+523-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:40:196-239
+524
+525        <service
+525-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:42:9-113
+526            android:name="org.acra.sender.SenderService"
+526-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:42:43-87
+527            android:exported="false"
+527-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:42:18-42
+528            android:process=":acra" />
+528-->[ch.acra:acra:4.9.1] C:\Users\jcall\.gradle\caches\transforms-3\44227e37e6f294cbecfbb3e321c476d1\transformed\acra-4.9.1\AndroidManifest.xml:42:88-111
+529
+530        <activity
+530-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:27:9-34:20
+531            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+531-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:28:13-99
+532            android:exported="true"
+532-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:29:13-36
+533            android:theme="@android:style/Theme" >
+533-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:30:13-49
+534            <intent-filter>
+534-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+535                <action android:name="android.intent.action.MAIN" />
+535-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:17-68
+535-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:25-66
+536            </intent-filter>
+537        </activity>
+538        <activity
+538-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:35:9-42:20
+539            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+539-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:36:13-95
+540            android:exported="true"
+540-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:37:13-36
+541            android:theme="@android:style/Theme" >
+541-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:38:13-49
+542            <intent-filter>
+542-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+543                <action android:name="android.intent.action.MAIN" />
+543-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:17-68
+543-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:25-66
+544            </intent-filter>
+545        </activity>
+546        <activity
+546-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:43:9-50:20
+547            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+547-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:44:13-103
+548            android:exported="true"
+548-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:45:13-36
+549            android:theme="@android:style/Theme.Dialog" >
+549-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:46:13-56
+550            <intent-filter>
+550-->[androidx.test:core:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+551                <action android:name="android.intent.action.MAIN" />
+551-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:17-68
+551-->C:\Users\jcall\Apps\FDN\app\src\main\AndroidManifest.xml:283:25-66
+552            </intent-filter>
+553        </activity>
+554    </application>
+555
+556</manifest>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.wax911:android-emojify:0.1.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e3b1ddaf673d9372ccf74f78ebb0872b/transformed/jetified-android-emojify-0.1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e3b1ddaf673d9372ccf74f78ebb0872b/transformed/jetified-android-emojify-0.1.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e3b1ddaf673d9372ccf74f78ebb0872b/transformed/jetified-android-emojify-0.1.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

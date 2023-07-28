@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.doxia:doxia-sink-api:1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-sink-api/1.0/13f502f2fb1d4e2db6f19352c85b83277084bb98/doxia-sink-api-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-sink-api/1.0/13f502f2fb1d4e2db6f19352c85b83277084bb98/doxia-sink-api-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-sink-api/1.0/462d0989f83639491b4dd9b6a9161a81fb4c41ee/doxia-sink-api-1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-sink-api/1.0/462d0989f83639491b4dd9b6a9161a81fb4c41ee/doxia-sink-api-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

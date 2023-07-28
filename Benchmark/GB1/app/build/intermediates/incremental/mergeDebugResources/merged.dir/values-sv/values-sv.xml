@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"AV"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"PÅ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Sök …"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="action_donate">Donera</string>
+    <string name="action_quit">Avsluta</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="app_configure">Konfigurera</string>
+    <string name="app_move_to_top">Lägg överst</string>
+    <string name="app_name">Gadgetbridge</string>
+    <string name="appmanager_app_openinstore">Sök i Pebble appstore</string>
+    <string name="appmanager_cached_watchapps_watchfaces">Appar i cachen</string>
+    <string name="appmanager_health_activate">Aktivera</string>
+    <string name="appmanager_health_deactivate">Avaktivera</string>
+    <string name="appmanager_hrm_activate">Aktivera pulsmätare</string>
+    <string name="appmanager_hrm_deactivate">Avaktivera pulsmätare</string>
+    <string name="appmanager_installed_watchapps">Installerade appar</string>
+    <string name="appmanager_installed_watchfaces">Installerade urtavlor</string>
+    <string name="appmanager_weather_activate">Aktivera systemets väderapp</string>
+    <string name="appmanager_weather_deactivate">Avaktivera systemets väderapp</string>
+    <string name="appmanager_weather_install_provider">Installera appen för vädernotifiering</string>
+    <string name="appmananger_app_delete">Ta bort</string>
+    <string name="appmananger_app_delete_cache">Ta bort och radera från cache</string>
+    <string name="appmananger_app_reinstall">Installera om</string>
+    <string name="blacklist_all_for_notifications">Svartlista alla notifieringar</string>
+    <string name="controlcenter_calibrate_device">Kalibrera enhet</string>
+    <string name="controlcenter_change_fm_frequency">Ändra FM-frekvens</string>
+    <string name="controlcenter_change_led_color">Ändra LED-färg</string>
+    <string name="controlcenter_connect">Anslut…</string>
+    <string name="controlcenter_delete_device">Ta bort enhet</string>
+    <string name="controlcenter_delete_device_dialogmessage">Detta kommer att ta bort enheten och radera all tillhörande information!</string>
+    <string name="controlcenter_delete_device_name">Ta bort %1$s</string>
+    <string name="controlcenter_disconnect">Koppla ifrån</string>
+    <string name="controlcenter_fetch_activity_data">Synkronisera</string>
+    <string name="controlcenter_find_device">Hitta försvunnen enhet</string>
+    <string name="controlcenter_navigation_drawer_close">Stäng navigationspanel</string>
+    <string name="controlcenter_navigation_drawer_open">Öppna navigationspanel</string>
+    <string name="controlcenter_snackbar_connecting">Ansluter…</string>
+    <string name="controlcenter_snackbar_disconnecting">Kopplar ifrån</string>
+    <string name="controlcenter_snackbar_need_longpress">Tryck länge på kortet för att koppla ifrån</string>
+    <string name="controlcenter_snackbar_requested_screenshot">Tar en skärmdump av enheten</string>
+    <string name="controlcenter_take_screenshot">Skärmdump</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiera"</string>
+    <string name="debugactivity_really_factoryreset">En återställning till fabriksinställningar kommer att radera all data från den anslutna enheten (om detta stöds). Enheter från Xiaomi/Huami kommer också att få nya/ändrade Blåtands- och MAC-adresser, och kommer att synas som nya enheter i Gadgetbridge.</string>
+    <string name="debugactivity_really_factoryreset_title">Vill du verkligen återställa till fabriksinställningar\?</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avancerat"</string>
+    <string name="mi2_prefs_button_press_broadcast_default_value" translatable="false">nodomain.freeyourgadget.gadgetbridge.ButtonPressed</string>
+    <string msgid="478774118347071097" name="not_set">"Inte angett"</string>
+    <string name="pref_chart_heartrate_color_red">Röd</string>
+    <string msgid="7961817945132860002" name="preference_copied">"<ns1:g id="SUMMARY">%1$s</ns1:g> har kopierats till Urklipp."</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Sök"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="title_activity_appblacklist">Svartlistade notifieringar</string>
+    <string name="title_activity_appmanager">Apphanterare</string>
+    <string name="title_activity_calblacklist">Svartlistade kalendrar</string>
+    <string name="title_activity_controlcenter">Gadgetbridge</string>
+    <string name="title_activity_debug">Avlusa</string>
+    <string name="title_activity_fw_app_insaller">FW/App-installerare</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AV"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"PÅ"</string>
+</resources>

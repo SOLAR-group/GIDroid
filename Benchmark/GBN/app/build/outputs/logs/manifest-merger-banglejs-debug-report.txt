@@ -1,0 +1,1207 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:554:9-562:20
+	android:authorities
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:1-704:12
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:1-704:12
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:1-704:12
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:1-704:12
+MERGED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:1-704:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\2bcc63dc6364e9496cf113ccc67c1803\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\4a95ca7bc5a2cca6e426e9b4ceb44a4b\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\96de4b5fa8e06315d86ae562d9219234\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\67e3db5e0b5d761927131e84844766b0\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jaredrummler:colorpicker:1.0.2] C:\Users\jcall\.gradle\caches\transforms-3\487d3a4e710db3f06a571333672123df\transformed\jetified-colorpicker-1.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-3\aa9f3f2713679775091001ca2300ff0d\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\4c5d01a0bf5fd2b0435f5767bcfb070f\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\60bf7c6fb0e8de17389e887998e4c8fa\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2d32f2b0d136cd8508756c47f7100e6f\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\3b620ec34a879bb4d0235c246e852eb4\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a0ca6a64646259b7d0ec15da30f71d11\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a58b66e3218a82afa2a94b31728c58b2\transformed\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\210dc53e2be66c86cef533c4df9bf3cc\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\jcall\.gradle\caches\transforms-3\ea1b6389a27cd44467ba814eb7c386bb\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c71850f4a1247545e40a49779ec1274e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\jcall\.gradle\caches\transforms-3\af4c32d3a312620ad02dadf157d6190f\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:2:1-11:12
+MERGED from [org.cyanogenmod:platform.sdk:6.0] C:\Users\jcall\.gradle\caches\transforms-3\88c31441b5e200246fb04fc5bbfa3f3f\transformed\jetified-platform.sdk-6.0\AndroidManifest.xml:19:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\8d77ad11cd3827c6aa2b29f3005dee16\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\6d22407638e565531d30489439787856\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\5fa2776a8a33e5def93903338d653a73\transformed\jetified-fragment-ktx-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:17:1-50:12
+MERGED from [androidx.activity:activity-ktx:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\a547c03c816cfe20372c695e04761d6c\transformed\jetified-activity-ktx-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\f2bf972c65c777bf3a0b47379ab6800f\transformed\jetified-core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\4ed14ab00dc0fee7490f1e5c882ced8c\transformed\jetified-lifecycle-livedata-core-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\54de66788d0aa275d60451652e6b2f7d\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\2e93ed5d607362701f8c61caa6fc1420\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\4c5c6bf0d27c2a2b95bf00f57aed903f\transformed\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\jcall\.gradle\caches\transforms-3\9eb52fd821f623f7ec09c39b8b49028c\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\jcall\.gradle\caches\transforms-3\165c19ebf8bfb197762ebdf0edd427fb\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\c66d8880d51556e3707599b15eccd14b\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a8e06e27280e254877c34bfb5116f558\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2e315969cd74789cfdc70f908b3ed7dd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\25eb95d9052702f3a21a7a76c3a10cbf\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a2bc3f2c81665604d8767ac62d86578c\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\e99422add5bafc3d15fcf4ea2302337a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\4340d17426ed778e65713d7daacde5c6\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\9898b21ed207adb9c7f520b1e12151aa\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\7779385a677bed964512f0d1984c5a32\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\8de675797f6ae80b9e3d848580afa190\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\jcall\.gradle\caches\transforms-3\75c922bfed3b71cb148fa9e91d4f3909\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\f17bd4b271c6b4d5fb780b20c22679ad\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\1a031c7c29e3f68aa75f56b663c256cc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\4bd2a86f3b84571249991056b6a39d34\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\c108ee7128c81cca41708ecac2af3d66\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2f8968ca09831916780cc844d1b116b4\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\jcall\.gradle\caches\transforms-3\ecff584e6ddb1db61c4b710f41137df7\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\91655942e4823dfe3677a7c6dfe6c9d5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\0e02a54c6a8a2baba639ab9fd3244aae\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c6989e7f43bc45fe68e8b27354aa0efb\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\b55c51abbddca0d4201aebaf20f5ef5e\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\edff40e2902c83b6e7e8088f6f6efcc3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\22c911d3d455d357c8f28862c9baf7ad\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\07437fe53496035d7b61e3f310819682\transformed\monitor-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\8879e2d3e7a6cf545f05ec0c8b9ae93c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\d4b1108ea49531f821292d5f6f0c47c0\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\61254cb08da4d4233edbe54563b39c2d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\3605b9d929e3e555211a2f70fa89faef\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c33d891be33dd8a510a752a5370c5aa2\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\b541e01bdf676241bb98d771ba51d0e0\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\ceafc66336e5a25abfe1f139184fdc25\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2f690913eea83f65fb18f28af5d0eac8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\16f2fe4730d438fa060fe26d1d783033\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:2:1-8:12
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:2:1-8:12
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:4:5-51
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:4:5-51
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:1-704:12
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:1-704:12
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:11:5-68
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:11:5-68
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:12:5-74
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:12:5-74
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:17:5-85
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:17:22-82
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:22:22-82
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:23:5-69
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:23:22-66
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:24:5-77
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:24:22-74
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:25:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:26:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:27:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:29:5-80
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:29:22-77
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:30:22-69
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:31:5-33:47
+	tools:ignore
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:32:9-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:36:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:37:5-77
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:13:5-77
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:37:22-74
+uses-permission#android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:38:5-94
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:38:22-91
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:41:5-66
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:41:22-63
+uses-permission#cyanogenmod.permission.ACCESS_WEATHER_MANAGER
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:44:22-82
+uses-permission#cyanogenmod.permission.READ_WEATHER
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:45:5-75
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:45:22-72
+uses-permission#lineageos.permission.ACCESS_WEATHER_MANAGER
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:46:22-80
+uses-permission#lineageos.permission.READ_WEATHER
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:47:5-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:47:22-70
+uses-permission#org.omnirom.omnijaws.READ_WEATHER
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:48:5-73
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:48:22-70
+uses-feature#android.hardware.bluetooth
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:51:5-53:35
+	android:required
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:53:9-32
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:52:9-50
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:54:5-56:36
+	android:required
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:56:9-33
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:55:9-53
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:57:5-59:36
+	android:required
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:59:9-33
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:58:9-50
+uses-feature#android.software.companion_device_setup
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:60:5-62:36
+	android:required
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:62:9-33
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:61:9-63
+application
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:64:5-703:19
+MERGED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:27:5-38:19
+MERGED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\4a95ca7bc5a2cca6e426e9b4ceb44a4b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\4a95ca7bc5a2cca6e426e9b4ceb44a4b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\96de4b5fa8e06315d86ae562d9219234\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\96de4b5fa8e06315d86ae562d9219234\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-3\aa9f3f2713679775091001ca2300ff0d\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-3\aa9f3f2713679775091001ca2300ff0d\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:11:5-14:19
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\jcall\.gradle\caches\transforms-3\af4c32d3a312620ad02dadf157d6190f\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:9:5-20
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\jcall\.gradle\caches\transforms-3\af4c32d3a312620ad02dadf157d6190f\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\6d22407638e565531d30489439787856\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\6d22407638e565531d30489439787856\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:26:5-48:19
+MERGED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:26:5-48:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\jcall\.gradle\caches\transforms-3\ecff584e6ddb1db61c4b710f41137df7\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\jcall\.gradle\caches\transforms-3\ecff584e6ddb1db61c4b710f41137df7\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\8879e2d3e7a6cf545f05ec0c8b9ae93c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\8879e2d3e7a6cf545f05ec0c8b9ae93c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:71:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\jcall\.gradle\caches\transforms-3\ecff584e6ddb1db61c4b710f41137df7\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-3\aa9f3f2713679775091001ca2300ff0d\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:69:9-41
+		REJECTED from [com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-3\aa9f3f2713679775091001ca2300ff0d\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:67:9-42
+	android:roundIcon
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:70:9-54
+	android:icon
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:68:9-43
+	android:allowBackup
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:66:9-36
+	android:theme
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:72:9-49
+	tools:replace
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:73:9-38
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:65:9-38
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:74:9-86:20
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:76:13-65
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:78:13-43
+	android:theme
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:77:13-47
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:75:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:79:13-85:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:80:17-76
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:80:27-73
+action#android.intent.action.MAIN
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:82:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:84:17-77
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:84:27-74
+activity#nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:87:9-90:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:90:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:89:13-60
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:88:13-56
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AboutUserPreferencesActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:91:9-94:85
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:94:13-82
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:93:13-61
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:92:13-68
+activity#nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:95:9-98:89
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:98:13-86
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:97:13-58
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:96:13-72
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryPairingPreferenceActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:99:9-102:73
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:102:13-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:101:13-69
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:100:13-74
+activity#nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:103:9-106:73
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:106:13-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:105:13-64
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:104:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:107:9-110:73
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:110:13-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:109:13-58
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:108:13-68
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:111:9-114:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:114:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:113:13-55
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:112:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:115:9-119:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:119:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:117:13-62
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:118:13-43
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:116:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:120:9-123:73
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:123:13-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:122:13-75
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:121:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:124:9-127:73
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:127:13-70
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:126:13-64
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:125:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.devices.vesc.VescControlActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:128:9-131:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:131:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:130:13-52
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:129:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:132:9-351:20
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:135:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:134:13-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:133:13-62
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\.ft+data:pathPattern:/.*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\.fw+data:pathPattern:/.*\\..*\\.gps+data:pathPattern:/.*\\..*\\.pbl+data:pathPattern:/.*\\..*\\.pbw+data:pathPattern:/.*\\..*\\.pbz+data:pathPattern:/.*\\..*\\.res+data:pathPattern:/.*\\.ft+data:pathPattern:/.*\\.ft.en+data:pathPattern:/.*\\.fw+data:pathPattern:/.*\\.gps+data:pathPattern:/.*\\.pbl+data:pathPattern:/.*\\.pbw+data:pathPattern:/.*\\.pbz+data:pathPattern:/.*\\.res+data:scheme:file
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:136:13-229:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:137:17-69
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:137:25-66
+data
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:141:17-48
+	android:mimeType
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:141:23-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\.ft+data:pathPattern:/.*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\.fw+data:pathPattern:/.*\\..*\\.gps+data:pathPattern:/.*\\..*\\.pbl+data:pathPattern:/.*\\..*\\.pbw+data:pathPattern:/.*\\..*\\.pbz+data:pathPattern:/.*\\..*\\.res+data:pathPattern:/.*\\.ft+data:pathPattern:/.*\\.ft.en+data:pathPattern:/.*\\.fw+data:pathPattern:/.*\\.gps+data:pathPattern:/.*\\.pbl+data:pathPattern:/.*\\.pbw+data:pathPattern:/.*\\.pbz+data:pathPattern:/.*\\.res+data:scheme:file
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:230:13-322:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:325:13-331:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/x-zip-compressed+data:mimeType:application/zip
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:334:13-341:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:344:13-350:29
+action#android.intent.action.SEND
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:345:17-69
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:345:25-66
+service#nodomain.freeyourgadget.gadgetbridge.externalevents.NotificationListener
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:353:9-360:19
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:355:13-45
+	android:permission
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:356:13-87
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:354:13-64
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:357:13-359:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:358:17-99
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:358:25-96
+service#nodomain.freeyourgadget.gadgetbridge.service.NotificationCollectorMonitorService
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:361:9-80
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:361:18-77
+service#nodomain.freeyourgadget.gadgetbridge.service.DeviceCommunicationService
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:362:9-71
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:362:18-68
+service#nodomain.freeyourgadget.gadgetbridge.devices.pinetime.PineTimeDFUService
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:363:9-365:59
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:365:13-56
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:364:13-64
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationReceiver
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:367:9-373:20
+	android:enabled
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:369:13-35
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:368:13-71
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:370:13-372:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:371:17-104
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:371:25-101
+activity#nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:375:9-379:20
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:375:19-75
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:376:13-378:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:377:17-112
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:377:25-109
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.AutoStartReceiver
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:381:9-389:20
+	android:permission
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:383:13-75
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:382:13-61
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:384:13-388:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:385:17-79
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:385:25-76
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.BluetoothStateChangeReceiver
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:391:9-403:20
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:393:13-36
+	android:permission
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:394:13-97
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:392:13-72
+intent-filter#action:name:android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED+action:name:android.bluetooth.adapter.action.STATE_CHANGED+action:name:android.bluetooth.device.action.ACL_CONNECTED+action:name:android.bluetooth.device.action.ACL_DISCONNECTED+action:name:android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:395:13-402:29
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:396:17-89
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:396:25-86
+action#android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:397:17-100
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:397:25-97
+action#android.bluetooth.device.action.ACL_CONNECTED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:399:17-88
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:399:25-85
+action#android.bluetooth.device.action.ACL_DISCONNECTED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:400:17-91
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:400:25-88
+action#android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:401:17-99
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:401:25-96
+receiver#nodomain.freeyourgadget.gadgetbridge.service.receivers.GBMusicControlReceiver
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:405:9-411:20
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:407:13-37
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:406:13-69
+intent-filter#action:name:nodomain.freeyourgadget.gadgetbridge.musiccontrol
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:408:13-410:29
+action#nodomain.freeyourgadget.gadgetbridge.musiccontrol
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:409:17-92
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:409:25-89
+receiver#nodomain.freeyourgadget.gadgetbridge.service.receivers.GBCallControlReceiver
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:412:9-418:20
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:414:13-37
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:413:13-68
+intent-filter#action:name:nodomain.freeyourgadget.gadgetbridge.callcontrol
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:415:13-417:29
+action#nodomain.freeyourgadget.gadgetbridge.callcontrol
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:416:17-91
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:416:25-88
+receiver#nodomain.freeyourgadget.gadgetbridge.database.PeriodicExporter
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:419:9-422:40
+	android:enabled
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:421:13-35
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:422:13-37
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:420:13-54
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:427:9-432:57
+	android:screenOrientation
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:431:13-49
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:430:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:429:13-57
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:432:13-54
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:428:13-53
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AboutActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:433:9-437:57
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:436:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:435:13-57
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:437:13-54
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:434:13-53
+activity#nodomain.freeyourgadget.gadgetbridge.activities.OpenFwAppInstallerActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:438:9-442:57
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:441:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:440:13-70
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:442:13-54
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:439:13-66
+activity#nodomain.freeyourgadget.gadgetbridge.activities.BatteryInfoActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:443:9-446:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:446:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:445:13-66
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:444:13-59
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummaryDetail
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:448:9-452:57
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:451:13-79
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:450:13-60
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:452:13-54
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:449:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesFilter
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:453:9-457:48
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:456:13-79
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:455:13-65
+	android:excludeFromRecents
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:457:13-46
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:454:13-63
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DataManagementActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:459:9-463:57
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:462:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:461:13-65
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:463:13-54
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:460:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.activities.NotificationManagementActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:464:9-468:57
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:467:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:466:13-75
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:468:13-54
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:465:13-70
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:469:9-472:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:472:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:471:13-61
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:470:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:473:9-475:70
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:475:13-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:474:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.devices.banglejs.AppsManagementActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:476:9-480:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:480:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:478:13-62
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:479:13-43
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:477:13-68
+activity#nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:481:9-483:70
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:483:13-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:482:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:484:9-486:69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:486:13-66
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:485:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:487:9-489:69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:489:13-66
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:488:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:490:9-492:73
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:492:13-70
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:491:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:493:9-495:69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:495:13-66
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:494:13-70
+activity#nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:496:9-498:78
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:498:13-75
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:497:13-74
+activity#nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:499:9-502:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:502:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:501:13-58
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:500:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:503:9-506:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:506:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:505:13-61
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:504:13-55
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ConfigureReminders
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:507:9-510:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:510:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:509:13-65
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:508:13-58
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ConfigureWorldClocks
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:511:9-514:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:514:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:513:13-60
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:512:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:515:9-518:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:518:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:517:13-76
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:516:13-77
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:519:9-523:52
+	android:screenOrientation
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:523:13-49
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:522:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:521:13-65
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:520:13-52
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ReminderDetails
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:524:9-529:58
+	android:screenOrientation
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:528:13-49
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:527:13-72
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:526:13-68
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:529:13-55
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:525:13-55
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WorldClockDetails
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:530:9-535:58
+	android:screenOrientation
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:534:13-49
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:533:13-74
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:532:13-71
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:535:13-55
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:531:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:536:9-539:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:539:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:538:13-61
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:537:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:540:9-544:67
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:543:13-74
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:542:13-71
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:544:13-64
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:541:13-66
+activity#nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:545:9-547:42
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:547:13-39
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:546:13-57
+provider#nodomain.freeyourgadget.gadgetbridge.contentprovider.PebbleContentProvider
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:549:9-552:39
+	android:authorities
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:551:13-66
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:552:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:550:13-66
+receiver#nodomain.freeyourgadget.gadgetbridge.SleepAlarmWidget
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:564:9-575:20
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:566:13-71
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:565:13-45
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:567:13-570:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:568:17-84
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:568:25-81
+action#nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:569:17-104
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:569:25-101
+meta-data#android.appwidget.provider
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:572:13-574:67
+	android:resource
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:574:17-64
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:573:17-58
+receiver#nodomain.freeyourgadget.gadgetbridge.Widget
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:576:9-589:20
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:578:13-57
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:577:13-35
+intent-filter#action:name:android.appwidget.action.APPWIDGET_DELETED+action:name:android.appwidget.action.APPWIDGET_DISABLED+action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:nodomain.freeyourgadget.gadgetbridge.WidgetClick
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:579:13-584:29
+action#android.appwidget.action.APPWIDGET_DELETED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:581:17-85
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:581:25-82
+action#android.appwidget.action.APPWIDGET_DISABLED
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:582:17-86
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:582:25-83
+action#nodomain.freeyourgadget.gadgetbridge.WidgetClick
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:583:17-91
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:583:25-88
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:591:9-595:67
+	android:excludeFromRecents
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:593:13-46
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:594:13-48
+	android:theme
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:595:13-64
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:592:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WidgetConfigurationActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:597:9-601:20
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:597:19-73
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:598:13-600:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:599:17-86
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:599:25-84
+activity#nodomain.freeyourgadget.gadgetbridge.activities.SleepAlarmWidgetConfigurationActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:603:9-607:20
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:603:19-83
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:609:9-628:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:612:13-45
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:615:13-83
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:613:13-50
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:614:13-44
+	android:allowTaskReparenting
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:611:13-48
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:610:13-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:616:13-618:99
+	android:value
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:618:17-96
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:617:17-63
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:gadgetbridge
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:620:13-627:29
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:624:17-78
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:624:27-75
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:630:9-634:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:634:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:632:13-60
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:633:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:631:13-59
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:635:9-639:76
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:639:13-73
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:637:13-55
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:638:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:636:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:640:9-644:72
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:644:13-69
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:642:13-60
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:643:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:641:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:645:9-647:78
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:647:13-75
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:646:13-47
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:645:19-73
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:648:9-652:78
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:652:13-75
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:650:13-67
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:651:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:649:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.FileManagementActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:653:9-657:77
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:657:13-75
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:655:13-66
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:656:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:654:13-67
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.AppsManagementActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:658:9-662:78
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:662:13-75
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:660:13-66
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:661:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:659:13-67
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CalibrationActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:663:9-666:78
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:666:13-75
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:665:13-62
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:664:13-64
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CommuteActionsActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:667:9-670:78
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:670:13-75
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:669:13-63
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:668:13-67
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:671:9-676:86
+	android:screenOrientation
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:674:13-49
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:676:13-83
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:673:13-69
+	android:launchMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:675:13-43
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:672:13-78
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceSettingsActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:677:9-680:95
+	android:parentActivityName
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:680:13-92
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:679:13-68
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:678:13-78
+activity#nodomain.freeyourgadget.gadgetbridge.devices.um25.Activity.DataActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:682:9-684:39
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:684:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:683:13-63
+activity#nodomain.freeyourgadget.gadgetbridge.activities.GpxReceiverActivity
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:686:9-697:20
+	android:screenOrientation
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:689:13-49
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:688:13-64
+	android:windowSoftInputMode
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:690:13-54
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:687:13-59
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:691:13-696:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:693:17-78
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:693:25-75
+activity#nodomain.freeyourgadget.gadgetbridge.externalevents.opentracks.OpenTracksController
+ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:699:9-702:38
+	android:label
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:701:13-70
+	android:exported
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:702:13-36
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml:700:13-75
+uses-sdk
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\2bcc63dc6364e9496cf113ccc67c1803\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\2bcc63dc6364e9496cf113ccc67c1803\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:20:5-23:54
+MERGED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:20:5-23:54
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\4a95ca7bc5a2cca6e426e9b4ceb44a4b\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\4a95ca7bc5a2cca6e426e9b4ceb44a4b\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\96de4b5fa8e06315d86ae562d9219234\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jcall\.gradle\caches\transforms-3\96de4b5fa8e06315d86ae562d9219234\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\67e3db5e0b5d761927131e84844766b0\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\67e3db5e0b5d761927131e84844766b0\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jaredrummler:colorpicker:1.0.2] C:\Users\jcall\.gradle\caches\transforms-3\487d3a4e710db3f06a571333672123df\transformed\jetified-colorpicker-1.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jaredrummler:colorpicker:1.0.2] C:\Users\jcall\.gradle\caches\transforms-3\487d3a4e710db3f06a571333672123df\transformed\jetified-colorpicker-1.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-3\aa9f3f2713679775091001ca2300ff0d\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-3\aa9f3f2713679775091001ca2300ff0d\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\4c5d01a0bf5fd2b0435f5767bcfb070f\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\4c5d01a0bf5fd2b0435f5767bcfb070f\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\60bf7c6fb0e8de17389e887998e4c8fa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\60bf7c6fb0e8de17389e887998e4c8fa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2d32f2b0d136cd8508756c47f7100e6f\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2d32f2b0d136cd8508756c47f7100e6f\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\3b620ec34a879bb4d0235c246e852eb4\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\3b620ec34a879bb4d0235c246e852eb4\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a0ca6a64646259b7d0ec15da30f71d11\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a0ca6a64646259b7d0ec15da30f71d11\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a58b66e3218a82afa2a94b31728c58b2\transformed\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a58b66e3218a82afa2a94b31728c58b2\transformed\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\210dc53e2be66c86cef533c4df9bf3cc\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\210dc53e2be66c86cef533c4df9bf3cc\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\jcall\.gradle\caches\transforms-3\ea1b6389a27cd44467ba814eb7c386bb\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\jcall\.gradle\caches\transforms-3\ea1b6389a27cd44467ba814eb7c386bb\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:7:5-9:41
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\jcall\.gradle\caches\transforms-3\b38cd38327204cef60ca9f36c0bcee91\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c71850f4a1247545e40a49779ec1274e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c71850f4a1247545e40a49779ec1274e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\jcall\.gradle\caches\transforms-3\af4c32d3a312620ad02dadf157d6190f\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:7:5-43
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\jcall\.gradle\caches\transforms-3\af4c32d3a312620ad02dadf157d6190f\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:7:5-43
+MERGED from [org.cyanogenmod:platform.sdk:6.0] C:\Users\jcall\.gradle\caches\transforms-3\88c31441b5e200246fb04fc5bbfa3f3f\transformed\jetified-platform.sdk-6.0\AndroidManifest.xml:21:5-43
+MERGED from [org.cyanogenmod:platform.sdk:6.0] C:\Users\jcall\.gradle\caches\transforms-3\88c31441b5e200246fb04fc5bbfa3f3f\transformed\jetified-platform.sdk-6.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\8d77ad11cd3827c6aa2b29f3005dee16\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\8d77ad11cd3827c6aa2b29f3005dee16\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\6d22407638e565531d30489439787856\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\jcall\.gradle\caches\transforms-3\6d22407638e565531d30489439787856\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\5fa2776a8a33e5def93903338d653a73\transformed\jetified-fragment-ktx-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\5fa2776a8a33e5def93903338d653a73\transformed\jetified-fragment-ktx-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\a547c03c816cfe20372c695e04761d6c\transformed\jetified-activity-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.1] C:\Users\jcall\.gradle\caches\transforms-3\a547c03c816cfe20372c695e04761d6c\transformed\jetified-activity-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\f2bf972c65c777bf3a0b47379ab6800f\transformed\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\f2bf972c65c777bf3a0b47379ab6800f\transformed\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\4ed14ab00dc0fee7490f1e5c882ced8c\transformed\jetified-lifecycle-livedata-core-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\4ed14ab00dc0fee7490f1e5c882ced8c\transformed\jetified-lifecycle-livedata-core-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\54de66788d0aa275d60451652e6b2f7d\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\54de66788d0aa275d60451652e6b2f7d\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\2e93ed5d607362701f8c61caa6fc1420\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\2e93ed5d607362701f8c61caa6fc1420\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\4c5c6bf0d27c2a2b95bf00f57aed903f\transformed\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\jcall\.gradle\caches\transforms-3\4c5c6bf0d27c2a2b95bf00f57aed903f\transformed\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\jcall\.gradle\caches\transforms-3\9eb52fd821f623f7ec09c39b8b49028c\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\jcall\.gradle\caches\transforms-3\9eb52fd821f623f7ec09c39b8b49028c\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\jcall\.gradle\caches\transforms-3\165c19ebf8bfb197762ebdf0edd427fb\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\jcall\.gradle\caches\transforms-3\165c19ebf8bfb197762ebdf0edd427fb\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\c66d8880d51556e3707599b15eccd14b\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\c66d8880d51556e3707599b15eccd14b\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a8e06e27280e254877c34bfb5116f558\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a8e06e27280e254877c34bfb5116f558\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2e315969cd74789cfdc70f908b3ed7dd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2e315969cd74789cfdc70f908b3ed7dd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\25eb95d9052702f3a21a7a76c3a10cbf\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\25eb95d9052702f3a21a7a76c3a10cbf\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a2bc3f2c81665604d8767ac62d86578c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\a2bc3f2c81665604d8767ac62d86578c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\e99422add5bafc3d15fcf4ea2302337a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\e99422add5bafc3d15fcf4ea2302337a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\4340d17426ed778e65713d7daacde5c6\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\4340d17426ed778e65713d7daacde5c6\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\9898b21ed207adb9c7f520b1e12151aa\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\9898b21ed207adb9c7f520b1e12151aa\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\7779385a677bed964512f0d1984c5a32\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\7779385a677bed964512f0d1984c5a32\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\8de675797f6ae80b9e3d848580afa190\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\8de675797f6ae80b9e3d848580afa190\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\jcall\.gradle\caches\transforms-3\75c922bfed3b71cb148fa9e91d4f3909\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\jcall\.gradle\caches\transforms-3\75c922bfed3b71cb148fa9e91d4f3909\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\f17bd4b271c6b4d5fb780b20c22679ad\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\f17bd4b271c6b4d5fb780b20c22679ad\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\1a031c7c29e3f68aa75f56b663c256cc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\1a031c7c29e3f68aa75f56b663c256cc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\4bd2a86f3b84571249991056b6a39d34\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\4bd2a86f3b84571249991056b6a39d34\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\c108ee7128c81cca41708ecac2af3d66\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\c108ee7128c81cca41708ecac2af3d66\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2f8968ca09831916780cc844d1b116b4\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2f8968ca09831916780cc844d1b116b4\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\jcall\.gradle\caches\transforms-3\ecff584e6ddb1db61c4b710f41137df7\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\jcall\.gradle\caches\transforms-3\ecff584e6ddb1db61c4b710f41137df7\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\91655942e4823dfe3677a7c6dfe6c9d5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\91655942e4823dfe3677a7c6dfe6c9d5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\0e02a54c6a8a2baba639ab9fd3244aae\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\0e02a54c6a8a2baba639ab9fd3244aae\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c6989e7f43bc45fe68e8b27354aa0efb\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c6989e7f43bc45fe68e8b27354aa0efb\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\b55c51abbddca0d4201aebaf20f5ef5e\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\b55c51abbddca0d4201aebaf20f5ef5e\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\edff40e2902c83b6e7e8088f6f6efcc3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\edff40e2902c83b6e7e8088f6f6efcc3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\22c911d3d455d357c8f28862c9baf7ad\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\22c911d3d455d357c8f28862c9baf7ad\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\07437fe53496035d7b61e3f310819682\transformed\monitor-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\07437fe53496035d7b61e3f310819682\transformed\monitor-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\8879e2d3e7a6cf545f05ec0c8b9ae93c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jcall\.gradle\caches\transforms-3\8879e2d3e7a6cf545f05ec0c8b9ae93c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\d4b1108ea49531f821292d5f6f0c47c0\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\d4b1108ea49531f821292d5f6f0c47c0\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\61254cb08da4d4233edbe54563b39c2d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jcall\.gradle\caches\transforms-3\61254cb08da4d4233edbe54563b39c2d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\3605b9d929e3e555211a2f70fa89faef\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\jcall\.gradle\caches\transforms-3\3605b9d929e3e555211a2f70fa89faef\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c33d891be33dd8a510a752a5370c5aa2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\jcall\.gradle\caches\transforms-3\c33d891be33dd8a510a752a5370c5aa2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\b541e01bdf676241bb98d771ba51d0e0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\b541e01bdf676241bb98d771ba51d0e0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\ceafc66336e5a25abfe1f139184fdc25\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\ceafc66336e5a25abfe1f139184fdc25\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2f690913eea83f65fb18f28af5d0eac8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\2f690913eea83f65fb18f28af5d0eac8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\16f2fe4730d438fa060fe26d1d783033\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jcall\.gradle\caches\transforms-3\16f2fe4730d438fa060fe26d1d783033\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml
+INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from C:\Users\jcall\Apps\GBN\app\src\banglejs\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:25:5-72
+MERGED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:24:5-72
+MERGED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:25:22-69
+activity#androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity
+ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:28:9-37:20
+	android:multiprocess
+		ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:31:13-40
+	android:exported
+		ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:33:13-78
+	android:taskAffinity
+		ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:29:13-96
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [androidx.fragment:fragment-testing:1.3.1] C:\Users\jcall\.gradle\caches\transforms-3\f010b56d72af5818e4d5dcd78c8ea626\transformed\jetified-fragment-testing-1.3.1\AndroidManifest.xml:34:13-36:29
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
+	android:theme
+		ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
+	android:theme
+		ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
+	android:theme
+		ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from [androidx.test:core:1.3.0] C:\Users\jcall\.gradle\caches\transforms-3\87d7db8a55b59a8aed5fbae4e37dd3ee\transformed\jetified-core-1.3.0\AndroidManifest.xml:42:13-103

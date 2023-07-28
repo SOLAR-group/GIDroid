@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.UploadPreferenceFragment"
+        app:icon="@drawable/prefs_upload"
+        app:key="upload_preference_header"
+        app:summary="@string/preferences_header_upload_summary"
+        app:title="@string/preferences_header_upload_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.DisplayPreferenceFragment"
+        app:icon="@drawable/prefs_display"
+        app:key="display_preference_header"
+        app:summary="@string/preferences_header_display_summary"
+        app:title="@string/preferences_header_display_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.GeneralPreferenceFragment"
+        app:icon="@drawable/prefs_general"
+        app:key="general_preference_header"
+        app:summary="@string/preferences_header_general_summary"
+        app:title="@string/preferences_header_general_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.CollectorPreferenceFragment"
+        app:icon="@drawable/prefs_collector"
+        app:key="collector_preference_header"
+        app:summary="@string/preferences_header_collector_summary"
+        app:title="@string/preferences_header_collector_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.ExportPreferenceFragment"
+        app:icon="@drawable/prefs_export"
+        app:key="export_preference_header"
+        app:summary="@string/preferences_header_export_summary"
+        app:title="@string/preferences_header_export_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.MapPreferenceFragment"
+        app:icon="@drawable/prefs_map"
+        app:key="map_preference_header"
+        app:summary="@string/preferences_header_map_summary"
+        app:title="@string/preferences_header_map_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.AdvancedPreferenceFragment"
+        app:icon="@drawable/prefs_advanced"
+        app:key="advanced_preference_header"
+        app:summary="@string/preferences_header_advanced_summary"
+        app:title="@string/preferences_header_advanced_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.InformationPreferenceFragment"
+        app:icon="@drawable/prefs_information"
+        app:key="information_preference_header"
+        app:summary="@string/preferences_header_information_summary"
+        app:title="@string/preferences_header_information_title" />
+
+    <Preference
+        app:fragment="info.zamojski.soft.towercollector.preferences.HelpPreferenceFragment"
+        app:icon="@drawable/prefs_help"
+        app:key="help_preference_header"
+        app:summary="@string/preferences_header_help_summary"
+        app:title="@string/preferences_header_help_title" />
+
+</PreferenceScreen>

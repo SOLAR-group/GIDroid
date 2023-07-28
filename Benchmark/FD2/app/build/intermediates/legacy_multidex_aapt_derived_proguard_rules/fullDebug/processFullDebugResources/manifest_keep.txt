@@ -1,0 +1,2 @@
+# Referenced at C:\Users\jcall\Apps\FD2\app\build\intermediates\merged_manifests\fullDebug\AndroidManifest.xml:81
+-keep class org.fdroid.fdroid.FDroidApp { <init>(); }

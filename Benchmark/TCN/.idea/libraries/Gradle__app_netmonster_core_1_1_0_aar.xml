@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: app.netmonster:core:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4d080d2d91f34af2535037cc9a206f8c/transformed/jetified-core-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d080d2d91f34af2535037cc9a206f8c/transformed/jetified-core-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d080d2d91f34af2535037cc9a206f8c/transformed/jetified-core-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/app.netmonster/core/1.1.0/b1879b83c02d3debffe0df9489f34c9fd57fcb62/core-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/app.netmonster/core/1.1.0/525ac6f1b212ccd712d422f3eb45046032610c12/core-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

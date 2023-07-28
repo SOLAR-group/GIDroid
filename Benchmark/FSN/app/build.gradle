@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'pmd'
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+task pmdMain(type: Pmd) {
+    dependsOn 'assembleDebug'
+    ruleSets = ['category/java/performance.xml']
+    source 'src/main/java'
+    include '**/*.java'
+    exclude '**/kellinwood/**/*.java'
+}
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "be.digitalia.fosdem"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 1700173
+        versionName "1.7.3"
+        // Supported languages
+        resConfigs "en"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles 'proguard-defaults.txt', 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources=true
+        }
+        unitTests.all {
+
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+            }
+
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'androidx.test:core:1.4.0'
+    testImplementation 'org.robolectric:robolectric:4.7.2'
+
+    def lifecycle_version = "2.2.0"
+    def room_version = "2.2.3"
+
+    implementation 'androidx.core:core:1.2.0-rc01'
+    implementation 'androidx.fragment:fragment:1.2.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0-rc02'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.0-alpha03'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+    implementation 'androidx.paging:paging-runtime:2.1.1'
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation 'com.squareup.okhttp3:okhttp:3.12.8'
+    implementation 'com.squareup.okio:okio:1.17.5'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+}

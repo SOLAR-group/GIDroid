@@ -1,0 +1,4 @@
+org/fdroid/fdroid/ShadowUtils.java
+ org.fdroid.fdroid.ShadowUtils
+org/fdroid/fdroid/FeatureImageTest.java
+ org.fdroid.fdroid.FeatureImageTest

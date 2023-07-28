@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TrackScheduleActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/schedule"
+        android:layout_width="@dimen/schedule_column_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="128dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.App.Toolbar.PrimarySurface"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:gravity="top" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/event"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/detail_card_view_margin_start"
+        android:layout_marginTop="@dimen/detail_card_view_margin_top"
+        android:layout_marginEnd="@dimen/detail_card_view_margin_end"
+        android:layout_marginBottom="@dimen/detail_card_view_margin_bottom"
+        app:cardElevation="@dimen/detail_card_view_elevation"
+        app:cardPreventCornerOverlap="false" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        style="@style/FloatingActionButton.BookmarkStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/detail_fab_margin_end"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="bottom|end" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

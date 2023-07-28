@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.0.0" timestamp="2022-11-09T15:33:01.439">
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\activities\MainActivity.java">
+<violation beginline="145" endline="145" begincolumn="18" endcolumn="49" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.activities" class="MainActivity" variable="pendingNavigationMenuItem" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'pendingNavigationMenuItem'
+</violation>
+<violation beginline="278" endline="285" begincolumn="33" endcolumn="33" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.activities" class="MainActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="422" endline="432" begincolumn="17" endcolumn="17" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.activities" class="MainActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="444" endline="458" begincolumn="25" endcolumn="25" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.activities" class="MainActivity" method="handleNavigationMenuItem" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\activities\RoomImageDialogActivity.java">
+<violation beginline="63" endline="74" begincolumn="33" endcolumn="33" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.activities" class="RoomImageDialogActivity" method="configureToolbar" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\activities\TrackScheduleActivity.java">
+<violation beginline="49" endline="49" begincolumn="41" endcolumn="70" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.activities" class="TrackScheduleActivity" variable="bookmarkStatusViewModel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'bookmarkStatusViewModel'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\activities\TrackScheduleEventActivity.java">
+<violation beginline="178" endline="178" begincolumn="37" endcolumn="49" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.activities" class="TrackScheduleEventActivity$TrackScheduleEventAdapter" variable="events" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'events'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\adapters\ConcatAdapter.java">
+<violation beginline="105" endline="105" begincolumn="47" endcolumn="69" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.adapters" class="ConcatAdapter" method="ConcatAdapter" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\api\LiveRoomStatusesLiveData.java">
+<violation beginline="33" endline="40" begincolumn="17" endcolumn="17" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.api" class="LiveRoomStatusesLiveData" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="45" endline="45" begincolumn="22" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.api" class="LiveRoomStatusesLiveData" variable="nextRefreshTime" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'nextRefreshTime'
+</violation>
+<violation beginline="46" endline="46" begincolumn="21" endcolumn="36" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.api" class="LiveRoomStatusesLiveData" variable="retryAttempt" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'retryAttempt'
+</violation>
+<violation beginline="47" endline="47" begincolumn="64" endcolumn="81" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.api" class="LiveRoomStatusesLiveData" variable="currentTask" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'currentTask'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\db\ScheduleDao.java">
+<violation beginline="115" endline="115" begincolumn="45" endcolumn="66" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.db" class="ScheduleDao" method="storeScheduleInternal" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="115" endline="115" begincolumn="69" endcolumn="90" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.db" class="ScheduleDao" method="storeScheduleInternal" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="129" endline="129" begincolumn="65" endcolumn="95" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.db" class="ScheduleDao" method="storeScheduleInternal" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="131" endline="131" begincolumn="54" endcolumn="103" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.db" class="ScheduleDao" method="storeScheduleInternal" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\fragments\BookmarksListFragment.java">
+<violation beginline="72" endline="78" begincolumn="33" endcolumn="33" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="BookmarksListFragment" method="onActionItemClicked" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="142" endline="155" begincolumn="17" endcolumn="17" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="BookmarksListFragment" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\fragments\EventDetailsFragment.java">
+<violation beginline="220" endline="224" begincolumn="17" endcolumn="17" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="EventDetailsFragment" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="274" endline="274" begincolumn="44" endcolumn="74" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="EventDetailsFragment" method="setEventDetails" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="290" endline="290" begincolumn="57" endcolumn="90" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="EventDetailsFragment" method="setEventDetails" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\fragments\LiveFragment.java">
+<violation beginline="77" endline="82" begincolumn="25" endcolumn="25" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="LiveFragment$LivePagerAdapter" method="createFragment" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="87" endline="92" begincolumn="25" endcolumn="25" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="LiveFragment$LivePagerAdapter" method="getPageTitle" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\fragments\MapFragment.java">
+<violation beginline="55" endline="62" begincolumn="17" endcolumn="17" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="MapFragment" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\fragments\PersonInfoListFragment.java">
+<violation beginline="61" endline="89" begincolumn="17" endcolumn="17" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="PersonInfoListFragment" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\fragments\TrackScheduleListFragment.java">
+<violation beginline="43" endline="43" begincolumn="25" endcolumn="48" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="TrackScheduleListFragment" variable="selectionEnabled" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'selectionEnabled'
+</violation>
+<violation beginline="45" endline="45" begincolumn="25" endcolumn="50" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.fragments" class="TrackScheduleListFragment" variable="isListAlreadyShown" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'isListAlreadyShown'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\livedata\LiveDataFactory.java">
+<violation beginline="23" endline="23" begincolumn="30" endcolumn="44" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.livedata" class="LiveDataFactory$IntervalLiveData" variable="updateTime" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'updateTime'
+</violation>
+<violation beginline="24" endline="24" begincolumn="30" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.livedata" class="LiveDataFactory$IntervalLiveData" variable="version" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'version'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\parsers\EventsParser.java">
+<violation beginline="63" endline="63" begincolumn="38" endcolumn="46" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.parsers" class="EventsParser" method="parseNext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="121" endline="121" begincolumn="65" endcolumn="76" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.parsers" class="EventsParser" method="parseNext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="131" endline="131" begincolumn="61" endcolumn="70" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.parsers" class="EventsParser" method="parseNext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="151" endline="151" begincolumn="44" endcolumn="74" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="be.digitalia.fosdem.parsers" class="EventsParser" method="parseNext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\parsers\IterableAbstractPullParser.java">
+<violation beginline="18" endline="18" begincolumn="27" endcolumn="37" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.parsers" class="IterableAbstractPullParser$ParserIterator" variable="next" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'next'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\utils\ByteCountSource.java">
+<violation beginline="24" endline="24" begincolumn="22" endcolumn="37" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.utils" class="ByteCountSource" variable="currentBytes" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'currentBytes'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\viewmodels\BookmarkStatusViewModel.java">
+<violation beginline="46" endline="46" begincolumn="25" endcolumn="51" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.viewmodels" class="BookmarkStatusViewModel" variable="firstResultReceived" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'firstResultReceived'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\widgets\ContentLoadingProgressBar.java">
+<violation beginline="23" endline="23" begincolumn="25" endcolumn="51" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.widgets" class="ContentLoadingProgressBar" variable="mIsAttachedToWindow" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mIsAttachedToWindow'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\widgets\MultiChoiceHelper.java">
+<violation beginline="109" endline="109" begincolumn="21" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="be.digitalia.fosdem.widgets" class="MultiChoiceHelper" variable="checkedItemCount" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'checkedItemCount'
+</violation>
+</file>
+<error filename="C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\utils\StringUtils.java" msg="Error while processing C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\utils\StringUtils.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while processing C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\utils\StringUtils.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:101)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:50)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:75)
+	at net.sourceforge.pmd.processor.MonoThreadProcessor.runAnalysis(MonoThreadProcessor.java:29)
+	at net.sourceforge.pmd.processor.AbstractPMDProcessor.processFiles(AbstractPMDProcessor.java:111)
+	at net.sourceforge.pmd.PMD.processFiles(PMD.java:315)
+	at net.sourceforge.pmd.ant.internal.PMDTaskImpl.doTask(PMDTaskImpl.java:192)
+	at net.sourceforge.pmd.ant.internal.PMDTaskImpl.execute(PMDTaskImpl.java:276)
+	at net.sourceforge.pmd.ant.PMDTask.execute(PMDTask.java:49)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at groovy.util.AntBuilder.performTask(AntBuilder.java:338)
+	at groovy.util.AntBuilder.nodeCompleted(AntBuilder.java:283)
+	at org.gradle.api.internal.project.ant.BasicAntBuilder.nodeCompleted(BasicAntBuilder.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:104)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.api.internal.project.antbuilder.AntBuilderDelegate.nodeCompleted(AntBuilderDelegate.java:118)
+	at groovy.util.BuilderSupport.doInvokeMethod(BuilderSupport.java:154)
+	at groovy.util.BuilderSupport.invokeMethod(BuilderSupport.java:67)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:135)
+	at org.gradle.api.plugins.quality.internal.PmdInvoker$_invoke_closure3.doCall(PmdInvoker.groovy:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:104)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:264)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:52)
+	at org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder$2.execute(DefaultIsolatedAntBuilder.java:152)
+	at org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder$2.execute(DefaultIsolatedAntBuilder.java:134)
+	at org.gradle.api.internal.project.antbuilder.ClassPathToClassLoaderCache.withCachedClassLoader(ClassPathToClassLoaderCache.java:134)
+	at org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder.execute(DefaultIsolatedAntBuilder.java:128)
+	at org.gradle.api.internal.project.IsolatedAntBuilder$execute$0.call(Unknown Source)
+	at org.gradle.api.plugins.quality.internal.PmdInvoker.invoke(PmdInvoker.groovy:68)
+	at org.gradle.api.plugins.quality.Pmd.run(Pmd.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: net.sourceforge.pmd.lang.ast.TokenMgrError: Lexical error in file C:\Users\jcall\Apps\FSN\app\src\main\java\be\digitalia\fosdem\utils\StringUtils.java at line 80, column 45.  Encountered: "\u20ac" (8364), after : "\'\u00e2"
+	at net.sourceforge.pmd.lang.java.ast.JavaParserTokenManager.getNextToken(JavaParserTokenManager.java:2263)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_scan_token(JavaParser.java:11580)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_323(JavaParser.java:9899)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_236(JavaParser.java:9922)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_148(JavaParser.java:9906)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_144(JavaParser.java:9936)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_139(JavaParser.java:9946)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_137(JavaParser.java:10002)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_233(JavaParser.java:10055)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3R_132(JavaParser.java:10077)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_3_36(JavaParser.java:9997)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_2_36(JavaParser.java:7330)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.EqualityExpression(JavaParser.java:3042)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.AndExpression(JavaParser.java:2999)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ExclusiveOrExpression(JavaParser.java:2959)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.InclusiveOrExpression(JavaParser.java:2919)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ConditionalAndExpression(JavaParser.java:2879)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ConditionalOrExpression(JavaParser.java:2839)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ConditionalExpression(JavaParser.java:2800)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Expression(JavaParser.java:2659)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.PrimaryPrefix(JavaParser.java:3910)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.PrimaryExpression(JavaParser.java:3728)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.PostfixExpression(JavaParser.java:3588)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3550)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.UnaryExpression(JavaParser.java:3403)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.MultiplicativeExpression(JavaParser.java:3297)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.AdditiveExpression(JavaParser.java:3244)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ShiftExpression(JavaParser.java:3189)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.RelationalExpression(JavaParser.java:3128)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.InstanceOfExpression(JavaParser.java:3092)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.EqualityExpression(JavaParser.java:3039)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.AndExpression(JavaParser.java:2999)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ExclusiveOrExpression(JavaParser.java:2959)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.InclusiveOrExpression(JavaParser.java:2919)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ConditionalAndExpression(JavaParser.java:2879)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ConditionalOrExpression(JavaParser.java:2839)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ConditionalExpression(JavaParser.java:2800)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Expression(JavaParser.java:2659)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.IfStatement(JavaParser.java:5140)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Statement(JavaParser.java:4681)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.BlockStatement(JavaParser.java:4828)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Block(JavaParser.java:4786)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Statement(JavaParser.java:4645)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.IfStatement(JavaParser.java:5142)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Statement(JavaParser.java:4681)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.BlockStatement(JavaParser.java:4828)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Block(JavaParser.java:4786)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Statement(JavaParser.java:4645)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ForStatement(JavaParser.java:5401)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Statement(JavaParser.java:4690)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.BlockStatement(JavaParser.java:4828)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.Block(JavaParser.java:4786)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.MethodDeclaration(JavaParser.java:1611)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceBodyDeclaration(JavaParser.java:1234)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceBody(JavaParser.java:1189)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.ClassOrInterfaceDeclaration(JavaParser.java:643)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.TypeDeclaration(JavaParser.java:533)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.CompilationUnit(JavaParser.java:270)
+	at net.sourceforge.pmd.lang.java.AbstractJavaParser.parse(AbstractJavaParser.java:57)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:173)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:95)
+	... 147 more
+]]>
+</error>
+</pmd>

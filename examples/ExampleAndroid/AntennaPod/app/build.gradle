@@ -1,0 +1,231 @@
+plugins {
+    id('com.android.application')
+    id('com.getkeepsafe.dexcount')
+    id('com.github.triplet.play') version '2.7.5' apply false
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    viewBinding {
+        enabled = true
+    }
+
+    lintOptions {
+        checkGeneratedSources = true
+    }
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        // Version code schema:
+        // "1.2.3-beta4"    -> 1020304
+        // "1.2.3"          -> 1020395
+        versionCode 2020003
+        versionName "2.2.0-beta3"
+
+        multiDexEnabled false
+        vectorDrawables.useSupportLibrary true
+        vectorDrawables.generatedDensities = []
+
+        testApplicationId "de.test.antennapod"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        def commit = "Unknown commit"
+        try {
+            commit = "git rev-parse --short HEAD".execute().text.trim()
+        } catch (Exception ignore) {
+        }
+        buildConfigField "String", "COMMIT_HASH", ('"' + commit + '"')
+
+        if (project.hasProperty("podcastindexApiKey")) {
+            buildConfigField "String", "PODCASTINDEX_API_KEY", '"' + podcastindexApiKey + '"'
+            buildConfigField "String", "PODCASTINDEX_API_SECRET", '"' + podcastindexApiSecret + '"'
+        } else {
+            buildConfigField "String", "PODCASTINDEX_API_KEY", '"XTMMQGA2YZ4WJUBYY4HK"'
+            buildConfigField "String", "PODCASTINDEX_API_SECRET", '"XAaAhk4^2YBsTE33vdbwbZNj82ZRLABDDqFdKe7x"'
+        }
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [eventBusIndex: 'de.danoeh.antennapod.ApEventBusIndex']
+            }
+        }
+    }
+
+    signingConfigs {
+        releaseConfig {
+            v1SigningEnabled true
+            v2SigningEnabled true
+
+            if (project.hasProperty("releaseStoreFile")) {
+                storeFile file(releaseStoreFile)
+            } else {
+                storeFile file("keystore")
+            }
+            if (project.hasProperty("releaseStorePassword")) {
+                storePassword releaseStorePassword
+            } else {
+                storePassword "password"
+            }
+            if (project.hasProperty("releaseKeyAlias")) {
+                keyAlias releaseKeyAlias
+            } else {
+                keyAlias "alias"
+            }
+            if (project.hasProperty("releaseKeyPassword")) {
+                keyPassword releaseKeyPassword
+            } else {
+                keyPassword "password"
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            resValue "string", "provider_authority", "de.danoeh.antennapod.debug.provider"
+
+            // debug build has method count over 64k single-dex threshold.
+            // For building debug build to use on Android < 21 (pre-Android 5) devices,
+            // you need to manually change class
+            // de.danoeh.antennapod.PodcastApp to extend MultiDexApplication .
+            // See Issue #2813
+            multiDexEnabled true
+
+            dexcount {
+                if (project.hasProperty("enableDexcountInDebug")) {
+                    runOnEachPackage enableDexcountInDebug.toBoolean()
+                } else { // default to not running dexcount
+                    runOnEachPackage false
+                }
+            }
+        }
+        release {
+            resValue "string", "provider_authority", "de.danoeh.antennapod.provider"
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), "proguard.cfg"
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+
+    packagingOptions {
+        exclude "META-INF/LICENSE.txt"
+        exclude "META-INF/NOTICE.txt"
+    }
+
+    lintOptions {
+        disable 'ObsoleteLintCustomCheck', 'CheckResult', 'UnusedAttribute', 'BatteryLife', 'InflateParams',
+                'GradleDependency', 'RestrictedApi', 'TrustAllX509TrustManager', 'ExportedReceiver', 'AllowBackup',
+                'StaticFieldLeak', 'UseCompoundDrawables', 'NestedWeights', 'Overdraw', 'UselessParent', 'TextFields',
+                'AlwaysShowAction', 'Autofill', 'ClickableViewAccessibility', 'ContentDescription',
+                'KeyboardInaccessibleWidget', 'LabelFor', 'SetTextI18n', 'HardcodedText', 'RelativeOverlap',
+                'RtlCompat', 'RtlHardcoded', 'MissingMediaBrowserServiceIntentFilter'
+        warningsAsErrors true
+        abortOnError true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+
+    testOptions {
+        animationsDisabled = true
+    }
+
+    flavorDimensions "market"
+    productFlavors {
+        free {
+            dimension "market"
+        }
+        play {
+            dimension "market"
+        }
+    }
+
+    dexOptions {
+        jumboMode true
+    }
+}
+
+dependencies {
+    implementation project(":core")
+    implementation project(':ui:app-start-intent')
+    implementation project(':ui:common')
+
+    annotationProcessor "androidx.annotation:annotation:$annotationVersion"
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation "androidx.media:media:$mediaVersion"
+    implementation "androidx.preference:preference:$preferenceVersion"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.viewpager2:viewpager2:1.1.0-alpha01'
+    implementation "androidx.work:work-runtime:$workManagerVersion"
+    implementation "com.google.android.material:material:$googleMaterialVersion"
+
+    implementation "org.apache.commons:commons-lang3:$commonslangVersion"
+    implementation "commons-io:commons-io:$commonsioVersion"
+    implementation "org.jsoup:jsoup:$jsoupVersion"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
+    implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:$okhttpVersion"
+    implementation "com.squareup.okio:okio:$okioVersion"
+    implementation "org.greenrobot:eventbus:$eventbusVersion"
+    annotationProcessor "org.greenrobot:eventbus-annotation-processor:$eventbusVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+
+    implementation "com.joanzapata.iconify:android-iconify-fontawesome:$iconifyVersion"
+    implementation "com.joanzapata.iconify:android-iconify-material:$iconifyVersion"
+    implementation 'com.github.shts:TriangleLabelView:1.1.2'
+    implementation 'com.github.leinardi:FloatingActionButtonSpeedDial:3.1.1'
+    implementation "com.github.AntennaPod:AntennaPod-AudioPlayer:$audioPlayerVersion"
+    implementation 'com.github.mfietz:fyydlin:v0.5.0'
+    implementation 'com.github.ByteHamster:SearchPreference:v2.0.0'
+    implementation 'com.github.skydoves:balloon:1.1.5'
+
+    // Non-free dependencies:
+    playImplementation 'com.google.android.play:core:1.8.0'
+    compileOnly "com.google.android.wearable:wearable:$wearableSupportVersion"
+
+    androidTestImplementation "org.awaitility:awaitility:$awaitilityVersion"
+    androidTestImplementation 'com.nanohttpd:nanohttpd:2.1.1'
+    androidTestImplementation "com.jayway.android.robotium:robotium-solo:$robotiumSoloVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$espressoVersion"
+    androidTestImplementation "androidx.test:runner:$runnerVersion"
+    androidTestImplementation "androidx.test:rules:$rulesVersion"
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+}
+
+if (project.hasProperty("antennaPodPlayPublisherCredentials")) {
+    apply plugin: 'com.github.triplet.play'
+    play {
+        track = 'alpha'
+        serviceAccountCredentials = file(antennaPodPlayPublisherCredentials)
+    }
+}
+
+task copyLicense(type: Copy) {
+    from "../LICENSE"
+    into "src/main/assets/"
+    rename { String fileName ->
+        fileName + ".txt"
+    }
+}
+
+preBuild.dependsOn copyLicense
+
+apply plugin: 'de.timfreiheit.resourceplaceholders.plugin'
+resourcePlaceholders {
+    files = ['xml/shortcuts.xml']
+}

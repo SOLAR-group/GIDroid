@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\activity_wanhost.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\activity_wanhost.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\port_range.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\port_range.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\wake_on_lan.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\wake_on_lan.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\host_list_item.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\host_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\activity_dns.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\activity_dns.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\checkbox.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\port_list_item.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\port_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA5\\app\\build\\intermediates\\incremental\\mergeDonateDebugResources\\stripped.dir\\layout\\activity_lanhost.xml",
+        "source": "C:\\Users\\jcall\\Apps\\PA5\\app\\src\\main\\res\\layout\\activity_lanhost.xml"
+    }
+]

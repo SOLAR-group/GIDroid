@@ -1,0 +1,1182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="nodomain.freeyourgadget.gadgetbridge"
+4    android:versionCode="170"
+5    android:versionName="0.43.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml
+10    <!--
+11        Comment in for testing Pebble Emulator
+12        <uses-permission android:name="android.permission.INTERNET" />
+13    -->
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+15-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:9:5-74
+15-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:9:22-71
+16    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+16-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:10:5-72
+16-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:10:22-69
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:11:5-75
+17-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:11:22-72
+18    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+18-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.CALL_PHONE" />
+19-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:13:5-69
+19-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:13:22-66
+20    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+20-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:14:5-77
+20-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:14:22-74
+21    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+21-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:15:5-70
+21-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:15:22-67
+22    <uses-permission android:name="android.permission.SEND_SMS" />
+22-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:16:5-67
+22-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:16:22-64
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:17:5-72
+23-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:17:22-69
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:18:5-80
+24-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:19:5-72
+25-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:19:22-69
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:20:5-81
+26-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:20:22-78
+27    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+27-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:21:5-80
+27-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:21:22-77
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:22:5-81
+28-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:22:22-78
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:23:5-77
+29-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:23:22-74
+30    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Used for reverse find device -->
+30-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:24:5-66
+30-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:24:22-63
+31    <uses-permission android:name="cyanogenmod.permission.ACCESS_WEATHER_MANAGER" />
+31-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:25:5-85
+31-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:25:22-82
+32    <uses-permission android:name="cyanogenmod.permission.READ_WEATHER" />
+32-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:26:5-75
+32-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:26:22-72
+33    <uses-permission android:name="lineageos.permission.ACCESS_WEATHER_MANAGER" />
+33-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:27:5-83
+33-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:27:22-80
+34    <uses-permission android:name="lineageos.permission.READ_WEATHER" />
+34-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:28:5-73
+34-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:28:22-70
+35    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
+35-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:29:5-73
+35-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:29:22-70
+36
+37    <uses-feature
+37-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:31:5-33:35
+38        android:name="android.hardware.bluetooth"
+38-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:32:9-50
+39        android:required="true" />
+39-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:33:9-32
+40    <uses-feature
+40-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:34:5-36:36
+41        android:name="android.hardware.bluetooth_le"
+41-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:35:9-53
+42        android:required="false" />
+42-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:36:9-33
+43    <uses-feature
+43-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:37:5-39:36
+44        android:name="android.hardware.telephony"
+44-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:38:9-50
+45        android:required="false" />
+45-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:39:9-33
+46
+47    <application
+47-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:41:5-513:19
+48        android:name="nodomain.freeyourgadget.gadgetbridge.GBApplication"
+48-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:42:9-38
+49        android:allowBackup="false"
+49-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:43:9-36
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.1.0] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\6ea9b2c67401efe7c203bada064b77f1\core-1.1.0\AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:fullBackupContent="false"
+52-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:44:9-42
+53        android:icon="@mipmap/ic_launcher"
+53-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:45:9-43
+54        android:label="@string/app_name"
+54-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:46:9-41
+55        android:roundIcon="@mipmap/ic_launcher_round"
+55-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:47:9-54
+56        android:supportsRtl="true"
+56-->[com.github.wax911:android-emojify:0.1.7] C:\Users\jcall\.gradle\caches\transforms-2\files-2.1\d437306137f216c33e8d28692726a106\jetified-android-emojify-0.1.7\AndroidManifest.xml:13:9-35
+57        android:theme="@style/GadgetbridgeTheme" >
+57-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:48:9-49
+58        <activity android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity" />
+58-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:49:9-85
+58-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:49:19-73
+59        <activity
+59-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:50:9-61:20
+60            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+60-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:51:13-55
+61            android:label="@string/title_activity_controlcenter"
+61-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:52:13-65
+62            android:theme="@style/SplashTheme" >
+62-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:53:13-47
+63            <intent-filter>
+63-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:54:13-60:29
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+64-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+65
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:57:17-69
+66-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:57:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:59:17-77
+68-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:59:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:62:9-65:72
+72            android:name="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity"
+72-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:63:13-56
+73            android:label="@string/title_activity_settings"
+73-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:64:13-60
+74            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+74-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:65:13-69
+75        <activity
+75-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:66:9-69:89
+76            android:name="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity"
+76-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:67:13-72
+77            android:label="@string/activity_prefs_charts"
+77-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:68:13-58
+78            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity" />
+78-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:69:13-86
+79        <activity
+79-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:70:9-73:73
+80            android:name="nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity"
+80-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:71:13-69
+81            android:label="@string/preferences_miband_settings"
+81-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:72:13-64
+82            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+82-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:73:13-70
+83        <activity
+83-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:74:9-77:73
+84            android:name="nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity"
+84-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:75:13-68
+85            android:label="@string/zetime_title_settings"
+85-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:76:13-58
+86            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+86-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:77:13-70
+87        <activity
+87-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:78:9-81:72
+88            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity"
+88-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:79:13-65
+89            android:label="@string/activity_summaries"
+89-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:80:13-55
+90            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+90-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:81:13-69
+91        <activity
+91-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:82:9-86:72
+92            android:name="nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity"
+92-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:83:13-69
+93            android:label="@string/title_activity_appmanager"
+93-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:84:13-62
+94            android:launchMode="singleTop"
+94-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:85:13-43
+95            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+95-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:86:13-69
+96        <activity
+96-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:87:9-90:73
+97            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity"
+97-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:88:13-60
+98            android:label="@string/title_activity_appblacklist"
+98-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:89:13-64
+99            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+99-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:90:13-70
+100        <activity
+100-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:91:9-94:73
+101            android:name="nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity"
+101-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:92:13-60
+102            android:label="@string/title_activity_calblacklist"
+102-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:93:13-64
+103            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+103-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:94:13-70
+104        <activity
+104-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:95:9-312:20
+105            android:name="nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity"
+105-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:96:13-62
+106            android:label="@string/title_activity_fw_app_insaller"
+106-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:97:13-67
+107            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" >
+107-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:98:13-69
+108            <intent-filter>
+108-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:99:13-192:29
+109                <action android:name="android.intent.action.VIEW" />
+109-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:17-69
+109-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:25-66
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+111-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+112
+113                <data android:mimeType="*/*" />
+113-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+113-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:23-45
+114                <!-- needed for aosp-derived ROMs? -->
+115
+116                <data android:host="*" />
+116-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+116-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:107:23-39
+117                <data android:scheme="file" />
+117-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+117-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:108:23-44
+118
+119                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+120
+121                <data android:pathPattern="/.*\\.fw" />
+121-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+121-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+122                <data android:pathPattern="/.*\\..*\\.fw" />
+122-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+122-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+123                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+123-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+123-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+124                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+124-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+124-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+125                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+125-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+125-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+126                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+126-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+126-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+127                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+127-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+127-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+128                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+128-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+128-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+129                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+129-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+129-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+130                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+130-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+130-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+131                <data android:pathPattern="/.*\\.ft.en" />
+131-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+131-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+132                <data android:pathPattern="/.*\\..*\\.ft.en" />
+132-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+132-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+133                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+133-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+133-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+134                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+134-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+134-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+135                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+135-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+135-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+136                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+136-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+136-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+137                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+137-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+137-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+138                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+138-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+138-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+139                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+139-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+139-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+140                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+140-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+140-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+141                <data android:pathPattern="/.*\\.ft" />
+141-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+141-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+142                <data android:pathPattern="/.*\\..*\\.ft" />
+142-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+142-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+143                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+143-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+143-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+144                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+144-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+144-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+145                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+145-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+145-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+146                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+146-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+146-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+147                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+147-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+147-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+148                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+148-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+148-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+149                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+149-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+149-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+150                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+150-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+150-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+151                <data android:pathPattern="/.*\\.res" />
+151-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+151-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+152                <data android:pathPattern="/.*\\..*\\.res" />
+152-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+152-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+153                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+153-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+153-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+154                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+154-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+154-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+155                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+155-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+155-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+156                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+156-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+156-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+157                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+157-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+157-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+158                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+158-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+158-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+159                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+159-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+159-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+160                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+160-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+160-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+161                <data android:pathPattern="/.*\\.gps" />
+161-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+161-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+162                <data android:pathPattern="/.*\\..*\\.gps" />
+162-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+162-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+163                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+163-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+163-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+164                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+164-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+164-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+165                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+165-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+165-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+166                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+166-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+166-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+167                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+167-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+167-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+168                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+168-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+168-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+169                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+169-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+169-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+170                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+170-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+170-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+171                <data android:pathPattern="/.*\\.pbw" />
+171-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+171-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+172                <data android:pathPattern="/.*\\..*\\.pbw" />
+172-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+172-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+173                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+173-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+173-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+174                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+174-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+174-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+175                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+175-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+175-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+176                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+176-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+176-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+177                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+177-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+177-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+178                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+178-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+178-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+179                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+179-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+179-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+180                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+180-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+180-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+181                <data android:pathPattern="/.*\\.pbz" />
+181-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+181-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+182                <data android:pathPattern="/.*\\..*\\.pbz" />
+182-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+182-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+183                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+183-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+183-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+184                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+184-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+184-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+185                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+185-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+185-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+186                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+186-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+186-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+187                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+187-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+187-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+188                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+188-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+188-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+189                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+189-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+189-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+190                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+190-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+190-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+191                <data android:pathPattern="/.*\\.pbl" />
+191-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+191-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+192                <data android:pathPattern="/.*\\..*\\.pbl" />
+192-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+192-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+193                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+193-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+193-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+194                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+194-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+194-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+195                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+195-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+195-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+196                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+196-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+196-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+197                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+197-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+197-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+198                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+198-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+198-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+199                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+199-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+199-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+200                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+200-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+200-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+201            </intent-filter>
+202            <intent-filter>
+202-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:193:13-285:29
+203                <action android:name="android.intent.action.VIEW" />
+203-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:17-69
+203-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:25-66
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+205-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+206
+207                <!-- no mimeType filter, needed for CM-derived ROMs? -->
+208
+209                <data android:host="*" />
+209-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+209-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:107:23-39
+210                <data android:scheme="file" />
+210-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+210-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:108:23-44
+211
+212                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+213
+214                <data android:pathPattern="/.*\\.fw" />
+214-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+214-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+215                <data android:pathPattern="/.*\\..*\\.fw" />
+215-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+215-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+216                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+216-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+216-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+217                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+217-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+217-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+218                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+218-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+218-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+219                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+219-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+219-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+220                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+220-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+220-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+221                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+221-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+221-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+222                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+222-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+222-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+223                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+223-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+223-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+224                <data android:pathPattern="/.*\\.ft.en" />
+224-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+224-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+225                <data android:pathPattern="/.*\\..*\\.ft.en" />
+225-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+225-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+226                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+226-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+226-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+227                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+227-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+227-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+228                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+228-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+228-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+229                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+229-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+229-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+230                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+230-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+230-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+231                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+231-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+231-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+232                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+232-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+232-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+233                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+233-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+233-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+234                <data android:pathPattern="/.*\\.ft" />
+234-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+234-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+235                <data android:pathPattern="/.*\\..*\\.ft" />
+235-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+235-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+236                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+236-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+236-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+237                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+237-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+237-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+238                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+238-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+238-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+239                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+239-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+239-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+240                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+240-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+240-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+241                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+241-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+241-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+242                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+242-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+242-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+243                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+243-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+243-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+244                <data android:pathPattern="/.*\\.res" />
+244-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+244-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+245                <data android:pathPattern="/.*\\..*\\.res" />
+245-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+245-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+246                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+246-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+246-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+247                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+247-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+247-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+248                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+248-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+248-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+249                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+249-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+249-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+250                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+250-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+250-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+251                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+251-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+251-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+252                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+252-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+252-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+253                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+253-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+253-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+254                <data android:pathPattern="/.*\\.gps" />
+254-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+254-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+255                <data android:pathPattern="/.*\\..*\\.gps" />
+255-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+255-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+256                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+256-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+256-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+257                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+257-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+257-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+258                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+258-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+258-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+259                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+259-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+259-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+260                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+260-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+260-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+261                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+261-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+261-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+262                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+262-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+262-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+263                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+263-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+263-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+264                <data android:pathPattern="/.*\\.pbw" />
+264-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+264-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+265                <data android:pathPattern="/.*\\..*\\.pbw" />
+265-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+265-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+266                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+266-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+266-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+267                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+267-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+267-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+268                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+268-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+268-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+269                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+269-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+269-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+270                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+270-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+270-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+271                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+271-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+271-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+272                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+272-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+272-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+273                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+273-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+273-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+274                <data android:pathPattern="/.*\\.pbz" />
+274-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+274-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+275                <data android:pathPattern="/.*\\..*\\.pbz" />
+275-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+275-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+276                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+276-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+276-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+277                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+277-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+277-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+278                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+278-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+278-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+279                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+279-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+279-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+280                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+280-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+280-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+281                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+281-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+281-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+282                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+282-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+282-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+283                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+283-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+283-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+284                <data android:pathPattern="/.*\\.pbl" />
+284-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+284-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+285                <data android:pathPattern="/.*\\..*\\.pbl" />
+285-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+285-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+286                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+286-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+286-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+287                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+287-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+287-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+288                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+288-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+288-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+289                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+289-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+289-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+290                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+290-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+290-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+291                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+291-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+291-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+292                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+292-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+292-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+293                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+293-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+293-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:112:23-53
+294            </intent-filter>
+295
+296            <!-- to receive the firmwares from the download content provider -->
+297            <intent-filter>
+297-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:288:13-294:29
+298                <action android:name="android.intent.action.VIEW" />
+298-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:17-69
+298-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:25-66
+299
+300                <category android:name="android.intent.category.DEFAULT" />
+300-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+300-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+301
+302                <data android:mimeType="application/octet-stream" />
+302-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+302-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:23-45
+303            </intent-filter>
+304            <!-- to receive firmwares from the download content provider if recognized as zip -->
+305            <intent-filter>
+305-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:296:13-303:29
+306                <action android:name="android.intent.action.VIEW" />
+306-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:17-69
+306-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:25-66
+307
+308                <category android:name="android.intent.category.DEFAULT" />
+308-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+308-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+309
+310                <data android:mimeType="application/zip" />
+310-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+310-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:23-45
+311                <data android:mimeType="application/x-zip-compressed" />
+311-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+311-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:23-45
+312            </intent-filter>
+313            <!-- to receive files from the "share" intent -->
+314            <intent-filter>
+314-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:305:13-311:29
+315                <action android:name="android.intent.action.SEND" />
+315-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:306:17-69
+315-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:306:25-66
+316
+317                <category android:name="android.intent.category.DEFAULT" />
+317-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+317-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+318
+319                <data android:mimeType="*/*" />
+319-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+319-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:23-45
+320            </intent-filter>
+321        </activity>
+322
+323        <service
+323-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:314:9-321:19
+324            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.NotificationListener"
+324-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:315:13-64
+325            android:label="@string/app_name"
+325-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:316:13-45
+326            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+326-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:317:13-87
+327            <intent-filter>
+327-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:318:13-320:29
+328                <action android:name="android.service.notification.NotificationListenerService" />
+328-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:319:17-99
+328-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:319:25-96
+329            </intent-filter>
+330        </service>
+331        <service android:name="nodomain.freeyourgadget.gadgetbridge.service.NotificationCollectorMonitorService" />
+331-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:322:9-80
+331-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:322:18-77
+332        <service android:name="nodomain.freeyourgadget.gadgetbridge.service.DeviceCommunicationService" />
+332-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:323:9-71
+332-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:323:18-68
+333
+334        <receiver
+334-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:325:9-331:20
+335            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationReceiver"
+335-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:326:13-71
+336            android:enabled="true" >
+336-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:327:13-35
+337            <intent-filter>
+337-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:328:13-330:29
+338                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2" />
+338-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:329:17-104
+338-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:329:25-101
+339            </intent-filter>
+340        </receiver>
+341
+342        <activity android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig" >
+342-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:333:9-337:20
+342-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:333:19-75
+343            <intent-filter>
+343-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:334:13-336:29
+344                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES" />
+344-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:335:17-112
+344-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:335:25-109
+345            </intent-filter>
+346        </activity>
+347
+348        <receiver
+348-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:339:9-347:20
+349            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.AutoStartReceiver"
+349-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:340:13-61
+350            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+350-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:341:13-75
+351            <intent-filter>
+351-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:342:13-346:29
+352                <action android:name="android.intent.action.BOOT_COMPLETED" />
+352-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:343:17-79
+352-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:343:25-76
+353
+354                <category android:name="android.intent.category.DEFAULT" />
+354-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+354-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+355            </intent-filter>
+356        </receiver>
+357        <receiver
+357-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:348:9-354:20
+358            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.BluetoothStateChangeReceiver"
+358-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:349:13-72
+359            android:exported="false" >
+359-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:350:13-37
+360            <intent-filter>
+360-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:351:13-353:29
+361                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+361-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:352:17-89
+361-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:352:25-86
+362            </intent-filter>
+363        </receiver>
+364        <receiver
+364-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:355:9-361:20
+365            android:name="nodomain.freeyourgadget.gadgetbridge.service.receivers.GBMusicControlReceiver"
+365-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:356:13-69
+366            android:exported="false" >
+366-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:357:13-37
+367            <intent-filter>
+367-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:358:13-360:29
+368                <action android:name="nodomain.freeyourgadget.gadgetbridge.musiccontrol" />
+368-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:359:17-92
+368-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:359:25-89
+369            </intent-filter>
+370        </receiver>
+371        <receiver
+371-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:362:9-368:20
+372            android:name="nodomain.freeyourgadget.gadgetbridge.service.receivers.GBCallControlReceiver"
+372-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:363:13-68
+373            android:exported="false" >
+373-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:364:13-37
+374            <intent-filter>
+374-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:365:13-367:29
+375                <action android:name="nodomain.freeyourgadget.gadgetbridge.callcontrol" />
+375-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:366:17-91
+375-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:366:25-88
+376            </intent-filter>
+377        </receiver>
+378        <receiver
+378-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:369:9-372:49
+379            android:name="nodomain.freeyourgadget.gadgetbridge.database.PeriodicExporter"
+379-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:370:13-54
+380            android:enabled="true"
+380-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:371:13-35
+381            android:exported="false" />
+381-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:372:13-37
+382        <!--
+383            forcing the DebugActivity to portrait mode avoids crashes with the progress
+384            dialog when changing orientation
+385        -->
+386        <activity
+386-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:377:9-382:57
+387            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity"
+387-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:378:13-53
+388            android:label="@string/title_activity_debug"
+388-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:379:13-57
+389            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+389-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:380:13-69
+390            android:screenOrientation="portrait"
+390-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:381:13-49
+391            android:windowSoftInputMode="stateHidden" />
+391-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:382:13-54
+392        <activity
+392-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:383:9-388:57
+393            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DbManagementActivity"
+393-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:384:13-60
+394            android:label="@string/title_activity_db_management"
+394-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:385:13-65
+395            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+395-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:386:13-69
+396            android:screenOrientation="portrait"
+396-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:387:13-49
+397            android:windowSoftInputMode="stateHidden" />
+397-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:388:13-54
+398        <activity
+398-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:389:9-392:72
+399            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity"
+399-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:390:13-57
+400            android:label="@string/title_activity_discovery"
+400-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:391:13-61
+401            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+401-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:392:13-69
+402        <activity
+402-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:393:9-395:70
+403            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity"
+403-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:394:13-62
+404            android:label="@string/title_activity_android_pairing" />
+404-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:395:13-67
+405        <activity
+405-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:396:9-398:70
+406            android:name="nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity"
+406-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:397:13-65
+407            android:label="@string/title_activity_mi_band_pairing" />
+407-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:398:13-67
+408        <activity
+408-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:399:9-401:69
+409            android:name="nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity"
+409-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:400:13-65
+410            android:label="@string/title_activity_pebble_pairing" />
+410-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:401:13-66
+411        <activity
+411-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:402:9-404:69
+412            android:name="nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity"
+412-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:403:13-65
+413            android:label="@string/title_activity_watch9_pairing" />
+413-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:404:13-66
+414        <activity
+414-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:405:9-407:73
+415            android:name="nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity"
+415-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:406:13-69
+416            android:label="@string/title_activity_watch9_calibration" />
+416-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:407:13-70
+417        <activity
+417-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:408:9-411:72
+418            android:name="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity"
+418-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:409:13-61
+419            android:label="@string/title_activity_charts"
+419-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:410:13-58
+420            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+420-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:411:13-69
+421        <activity
+421-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:412:9-415:72
+422            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms"
+422-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:413:13-55
+423            android:label="@string/title_activity_set_alarm"
+423-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:414:13-61
+424            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+424-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:415:13-69
+425        <activity
+425-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:416:9-418:79
+426            android:name="nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity"
+426-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:417:13-77
+427            android:label="@string/title_activity_device_specific_settings" />
+427-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:418:13-76
+428        <activity
+428-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:419:9-423:52
+429            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails"
+429-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:420:13-52
+430            android:label="@string/title_activity_alarm_details"
+430-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:421:13-65
+431            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms"
+431-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:422:13-69
+432            android:screenOrientation="portrait" />
+432-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:423:13-49
+433        <activity
+433-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:424:9-427:72
+434            android:name="nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity"
+434-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:425:13-57
+435            android:label="@string/title_activity_vibration"
+435-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:426:13-61
+436            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+436-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:427:13-69
+437        <activity
+437-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:428:9-432:67
+438            android:name="nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity"
+438-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:429:13-66
+439            android:label="@string/title_activity_notification_filter"
+439-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:430:13-71
+440            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity"
+440-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:431:13-74
+441            android:windowSoftInputMode="stateHidden|adjustPan" />
+441-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:432:13-64
+442        <activity
+442-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:433:9-435:42
+443            android:name="nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity"
+443-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:434:13-57
+444            android:label="Find Phone" />
+444-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:435:13-39
+445
+446        <provider
+446-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:437:9-440:39
+447            android:name="nodomain.freeyourgadget.gadgetbridge.contentprovider.PebbleContentProvider"
+447-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:438:13-66
+448            android:authorities="com.getpebble.android.provider"
+448-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:439:13-65
+449            android:exported="true" />
+449-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:440:13-36
+450        <provider
+451            android:name="androidx.core.content.FileProvider"
+451-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:442:13-62
+452            android:authorities="nodomain.freeyourgadget.gadgetbridge.screenshot_provider"
+452-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:443:13-71
+453            android:exported="false"
+453-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:444:13-37
+454            android:grantUriPermissions="true" >
+454-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:445:13-47
+455            <meta-data
+455-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:446:13-448:56
+456                android:name="android.support.FILE_PROVIDER_PATHS"
+456-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:447:17-67
+457                android:resource="@xml/shared_paths" />
+457-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:448:17-53
+458        </provider>
+459
+460        <receiver
+460-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:451:9-462:20
+461            android:name="nodomain.freeyourgadget.gadgetbridge.SleepAlarmWidget"
+461-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:452:13-45
+462            android:label="@string/appwidget_sleep_alarm_widget_label" >
+462-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:453:13-71
+463            <intent-filter>
+463-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:454:13-457:29
+464                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+464-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:455:17-84
+464-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:455:25-81
+465                <action android:name="nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK" />
+465-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:456:17-104
+465-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:456:25-101
+466            </intent-filter>
+467
+468            <meta-data
+468-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:459:13-461:67
+469                android:name="android.appwidget.provider"
+469-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:460:17-58
+470                android:resource="@xml/sleep_alarm_widget_info" />
+470-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:461:17-64
+471        </receiver>
+472        <receiver
+472-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:463:9-474:20
+473            android:name="nodomain.freeyourgadget.gadgetbridge.Widget"
+473-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:464:13-35
+474            android:label="@string/widget_listing_label" >
+474-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:465:13-57
+475            <intent-filter>
+475-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:466:13-469:29
+476                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+476-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:455:17-84
+476-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:455:25-81
+477                <action android:name="nodomain.freeyourgadget.gadgetbridge.WidgetClick" />
+477-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:468:17-91
+477-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:468:25-88
+478            </intent-filter>
+479
+480            <meta-data
+480-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:459:13-461:67
+481                android:name="android.appwidget.provider"
+481-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:460:17-58
+482                android:resource="@xml/widget_info" />
+482-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:461:17-64
+483        </receiver>
+484
+485        <activity
+485-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:476:9-480:67
+486            android:name="nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity"
+486-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:477:13-60
+487            android:excludeFromRecents="true"
+487-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:478:13-46
+488            android:launchMode="singleInstance"
+488-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:479:13-48
+489            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+489-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:480:13-64
+490        <activity
+490-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:481:9-500:20
+491            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity"
+491-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:482:13-64
+492            android:allowTaskReparenting="true"
+492-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:483:13-48
+493            android:clearTaskOnLaunch="true"
+493-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:484:13-45
+494            android:label="@string/app_configure"
+494-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:485:13-50
+495            android:launchMode="singleTask"
+495-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:486:13-44
+496            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity" >
+496-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:487:13-83
+497            <meta-data
+497-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:488:13-490:99
+498                android:name="android.support.PARENT_ACTIVITY"
+498-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:489:17-63
+499                android:value="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+499-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:490:17-96
+500
+501            <intent-filter>
+501-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:492:13-499:29
+502                <action android:name="android.intent.action.VIEW" />
+502-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:17-69
+502-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:100:25-66
+503
+504                <category android:name="android.intent.category.DEFAULT" />
+504-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:17-76
+504-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:55:27-73
+505                <category android:name="android.intent.category.BROWSABLE" />
+505-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:496:17-78
+505-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:496:27-75
+506
+507                <data android:scheme="gadgetbridge" />
+507-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:104:17-48
+507-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:108:23-44
+508            </intent-filter>
+509        </activity>
+510        <activity
+510-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:501:9-503:39
+511            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity"
+511-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:502:13-59
+512            android:exported="true" />
+512-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:503:13-36
+513        <activity
+513-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:504:9-506:39
+514            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity"
+514-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:505:13-69
+515            android:exported="true" />
+515-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:506:13-36
+516        <activity
+516-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:507:9-509:39
+517            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity"
+517-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:508:13-61
+518            android:exported="true" />
+518-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:509:13-36
+519        <activity
+519-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:510:9-512:39
+520            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity"
+520-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:511:13-62
+521            android:exported="true" />
+521-->C:\Users\jcall\Apps\GB1\app\src\main\AndroidManifest.xml:512:13-36
+522    </application>
+523
+524</manifest>

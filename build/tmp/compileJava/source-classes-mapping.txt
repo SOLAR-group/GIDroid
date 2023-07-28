@@ -1,0 +1,169 @@
+gin/SourceFileLine.java
+ gin.SourceFileLine
+ gin.SourceFileLine$LineID
+gin/edit/statement/MoveStatement.java
+ gin.edit.statement.MoveStatement
+gin/edit/insert/InsertBreakWithIf.java
+ gin.edit.insert.InsertBreakWithIf
+gin/test/UnitTestResult.java
+ gin.test.UnitTestResult
+gin/test/AndroidTestResult.java
+ gin.test.AndroidTestResult
+gin/test/CacheClassLoader.java
+ gin.test.CacheClassLoader
+gin/AndroidGI.java
+ gin.AndroidGI
+gin/misc/FullyQualifiedNames.java
+ gin.misc.FullyQualifiedNames
+ gin.misc.FullyQualifiedNames$1
+ gin.misc.FullyQualifiedNames$2
+gin/edit/modifynode/UnaryOperatorReplacement.java
+ gin.edit.modifynode.UnaryOperatorReplacement
+gin/test/InternalTestRunner.java
+ gin.test.InternalTestRunner
+gin/test/JUnitBridge.java
+ gin.test.JUnitBridge
+gin/util/GPFix.java
+ gin.util.GPFix
+gin/util/GPSimple.java
+ gin.util.GPSimple
+gin/util/GP.java
+ gin.util.GP
+gin/edit/matched/MatchedSwapStatement.java
+ gin.edit.matched.MatchedSwapStatement
+gin/edit/statement/SwapStatement.java
+ gin.edit.statement.SwapStatement
+gin/util/AndroidProject.java
+ gin.util.AndroidProject
+gin/PatchAnalyser.java
+ gin.PatchAnalyser
+gin/util/Sampler.java
+ gin.util.Sampler
+ gin.util.Sampler$TargetMethod
+gin/edit/matched/MatchedCopyStatement.java
+ gin.edit.matched.MatchedCopyStatement
+gin/edit/NoEdit.java
+ gin.edit.NoEdit
+gin/util/FailedToExecuteTestException.java
+ gin.util.FailedToExecuteTestException
+gin/edit/statement/StatementEdit.java
+ gin.edit.statement.StatementEdit
+gin/test/AdbSampler.java
+ gin.test.AdbSampler
+gin/test/AndroidTestFileParser.java
+ gin.test.AndroidTestFileParser
+gin/util/Trace.java
+ gin.util.Trace
+ gin.util.Trace$TracePoint
+gin/edit/line/CopyLine.java
+ gin.edit.line.CopyLine
+gin/edit/insert/InsertBreak.java
+ gin.edit.insert.InsertBreak
+gin/test/ModifiableTest.java
+ gin.test.ModifiableTest
+gin/edit/statement/CopyStatement.java
+ gin.edit.statement.CopyStatement
+gin/edit/statement/ReplaceStatement.java
+ gin.edit.statement.ReplaceStatement
+gin/test/TestRunListener.java
+ gin.test.TestRunListener
+gin/SourceFile.java
+ gin.SourceFile
+ gin.SourceFile$TargetMethod
+gin/test/TestRunner.java
+ gin.test.TestRunner
+gin/util/DeleteEnumerator.java
+ gin.util.DeleteEnumerator
+gin/edit/insert/InsertReturn.java
+ gin.edit.insert.InsertReturn
+gin/edit/modifynode/NoApplicableNodesException.java
+ gin.edit.modifynode.NoApplicableNodesException
+gin/util/Project.java
+ gin.util.Project
+ gin.util.Project$1
+ gin.util.Project$2
+ gin.util.Project$3
+ gin.util.Project$BuildType
+gin/edit/Edit.java
+ gin.edit.Edit
+ gin.edit.Edit$1
+ gin.edit.Edit$EditType
+gin/Patch.java
+ gin.Patch
+gin/edit/insert/InsertContinue.java
+ gin.edit.insert.InsertContinue
+gin/misc/BlockedByJavaParserException.java
+ gin.misc.BlockedByJavaParserException
+gin/misc/CloneVisitorCopyIDs.java
+ gin.misc.CloneVisitorCopyIDs
+gin/edit/modifynode/ReorderLogicalExpression.java
+ gin.edit.modifynode.ReorderLogicalExpression
+gin/edit/statement/DeleteStatement.java
+ gin.edit.statement.DeleteStatement
+gin/edit/insert/InsertReturnWithIf.java
+ gin.edit.insert.InsertReturnWithIf
+gin/test/TestHarness.java
+ gin.test.TestHarness
+gin/edit/line/DeleteLine.java
+ gin.edit.line.DeleteLine
+gin/edit/matched/MatchedDeleteStatement.java
+ gin.edit.matched.MatchedDeleteStatement
+gin/edit/modifynode/ModifyNodeEdit.java
+ gin.edit.modifynode.ModifyNodeEdit
+gin/edit/line/MoveLine.java
+ gin.edit.line.MoveLine
+gin/test/UnitTest.java
+ gin.test.UnitTest
+gin/edit/insert/InsertStatementEdit.java
+ gin.edit.insert.InsertStatementEdit
+gin/edit/line/ReplaceLine.java
+ gin.edit.line.ReplaceLine
+gin/edit/line/SwapLine.java
+ gin.edit.line.SwapLine
+gin/test/AndroidUnitTestResultSet.java
+ gin.test.AndroidUnitTestResultSet
+gin/edit/modifynode/BinaryOperatorReplacement.java
+ gin.edit.modifynode.BinaryOperatorReplacement
+gin/edit/matched/MatchedReplaceStatement.java
+ gin.edit.matched.MatchedReplaceStatement
+gin/util/RandomSampler.java
+ gin.util.RandomSampler
+gin/util/AndroidDebugBridge.java
+ gin.util.AndroidDebugBridge
+gin/edit/insert/InsertContinueWithIf.java
+ gin.edit.insert.InsertContinueWithIf
+gin/util/EmptyPatchTester.java
+ gin.util.EmptyPatchTester
+gin/SourceFileTree.java
+ gin.SourceFileTree
+ gin.SourceFileTree$1
+ gin.SourceFileTree$VariableTypeAndName
+gin/test/ExternalTestRunner.java
+ gin.test.ExternalTestRunner
+ gin.test.ExternalTestRunner$1
+ gin.test.ExternalTestRunner$2
+ gin.test.ExternalTestRunner$TestClient
+gin/misc/ArrayListOneBasedIndexing.java
+ gin.misc.ArrayListOneBasedIndexing
+gin/test/Compiler.java
+ gin.test.Compiler
+gin/util/GPRuntime.java
+ gin.util.GPRuntime
+gin/LocalSearch.java
+ gin.LocalSearch
+gin/util/TestCaseGenerator.java
+ gin.util.TestCaseGenerator
+ gin.util.TestCaseGenerator$1
+gin/test/AndroidTestRunner.java
+ gin.test.AndroidTestRunner
+ gin.test.AndroidTestRunner$NetStats
+gin/util/Profiler.java
+ gin.util.Profiler
+ gin.util.Profiler$HotMethod
+ gin.util.Profiler$ProfileResult
+gin/edit/line/LineEdit.java
+ gin.edit.line.LineEdit
+gin/test/UnitTestResultSet.java
+ gin.test.UnitTestResultSet
+gin/test/HangingThreadsException.java
+ gin.test.HangingThreadsException

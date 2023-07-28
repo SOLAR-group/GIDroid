@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificare nouă</item>
+    <item quantity="few">%d notificări noi</item>
+    <item quantity="other">%d de notificări noi</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigați la ecranul de pornire"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigați în sus"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mai multe opțiuni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gata"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Afișați tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Alegeți o aplicație"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DEZACTIVAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meniu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Căutați…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ștergeți interogarea"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Termen de căutare"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Căutați"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Trimiteți interogarea"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Căutare vocală"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Trimiteți la"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Trimiteți folosind <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Restrângeți"</string>
+    <string name="action_debug">Depaneaza</string>
+    <string name="action_donate">Doneaza</string>
+    <string name="action_quit">Iesire</string>
+    <string name="action_settings">Setari</string>
+    <string name="always">Intotdeauna</string>
+    <string name="app_configure">Configureaza</string>
+    <string name="app_move_to_top">Muta la inceput</string>
+    <string name="application_name_generic">Gadgetbridge</string>
+    <string name="appmanager_app_openinstore">Cauta in magazinul Pebble</string>
+    <string name="appmanager_health_activate">Activeaza</string>
+    <string name="appmanager_health_deactivate">Dezactiveaza</string>
+    <string name="appmanager_hrm_activate">Activeaza Masurare ritm cardiac</string>
+    <string name="appmanager_hrm_deactivate">Dezactiveaza Masurare ritm cardiac</string>
+    <string name="appmanager_installed_watchapps">Aplicatii instalate</string>
+    <string name="appmanager_installed_watchfaces">Fete de ceas instalate</string>
+    <string name="appmanager_weather_activate">Activare Aplicație Meteo</string>
+    <string name="appmanager_weather_deactivate">Dezactivare Aplicație Meteo</string>
+    <string name="appmanager_weather_install_provider">Instalare aplicație Notificări Meteo</string>
+    <string name="appmananger_app_delete">Sterge</string>
+    <string name="appmananger_app_reinstall">Reinstaleaza</string>
+    <string name="appwidget_not_connected">Deconectat(ă), alarma nu este setată.</string>
+    <string name="blacklist_all_for_notifications">Blocheaza toate notificarile</string>
+    <string name="bottomsheet_action_expand_halfway">Extinde pe ecran complet</string>
+    <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
+    <string name="clear_text_end_icon_content_description">Ștergeți textul</string>
+    <string name="controlcenter_calibrate_device">Calibrare Dispozitiv</string>
+    <string name="controlcenter_change_fm_frequency">Modificare Frecvență FM</string>
+    <string name="controlcenter_change_led_color">Modificare Culoare LED</string>
+    <string name="controlcenter_connect">Conecteaza</string>
+    <string name="controlcenter_delete_device">Sterge bratara</string>
+    <string name="controlcenter_delete_device_dialogmessage">Va fi stearsa bratara si datele asociate!</string>
+    <string name="controlcenter_delete_device_name">Sterge %1$s</string>
+    <string name="controlcenter_disconnect">Deconecteaza</string>
+    <string name="controlcenter_fetch_activity_data">Sincronizeaza</string>
+    <string name="controlcenter_find_device">Găsește brățara</string>
+    <string name="controlcenter_navigation_drawer_close">Inchide meniul de navigatie</string>
+    <string name="controlcenter_navigation_drawer_open">Deschide meniul de navigatie</string>
+    <string name="controlcenter_snackbar_connecting">Conectare…</string>
+    <string name="controlcenter_snackbar_disconnecting">Se deconecteaza</string>
+    <string name="controlcenter_snackbar_need_longpress">Apasati lung pentru a deconecta</string>
+    <string name="controlcenter_snackbar_requested_screenshot">Capturez ecranul dispozitivului</string>
+    <string name="controlcenter_take_screenshot">Captura ecran</string>
+    <string msgid="3209159573327985035" name="copy">"Copiați"</string>
+    <string name="error_icon_content_description">Eroare</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avansat"</string>
+    <string name="exposed_dropdown_menu_content_description">Afișați meniul drop-down</string>
+    <string name="filter_submode_all">Toate cuvintele</string>
+    <string name="filter_submode_at_least_one">Cel puțin unul dintre cuvintele</string>
+    <string name="fw_multi_upgrade_notice">Esti pe punctul de a instala firmware-ul %1$s si %2$s, in locul celor deja instalate pe Mi Band.</string>
+    <string name="fw_upgrade_notice">Ești pe punctul de a instala firmware-ul %s în locul celui deja instalat pe Mi Band.</string>
+    <string name="fw_upgrade_notice_amazfitbip">Esti pe punctul de a instala firmware-ul %s pe Amazfit Bip.
+\n
+\nAi grija sa instalezi fisierul .fw, apoi fisierul .res, si in final fisierul .gps. Ceasul va reporni dupa ce se instaleaza fisierul .fw.
+\n
+\nNota: Nu este necesar sa instalezi fisierele .res si .gps daca aceste fisiere sunt identice cu cele instalate anterior.
+\n
+\nCONTINUATI PE RISCUL DUMNEAVOASTRA!</string>
+    <string name="fw_upgrade_notice_amazfitcor">Esti pe punctul de a instala firmware-ul %s pe Amazfit Cor.
+\n
+\nAi grija sa instalezi fisierul .fw, si apoi fisierul .res. Ceasul va reporni dupa ce se instaleaza fisierul .fw.
+\n
+\nNota: Nu este necesar sa instalezi fisierul .res daca acest fisier este identic cu cel instalat anterior.
+\n
+\nCONTINUATI PE RISCUL DUMNEAVOASTRA!</string>
+    <string name="fw_upgrade_notice_miband3">Esti pe punctul de a instala firmware-ul %s pe Mi Band 3.
+\n
+\nAi grija sa instalezi fisierul .fw, si apoi fisierul .res. Ceasul va reporni dupa ce se instaleaza fisierul .fw.
+\n
+\nNota: Nu este necesar sa instalezi fisierul .res daca acest fisier este identic cu cel instalat anterior.
+\n
+\nNETESTAT, V-AR PUTEA BLOCA ECHIPAMENTUL, CONTINUATI PE RISCUL DUMNEAVOASTRA!</string>
+    <string name="icon_content_description">Pictogramă de dialog</string>
+    <string name="item_view_role_description">Filă</string>
+    <string name="material_clock_toggle_content_description">Selectați ora</string>
+    <string name="material_hour_selection">Selectați ora</string>
+    <string name="material_hour_suffix">Ora %1$s</string>
+    <string name="material_minute_selection">Selectați minutele</string>
+    <string name="material_minute_suffix">%1$s minute</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Pentru a introduce ora, comutați la modul ceas.</string>
+    <string name="material_timepicker_hour">Ora</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Selectați ora</string>
+    <string name="material_timepicker_text_input_mode_description">Pentru a introduce ora, comutați la modul de introducere a textului.</string>
+    <string name="menuitem_activity">Activitate</string>
+    <string name="menuitem_alarm">Alarma</string>
+    <string name="menuitem_alipay">Alipay</string>
+    <string name="menuitem_compass">Compas</string>
+    <string name="menuitem_settings">Setari</string>
+    <string name="menuitem_timer">Cronometru</string>
+    <string name="menuitem_weather">Meteo</string>
+    <string name="mi2_prefs_button_press_broadcast_default_value" translatable="false">nodomain.freeyourgadget.gadgetbridge.ButtonPressed</string>
+    <string name="miband_firmware_known">Firmware-ul a fost testat si este compatibil cu Gadgetbridge.</string>
+    <string name="miband_firmware_unknown_warning">Acest firmware nu a fost testat si ar putea sa nu fie compatibil cu Gadgetbridge.
+\n
+\nTe DESCURAJAM sa-l instalezi pe Mi Band!</string>
+    <string name="mtrl_badge_numberless_content_description">Notificare nouă</string>
+    <string name="mtrl_chip_close_icon_content_description">Eliminați %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Peste %1$d notificări noi</string>
+    <string name="mtrl_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="mtrl_picker_a11y_prev_month">Treceți la luna anterioară</string>
+    <string name="mtrl_picker_announce_current_selection">Selecția actuală: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selectați data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selectată</string>
+    <string name="mtrl_picker_day_of_week_column_header">Coloana cu zile: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format nevalid.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplu: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Folosiți: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Interval nevalid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigați la anul %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fără acoperire: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de începere – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data de încheiere</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selectați intervalul</string>
+    <string name="mtrl_picker_range_header_unselected">Data de începere – data de încheiere</string>
+    <string name="mtrl_picker_save">Salvați</string>
+    <string name="mtrl_picker_text_input_date_hint">Dată</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de încheiere</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de începere</string>
+    <string name="mtrl_picker_text_input_day_abbr">z</string>
+    <string name="mtrl_picker_text_input_month_abbr">l</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Comutați la modul introducere în calendar</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Atingeți pentru a comuta la selectarea unei zile</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Comutați la modul de introducere a textului</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Atingeți pentru a comuta la selectarea unui an</string>
+    <string name="never">Niciodata</string>
+    <string msgid="478774118347071097" name="not_set">"Nesetată"</string>
+    <string name="password_toggle_content_description">Afișați parola</string>
+    <string name="pref_call_privacy_mode_complete">Ascunde numele si numarul</string>
+    <string name="pref_call_privacy_mode_name">Ascunde numele, afiseaza numarul</string>
+    <string name="pref_call_privacy_mode_number">Afiseaza numele, ascunde numarul</string>
+    <string name="pref_call_privacy_mode_off">Afiseaza numele si numarul</string>
+    <string name="pref_default">Implicit</string>
+    <string name="pref_header_datetime">Data si Timp</string>
+    <string name="pref_header_development">Optiuni dezvoltator</string>
+    <string name="pref_header_general">Setari generale</string>
+    <string name="pref_header_notifications">Notificari</string>
+    <string name="pref_header_privacy">Intimitate</string>
+    <string name="pref_pebble_privacy_mode_off">Notificari normale</string>
+    <string name="pref_summary_enable_outgoing_call">Dezactivand aceasta optiune va opri Pebble 2/LE sa vibreze la apeluri</string>
+    <string name="pref_summary_minimize_priority_off">Icoana din bara de stare și notificarea din ecranul de blocare sunt afișate</string>
+    <string name="pref_summary_minimize_priority_on">Icoana din bara de stare și notificarea din ecranul de blocare sunt ascunse</string>
+    <string name="pref_summary_notification_filter">Notificările nedorite sunt dezactivate în acest mod</string>
+    <string name="pref_theme_dark">Intunecat</string>
+    <string name="pref_theme_light">Deschis</string>
+    <string name="pref_title_audio_player">Aplicație Redare Audio Preferată</string>
+    <string name="pref_title_canned_replies">Răspunsuri</string>
+    <string name="pref_title_datetime_syctimeonconnect">Sincronizare timp</string>
+    <string name="pref_title_development_miaddr">Adresa Mi Band</string>
+    <string name="pref_title_general_autoconnectonbluetooth">Conectare la bratara cand Bluetooth este pornit</string>
+    <string name="pref_title_general_autoreconnect">Reconecteare automata</string>
+    <string name="pref_title_general_autostartonboot">Porneste automat</string>
+    <string name="pref_title_language">Limba</string>
+    <string name="pref_title_location_latitude">Latitudine</string>
+    <string name="pref_title_location_longitude">Longitudine</string>
+    <string name="pref_title_minimize_priority">Ascunde notificarea Gadgetbridge</string>
+    <string name="pref_title_notification_filter">Nu Deranja</string>
+    <string name="pref_title_notifications_call">Apeluri telefonice</string>
+    <string name="pref_title_notifications_generic">Suport notificari generice</string>
+    <string name="pref_title_notifications_pebblemsg">Mesaje Pebble</string>
+    <string name="pref_title_notifications_repetitions">Repetiții</string>
+    <string name="pref_title_notifications_sms">SMS</string>
+    <string name="pref_title_notifications_timeout">Timp minim dintre notificări</string>
+    <string name="pref_title_pebble_settings">Setari Pebble</string>
+    <string name="pref_title_pebble_sync_misfit">Sincronizeaza Misfit</string>
+    <string name="pref_title_rtl">Dreapta-La-Stanga</string>
+    <string name="pref_title_theme">Tema</string>
+    <string name="pref_title_weather">Meteo</string>
+    <string name="pref_title_whenscreenon">… si cand ecranul este pornit</string>
+    <string msgid="7961817945132860002" name="preference_copied">"„<ns1:g id="SUMMARY">%1$s</ns1:g>” a fost copiat în clipboard."</string>
+    <string name="save_configuration">Salvare Configurație</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Căutați"</string>
+    <string name="sonyswr12_settings_alarm_interval">Interval de alarmă inteligentă în minute</string>
+    <string name="sonyswr12_settings_alarm_interval_summary">Intervalul de alarmă inteligentă este intervalul înainte de alarma instalată. În acest interval, dispozitivul încearcă să detecteze cea mai ușoară fază de somn pentru a trezi utilizatorul</string>
+    <string name="sonyswr12_settings_low_vibration">Vibrație scăzută activată</string>
+    <string name="sonyswr12_settings_low_vibration_summary">Activați intensitatea redusă a vibrațiilor pe bandă</string>
+    <string name="sonyswr12_settings_stamina">Modul de economisire a energiei este activat</string>
+    <string name="sonyswr12_settings_stamina_summary">Modul de economisire a energiei dezactivează măsurarea automată periodică a ritmului cardiac, crescând astfel timpul de lucru</string>
+    <string name="sonyswr12_settings_title">Setari Sony SWR12</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="title_activity_appmanager">Manager aplicatii</string>
+    <string name="title_activity_calblacklist">Calendare blocate</string>
+    <string name="title_activity_controlcenter_generic">Gadgetbridge</string>
+    <string name="title_activity_debug">Depanare</string>
+    <string name="title_activity_fw_app_insaller">Instalare firmware</string>
+    <string name="title_activity_settings">Setari</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DEZACTIVAT"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ACTIVAT"</string>
+    <string name="when_screen_off">Cand ecranul este oprit</string>
+    <string name="whitelist_all_for_notifications">Permite toate notificarile</string>
+</resources>

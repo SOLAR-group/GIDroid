@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+apply plugin: "pmd"
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+task pmdMain(type: Pmd) {
+    dependsOn 'assembleDebug'
+    ruleSets = ['category/java/performance.xml']
+    source 'src/main/java'
+    include '**/*.java'
+}
+android {
+    compileSdkVersion 31
+    buildToolsVersion '23.0.3'
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        minSdkVersion 26
+        targetSdkVersion 31
+        versionCode 29
+        versionName "1.6.11"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources=true
+            all {
+                // All the usual Gradle options.
+                testLogging {
+                    events "skipped", "failed", "standardOut", "standardError"
+                    showStandardStreams = true
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.7.0'
+    testImplementation('org.robolectric:robolectric:4.7.2')
+    testImplementation('org.robolectric:shadows-httpclient:4.7.2')
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'androidx.test:core:1.0.0'
+}
+
+task classpath(type: Jar) {
+    from android.sourceSets.main.java.srcDirs,
+            android.sourceSets.test.java.srcDirs
+    outputs.upToDateWhen { false }
+    doLast {
+        println "Building classpath..."
+        def cp2 = [android.getBootClasspath()[0], it.archivePath]
+        android.applicationVariants.all { v ->
+            v.getCompileClasspath(null).getFiles().each{
+                File f->
+                    cp2 += f.getAbsolutePath()//this is the one of classpath
+            }
+        }
+        def classpath = cp2.unique().join(":")
+        println classpath
+    }
+}

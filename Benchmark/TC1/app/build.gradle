@@ -1,0 +1,284 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+ext.rotEnabled = false
+
+import java.util.regex.Matcher
+import java.util.regex.Pattern
+
+apply plugin: 'com.android.application'
+apply plugin: "pmd"
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+task pmdMain(type: Pmd) {
+    dependsOn 'assembleDebug'
+    ruleSets = ['category/java/performance.xml']
+    source 'src/main/java'
+    include '**/*.java'
+}
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "info.zamojski.soft.towercollector"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 2060170
+        versionName "2.6.1"
+
+        vectorDrawables.useSupportLibrary = true
+
+        Properties props = getCustomProperties()
+        println 'Defining custom build config fields'
+        assert props
+        // Build
+        buildConfigField "long", "BUILD_DATE_TIME", "${new Date().getTime()}"
+        buildConfigField "int", "MIN_SDK_VERSION", "${minSdkVersion.apiLevel}"
+        // ACRA
+        buildConfigField "boolean", "ACRA_SEND_REPORTS_IN_DEV_MODE", props['acra_sendReportsInDevMode']
+        buildConfigField "boolean", "ACRA_SETTINGS_AVAILABLE", "true"
+        buildConfigField "String", "ACRA_FORM_URI", props['acra_formUri']
+        buildConfigField "String", "ACRA_HTTP_METHOD", props['acra_httpMethod']
+        buildConfigField "String", "ACRA_REPORT_TYPE", props['acra_reportType']
+        buildConfigField "String", "ACRA_FORM_URI_BASIC_AUTH_LOGIN", rot135(props['acra_formUriBasicAuthLogin'])
+        buildConfigField "String", "ACRA_FORM_URI_BASIC_AUTH_PASSWORD", rotHex(props['acra_formUriBasicAuthPassword'])
+        // Analytics
+        buildConfigField "boolean", "ANALYTICS_AVAILABLE", "true"
+        // MLS
+        buildConfigField "String", "MLS_API_KEY", "\"a1234\""
+        // Other
+        buildConfigField "String", "UPDATE_CHECK_FEED_URI", props['other_updateCheckFeedUri']
+        buildConfigField "String", "CONTACT_EMAIL", rot135(props['other_contactEmail'])
+    }
+    signingConfigs {
+        release {
+            keyAlias ''
+            storeFile null
+            storePassword ''
+            keyPassword ''
+        }
+    }
+    buildTypes {
+        debug {
+            versionNameSuffix "-debug"
+        }
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            shrinkResources true
+            debuggable false
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    flavorDimensions "environment", "market"
+    productFlavors {
+        develop {
+            versionNameSuffix '-dev'
+            dimension "environment"
+        }
+        production {
+            dimension "environment"
+        }
+        official {
+            dimension "market"
+            buildConfigField "String", "MARKET_NAME", '"Official"'
+        }
+        fdroid {
+            dimension "market"
+            buildConfigField "String", "MARKET_NAME", '"F-Droid"'
+        }
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    testOptions{
+        unitTests{
+            includeAndroidResources true
+        }
+        unitTests.all {
+
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+            }
+
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core:1.3.2'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.google.android.material:material:1.2.1'
+    testImplementation 'junit:junit:4.12'
+    officialImplementation 'com.google.firebase:firebase-analytics:18.0.0'
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'ch.acra:acra-http:5.5.1'
+    implementation 'ch.acra:acra-notification:5.5.1'
+    implementation 'org.sufficientlysecure:html-textview:3.9'
+    implementation 'com.squareup.okhttp3:okhttp:4.8.0'
+    implementation 'org.permissionsdispatcher:permissionsdispatcher:4.7.0'
+    annotationProcessor 'org.permissionsdispatcher:permissionsdispatcher-processor:4.7.0'
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+    implementation 'org.osmdroid:osmdroid-android:6.1.6'
+    implementation 'com.github.MKergall:osmbonuspack:6.6.0'
+    testImplementation 'androidx.test:core:1.4.0'
+    testImplementation 'org.robolectric:robolectric:4.7'
+}
+
+allprojects {
+    afterEvaluate { project ->
+        def configName = 'release'
+
+        def props = getCustomProperties()
+        assert props
+        // Signing
+        if (android.signingConfigs.hasProperty(configName)) {
+            println 'Defining custom signing configuration'
+            def signFile = file(props['sign_storeFile'])
+            assert signFile.exists()
+            android.signingConfigs[configName].storeFile = signFile
+            android.signingConfigs[configName].storePassword = props['sign_storePassword']
+            android.signingConfigs[configName].keyAlias = props['sign_keyAlias']
+            android.signingConfigs[configName].keyPassword = props['sign_keyPassword']
+        }
+    }
+}
+
+Properties getCustomProperties() {
+    def currentFlavor = getCurrentFlavor(2)
+    // Existing file is required to generate flavors
+    def propsFile = rootProject.file("app/properties/example.properties")
+    if (currentFlavor) {
+        propsFile = rootProject.file("app/properties/private-${currentFlavor}.properties")
+        if (!propsFile.exists()) {
+            propsFile = rootProject.file("app/properties/private.properties")
+        }
+    }
+    if (propsFile.exists()) {
+        println "Loading private custom properties configuration from: $propsFile"
+        def props = new Properties()
+        props.load(new FileInputStream(propsFile))
+        rotEnabled = props['other_decode']
+        //println props
+        return props
+    }
+    return null
+}
+
+String getCurrentFlavor(int dimensionIndex) {
+    def gradle = getGradle()
+    def taskRequest = gradle.getStartParameter().getTaskRequests().toString()
+
+    def taskName = taskRequest.contains('assemble') ? 'assemble' : 'generate'
+    def regex = "$taskName([A-Z]\\w*)([A-Z]\\w*)(Release|Debug)"
+    Pattern pattern = Pattern.compile(regex)
+
+    Matcher matcher = pattern.matcher(taskRequest)
+    if (matcher.find())
+        return matcher.group(dimensionIndex).toLowerCase()
+    println "Gradle flavor name not found, probed task name: ${taskName}"
+    return null
+}
+
+String rot135(String s) {
+    if (!rotEnabled) {
+        println 'Rot disabled'
+        return s
+    }
+    StringBuilder sb = new StringBuilder()
+    for (int i = 0; i < s.length(); i++) {
+        int num = s[i]
+        if ((num >= 97 && num <= 109) || (num >= 65 && num <= 77)) {
+            num += 13
+        } else if ((num >= 110 && num <= 122) || (num >= 78 && num <= 90)) {
+            num -= 13
+        } else if (num >= 48 && num <= 52) {
+            num += 5
+        } else if (num >= 53 && num <= 57) {
+            num -= 5
+        }
+        sb.append((char) num)
+    }
+    return sb.toString()
+}
+
+String rotHex(String s) {
+    if (!rotEnabled) {
+        println 'Rot disabled'
+        return s
+    }
+    StringBuilder sb = new StringBuilder()
+    for (int i = 0; i < s.length(); i++) {
+        int num = s[i]
+        if ((num >= 97 && num <= 99) || (num >= 65 && num <= 67)) {
+            num += 3
+        } else if ((num >= 100 && num <= 102) || (num >= 68 && num <= 70)) {
+            num -= 3
+        } else if (num >= 48 && num <= 52) {
+            num += 5
+        } else if (num >= 53 && num <= 57) {
+            num -= 5
+        }
+        sb.append((char) num)
+    }
+    return sb.toString()
+}
+
+// Custom tasks
+List<String> getSourceFiles() {
+    def files = []
+    getProjectDir().eachFileRecurse(FileType.FILES) { file ->
+        if (file.name.endsWith('.java')) {
+            files << file
+        }
+    }
+    return files
+}
+
+def commentLoggingOne(path) {
+    def content = new File(path).getText('UTF-8').replaceAll(/(?m)^(\s*)(Log\.[vd].+)/, '$1;//$2')
+    new File(path).write(content, 'UTF-8')
+}
+
+def uncommentLoggingOne(path) {
+    def content = new File(path).getText('UTF-8').replaceAll(/(?m)^(\s*);\/\/\s?(Log\.[vd].+)/, '$1$2')
+    new File(path).write(content, 'UTF-8')
+}
+
+task commentLoggingAll {
+    doLast {
+        description = 'Comments all verbose and debug calls to Log class'
+        getSourceFiles().each {
+            commentLoggingOne(it.path)
+        }
+    }
+}
+
+task uncommentLoggingAll {
+    doLast {
+        description = 'Uncomments all verbose and debug calls to Log class'
+        getSourceFiles().each {
+            uncommentLoggingOne(it.path)
+        }
+    }
+}
+
+if (getCurrentFlavor(2) == 'official') {
+    println 'Applying Google Services plugin'
+    apply plugin: 'com.google.gms.google-services'
+}

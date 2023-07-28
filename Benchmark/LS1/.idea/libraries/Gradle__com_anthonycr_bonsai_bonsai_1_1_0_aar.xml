@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anthonycr.bonsai:bonsai:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0759cf64057c6a298e4772baa5c6433/transformed/bonsai-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/00ad851ee41b828cd2673a63b0612fd3/transformed/bonsai-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0759cf64057c6a298e4772baa5c6433/transformed/bonsai-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d0759cf64057c6a298e4772baa5c6433/transformed/bonsai-1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.bonsai/bonsai/1.1.0/e7a259d36163cb8aa1f6e2a32977e9e0f9cdd199/bonsai-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anthonycr.bonsai/bonsai/1.1.0/c54398bc1cdb9fc675d1da2c10de48e280143b56/bonsai-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.aaronjwood.portauthority",
+  "variantName": "processDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 63,
+      "versionName": "2.4.1",
+      "outputFile": "PortAuthority-2.4.1-debug.apk"
+    }
+  ]
+}

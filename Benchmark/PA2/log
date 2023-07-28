@@ -1,0 +1,6 @@
+==2174980== Massif, a heap profiler
+==2174980== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2174980== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2174980== Command: ./gradlew testDebugUnitTest
+==2174980== Parent PID: 268075
+==2174980== 

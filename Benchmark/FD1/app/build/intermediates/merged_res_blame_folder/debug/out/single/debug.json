@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_addrepo.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\addrepo.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_repolisticons.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\repolisticons.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_check_on.png.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\drawable\\btn_check_on.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_apklistitem.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\apklistitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_appdetails.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\appdetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_about.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_fdroid.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\fdroid.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_check_off.png.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\drawable\\btn_check_off.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_remrepo.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\remrepo.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_applistitem.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\applistitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\build\\intermediates\\merged_res\\debug\\layout_repolist.xml.flat",
+        "source": "C:\\Users\\jcall\\GinDroid\\Benchmark\\FD1\\app\\src\\main\\res\\layout\\repolist.xml"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_auth_request.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_auth_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\tab_list_item_horizontal.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_list_item_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\video_loading_progress.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\video_loading_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\search.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\list_dialog.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\list_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\tab_drawer.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_list_item.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_seek_bar.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_seek_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\two_line_autocomplete.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\two_line_autocomplete.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\browser_activity.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\browser_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\toolbar_content.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\toolbar_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\search_interface.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\search_interface.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_edit_text.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\toolbar_settings.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\toolbar_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\tab_strip.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_strip.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\reading_view.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\reading_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_ssl_info.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_ssl_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\tab_list_item.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\tab_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\browser_content.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\browser_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\simple_list_item.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\simple_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_edit_bookmark.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_edit_bookmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\toolbar.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_manual_proxy.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_manual_proxy.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\bookmark_list_item.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\bookmark_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\dialog_ssl_warning.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\dialog_ssl_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\stripped.dir\\layout\\bookmark_drawer.xml",
+        "source": "C:\\Users\\jcall\\Apps\\LBN\\app\\src\\main\\res\\layout\\bookmark_drawer.xml"
+    }
+]

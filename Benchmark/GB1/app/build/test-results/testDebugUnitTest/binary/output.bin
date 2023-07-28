@@ -1,0 +1,109 @@
+¢[Robolectric] nodomain.freeyourgadget.gadgetbridge.service.devices.qhybrid.adapter.fossil_hr.FossilHRWatchAdapterTest.testRenderWidget: sdk=19; resources=BINARY
+Î16:55:16,818 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [C:\Users\jcall\Apps\GB1/app/src/main/assets/logback.xml] at [C:\Users\jcall\Apps\GB1/app/src/main/assets/logback.xml]
+Ô16:55:16,818 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [C:\Users\jcall\Apps\GB1/app/src/main/assets/logback.xml] at [file:/C:/Users/jcall/Apps/GB1/app/src/main/assets/logback.xml]
+ 16:55:16,864 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.android.LogcatAppender]
+f16:55:16,865 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+¶16:55:16,870 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+¢16:55:16,887 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+d16:55:16,890 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+]16:55:16,901 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use zip compression
+Ë16:55:16,902 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern C:/Users/jcall/AppData/Local/Temp/gblog6307548659131061004/gadgetbridge-%d{yyyy-MM-dd}.%i.log for the active file
+ò16:55:16,904 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1b83e06f - The date pattern is 'yyyy-MM-dd' from file name pattern 'C:/Users/jcall/AppData/Local/Temp/gblog6307548659131061004/gadgetbridge-%d{yyyy-MM-dd}.%i.log.zip'.
+l16:55:16,904 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1b83e06f - Roll-over at midnight.
+Œ16:55:16,906 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1b83e06f - Setting initial period to Fri Nov 25 16:55:16 GMT 2022
+¶16:55:16,908 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+²16:55:16,912 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: C:\Users\jcall\AppData\Local\Temp\gblog6307548659131061004/gadgetbridge.log
+¶16:55:16,914 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [C:\Users\jcall\AppData\Local\Temp\gblog6307548659131061004/gadgetbridge.log]
+u16:55:16,914 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+16:55:16,914 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+}16:55:16,915 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+h16:55:16,915 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+‹16:55:16,916 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3664f2d6 - Registering current configuration as safe fallback point
+-I/MonitoringInstr: Instrumentation started!
+ÐI/MonitoringInstr: Setting context classloader to 'org.robolectric.internal.AndroidSandbox$SdkSandboxClassLoader@61dca9ff', Original: 'org.robolectric.internal.AndroidSandbox$SdkSandboxClassLoader@61dca9ff'
+NI/nodomain.freeyourgadget.gadgetbridge.Logging: Gadgetbridge version: 0.43.1
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+*W/GBApplication: error acquiring DB lock
+HW/nodomain.freeyourgadget.gadgetbridge.util.GB: Bluetooth is disabled.
+XE/nodomain.freeyourgadget.gadgetbridge.util.GB: Error retrieving devices from database
+UI/nodomain.freeyourgadget.gadgetbridge.util.GB: Loading apps_notification_blacklist
+bI/nodomain.freeyourgadget.gadgetbridge.util.GB: Loaded apps_notification_blacklist has 0 entries
+RI/nodomain.freeyourgadget.gadgetbridge.util.GB: Loading apps_pebblemsg_blacklist
+_I/nodomain.freeyourgadget.gadgetbridge.util.GB: Loaded apps_pebblemsg_blacklist has 0 entries
+MI/nodomain.freeyourgadget.gadgetbridge.util.GB: Loading calendars_blacklist
+ZI/nodomain.freeyourgadget.gadgetbridge.util.GB: Loaded calendars_blacklist has 0 entries
+3I/greenDAO: Creating tables for schema version 24
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
+)dropping requetst SetDeviceStateRequest
+AD/FossilHRWatchAdapter: dropping requetst SetDeviceStateRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst VerifyPrivateKeyRequest
+CD/FossilHRWatchAdapter: dropping requetst VerifyPrivateKeyRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
+)dropping requetst SetDeviceStateRequest
+AD/FossilHRWatchAdapter: dropping requetst SetDeviceStateRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
+2dropping requetst NotificationFilterPutHRRequest
+JD/FossilHRWatchAdapter: dropping requetst NotificationFilterPutHRRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst VerifyPrivateKeyRequest
+CD/FossilHRWatchAdapter: dropping requetst VerifyPrivateKeyRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst ConfigurationPutRequest
+CD/FossilHRWatchAdapter: dropping requetst ConfigurationPutRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst VerifyPrivateKeyRequest
+CD/FossilHRWatchAdapter: dropping requetst VerifyPrivateKeyRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst ConfigurationGetRequest
+CD/FossilHRWatchAdapter: dropping requetst ConfigurationGetRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst VerifyPrivateKeyRequest
+CD/FossilHRWatchAdapter: dropping requetst VerifyPrivateKeyRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst ConfigurationPutRequest
+CD/FossilHRWatchAdapter: dropping requetst ConfigurationPutRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
+1dropping requetst ButtonConfigurationPutRequest
+ID/FossilHRWatchAdapter: dropping requetst ButtonConfigurationPutRequest
+DW/Environment: EXTERNAL_STORAGE undefined; falling back to default
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
++dropping requetst VerifyPrivateKeyRequest
+CD/FossilHRWatchAdapter: dropping requetst VerifyPrivateKeyRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
+%dropping requetst WidgetsPutRequest
+=D/FossilHRWatchAdapter: dropping requetst WidgetsPutRequest
+is connected: false
+-D/FossilHRWatchAdapter: is connected: false
+)dropping requetst SetDeviceStateRequest
+AD/FossilHRWatchAdapter: dropping requetst SetDeviceStateRequest
+ýE/SharedPreferencesImpl: Couldn't create directory for SharedPreferences file C:\Users\jcall\AppData\Local\Temp\robolectric-Method_testRenderWidget5892553140026008448\nodomain.freeyourgadget.gadgetbridge-dataDir\shared_prefs\devicesettings_hel::lo.xml
+-D/FossilHRWatchAdapter: is connected: false
+CD/FossilHRWatchAdapter: dropping requetst VerifyPrivateKeyRequest
+-D/FossilHRWatchAdapter: is connected: false
+=D/FossilHRWatchAdapter: dropping requetst WidgetsPutRequest
+-D/FossilHRWatchAdapter: is connected: false
+?D/FossilHRWatchAdapter: dropping requetst AssetFilePutRequest
+-D/FossilHRWatchAdapter: is connected: false
+<D/FossilHRWatchAdapter: dropping requetst ImagesSetRequest

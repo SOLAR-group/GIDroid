@@ -1,0 +1,107 @@
+
+apply plugin: 'com.android.application'
+apply plugin: "org.sonarqube"
+apply plugin: "pmd"
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+task pmdMain(type: Pmd) {
+    dependsOn 'assembleDebug'
+    ruleSets = ['category/java/performance.xml']
+    source 'src/main/java'
+    include '**/*.java'
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "Port Authority"
+        property "sonar.projectKey", "portauthority"
+        property "sonar.projectVersion", "1.0"
+        property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.sources", "."
+        property "sonar.exclusions", "build/**,**/*.png,**/*.psd"
+        property "sonar.import_unknown_files", true
+        property "sonar.android.lint.report", "./build/outputs/lint-results.xml"
+    }
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.2'
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 53
+        versionName "2.2.4"
+        applicationId "com.aaronjwood.portauthority"
+        setProperty("archivesBaseName", "PortAuthority-$versionName")
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            useProguard false
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard.pro'
+        }
+    }
+
+    flavorDimensions "main"
+
+    productFlavors {
+        free {
+            applicationIdSuffix ".free"
+            versionNameSuffix "-free"
+            dimension "main"
+        }
+        donate {
+            applicationIdSuffix ".donate"
+            versionNameSuffix "-donate"
+            dimension "main"
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources true
+        }
+	 unitTests.all {
+
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+            }
+
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:27.0.2'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'jcifs:jcifs:1.3.17'
+    compile 'dnsjava:dnsjava:2.1.7'
+    //This does absolutely nothing
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    testCompile 'org.robolectric:robolectric:4.7.3'
+    testImplementation 'androidx.test:core:1.0.0'
+}

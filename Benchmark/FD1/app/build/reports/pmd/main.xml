@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.0.0" timestamp="2022-11-08T12:13:13.917">
+<file name="C:\Users\jcall\Apps\FD1\app\src\main\java\org\fdroid\fdroid\AppDetails.java">
+<violation beginline="173" endline="173" begincolumn="20" endcolumn="21" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="AppDetails" method="reset" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="210" endline="210" begincolumn="27" endcolumn="28" rule="UseStringBufferForStringAppends" ruleset="Performance" package="org.fdroid.fdroid" class="AppDetails" method="onListItemClick" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="342" endline="342" begincolumn="23" endcolumn="44" rule="StringInstantiation" ruleset="Performance" package="org.fdroid.fdroid" class="AppDetails" method="downloadFile" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#stringinstantiation" priority="2">
+Avoid instantiating String objects; this is usually unnecessary.
+</violation>
+<violation beginline="348" endline="348" begincolumn="43" endcolumn="58" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="AppDetails" method="downloadFile" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FD1\app\src\main\java\org\fdroid\fdroid\DB.java">
+<violation beginline="65" endline="65" begincolumn="24" endcolumn="34" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="DB$App" method="App" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Use ArrayList instead of Vector
+</violation>
+<violation beginline="193" endline="193" begincolumn="34" endcolumn="44" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Use ArrayList instead of Vector
+</violation>
+<violation beginline="200" endline="200" begincolumn="23" endcolumn="24" rule="UseStringBufferForStringAppends" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="202" endline="202" begincolumn="23" endcolumn="24" rule="UseStringBufferForStringAppends" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="205" endline="205" begincolumn="19" endcolumn="20" rule="UseStringBufferForStringAppends" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="211" endline="211" begincolumn="27" endcolumn="35" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="229" endline="229" begincolumn="31" endcolumn="39" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="289" endline="289" begincolumn="25" endcolumn="41" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid" class="DB" variable="updateApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'updateApps'
+</violation>
+<violation beginline="447" endline="447" begincolumn="34" endcolumn="45" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getRepos" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Use ArrayList instead of Vector
+</violation>
+<violation beginline="454" endline="454" begincolumn="29" endcolumn="38" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="DB" method="getRepos" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FD1\app\src\main\java\org\fdroid\fdroid\FDroid.java">
+<violation beginline="164" endline="164" begincolumn="18" endcolumn="26" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid" class="FDroid" variable="db" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'db'
+</violation>
+<violation beginline="293" endline="322" begincolumn="9" endcolumn="9" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="FDroid" method="onActivityResult" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="452" endline="452" begincolumn="41" endcolumn="50" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="FDroid" method="xmlPass" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="476" endline="476" begincolumn="43" endcolumn="58" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="FDroid" method="downloadRepoIndex" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="490" endline="490" begincolumn="23" endcolumn="37" rule="StringInstantiation" ruleset="Performance" package="org.fdroid.fdroid" class="FDroid" method="downloadRepoIndex" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#stringinstantiation" priority="2">
+Avoid instantiating String objects; this is usually unnecessary.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FD1\app\src\main\java\org\fdroid\fdroid\ManageRepo.java">
+<violation beginline="46" endline="46" begincolumn="16" endcolumn="24" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid" class="ManageRepo" variable="db" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'db'
+</violation>
+<violation beginline="51" endline="51" begincolumn="21" endcolumn="35" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid" class="ManageRepo" variable="changed" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'changed'
+</violation>
+<violation beginline="79" endline="79" begincolumn="27" endcolumn="55" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="ManageRepo" method="redraw" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="120" endline="191" begincolumn="9" endcolumn="9" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="ManageRepo" method="onMenuItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="150" endline="150" begincolumn="48" endcolumn="61" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="ManageRepo" method="onMenuItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Use ArrayList instead of Vector
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FD1\app\src\main\java\org\fdroid\fdroid\Md5Handler.java">
+<violation beginline="28" endline="28" begincolumn="34" endcolumn="48" rule="AvoidArrayLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Md5Handler" method="md5Calc" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidarrayloops" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+</file>
+</pmd>

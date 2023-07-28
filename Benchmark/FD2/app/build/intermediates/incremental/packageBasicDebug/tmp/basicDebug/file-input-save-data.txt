@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Tue Nov 08 13:02:41 GMT 2022
+3.set=ASSET
+3.path=swap-tick-done.png
+2.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\merged_assets\\basicDebug\\mergeBasicDebugAssets\\out
+0.path=swap-icon.png
+5.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\dex\\basicDebug\\mergeDexBasicDebug\\out
+6.baseType=DIRECTORY
+0.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\merged_assets\\basicDebug\\mergeBasicDebugAssets\\out
+3.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\merged_assets\\basicDebug\\mergeBasicDebugAssets\\out
+6.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\merged_assets\\basicDebug\\mergeBasicDebugAssets\\out
+5.path=classes3.dex
+3.baseType=DIRECTORY
+1.path=swap-tick-not-done.png
+4.set=DEX
+0.baseType=DIRECTORY
+0.set=ASSET
+5.baseType=DIRECTORY
+6.set=ASSET
+4.path=classes2.dex
+count=8
+5.set=DEX
+7.path=classes.dex
+1.set=ASSET
+2.path=index.template.html
+2.baseType=DIRECTORY
+2.set=ASSET
+7.baseType=DIRECTORY
+1.baseType=DIRECTORY
+7.set=DEX
+7.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\dex\\basicDebug\\mergeDexBasicDebug\\out
+4.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\dex\\basicDebug\\mergeDexBasicDebug\\out
+1.base=C\:\\Users\\jcall\\Apps\\FD2\\app\\build\\intermediates\\merged_assets\\basicDebug\\mergeBasicDebugAssets\\out
+4.baseType=DIRECTORY
+6.path=swap-icon.svg

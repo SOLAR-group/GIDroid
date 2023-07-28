@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="proxy_choices_array">
+        <item>Egyik sem</item>
+        <item>Orbot</item>
+        <item>I2P</item>
+        <item>Manuális</item>
+    </string-array>
+    <string-array name="url_content_array">
+        <item>Domain (alapértelmezett)</item>
+        <item>URL</item>
+        <item>Cím</item>
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d új értesítés</item>
+    <item quantity="other">%d új értesítés</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Fel"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Az összes megtekintése"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Válasszon alkalmazást"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"KI"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BE"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Szóköz"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Megosztás a következő alkalmazással: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="action_add_bookmark">Hozzáadás a könyvjelzőkhöz</string>
+    <string name="action_add_to_homescreen">Hozzáadás a kezdőképernyőhöz</string>
+    <string name="action_allow">Engedélyez</string>
+    <string name="action_auto">Automata</string>
+    <string name="action_back">Vissza</string>
+    <string name="action_blank">Üres oldal</string>
+    <string name="action_bookmarks">Könyvjelzők</string>
+    <string name="action_cancel">Mégse</string>
+    <string name="action_copy">Link másolása</string>
+    <string name="action_delete">Törlés</string>
+    <string name="action_delete_all_bookmarks">Összes könyvjelző törlése</string>
+    <string name="action_dont_allow">Ne engedélyezze</string>
+    <string name="action_download">Letöltés</string>
+    <string name="action_edit">Szerkesztés</string>
+    <string name="action_find">Keresés az oldalon</string>
+    <string name="action_folder">Mappa</string>
+    <string name="action_follow_me">Vedd fel velem a kapcsolatot</string>
+    <string name="action_forward">Előre</string>
+    <string name="action_history">Előzmények</string>
+    <string name="action_homepage">Alapértelmezett</string>
+    <string name="action_incognito">Új Inkognitó Lap</string>
+    <string name="action_manual">Kézi</string>
+    <string name="action_new_tab">Új Lap</string>
+    <string name="action_no">Nem</string>
+    <string name="action_ok">OK</string>
+    <string name="action_open">Megnyitás</string>
+    <string name="action_rename">Átnevez</string>
+    <string name="action_share">Megosztás</string>
+    <string name="action_webpage">Honlap</string>
+    <string name="action_yes">Igen</string>
+    <string name="agent">Felhasználó Ügynök</string>
+    <string name="agent_custom">Egyéni</string>
+    <string name="agent_default">Alapértelmezett</string>
+    <string name="agent_desktop">Asztali</string>
+    <string name="agent_mobile">Mobil</string>
+    <string name="android_open_source_project">Android Open Source Project</string>
+    <string name="apache">Apache License 2.0</string>
+    <string name="app_name">Lightning</string>
+    <string name="black_theme">Fekete Téma (AMOLED)</string>
+    <string name="block">Képek blokkolása</string>
+    <string name="block_ads">Reklámok blokkolása</string>
+    <string name="bookmark_export_path">Könyvjelző exportálva</string>
+    <string name="bookmark_settings">Könyvjelző beállítások</string>
+    <string name="bottomsheet_action_expand_halfway">Kibontás félig</string>
+    <string name="cache">Gyorsítótár törlése kilépéskor</string>
+    <string name="cannot_download">Csak \"http\" vagy \"https\" URL-eket lehet letölteni.</string>
+    <string name="character_counter_content_description">Begépelt karakterszám: %2$d/%1$d</string>
+    <string name="character_counter_overflowed_content_description">Maximális karakterszám túllépve: %2$d/%1$d</string>
+    <string name="clear_cache">Gyorsítótár törlése</string>
+    <string name="clear_cookies">Cookie-k törlése</string>
+    <string name="clear_cookies_exit">Cookie-ek törlése kilépéskor</string>
+    <string name="clear_history">Clear Browser History</string>
+    <string name="clear_history_exit">Előzmények törlése kilépéskor</string>
+    <string name="clear_text_end_icon_content_description">Szöveg törlése</string>
+    <string name="clear_web_storage">Webtárhely törlése</string>
+    <string name="clear_web_storage_exit">Webtárhely törlése kilépéskor</string>
+    <string name="close_all_tabs">Összes lap bezárása</string>
+    <string name="close_other_tabs">Másik lapok bezárása</string>
+    <string name="close_tab">Lap bezárása</string>
+    <string name="color_mode">Színes mód engedélyezése</string>
+    <string name="cookies">Cookie-k bekapcsolása</string>
+    <string name="dark_theme">Sötét téma</string>
+    <string name="dialog_adobe_not_installed">Az Adobe Flash Player nincs észlelve.\nKérjük telepítse a Flash Player-t.</string>
+    <string name="dialog_bookmark">Mit szeretnél csinálni, ezzel a könyvjelzővel?</string>
+    <string name="dialog_cookies">Szeretnéd törölni az összes cookie-t?</string>
+    <string name="dialog_download">Le szeretnéd tölteni ezt a fájlt? (%1$s)</string>
+    <string name="dialog_folder">Mit szeretnél csinálni, ezzel a mappával?</string>
+    <string name="dialog_history">Szeretnéd törölni az összes keresési előzményeket?</string>
+    <string name="dialog_history_long_press">Mit szeretnél csinálni, ezzel az előzménnyel?</string>
+    <string name="dialog_image">Mit szeretnél csinálni ezzel a képpel?</string>
+    <string name="dialog_import_error">Nincs felismert böngésző,amelyből importálni lehet a könyvjelzőket.</string>
+    <string name="dialog_link">Mit szeretnél csinálni ezzel a linkkel?</string>
+    <string name="dialog_title_share">Oldal megosztása</string>
+    <string name="do_not_track">\'Ne kövessen nyomon\' kérése</string>
+    <string name="download">Letöltési hely</string>
+    <string name="download_no_sdcard_dlg_msg">USB tárolóra van szükség a fájl letöltéséhez.</string>
+    <string name="download_no_sdcard_dlg_title">Nincs SD kártya</string>
+    <string name="download_pending">Letöltés elkezdése\u2026</string>
+    <string name="download_sdcard_busy_dlg_msg">A tároló dolgozik.Hogy engedélyezze a letöltéseket , érintse meg az USB-tár kikapcsolását az értesítésnél.</string>
+    <string name="download_sdcard_busy_dlg_title">USB-tár nem elérhető</string>
+    <string name="error_icon_content_description">Hiba</string>
+    <string name="export_bookmarks">Könyvjelzők exportálása biztonsági mentésbe</string>
+    <string name="exposed_dropdown_menu_content_description">Legördülő menü megjelenítése</string>
+    <string name="folder">Mappanév</string>
+    <string name="folder_custom">Egyéni</string>
+    <string name="folder_default">Alapértelmezett</string>
+    <string name="freeware">Freeware</string>
+    <string name="fullScreenOption">Állapotsáv elrejtése böngészés közben</string>
+    <string name="fullscreen">Teljes képernyős mód</string>
+    <string name="hint_password">Jelszó</string>
+    <string name="hint_title">Cím</string>
+    <string name="hint_url">URL</string>
+    <string name="hint_username">Felhasználónév</string>
+    <string name="home">Főoldal</string>
+    <string name="host">Hoszt:</string>
+    <string name="hosts_source">Reklámblokkoló hosztfájl forrása</string>
+    <string name="hphosts_ad_server_list">hpHosts Ad Server Lista</string>
+    <string name="http_proxy">HTTP Proxy</string>
+    <string name="i2p_not_running">I2P, nem fut.</string>
+    <string name="i2p_tunnels_not_ready">I2P alagútak, nem állnak készen még.</string>
+    <string name="icon_content_description">Párbeszédpanel ikonja</string>
+    <string name="import_backup">Könyvjelzők importálása biztonsági mentésből</string>
+    <string name="import_bookmark_error">Nem sikerült importálni a könyvjelzőket a fájlból</string>
+    <string name="incognito_cookies">Cookie-k engedélyezése inkognitó módban</string>
+    <string name="install_i2p_android">I2P Android telepítése?</string>
+    <string name="install_orbot">Kérjük telepítse az Orbot-ot annak érdekében, hogy működjön a proxy a Tor-ral.</string>
+    <string name="invert_color">Negatív szín</string>
+    <string name="item_view_role_description">Lap</string>
+    <string name="java">JavaScript bekapcsolása</string>
+    <string name="jsoup">jsoup: Java HTML Parser</string>
+    <string name="library_netcipher">NetCipher</string>
+    <string name="license_gnu">GNU Lesser General Public License</string>
+    <string name="licenses">Nyílt forráskódú licencek</string>
+    <string name="light_theme">Világos Téma</string>
+    <string name="loading">Betöltés…</string>
+    <string name="loading_failed">Nem sikerült semmit betölteni az oldalról.</string>
+    <string name="location">Hely hozzáférés</string>
+    <string name="manual_proxy">Manuális proxy</string>
+    <string name="material_clock_toggle_content_description">Válassza ki, hogy délelőtt vagy délután</string>
+    <string name="material_hour_selection">Óra kiválasztása</string>
+    <string name="material_hour_suffix">%1$s óra</string>
+    <string name="material_minute_selection">Perc kiválasztása</string>
+    <string name="material_minute_suffix">%1$s perc</string>
+    <string name="material_timepicker_am">de.</string>
+    <string name="material_timepicker_clock_mode_description">Időbevitelhez váltson óramódba.</string>
+    <string name="material_timepicker_hour">Óra</string>
+    <string name="material_timepicker_minute">Perc</string>
+    <string name="material_timepicker_pm">du.</string>
+    <string name="material_timepicker_select_time">Időpont kiválasztása</string>
+    <string name="material_timepicker_text_input_mode_description">Időbevitelhez váltson szövegbeviteli módba.</string>
+    <string name="max_tabs">Maximálisan megnyitható lapok száma elérve</string>
+    <string name="message_added_to_homescreen">Parancsikon hozzáadva a kezdőképernyőhöz</string>
+    <string name="message_blocked_local">Helyi fájl betöltése blokkolva</string>
+    <string name="message_cache_cleared">Gyorsítótár törölve</string>
+    <string name="message_certificate_date_invalid">az tanúsítvány dátuma érvénytelen</string>
+    <string name="message_certificate_domain_mismatch">a domain a tanúsítványban, nem egyezik az domainjével</string>
+    <string name="message_certificate_expired">a tanúsítvány lejárt</string>
+    <string name="message_certificate_invalid">a tanúsítvány érvénytelen</string>
+    <string name="message_certificate_not_yet_valid">a tanúsítvány, még nem érvényes</string>
+    <string name="message_certificate_untrusted">a tanúsítvány nem megbízható</string>
+    <string name="message_clear_history">Előzmények törölve</string>
+    <string name="message_cookies_cleared">Cookie-k törölve</string>
+    <string name="message_form_resubmission">Szeretnél újból elküldi az adatokat?</string>
+    <string name="message_import">Könyvjelzők importálva</string>
+    <string name="message_insecure_connection">Kapcsolódás ehhez a weboldalhoz, nem biztonságos:\n%1$s\nFolytatja mindenképpen?</string>
+    <string name="message_link_copied">Link másolva a vágólapra</string>
+    <string name="message_location">\nSzeretné használni a saját helyét?</string>
+    <string name="message_text_copied">Szöveg másolva a vágólapra</string>
+    <string name="message_web_storage_cleared">Webtárhely törölve</string>
+    <string name="mit_license">MIT Licenc</string>
+    <string name="mpl_license">Mozilla Public License v. 2.0</string>
+    <string name="mtrl_badge_numberless_content_description">Új értesítés</string>
+    <string name="mtrl_chip_close_icon_content_description">Eltávolítás (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Több mint %1$d új értesítés</string>
+    <string name="mtrl_picker_a11y_next_month">Váltás a következő hónapra</string>
+    <string name="mtrl_picker_a11y_prev_month">Váltás az előző hónapra</string>
+    <string name="mtrl_picker_announce_current_selection">Jelenleg kiválasztva: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Válasszon dátumot</string>
+    <string name="mtrl_picker_date_header_unselected">Kiválasztott dátum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Napok oszlopa: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Érvénytelen formátum.</string>
+    <string name="mtrl_picker_invalid_format_example">Példa: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Használja ezt: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Érvénytelen tartomány.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ugrás ehhez az évhez: %1$s</string>
+    <string name="mtrl_picker_out_of_range">Tartományon kívül: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Kezdés dátuma – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Befejezés dátuma</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Válasszon dátumtartományt</string>
+    <string name="mtrl_picker_range_header_unselected">Kezdés dátuma – Befejezés dátuma</string>
+    <string name="mtrl_picker_save">Mentés</string>
+    <string name="mtrl_picker_text_input_date_hint">Dátum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Befejezés dátuma</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Kezdés dátuma</string>
+    <string name="mtrl_picker_text_input_day_abbr">N</string>
+    <string name="mtrl_picker_text_input_month_abbr">H</string>
+    <string name="mtrl_picker_text_input_year_abbr">É</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Váltás naptárbeviteli módra</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Koppintson a nap kiválasztásához</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Váltás szövegbeviteli módra</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Koppintson az év kiválasztásához</string>
+    <string name="name_grayscale">Szürkeárnyalatos</string>
+    <string name="name_increase_contrast">Kontraszt Növelése</string>
+    <string name="name_inverted">Negatív</string>
+    <string name="name_inverted_grayscale">Negatív szürkeárnyalatos</string>
+    <string name="name_normal">Normál</string>
+    <string name="no">Nem</string>
+    <string name="overViewMode">Oldalak betöltése áttekinthető módban</string>
+    <string name="password">Jelszavak mentése</string>
+    <string name="password_toggle_content_description">Jelszó megjelenítése</string>
+    <string name="port">Port:</string>
+    <string name="powered_by_google">A Google támogatásával</string>
+    <string name="problem_download">Érvénytelen URL, nem sikerült a letöltés</string>
+    <string name="problem_location_download">Nem lehet letölteni a kiválasztott helyre</string>
+    <string name="reading_mode">Olvasó mód</string>
+    <string name="recommended">Ajánlott</string>
+    <string name="reflow">Szövegtördelés bekapcsolása</string>
+    <string name="remove_identifying_headers">Azonosító fejléc eltávolítása</string>
+    <string name="rendering_mode">Megjelenítési mód</string>
+    <string name="reopening_recent_tab">Régi lapok megnyitása</string>
+    <string name="restore">Elvesztett lapok visszaállítása induláskor</string>
+    <string name="search">Keresőmotor</string>
+    <string name="search_engine_custom">Egyéni URL</string>
+    <string name="search_hint">Keresés</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Keresés"</string>
+    <string name="search_suggestions">Keresési javaslatok</string>
+    <string name="settings">Beállítások</string>
+    <string name="settings_about">Névjegy</string>
+    <string name="settings_about_explain">Részletek az alkalmazás verziószámáról, a készítőről és a licencekről.</string>
+    <string name="settings_adblock">Reklámblokkoló beállítások</string>
+    <string name="settings_advanced">Speciális Beállítások</string>
+    <string name="settings_display">Megjelenítési Beállítások</string>
+    <string name="settings_general">Általános Beállítások</string>
+    <string name="settings_privacy">Adatvédelmi Beállítások</string>
+    <string name="size">Szövegméret</string>
+    <string name="size_large">Nagy</string>
+    <string name="size_largest">Legnagyobb</string>
+    <string name="size_normal">Normál</string>
+    <string name="size_small">Kicsi</string>
+    <string name="size_smallest">Legkisebb</string>
+    <string name="snacktory">Snacktory</string>
+    <string name="start_i2p_android">I2P Android indítása?</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stock_browser">Gyári Böngésző</string>
+    <string name="stock_browser_available">Támogatott gyári böngésző észlelve</string>
+    <string name="stock_browser_unavailable">Nincs gyári böngésző észlelve</string>
+    <string name="suggestion">Keresés</string>
+    <string name="supported_browsers_title">Támogatott Böngészők</string>
+    <string name="sync_history">Előzmények szinkronizálása Google-val</string>
+    <string name="tabs">Lapok</string>
+    <string name="tabs_in_drawer">Oldalak mutatása a navigációs fiókban</string>
+    <string name="text_encoding">Szöveg Kódolás</string>
+    <string name="theme">Alkalmazás Téma</string>
+    <string name="third_party">Harmadik féltől származó Cookie-k letiltása</string>
+    <string name="title_chooser">Válasszon egy fájlt</string>
+    <string name="title_clear_cookies">Cookie-k törlése</string>
+    <string name="title_clear_history">Előzmények törlése</string>
+    <string name="title_custom_homepage">Egyéni honlap</string>
+    <string name="title_download_location">Letöltési hely</string>
+    <string name="title_edit_bookmark">Könyvjelző szerkesztése</string>
+    <string name="title_error">Hiba</string>
+    <string name="title_file_chooser">Fájl választó</string>
+    <string name="title_form_resubmission">Űrlap újraküldése</string>
+    <string name="title_rename_folder">Mappa átnevezése</string>
+    <string name="title_search_engine">Keresőmotor</string>
+    <string name="title_sign_in">Bejelentkezés</string>
+    <string name="title_text_size">Szöveg méret</string>
+    <string name="title_user_agent">Felhasználói ügynök</string>
+    <string name="title_warning">Figyelmeztetés</string>
+    <string name="untitled">Névtelen</string>
+    <string name="url_contents">URL doboz tartalma</string>
+    <string name="url_twitter">twitter.com/RestainoAnthony</string>
+    <string name="use_i2p_prompt">Úgy tűnik, hogy önnek telepítve van az I2P. Szeretné használni az I2P-t?</string>
+    <string name="use_tor_prompt">Úgy tűnik, hogy önnek telepítve van az Orbot. Szeretné használni a Tor-t?</string>
+    <string name="version">Alkalmazás Verzió</string>
+    <string name="wideViewPort">Széles nézőport használata</string>
+    <string name="window">Engedélyezés,hogy a webhelyek új lapot nyithassanak meg</string>
+    <string name="yes">Igen</string>
+</resources>

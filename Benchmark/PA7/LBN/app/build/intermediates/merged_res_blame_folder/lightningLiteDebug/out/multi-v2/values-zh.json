@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jcall\\Apps\\LBN\\app\\build\\intermediates\\incremental\\mergeLightningLiteDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jcall\\.gradle\\caches\\transforms-3\\3d4341c453248eff38bd289b332b82fd\\transformed\\jetified-helper-0.9.5\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,119,152,214,307,341",
+                        "endColumns": "63,32,61,92,33,86",
+                        "endOffsets": "114,147,209,302,336,423"
+                    }
+                }
+            ]
+        }
+    ]
+}

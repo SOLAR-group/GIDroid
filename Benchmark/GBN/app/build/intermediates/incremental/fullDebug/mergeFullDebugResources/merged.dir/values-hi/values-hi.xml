@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d नई सूचनाएं</item>
+    <item quantity="other">%d नई सूचनाएं</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"बंद"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"चालू"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"खोजें…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="abstract_chart_fragment_kind_activity">गतिविधि</string>
+    <string name="abstract_chart_fragment_kind_deep_sleep">गहरी नींद</string>
+    <string name="abstract_chart_fragment_kind_light_sleep">हलकी नींद</string>
+    <string name="abstract_chart_fragment_kind_not_worn">पहना नहीं</string>
+    <string name="activity_sleepchart_activity_and_sleep">गतिविधि</string>
+    <string name="alarm_fri_short">शुक्र</string>
+    <string name="alarm_mon_short">सोम</string>
+    <string name="alarm_sat_short">शनि</string>
+    <string name="alarm_smart_wakeup">स्मार्ट वेकअप</string>
+    <string name="alarm_snooze">याद दिलाएं</string>
+    <string name="alarm_sun_short">रवि</string>
+    <string name="alarm_thu_short">गुरू</string>
+    <string name="alarm_tue_short">मंगल</string>
+    <string name="alarm_wed_short">बुध</string>
+    <string name="appinstaller_install">इंस्टॉल</string>
+    <string name="average">औसत: %1$s</string>
+    <string name="battery">बैटरी</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="busy_task_fetch_activity_data">गतिविधि डेटा प्राप्त किया जा रहा</string>
+    <string name="calories">कैलोरी</string>
+    <string name="candidate_item_device_image">डिवाइस इमेज</string>
+    <string name="cannot_connect">जुड़ नहीं सकता: %1$s</string>
+    <string name="character_counter_content_description">%2$d वर्णों में से %1$d वर्ण दर्ज किए गए</string>
+    <string name="character_counter_overflowed_content_description">अभी %1$d वर्ण हैं जबकि %2$d से ज़्यादा नहीं होने चाहिए</string>
+    <string name="chart_no_data_synchronize">कोई डेटा उपलब्ध नहीं है। उपकरण सिंक्रनाइज़ करें\?</string>
+    <string name="chart_steps">कदम</string>
+    <string name="clear_text_end_icon_content_description">टेक्स्ट मिटाएं</string>
+    <string name="clock">घड़ी</string>
+    <string name="control_center_cancel_to_stop_vibration">कंपन को रोकने के लिए रद्द करें।</string>
+    <string name="control_center_find_lost_device">खोई हुई डिवाइस का पता लगाएं</string>
+    <string name="controlcenter_start_activitymonitor">आपकी गतिविधि (ALPHA)</string>
+    <string name="controlcenter_start_configure_alarms">अलार्म को कॉन्फ़िगर करें</string>
+    <string msgid="3209159573327985035" name="copy">"कॉपी करें"</string>
+    <string name="dbaccess_error_executing">निष्पादन में त्रुटि \'%1$s\'</string>
+    <string name="device_not_connected">कनेक्ट नहीं.</string>
+    <string name="discovery_note">ध्यान दें:</string>
+    <string name="distance">दूरी</string>
+    <string name="error_icon_content_description">गड़बड़ी</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"बेहतर सेटिंग"</string>
+    <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
+    <string name="female">महिला</string>
+    <string name="fwapp_install_device_not_ready">फ़ाइल स्थापित नहीं की जा सकती, डिवाइस तैयार नहीं है।</string>
+    <string name="fwappinstaller_connection_state">युक्ति के लिए कनेक्शन: %1$s</string>
+    <string name="fwinstaller_firmware_not_compatible_to_device">यह फर्मवेयर इस युक्ति के योग्य नही है</string>
+    <string name="heart_rate">हृदय गति</string>
+    <string name="horizontal">क्षैतिज</string>
+    <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string name="initializing">शुरु हो रहा है</string>
+    <string name="installer_activity_unable_to_find_handler">इस फ़ाइल को इंस्टॉल करने के लिए हैंडलर खोजने में असमर्थ।</string>
+    <string name="installer_activity_wait_while_determining_status">कृपया प्रतीक्षा करें इन्स्टलेशन की स्थिति निर्धारित की जा रही है…</string>
+    <string name="installhandler_firmware_name">%1$s: %2$s %3$s</string>
+    <string name="interval_fifteen_minutes">हर 15 मिनट में</string>
+    <string name="interval_five_minutes">हर 5 मिनट में</string>
+    <string name="interval_forty_five_minutes">हर 45 मिनट में</string>
+    <string name="interval_one_hour">एक घंटे में एक बार</string>
+    <string name="interval_one_minute">एक मिनट में एक बार</string>
+    <string name="interval_ten_minutes">हर 10 मिनट में</string>
+    <string name="interval_thirty_minutes">हर 30 मिनट में</string>
+    <string name="item_view_role_description">टैब</string>
+    <string name="lack_of_sleep">नींद की कमी: %1$s</string>
+    <string name="lack_of_step">चरणों की कमी: %1$d</string>
+    <string name="left">बाएं</string>
+    <string name="live_activity_current_steps_per_minute">वर्तमान कदम प्रति मिनट</string>
+    <string name="live_activity_max_heart_rate">वर्तमान / अधिकतम हृदय गति: %1$d / %2$d</string>
+    <string name="live_activity_start_your_activity">अपनी गतिविधि शुरू करें</string>
+    <string name="live_activity_steps_history">कदमो का इतिहास</string>
+    <string name="live_activity_steps_per_minute_history">प्रति मिनट कदमो का इतिहास</string>
+    <string name="live_activity_total_steps">कुल कदमें</string>
+    <string name="liveactivity_live_activity">जीवित गतिविधि</string>
+    <string name="male">नर</string>
+    <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_selection">घंटा चुनें</string>
+    <string name="material_hour_suffix">%1$s बजे</string>
+    <string name="material_minute_selection">मिनट चुनें</string>
+    <string name="material_minute_suffix">%1$s मिनट</string>
+    <string name="material_timepicker_am">पूर्वाह्न</string>
+    <string name="material_timepicker_clock_mode_description">समय इनपुट के लिए घड़ी मोड पर जाएं.</string>
+    <string name="material_timepicker_hour">घंटा</string>
+    <string name="material_timepicker_minute">मिनट</string>
+    <string name="material_timepicker_pm">अपराह्न</string>
+    <string name="material_timepicker_select_time">समय चुनें</string>
+    <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
+    <string name="miband_fwinstaller_compatible_version">संगत संस्करण</string>
+    <string name="miband_fwinstaller_incompatible_version">अयोग्य फर्मवेयर</string>
+    <string name="miband_fwinstaller_untested_version">अनछुए संस्करण!</string>
+    <string name="miband_pairing_tap_hint">जब आपका एम आई (Mi) बैंड वाइब्रेट और ब्लिंक करता है, तो इसे कई बार एक पंक्ति में टैप करें।</string>
+    <string name="miband_pairing_using_dummy_userdata">मान्य उपयोगकर्ता डेटा नहीं दिया गया,अभी के लिए डमी उपयोगकर्ता डेटा का उपयोग किया जा रहा है।</string>
+    <string name="miband_prefs_alias">नाम / उपनाम</string>
+    <string name="miband_prefs_fitness_goal">दैनिक कदम का लक्ष्य</string>
+    <string name="miband_prefs_reserve_alarm_calendar">आगामी आयोजनाओ हेतु आरक्षित अलार्म</string>
+    <string name="miband_prefs_vibration">कंपन</string>
+    <string name="minutes_1">1 मिनट</string>
+    <string name="minutes_10">10 मिनट</string>
+    <string name="minutes_30">30 मिनट</string>
+    <string name="minutes_5">5 मिनट</string>
+    <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
+    <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
+    <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
+    <string name="mtrl_picker_day_of_week_column_header">दिनों का कॉलम: %1$s</string>
+    <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
+    <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
+    <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$s पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">तारीख की मान्य सीमा से बाहर: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
+    <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_text_input_date_hint">तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">\'दिन चुनना\' पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">\'साल चुनना\' पर स्विच करने के लिए टैप करें</string>
+    <string name="no_limit">कोई सीमा नहीं</string>
+    <string msgid="478774118347071097" name="not_set">"सेट नहीं है"</string>
+    <string name="notif_battery_low">%1$s कम बैटरी</string>
+    <string name="notif_battery_low_bigtext_last_charge_time">अंतिम चार्ज: %s
+\n</string>
+    <string name="notif_battery_low_bigtext_number_of_charges">चार्जों की संख्या: %s</string>
+    <string name="notif_battery_low_extended">%1$s कम बैटरी: %2$s</string>
+    <string name="notif_battery_low_percent">%1$s बैटरी शेष: %2$s%%</string>
+    <string name="notif_battery_low_title">गैजेट की बैटरी कम है!</string>
+    <string name="notif_export_failed_title">डेटाबेस निर्यात विफल! कृपया अपनी सेटिंग्स जांचें।</string>
+    <string name="other">अन्य</string>
+    <string name="overslept">अति नींद: %1$s</string>
+    <string name="overstep">अधिक कदम: %1$d</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="pbw_install_handler_hw_revision_mismatch">दिए गए फर्मवेयर को इंस्टॉल करने में असमर्थ: यह आपके पेबल (Pebble) के हार्डवेयर संशोधन से मेल नहीं खाता है।</string>
+    <string name="pbw_install_handler_unable_to_install">दी गई फ़ाइल को इंस्टॉल करने में असमर्थ: %1$s</string>
+    <string name="pref_header_vibration_count">कंपन की संख्या</string>
+    <string name="pref_header_vibration_settings">कंपन सेटिंग्स</string>
+    <string name="pref_screen_notification_profile_anti_loss">नुकसान विरोधी चेतावनी</string>
+    <string name="pref_screen_notification_profile_calendar">कैलेंडर सूचना</string>
+    <string name="pref_screen_notification_profile_email">ई - मेल अधिसूचना</string>
+    <string name="pref_screen_notification_profile_generic">सामान्य अधिसूचना</string>
+    <string name="pref_screen_notification_profile_generic_chat">चैट</string>
+    <string name="pref_screen_notification_profile_generic_navigation">पथ प्रदर्शन</string>
+    <string name="pref_screen_notification_profile_generic_social">सोशल नेटवर्क</string>
+    <string name="pref_screen_notification_profile_inactivity">निष्क्रियता सूचना</string>
+    <string name="pref_screen_notification_profile_incoming_call">आने वाली कॉल अधिसूचना</string>
+    <string name="pref_screen_notification_profile_low_power">कम बिजली की चेतावनी</string>
+    <string name="pref_screen_notification_profile_missed_call">मिस्ड कॉल सूचना</string>
+    <string name="pref_screen_notification_profile_sms">एसएमएस अधिसूचना</string>
+    <string name="pref_screen_vibration_profile">कंपन प्रोफ़ाइल</string>
+    <string name="pref_summary_dont_ack_transfers">यदि बैंड पर सुनिश्चित न हो, तो गतिविधि डेटा साफ़ नहीं किया जाता है। उपयोगी अगर GB अन्य एप्लिकेशन के साथ प्रयोग किया जाए।</string>
+    <string name="pref_summary_keep_data_on_device">सिंक्रनाइज़ेशन के बाद भी Mi बैंड पर गतिविधि डेटा रखेंगे। उपयोगी अगर GB अन्य एप्लिकेशन के साथ प्रयोग किया जाए।</string>
+    <string name="pref_summary_low_latency_fw_update">यह उन युक्तियों पर कारगर हो सकता है, जहां फर्मवेयर फ्लैशिंग विफल हो जाती है।</string>
+    <string name="pref_title_dont_ack_transfer">गतिविधि डेटा स्थानांतरण सुनिश्चित न करें</string>
+    <string name="pref_title_keep_data_on_device">अपनी गतिविधि को युक्ति में रखें</string>
+    <string name="pref_title_low_latency_fw_update">फर्मवेयर फ्लैशिंग के लिए कम-विलंबता मोड का उपयोग करें</string>
+    <string name="pref_write_logfiles">लॉग फ़ाइलें लिखें</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" क्लिपबोर्ड पर कॉपी किया गया."</string>
+    <string name="preferences_category_device_specific_settings">डिवाइस विशिष्ट सेटिंग्स</string>
+    <string name="preferences_miband_settings">मी बैंड / अमेज़फिट सेटिंग्स</string>
+    <string name="prefs_find_phone">फ़ोन ढूंढें</string>
+    <string name="prefs_title_heartrate_measurement_interval">पूरे दिन एचआर (HR) माप</string>
+    <string name="prefs_wearside">बाएं या दाएं पहने हुए\?</string>
+    <string name="right">दांए</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string name="seconds_10">10 सेकंड</string>
+    <string name="seconds_20">20 सेकंड</string>
+    <string name="seconds_30">30 सेकंड</string>
+    <string name="seconds_5">5 सेकंड</string>
+    <string name="sleep_activity_date_range">%1$s से %2$s तक</string>
+    <string name="sleepchart_your_sleep">नींद</string>
+    <string name="sonyswr12_settings_alarm_interval">मिनटों में स्मार्ट अलार्म अंतराल</string>
+    <string name="sonyswr12_settings_alarm_interval_summary">स्थापित अलार्म से पहले स्मार्ट अलार्म अंतराल है। इस अंतराल डिवाइस में उपयोगकर्ता को जगाने के लिए नींद के सबसे हल्के चरण का पता लगाने की कोशिश की जा रही है</string>
+    <string name="sonyswr12_settings_low_vibration">कम कंपन सक्षम</string>
+    <string name="sonyswr12_settings_low_vibration_summary">बैंड पर कंपन की कम तीव्रता को सक्षम करें</string>
+    <string name="sonyswr12_settings_stamina">पर बिजली की बचत मोड</string>
+    <string name="sonyswr12_settings_stamina_summary">पावर सेविंग मोड हृदय गति की आवधिक ऑटो माप को बंद कर देता है जिससे काम का समय बढ़ जाता है</string>
+    <string name="sonyswr12_settings_title">Sony SWR12 समायोजन</string>
+    <string name="stats_title">गति क्षेत्र</string>
+    <string name="stats_x_axis_label">कुल मिनट</string>
+    <string name="stats_y_axis_label">प्रति मिनट कदम</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="title_activity_alarm_details">अलार्म विवरण</string>
+    <string name="title_activity_charts">गतिविधि और नींद</string>
+    <string name="title_activity_set_alarm">अलार्म को कॉन्फ़िगर करें</string>
+    <string name="title_activity_sleepmonitor">नींद की निगरानी</string>
+    <string name="updatefirmwareoperation_metadata_updateproblem">फर्मवेयर मेटाडेटा हस्तांतरण के साथ समस्या</string>
+    <string name="updatefirmwareoperation_update_complete">फर्मवेयर स्थापना पूर्ण</string>
+    <string name="updatefirmwareoperation_update_complete_rebooting">फ़र्मवेयर इंस्टॉलेशन पूर्ण, युक्ति रिबूट हो रहा…</string>
+    <string name="updatefirmwareoperation_write_failed">फ़र्मवेयर फ़्लेशिंग विफल रहा</string>
+    <string name="updating_firmware">फर्मवेयर फ्लैश किया जा रहा…</string>
+    <string name="user_feedback_all_alarms_disabled">सभी अलार्म बंद है</string>
+    <string name="user_feedback_miband_activity_data_transfer">%1$s डेटा स्थानांतरण किया जाएगा जिसकी शुरुआत %2$s से है</string>
+    <string name="user_feedback_miband_set_alarms_failed">अलार्म सेट करने में एक त्रुटि हुई, कृपया पुनः प्रयास करें।</string>
+    <string name="user_feedback_miband_set_alarms_ok">अलार्म युक्ति पर भेजे गया।</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"बंद"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"चालू"</string>
+    <string name="vertical">खड़ा</string>
+    <string name="vibration_profile_alarm_clock">अलार्म घड़ी</string>
+    <string name="vibration_profile_long">लंबा</string>
+    <string name="vibration_profile_medium">मध्यम</string>
+    <string name="vibration_profile_ring">रिंग</string>
+    <string name="vibration_profile_short">छोटा</string>
+    <string name="vibration_profile_waterdrop"/>
+    <string name="vibration_try">प्रयत्न</string>
+    <string name="watch9_pairing_tap_hint">जब आपकी घड़ी कंपन करे, तो डिवाइस को हिलाएं या उसका बटन दबाएं।</string>
+    <string name="weeksleepchart_sleep_a_week">प्रति सप्ताह नींद</string>
+    <string name="weeksleepchart_today_sleep_description">आज की नींद, लक्ष्य: %1$s</string>
+    <string name="weeksteps_today_steps_description">आज के कदम, लक्ष्य: %1$s</string>
+    <string name="weekstepschart_steps_a_week">प्रति सप्ताह कदम</string>
+    <string name="you_did_not_sleep">आप सोये नहीं</string>
+    <string name="you_slept">आप %1$s से %2$s तक सो गए</string>
+</resources>

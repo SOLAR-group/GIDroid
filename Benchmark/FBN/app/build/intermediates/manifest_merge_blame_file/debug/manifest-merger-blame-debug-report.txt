@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="be.digitalia.fosdem"
+4    android:versionCode="54"
+5    android:versionName="4.4" >
+6
+7    <uses-sdk
+7-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:19:3-44
+8        android:minSdkVersion="16"
+8-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:19:3-44
+9        android:targetSdkVersion="12" />
+9-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:19:13-42
+10
+11    <supports-screens
+11-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:7:3-13:35
+12        android:anyDensity="true"
+12-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:11:5-30
+13        android:largeScreens="true"
+13-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:10:5-32
+14        android:normalScreens="true"
+14-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:9:5-33
+15        android:resizeable="true"
+15-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:12:5-30
+16        android:smallScreens="true"
+16-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:8:5-32
+17        android:xlargeScreens="true" />
+17-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:13:5-33
+18
+19    <uses-feature
+19-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:15:3-86
+20        android:name="android.hardware.bluetooth"
+20-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:15:17-58
+21        android:required="false" />
+21-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:15:59-83
+22    <uses-feature
+22-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:16:3-88
+23        android:name="android.hardware.touchscreen"
+23-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:16:17-60
+24        android:required="false" />
+24-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:16:61-85
+25    <uses-feature
+25-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:17:3-81
+26        android:name="android.hardware.wifi"
+26-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:17:17-53
+27        android:required="false" />
+27-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:17:54-78
+28
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:21:3-76
+29-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:21:20-74
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:22:3-73
+30-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:22:20-71
+31    <uses-permission android:name="android.permission.BLUETOOTH" />
+31-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:23:3-65
+31-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:23:20-63
+32    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+32-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:24:3-71
+32-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:24:20-69
+33    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+33-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:25:3-83
+33-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:25:20-81
+34    <uses-permission android:name="android.permission.INTERNET" />
+34-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:26:3-64
+34-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:26:20-62
+35
+36    <application
+36-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:28:3-65:17
+37        android:name="androidx.multidex.MultiDexApplication"
+38        android:allowBackup="true"
+38-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:29:5-31
+39        android:debuggable="true"
+40        android:icon="@drawable/app_frozen_bubble"
+40-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:30:5-47
+41        android:label="@string/app_name" >
+41-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:31:5-37
+42        <activity
+42-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:33:5-43:16
+43            android:name="org.jfedor.frozenbubble.FrozenBubble"
+43-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:34:7-34
+44            android:alwaysRetainTaskState="true"
+44-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:37:7-43
+45            android:configChanges="keyboardHidden|orientation"
+45-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:35:7-57
+46            android:label="@string/app_name"
+46-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:36:7-39
+47            android:launchMode="singleInstance" >
+47-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:38:7-42
+48            <intent-filter>
+48-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:39:7-42:23
+49                <action android:name="org.jfedor.frozenbubble.GAME" />
+49-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:40:9-62
+49-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:40:17-60
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:41:9-67
+51-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:41:19-65
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:45:5-48:16
+55            android:name="com.efortin.frozenbubble.PreferencesActivity"
+55-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:46:7-66
+56            android:theme="@android:style/Theme.Black.NoTitleBar" >
+56-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:47:7-60
+57        </activity>
+58        <activity
+58-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:50:5-54:16
+59            android:name="com.efortin.frozenbubble.ScrollingCredits"
+59-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:51:7-63
+60            android:configChanges="keyboardHidden|orientation"
+60-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:52:7-57
+61            android:label="@string/menu_about" >
+61-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:53:7-41
+62        </activity>
+63        <activity
+63-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:56:5-64:16
+64            android:name="com.efortin.frozenbubble.HomeScreen"
+64-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:57:7-57
+65            android:configChanges="keyboardHidden|orientation"
+65-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:58:7-57
+66            android:label="@string/title_activity_home_screen" >
+66-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:59:7-57
+67            <intent-filter>
+67-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:60:7-63:23
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:61:9-60
+68-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:61:17-58
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:62:9-68
+70-->C:\Users\jcall\Apps\FBN\app\src\main\AndroidManifest.xml:62:19-66
+71            </intent-filter>
+72        </activity>
+73    </application>
+74
+75</manifest>

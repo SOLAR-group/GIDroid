@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "EXAMPLE",
+    "project_id": "EXAMPLE"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "EXAMPLE",
+        "android_client_info": {
+          "package_name": "info.zamojski.soft.towercollector"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "EXAMPLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "EXAMPLE"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

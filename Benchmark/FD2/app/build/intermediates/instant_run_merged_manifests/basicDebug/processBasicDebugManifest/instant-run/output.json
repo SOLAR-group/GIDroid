@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":10,"versionName":"-debug","enabled":true,"outputFile":"app-basic-debug.apk","fullName":"basicDebug","baseName":"basic-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"org.fdroid.basic.debug","split":"","minSdkVersion":"14"}}]

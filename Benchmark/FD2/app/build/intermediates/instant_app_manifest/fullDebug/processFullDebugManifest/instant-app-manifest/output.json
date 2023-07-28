@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":10,"versionName":"-debug","enabled":true,"outputFile":"app-full-debug.apk","fullName":"fullDebug","baseName":"full-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"org.fdroid.fdroid.debug","split":"","minSdkVersion":"14"}}]

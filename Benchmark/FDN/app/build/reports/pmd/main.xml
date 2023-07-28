@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.0.0" timestamp="2022-11-09T15:26:21.589">
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\FDroidCertPins.java">
+<violation beginline="69" endline="69" begincolumn="16" endcolumn="58" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="FDroidCertPins" method="getPinList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\Hasher.java">
+<violation beginline="70" endline="70" begincolumn="53" endcolumn="67" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="Hasher" method="getHash" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\IndexV1Updater.java">
+<violation beginline="304" endline="304" begincolumn="28" endcolumn="45" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="IndexV1Updater" method="processIndexV1" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="379" endline="379" begincolumn="20" endcolumn="56" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="IndexV1Updater" method="getStringArrayRepoValue" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="486" endline="486" begincolumn="45" endcolumn="91" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="IndexV1Updater" method="processRepoPushRequests" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\Languages.java">
+<violation beginline="152" endline="152" begincolumn="16" endcolumn="52" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="Languages" method="getSupportedLocales" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\NotificationHelper.java">
+<violation beginline="369" endline="369" begincolumn="41" endcolumn="76" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="NotificationHelper" method="createUpdateSummaryNotification" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="370" endline="370" begincolumn="24" endcolumn="51" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="NotificationHelper" method="createUpdateSummaryNotification" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\Provisioner.java">
+<violation beginline="82" endline="82" begincolumn="48" endcolumn="64" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Provisioner" method="scanAndProcess" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="88" endline="88" begincolumn="40" endcolumn="85" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Provisioner" method="scanAndProcess" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="99" endline="99" begincolumn="29" endcolumn="65" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Provisioner" method="scanAndProcess" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="170" endline="170" begincolumn="44" endcolumn="67" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Provisioner" method="extractProvisionsPlaintext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="174" endline="174" begincolumn="49" endcolumn="63" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="Provisioner" method="extractProvisionsPlaintext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="174" endline="174" begincolumn="26" endcolumn="70" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Provisioner" method="extractProvisionsPlaintext" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="213" endline="213" begincolumn="39" endcolumn="53" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Provisioner" method="parseProvisions" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\RepoXMLHandler.java">
+<violation beginline="105" endline="105" begincolumn="43" endcolumn="91" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="RepoXMLHandler" method="endElement" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="327" endline="327" begincolumn="42" endcolumn="92" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="RepoXMLHandler" method="onRepoParsed" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\UpdateService.java">
+<violation beginline="313" endline="313" begincolumn="44" endcolumn="98" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="UpdateService" method="sendRepoErrorStatus" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="469" endline="469" begincolumn="43" endcolumn="72" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="UpdateService" method="onHandleWork" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="471" endline="471" begincolumn="35" endcolumn="73" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="UpdateService" method="onHandleWork" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\Utils.java">
+<violation beginline="209" endline="209" begincolumn="25" endcolumn="39" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="Utils" method="copyQuietly" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="210" endline="210" begincolumn="26" endcolumn="41" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="Utils" method="copyQuietly" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="290" endline="290" begincolumn="30" endcolumn="32" rule="AppendCharacterWithChar" ruleset="Performance" package="org.fdroid.fdroid" class="Utils" method="formatFingerprint" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="499" endline="499" begincolumn="23" endcolumn="37" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid" class="Utils" method="getBinaryHash" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="747" endline="747" begincolumn="39" endcolumn="76" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Utils" method="dumpCursor" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="768" endline="768" begincolumn="38" endcolumn="92" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid" class="Utils" method="dumpCursor" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\compat\PRNGFixes.java">
+<violation beginline="262" endline="262" begincolumn="37" endcolumn="51" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.compat" class="PRNGFixes$LinuxPRNGSecureRandom" method="getUrandomInputStream" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="275" endline="275" begincolumn="39" endcolumn="54" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.compat" class="PRNGFixes$LinuxPRNGSecureRandom" method="getUrandomOutputStream" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\Apk.java">
+<violation beginline="459" endline="459" begincolumn="20" endcolumn="94" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.data" class="Apk" method="convertToRequestedPermissions" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="490" endline="490" begincolumn="32" endcolumn="66" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.data" class="Apk" method="setRequestedPermissions" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\ApkProvider.java">
+<violation beginline="68" endline="68" begincolumn="34" endcolumn="48" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="ApkProvider$Helper" method="cursorToList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="399" endline="399" begincolumn="23" endcolumn="24" rule="UseStringBufferForStringAppends" ruleset="Performance" package="org.fdroid.fdroid.data" class="ApkProvider" method="querySingleFromAnyRepo" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="456" endline="456" begincolumn="23" endcolumn="24" rule="InsufficientStringBufferDeclaration" ruleset="Performance" package="org.fdroid.fdroid.data" class="ApkProvider" method="queryApks" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#insufficientstringbufferdeclaration" priority="3">
+StringBuffer constructor is initialized with size 16, but has at least 24 characters appended.
+</violation>
+<violation beginline="469" endline="469" begincolumn="28" endcolumn="36" rule="ConsecutiveLiteralAppends" ruleset="Performance" package="org.fdroid.fdroid.data" class="ApkProvider" method="queryApks" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#consecutiveliteralappends" priority="3">
+StringBuffer (or StringBuilder).append is called 2 consecutive times with literal Strings. Use a single append with a single combined String.
+</violation>
+<violation beginline="599" endline="599" begincolumn="48" endcolumn="67" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="ApkProvider" method="ensureAntiFeatures" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\App.java">
+<violation beginline="594" endline="594" begincolumn="43" endcolumn="66" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="App" method="getLocalizedListEntry" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="786" endline="786" begincolumn="26" endcolumn="62" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.data" class="App" method="initInstalledApk" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\AppProvider.java">
+<violation beginline="75" endline="75" begincolumn="34" endcolumn="48" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="AppProvider$Helper" method="cursorToList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="662" endline="662" begincolumn="29" endcolumn="37" rule="InsufficientStringBufferDeclaration" ruleset="Performance" package="org.fdroid.fdroid.data" class="AppProvider" method="querySearch" variable="selection" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#insufficientstringbufferdeclaration" priority="3">
+StringBuffer constructor is initialized with size 16, but has at least 19 characters appended.
+</violation>
+<violation beginline="989" endline="989" begincolumn="48" endcolumn="67" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="AppProvider" method="ensureCategories" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\DBHelper.java">
+<violation beginline="805" endline="805" begincolumn="33" endcolumn="42" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="DBHelper" method="migrateRepoTable" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="818" endline="818" begincolumn="36" endcolumn="54" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="DBHelper" method="migrateRepoTable" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="886" endline="886" begincolumn="33" endcolumn="42" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="DBHelper" method="addFingerprintToRepo" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="896" endline="896" begincolumn="36" endcolumn="54" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="DBHelper" method="addFingerprintToRepo" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="898" endline="898" begincolumn="80" endcolumn="105" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="DBHelper" method="addFingerprintToRepo" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="938" endline="938" begincolumn="44" endcolumn="63" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="DBHelper" method="populateRepoNames" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\InstalledAppProvider.java">
+<violation beginline="147" endline="147" begincolumn="84" endcolumn="111" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="InstalledAppProvider" method="selectNotSystemSignature" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="156" endline="156" begincolumn="32" endcolumn="80" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.data" class="InstalledAppProvider" method="selectNotSystemSignature" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="161" endline="161" begincolumn="76" endcolumn="104" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="InstalledAppProvider" method="selectNotSystemSignature" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\LoggingQuery.java">
+<violation beginline="131" endline="131" begincolumn="60" endcolumn="63" rule="AppendCharacterWithChar" ruleset="Performance" package="org.fdroid.fdroid.data" class="LoggingQuery" method="logSlowQuery" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\QueryBuilder.java">
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="25" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.data" class="QueryBuilder" variable="limit" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'limit'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\RepoPersister.java">
+<violation beginline="187" endline="187" begincolumn="59" endcolumn="84" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="RepoPersister" method="calcApkCompatibilityFlags" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="187" endline="187" begincolumn="43" endcolumn="85" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.data" class="RepoPersister" method="calcApkCompatibilityFlags" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\RepoProvider.java">
+<violation beginline="136" endline="136" begincolumn="35" endcolumn="50" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.data" class="RepoProvider$Helper" method="cursorToList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\data\TempAppProvider.java">
+<violation beginline="157" endline="162" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.data" class="TempAppProvider" method="query" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="213" endline="213" begincolumn="17" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Performance" package="org.fdroid.fdroid.data" class="TempAppProvider" method="copyData" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\installer\FileInstallerActivity.java">
+<violation beginline="44" endline="44" begincolumn="17" endcolumn="23" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.installer" class="FileInstallerActivity" variable="act" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'act'
+</violation>
+<violation beginline="125" endline="143" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.installer" class="FileInstallerActivity" method="onRequestPermissionsResult" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\installer\InstallHistoryService.java">
+<violation beginline="121" endline="121" begincolumn="22" endcolumn="31" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.installer" class="InstallHistoryService" method="onHandleIntent" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\installer\InstallManagerService.java">
+<violation beginline="99" endline="99" begincolumn="21" endcolumn="35" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.installer" class="InstallManagerService" variable="running" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'running'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\net\Downloader.java">
+<violation beginline="34" endline="34" begincolumn="30" endcolumn="46" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.net" class="Downloader" variable="cancelled" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'cancelled'
+</violation>
+<violation beginline="109" endline="109" begincolumn="41" endcolumn="56" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.net" class="Downloader" method="downloadFromStream" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\net\ImageLoaderForUIL.java">
+<violation beginline="27" endline="31" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.net" class="ImageLoaderForUIL" method="getStream" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\net\bluetooth\httpish\Request.java">
+<violation beginline="96" endline="96" begincolumn="36" endcolumn="51" rule="InefficientEmptyStringCheck" ruleset="Performance" package="org.fdroid.fdroid.net.bluetooth.httpish" class="Request" method="listen" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#inefficientemptystringcheck" priority="3">
+String.trim().length()==0 is an inefficient way to validate an empty String.
+</violation>
+<violation beginline="151" endline="151" begincolumn="32" endcolumn="61" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.net.bluetooth.httpish" class="Request" method="readLine" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\privileged\views\AppSecurityPermissions.java">
+<violation beginline="317" endline="317" begincolumn="33" endcolumn="62" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.privileged.views" class="AppSecurityPermissions" method="extractPerms" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="326" endline="326" begincolumn="37" endcolumn="74" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.privileged.views" class="AppSecurityPermissions" method="extractPerms" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="331" endline="331" begincolumn="43" endcolumn="75" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.privileged.views" class="AppSecurityPermissions" method="extractPerms" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="356" endline="361" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.privileged.views" class="AppSecurityPermissions" method="getPermissionList" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="401" endline="403" begincolumn="48" endcolumn="60" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.privileged.views" class="AppSecurityPermissions" method="displayPermissions" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\AppDetailsRecyclerViewAdapter.java">
+<violation beginline="440" endline="441" begincolumn="17" endcolumn="71" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="org.fdroid.fdroid.views" class="AppDetailsRecyclerViewAdapter$HeaderViewHolder" method="bindModel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="442" endline="442" begincolumn="17" endcolumn="42" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="org.fdroid.fdroid.views" class="AppDetailsRecyclerViewAdapter$HeaderViewHolder" method="bindModel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="463" endline="463" begincolumn="47" endcolumn="76" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.views" class="AppDetailsRecyclerViewAdapter$HeaderViewHolder" method="bindModel" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\InstallHistoryActivity.java">
+<violation beginline="69" endline="69" begincolumn="51" endcolumn="65" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views" class="InstallHistoryActivity" method="onCreate" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="87" endline="113" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views" class="InstallHistoryActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\ManageReposActivity.java">
+<violation beginline="155" endline="159" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views" class="ManageReposActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="201" endline="201" begincolumn="38" endcolumn="39" rule="UseStringBufferForStringAppends" ruleset="Performance" package="org.fdroid.fdroid.views" class="ManageReposActivity" method="showAddRepo" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\OverscrollLinearLayoutManager.java">
+<violation beginline="41" endline="41" begincolumn="34" endcolumn="58" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views" class="OverscrollLinearLayoutManager" variable="overscrollListener" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'overscrollListener'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\apps\AppListActivity.java">
+<violation beginline="136" endline="143" begincolumn="17" endcolumn="17" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="AppListActivity" method="onScrollStateChanged" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="171" endline="171" begincolumn="44" endcolumn="46" rule="AppendCharacterWithChar" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="AppListActivity" method="getSearchText" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\apps\AppListItemState.java">
+<violation beginline="15" endline="15" begincolumn="26" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="AppListItemState" variable="mainText" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'mainText'
+</violation>
+<violation beginline="16" endline="16" begincolumn="26" endcolumn="48" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="AppListItemState" variable="actionButtonText" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'actionButtonText'
+</violation>
+<violation beginline="17" endline="17" begincolumn="26" endcolumn="51" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="AppListItemState" variable="secondaryButtonText" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'secondaryButtonText'
+</violation>
+<violation beginline="18" endline="18" begincolumn="26" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="AppListItemState" variable="statusText" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'statusText'
+</violation>
+<violation beginline="19" endline="19" begincolumn="26" endcolumn="51" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="AppListItemState" variable="secondaryStatusText" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'secondaryStatusText'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\apps\CategoryTextWatcher.java">
+<violation beginline="35" endline="35" begincolumn="21" endcolumn="53" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views.apps" class="CategoryTextWatcher" variable="requiresSpanRecalculation" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'requiresSpanRecalculation'
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\installed\InstalledAppsActivity.java">
+<violation beginline="115" endline="134" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.installed" class="InstalledAppsActivity" method="onOptionsItemSelected" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="117" endline="117" begincolumn="31" endcolumn="43" rule="InsufficientStringBufferDeclaration" ruleset="Performance" package="org.fdroid.fdroid.views.installed" class="InstalledAppsActivity" method="onOptionsItemSelected" variable="stringBuilder" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#insufficientstringbufferdeclaration" priority="3">
+StringBuffer constructor is initialized with size 16, but has at least 38 characters appended.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\main\MainActivity.java">
+<violation beginline="364" endline="369" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.main" class="MainActivity" method="getBottomNavigationBackgroundColorResId" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="404" endline="422" begincolumn="13" endcolumn="13" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.main" class="MainActivity" method="onReceive" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\main\WhatsNewViewBinder.java">
+<violation beginline="144" endline="144" begincolumn="9" endcolumn="96" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="org.fdroid.fdroid.views.main" class="WhatsNewViewBinder" method="explainEmptyStateToUser" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\updates\UpdatesAdapter.java">
+<violation beginline="81" endline="81" begincolumn="21" endcolumn="49" rule="RedundantFieldInitializer" ruleset="Performance" package="org.fdroid.fdroid.views.updates" class="UpdatesAdapter" variable="showAllUpdateableApps" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'showAllUpdateableApps'
+</violation>
+<violation beginline="119" endline="119" begincolumn="38" endcolumn="68" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.views.updates" class="UpdatesAdapter" method="populateAppStatuses" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="219" endline="227" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.updates" class="UpdatesAdapter" method="onLoadFinished" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="238" endline="238" begincolumn="32" endcolumn="75" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.views.updates" class="UpdatesAdapter" method="onCanUpdateLoadFinished" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="248" endline="248" begincolumn="31" endcolumn="73" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="org.fdroid.fdroid.views.updates" class="UpdatesAdapter" method="onKnownVulnLoadFinished" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="283" endline="291" begincolumn="9" endcolumn="9" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.updates" class="UpdatesAdapter" method="onManyAppStatusesChanged" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+<file name="C:\Users\jcall\Apps\FDN\app\src\main\java\org\fdroid\fdroid\views\updates\items\AppStatusListItemController.java">
+<violation beginline="38" endline="44" begincolumn="13" endcolumn="13" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.updates.items" class="AppStatusListItemController" method="getStatusText" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+<violation beginline="63" endline="68" begincolumn="13" endcolumn="13" rule="UseArraysAsList" ruleset="Performance" package="org.fdroid.fdroid.views.updates.items" class="AppStatusListItemController" method="onDismissApp" externalInfoUrl="https://pmd.github.io/pmd-6.0.0/pmd_rules_java_performance.html#usearraysaslist" priority="3">
+A switch with less than three branches is inefficient, use a if statement instead.
+</violation>
+</file>
+</pmd>

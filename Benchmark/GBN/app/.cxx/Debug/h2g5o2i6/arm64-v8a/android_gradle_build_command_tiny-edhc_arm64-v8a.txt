@@ -1,0 +1,7 @@
+Executable : C:\Users\jcall\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\jcall\Apps\GBN\app\.cxx\Debug\h2g5o2i6\arm64-v8a
+tiny-edhc
+jvmArgs : 
+

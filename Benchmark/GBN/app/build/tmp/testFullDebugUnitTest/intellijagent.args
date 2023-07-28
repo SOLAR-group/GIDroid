@@ -1,0 +1,8 @@
+C:\Users\jcall\Apps\GBN\app\build\kover\testFullDebugUnitTest.ic
+false
+false
+true
+false
+-exclude
+android\..*
+com\.android\..*

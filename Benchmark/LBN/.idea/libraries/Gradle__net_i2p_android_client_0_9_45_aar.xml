@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: net.i2p.android:client:0.9.45@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/de61c9de704cb0e502fc7f4354e40f31/transformed/jetified-client-0.9.45/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/de61c9de704cb0e502fc7f4354e40f31/transformed/jetified-client-0.9.45/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/de61c9de704cb0e502fc7f4354e40f31/transformed/jetified-client-0.9.45/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/client/0.9.45/91bd5f4da5a4fe4bf45b57483b01a04d590c0848/client-0.9.45-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/client/0.9.45/5067d451896a57ec56f1b0693ec8385f4217f3/client-0.9.45-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

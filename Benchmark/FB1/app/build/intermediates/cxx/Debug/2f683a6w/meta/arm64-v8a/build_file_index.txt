@@ -1,0 +1,1 @@
+C:\Users\jcall\Apps\FB1\app\src\main\jni\Android.mk

@@ -1,0 +1,593 @@
+org/fdroid/fdroid/QrGenAsyncTask.java
+ org.fdroid.fdroid.QrGenAsyncTask
+org/fdroid/fdroid/acra/CrashReportActivity.java
+ org.fdroid.fdroid.acra.CrashReportActivity
+org/fdroid/fdroid/views/updates/UpdatesItemTouchCallback.java
+ org.fdroid.fdroid.views.updates.UpdatesItemTouchCallback
+org/fdroid/fdroid/views/categories/CategoryAdapter.java
+ org.fdroid.fdroid.views.categories.CategoryAdapter
+org/fdroid/fdroid/views/LinearLayoutManagerSnapHelper.java
+ org.fdroid.fdroid.views.LinearLayoutManagerSnapHelper
+ org.fdroid.fdroid.views.LinearLayoutManagerSnapHelper$LinearSnapHelperListener
+com/google/zxing/encode/Contents.java
+ com.google.zxing.encode.Contents
+ com.google.zxing.encode.Contents$Type
+org/fdroid/fdroid/views/hiding/HidingManager.java
+ org.fdroid.fdroid.views.hiding.HidingManager
+org/fdroid/fdroid/data/ApkProvider.java
+ org.fdroid.fdroid.data.ApkProvider
+ org.fdroid.fdroid.data.ApkProvider$1
+ org.fdroid.fdroid.data.ApkProvider$Helper
+ org.fdroid.fdroid.data.ApkProvider$Query
+org/fdroid/fdroid/data/Apk.java
+ org.fdroid.fdroid.data.Apk
+ org.fdroid.fdroid.data.Apk$1
+org/fdroid/fdroid/views/apps/StandardAppListItemController.java
+ org.fdroid.fdroid.views.apps.StandardAppListItemController
+org/fdroid/fdroid/installer/PrivilegedInstaller.java
+ org.fdroid.fdroid.installer.PrivilegedInstaller
+ org.fdroid.fdroid.installer.PrivilegedInstaller$1
+ org.fdroid.fdroid.installer.PrivilegedInstaller$2
+ org.fdroid.fdroid.installer.PrivilegedInstaller$2$1
+ org.fdroid.fdroid.installer.PrivilegedInstaller$3
+ org.fdroid.fdroid.installer.PrivilegedInstaller$3$1
+org/fdroid/fdroid/views/installed/InstalledAppListAdapter.java
+ org.fdroid.fdroid.views.installed.InstalledAppListAdapter
+org/fdroid/fdroid/installer/Installer.java
+ org.fdroid.fdroid.installer.Installer
+org/fdroid/fdroid/net/bluetooth/httpish/headers/Header.java
+ org.fdroid.fdroid.net.bluetooth.httpish.headers.Header
+org/fdroid/fdroid/net/bluetooth/httpish/headers/ETagHeader.java
+ org.fdroid.fdroid.net.bluetooth.httpish.headers.ETagHeader
+org/fdroid/fdroid/data/RepoPersister.java
+ org.fdroid.fdroid.data.RepoPersister
+org/fdroid/fdroid/CleanCacheService.java
+ org.fdroid.fdroid.CleanCacheService
+org/fdroid/fdroid/installer/ApkFileProvider.java
+ org.fdroid.fdroid.installer.ApkFileProvider
+org/fdroid/fdroid/privileged/views/CaffeinatedScrollView.java
+ org.fdroid.fdroid.privileged.views.CaffeinatedScrollView
+org/fdroid/fdroid/receiver/StartupReceiver.java
+ org.fdroid.fdroid.receiver.StartupReceiver
+org/fdroid/fdroid/data/InstalledApp.java
+ org.fdroid.fdroid.data.InstalledApp
+org/fdroid/fdroid/privileged/views/TabsAdapter.java
+ org.fdroid.fdroid.privileged.views.TabsAdapter
+ org.fdroid.fdroid.privileged.views.TabsAdapter$DummyTabFactory
+org/fdroid/fdroid/data/FDroidProvider.java
+ org.fdroid.fdroid.data.FDroidProvider
+org/fdroid/fdroid/NotificationHelper.java
+ org.fdroid.fdroid.NotificationHelper
+ org.fdroid.fdroid.NotificationHelper$1
+ org.fdroid.fdroid.NotificationHelper$2
+ org.fdroid.fdroid.NotificationHelper$3
+org/fdroid/fdroid/views/ScreenShotsRecyclerViewAdapter.java
+ org.fdroid.fdroid.views.ScreenShotsRecyclerViewAdapter
+ org.fdroid.fdroid.views.ScreenShotsRecyclerViewAdapter$Listener
+ org.fdroid.fdroid.views.ScreenShotsRecyclerViewAdapter$ScreenShotViewHolder
+org/fdroid/fdroid/net/bluetooth/BluetoothClient.java
+ org.fdroid.fdroid.net.bluetooth.BluetoothClient
+org/fdroid/fdroid/ProgressListener.java
+ org.fdroid.fdroid.ProgressListener
+org/fdroid/fdroid/Utils.java
+ org.fdroid.fdroid.Utils
+ org.fdroid.fdroid.Utils$HtmlTagHandler
+ org.fdroid.fdroid.Utils$Profiler
+org/fdroid/fdroid/acra/CrashReportSender.java
+ org.fdroid.fdroid.acra.CrashReportSender
+org/fdroid/fdroid/views/apps/CategorySpan.java
+ org.fdroid.fdroid.views.apps.CategorySpan
+org/fdroid/fdroid/data/DBHelper.java
+ org.fdroid.fdroid.data.DBHelper
+org/fdroid/fdroid/Provisioner.java
+ org.fdroid.fdroid.Provisioner
+ org.fdroid.fdroid.Provisioner$1
+ org.fdroid.fdroid.Provisioner$Provision
+ org.fdroid.fdroid.Provisioner$ProvisionPlaintext
+ org.fdroid.fdroid.Provisioner$RepositoryProvision
+org/fdroid/fdroid/net/bluetooth/FileDetails.java
+ org.fdroid.fdroid.net.bluetooth.FileDetails
+org/fdroid/fdroid/receiver/DeviceStorageReceiver.java
+ org.fdroid.fdroid.receiver.DeviceStorageReceiver
+org/fdroid/fdroid/data/AppPrefsProvider.java
+ org.fdroid.fdroid.data.AppPrefsProvider
+ org.fdroid.fdroid.data.AppPrefsProvider$1
+ org.fdroid.fdroid.data.AppPrefsProvider$Helper
+ org.fdroid.fdroid.data.AppPrefsProvider$Query
+org/fdroid/fdroid/views/ShareChooserDialog.java
+ org.fdroid.fdroid.views.ShareChooserDialog
+ org.fdroid.fdroid.views.ShareChooserDialog$1
+ org.fdroid.fdroid.views.ShareChooserDialog$1VH
+ org.fdroid.fdroid.views.ShareChooserDialog$2
+ org.fdroid.fdroid.views.ShareChooserDialog$3
+ org.fdroid.fdroid.views.ShareChooserDialog$3$1
+ org.fdroid.fdroid.views.ShareChooserDialog$3$2
+ org.fdroid.fdroid.views.ShareChooserDialog$ShareChooserDialogListener
+org/fdroid/fdroid/views/main/WhatsNewViewBinder.java
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder$1
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder$2
+ org.fdroid.fdroid.views.main.WhatsNewViewBinder$3
+org/fdroid/fdroid/installer/DefaultInstaller.java
+ org.fdroid.fdroid.installer.DefaultInstaller
+org/fdroid/fdroid/data/PackageProvider.java
+ org.fdroid.fdroid.data.PackageProvider
+ org.fdroid.fdroid.data.PackageProvider$1
+ org.fdroid.fdroid.data.PackageProvider$Helper
+ org.fdroid.fdroid.data.PackageProvider$Query
+org/fdroid/fdroid/data/AppPrefs.java
+ org.fdroid.fdroid.data.AppPrefs
+org/fdroid/fdroid/installer/ErrorDialogActivity.java
+ org.fdroid.fdroid.installer.ErrorDialogActivity
+ org.fdroid.fdroid.installer.ErrorDialogActivity$1
+ org.fdroid.fdroid.installer.ErrorDialogActivity$2
+org/fdroid/fdroid/views/updates/items/UpdateableAppsHeader.java
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$Delegate
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$ViewHolder
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$ViewHolder$1
+ org.fdroid.fdroid.views.updates.items.UpdateableAppsHeader$ViewHolder$2
+org/fdroid/fdroid/ProgressBufferedInputStream.java
+ org.fdroid.fdroid.ProgressBufferedInputStream
+org/fdroid/fdroid/views/updates/items/UpdateableAppListItemController.java
+ org.fdroid.fdroid.views.updates.items.UpdateableAppListItemController
+org/fdroid/fdroid/privileged/IPrivilegedService.java
+ org.fdroid.fdroid.privileged.IPrivilegedService
+ org.fdroid.fdroid.privileged.IPrivilegedService$Default
+ org.fdroid.fdroid.privileged.IPrivilegedService$Stub
+ org.fdroid.fdroid.privileged.IPrivilegedService$Stub$Proxy
+org/fdroid/fdroid/net/Downloader.java
+ org.fdroid.fdroid.net.Downloader
+ org.fdroid.fdroid.net.Downloader$1
+ org.fdroid.fdroid.net.Downloader$WrappedInputStream
+org/fdroid/fdroid/UpdateJobService.java
+ org.fdroid.fdroid.UpdateJobService
+org/fdroid/fdroid/receiver/PackageManagerReceiver.java
+ org.fdroid.fdroid.receiver.PackageManagerReceiver
+org/fdroid/fdroid/views/SeekBarForegroundThumb.java
+ org.fdroid.fdroid.views.SeekBarForegroundThumb
+org/fdroid/fdroid/views/apps/AppListActivity.java
+ org.fdroid.fdroid.views.apps.AppListActivity
+ org.fdroid.fdroid.views.apps.AppListActivity$1
+ org.fdroid.fdroid.views.apps.AppListActivity$2
+ org.fdroid.fdroid.views.apps.AppListActivity$3
+ org.fdroid.fdroid.views.apps.AppListActivity$4
+ org.fdroid.fdroid.views.apps.AppListActivity$5
+ org.fdroid.fdroid.views.apps.AppListActivity$SortClause
+org/fdroid/fdroid/data/AppProvider.java
+ org.fdroid.fdroid.data.AppProvider
+ org.fdroid.fdroid.data.AppProvider$AppQuerySelection
+ org.fdroid.fdroid.data.AppProvider$Helper
+ org.fdroid.fdroid.data.AppProvider$Query
+org/fdroid/fdroid/views/updates/items/KnownVulnApp.java
+ org.fdroid.fdroid.views.updates.items.KnownVulnApp
+ org.fdroid.fdroid.views.updates.items.KnownVulnApp$Delegate
+org/fdroid/fdroid/data/InstalledAppProvider.java
+ org.fdroid.fdroid.data.InstalledAppProvider
+ org.fdroid.fdroid.data.InstalledAppProvider$1
+ org.fdroid.fdroid.data.InstalledAppProvider$Helper
+ org.fdroid.fdroid.data.InstalledAppProvider$QueryBuilder
+org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$2
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$3
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$4
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$5
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$AppDetailsRecyclerViewAdapterCallbacks
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$AppDetailsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$DonateViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$DonateViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$ExpandableLinearLayoutViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$2
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$3
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$HeaderViewHolder$4
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$LinksViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$LinksViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$NoVersionsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$NoVersionsViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$NoVersionsViewHolder$2
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$PermissionsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$PermissionsViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$SafeURLSpan
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$ScreenShotsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionViewHolder$1
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionsViewHolder
+ org.fdroid.fdroid.views.AppDetailsRecyclerViewAdapter$VersionsViewHolder$1
+org/fdroid/fdroid/views/InstallHistoryActivity.java
+ org.fdroid.fdroid.views.InstallHistoryActivity
+org/fdroid/fdroid/net/bluetooth/httpish/headers/ContentLengthHeader.java
+ org.fdroid.fdroid.net.bluetooth.httpish.headers.ContentLengthHeader
+org/fdroid/fdroid/compat/PRNGFixes.java
+ org.fdroid.fdroid.compat.PRNGFixes
+ org.fdroid.fdroid.compat.PRNGFixes$LinuxPRNGSecureRandom
+ org.fdroid.fdroid.compat.PRNGFixes$LinuxPRNGSecureRandomProvider
+org/fdroid/fdroid/views/main/MainActivity.java
+ org.fdroid.fdroid.views.main.MainActivity
+ org.fdroid.fdroid.views.main.MainActivity$1
+ org.fdroid.fdroid.views.main.MainActivity$NonScrollingHorizontalLayoutManager
+org/fdroid/fdroid/privileged/views/AppSecurityPermissions.java
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$1
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$MyPermissionGroupInfo
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$MyPermissionInfo
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$PermissionGroupInfoComparator
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$PermissionInfoComparator
+ org.fdroid.fdroid.privileged.views.AppSecurityPermissions$PermissionItemView
+org/fdroid/fdroid/views/OverscrollLinearLayoutManager.java
+ org.fdroid.fdroid.views.OverscrollLinearLayoutManager
+ org.fdroid.fdroid.views.OverscrollLinearLayoutManager$OnOverscrollListener
+org/fdroid/fdroid/views/updates/items/AppStatusListItemController.java
+ org.fdroid.fdroid.views.updates.items.AppStatusListItemController
+ org.fdroid.fdroid.views.updates.items.AppStatusListItemController$1
+org/fdroid/fdroid/data/RepoProvider.java
+ org.fdroid.fdroid.data.RepoProvider
+ org.fdroid.fdroid.data.RepoProvider$Helper
+org/fdroid/fdroid/views/apps/AppListItemState.java
+ org.fdroid.fdroid.views.apps.AppListItemState
+org/fdroid/fdroid/views/updates/DismissResult.java
+ org.fdroid.fdroid.views.updates.DismissResult
+org/fdroid/fdroid/net/bluetooth/BluetoothConstants.java
+ org.fdroid.fdroid.net.bluetooth.BluetoothConstants
+org/fdroid/fdroid/AboutActivity.java
+ org.fdroid.fdroid.AboutActivity
+ org.fdroid.fdroid.AboutActivity$1
+org/fdroid/fdroid/data/TempAppProvider.java
+ org.fdroid.fdroid.data.TempAppProvider
+ org.fdroid.fdroid.data.TempAppProvider$Helper
+org/fdroid/fdroid/net/ConnectivityMonitorService.java
+ org.fdroid.fdroid.net.ConnectivityMonitorService
+ org.fdroid.fdroid.net.ConnectivityMonitorService$1
+org/fdroid/fdroid/data/OrderClause.java
+ org.fdroid.fdroid.data.OrderClause
+org/fdroid/fdroid/NfcHelper.java
+ org.fdroid.fdroid.NfcHelper
+org/fdroid/fdroid/views/PreferencesFragment.java
+ org.fdroid.fdroid.views.PreferencesFragment
+ org.fdroid.fdroid.views.PreferencesFragment$1
+ org.fdroid.fdroid.views.PreferencesFragment$2
+ org.fdroid.fdroid.views.PreferencesFragment$3
+ org.fdroid.fdroid.views.PreferencesFragment$4
+ org.fdroid.fdroid.views.PreferencesFragment$5
+ org.fdroid.fdroid.views.PreferencesFragment$6
+org/fdroid/fdroid/FDroidApp.java
+ org.fdroid.fdroid.FDroidApp
+ org.fdroid.fdroid.FDroidApp$1
+ org.fdroid.fdroid.FDroidApp$2
+ org.fdroid.fdroid.FDroidApp$3
+ org.fdroid.fdroid.FDroidApp$4
+ org.fdroid.fdroid.FDroidApp$5
+org/fdroid/fdroid/data/ObbUrlActivity.java
+ org.fdroid.fdroid.data.ObbUrlActivity
+org/fdroid/fdroid/CleanCacheJobService.java
+ org.fdroid.fdroid.CleanCacheJobService
+org/fdroid/fdroid/data/NewRepoConfig.java
+ org.fdroid.fdroid.data.NewRepoConfig
+org/fdroid/fdroid/compat/PackageManagerCompat.java
+ org.fdroid.fdroid.compat.PackageManagerCompat
+org/fdroid/fdroid/data/ValueObject.java
+ org.fdroid.fdroid.data.ValueObject
+org/fdroid/fdroid/views/updates/UpdatesViewBinder.java
+ org.fdroid.fdroid.views.updates.UpdatesViewBinder
+ org.fdroid.fdroid.views.updates.UpdatesViewBinder$1
+ org.fdroid.fdroid.views.updates.UpdatesViewBinder$2
+org/fdroid/fdroid/views/installed/InstalledAppListItemController.java
+ org.fdroid.fdroid.views.installed.InstalledAppListItemController
+org/fdroid/fdroid/views/RepoDetailsActivity.java
+ org.fdroid.fdroid.views.RepoDetailsActivity
+ org.fdroid.fdroid.views.RepoDetailsActivity$1
+ org.fdroid.fdroid.views.RepoDetailsActivity$2
+ org.fdroid.fdroid.views.RepoDetailsActivity$3
+ org.fdroid.fdroid.views.RepoDetailsActivity$4
+ org.fdroid.fdroid.views.RepoDetailsActivity$5
+ org.fdroid.fdroid.views.RepoDetailsActivity$6
+org/fdroid/fdroid/views/updates/items/KnownVulnAppListItemController.java
+ org.fdroid.fdroid.views.updates.items.KnownVulnAppListItemController
+ org.fdroid.fdroid.views.updates.items.KnownVulnAppListItemController$1
+org/fdroid/fdroid/installer/InstallHistoryService.java
+ org.fdroid.fdroid.installer.InstallHistoryService
+ org.fdroid.fdroid.installer.InstallHistoryService$1
+org/fdroid/fdroid/data/SanitizedFile.java
+ org.fdroid.fdroid.data.SanitizedFile
+org/fdroid/fdroid/data/InstalledAppProviderService.java
+ org.fdroid.fdroid.data.InstalledAppProviderService
+ org.fdroid.fdroid.data.InstalledAppProviderService$1
+ org.fdroid.fdroid.data.InstalledAppProviderService$2
+ org.fdroid.fdroid.data.InstalledAppProviderService$3
+ org.fdroid.fdroid.data.InstalledAppProviderService$4
+org/fdroid/fdroid/data/Schema.java
+ org.fdroid.fdroid.data.Schema
+ org.fdroid.fdroid.data.Schema$AntiFeatureTable
+ org.fdroid.fdroid.data.Schema$AntiFeatureTable$Cols
+ org.fdroid.fdroid.data.Schema$ApkAntiFeatureJoinTable
+ org.fdroid.fdroid.data.Schema$ApkAntiFeatureJoinTable$Cols
+ org.fdroid.fdroid.data.Schema$ApkTable
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols$AntiFeatures
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols$Package
+ org.fdroid.fdroid.data.Schema$ApkTable$Cols$Repo
+ org.fdroid.fdroid.data.Schema$AppMetadataTable
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$ForWriting
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$ForWriting$Categories
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$InstalledApp
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$Package
+ org.fdroid.fdroid.data.Schema$AppMetadataTable$Cols$SuggestedApk
+ org.fdroid.fdroid.data.Schema$AppPrefsTable
+ org.fdroid.fdroid.data.Schema$AppPrefsTable$Cols
+ org.fdroid.fdroid.data.Schema$CatJoinTable
+ org.fdroid.fdroid.data.Schema$CatJoinTable$Cols
+ org.fdroid.fdroid.data.Schema$CategoryTable
+ org.fdroid.fdroid.data.Schema$CategoryTable$Cols
+ org.fdroid.fdroid.data.Schema$InstalledAppTable
+ org.fdroid.fdroid.data.Schema$InstalledAppTable$Cols
+ org.fdroid.fdroid.data.Schema$InstalledAppTable$Cols$Package
+ org.fdroid.fdroid.data.Schema$PackageTable
+ org.fdroid.fdroid.data.Schema$PackageTable$Cols
+ org.fdroid.fdroid.data.Schema$RepoTable
+ org.fdroid.fdroid.data.Schema$RepoTable$Cols
+com/google/zxing/integration/android/IntentIntegrator.java
+ com.google.zxing.integration.android.IntentIntegrator
+ com.google.zxing.integration.android.IntentIntegrator$1
+org/fdroid/fdroid/RepoUpdater.java
+ org.fdroid.fdroid.RepoUpdater
+ org.fdroid.fdroid.RepoUpdater$1
+ org.fdroid.fdroid.RepoUpdater$2
+ org.fdroid.fdroid.RepoUpdater$3
+ org.fdroid.fdroid.RepoUpdater$SigningException
+ org.fdroid.fdroid.RepoUpdater$UpdateException
+org/fdroid/fdroid/installer/InstallerService.java
+ org.fdroid.fdroid.installer.InstallerService
+ org.fdroid.fdroid.installer.InstallerService$1
+org/fdroid/fdroid/net/HttpDownloader.java
+ org.fdroid.fdroid.net.HttpDownloader
+org/fdroid/fdroid/installer/FileInstallerActivity.java
+ org.fdroid.fdroid.installer.FileInstallerActivity
+ org.fdroid.fdroid.installer.FileInstallerActivity$1
+ org.fdroid.fdroid.installer.FileInstallerActivity$2
+org/fdroid/fdroid/compat/SupportedArchitectures.java
+ org.fdroid.fdroid.compat.SupportedArchitectures
+org/fdroid/fdroid/net/bluetooth/httpish/Request.java
+ org.fdroid.fdroid.net.bluetooth.httpish.Request
+ org.fdroid.fdroid.net.bluetooth.httpish.Request$Methods
+org/fdroid/fdroid/Languages.java
+ org.fdroid.fdroid.Languages
+org/fdroid/fdroid/RepoXMLHandler.java
+ org.fdroid.fdroid.RepoXMLHandler
+ org.fdroid.fdroid.RepoXMLHandler$IndexReceiver
+org/fdroid/fdroid/views/ScreenShotsActivity.java
+ org.fdroid.fdroid.views.ScreenShotsActivity
+ org.fdroid.fdroid.views.ScreenShotsActivity$DepthPageTransformer
+ org.fdroid.fdroid.views.ScreenShotsActivity$ScreenShotPageFragment
+ org.fdroid.fdroid.views.ScreenShotsActivity$ScreenShotPagerAdapter
+org/fdroid/fdroid/data/RepoPushRequest.java
+ org.fdroid.fdroid.data.RepoPushRequest
+org/fdroid/fdroid/views/main/SettingsView.java
+ org.fdroid.fdroid.views.main.SettingsView
+org/fdroid/fdroid/views/ManageReposActivity.java
+ org.fdroid.fdroid.views.ManageReposActivity
+ org.fdroid.fdroid.views.ManageReposActivity$1
+ org.fdroid.fdroid.views.ManageReposActivity$2
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$1
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$2
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$3
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$4
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$5
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$5$1
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$5$2
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepo$6
+ org.fdroid.fdroid.views.ManageReposActivity$AddRepoState
+com/google/zxing/encode/QRCodeEncoder.java
+ com.google.zxing.encode.QRCodeEncoder
+org/fdroid/fdroid/CompatibilityChecker.java
+ org.fdroid.fdroid.CompatibilityChecker
+org/fdroid/fdroid/net/DownloaderFactory.java
+ org.fdroid.fdroid.net.DownloaderFactory
+org/fdroid/fdroid/net/ImageLoaderForUIL.java
+ org.fdroid.fdroid.net.ImageLoaderForUIL
+ org.fdroid.fdroid.net.ImageLoaderForUIL$1
+org/fdroid/fdroid/AppUpdateStatusManager.java
+ org.fdroid.fdroid.AppUpdateStatusManager
+ org.fdroid.fdroid.AppUpdateStatusManager$1
+ org.fdroid.fdroid.AppUpdateStatusManager$AppUpdateStatus
+ org.fdroid.fdroid.AppUpdateStatusManager$AppUpdateStatus$1
+ org.fdroid.fdroid.AppUpdateStatusManager$Status
+org/fdroid/fdroid/data/App.java
+ org.fdroid.fdroid.data.App
+ org.fdroid.fdroid.data.App$1
+ org.fdroid.fdroid.data.App$2
+org/fdroid/fdroid/installer/ApkSignatureVerifier.java
+ org.fdroid.fdroid.installer.ApkSignatureVerifier
+org/fdroid/fdroid/BuildConfig.java
+ org.fdroid.fdroid.BuildConfig
+org/fdroid/fdroid/compat/FileCompat.java
+ org.fdroid.fdroid.compat.FileCompat
+ org.fdroid.fdroid.compat.FileCompat$1
+ org.fdroid.fdroid.compat.FileCompat$Symlink21
+com/google/zxing/integration/android/IntentResult.java
+ com.google.zxing.integration.android.IntentResult
+org/fdroid/fdroid/CleanCacheService21.java
+ org.fdroid.fdroid.CleanCacheService21
+org/fdroid/fdroid/views/updates/items/AppStatus.java
+ org.fdroid.fdroid.views.updates.items.AppStatus
+ org.fdroid.fdroid.views.updates.items.AppStatus$Delegate
+org/fdroid/fdroid/compat/CursorAdapterCompat.java
+ org.fdroid.fdroid.compat.CursorAdapterCompat
+org/fdroid/fdroid/privileged/IPrivilegedCallback.java
+ org.fdroid.fdroid.privileged.IPrivilegedCallback
+ org.fdroid.fdroid.privileged.IPrivilegedCallback$Default
+ org.fdroid.fdroid.privileged.IPrivilegedCallback$Stub
+ org.fdroid.fdroid.privileged.IPrivilegedCallback$Stub$Proxy
+org/fdroid/fdroid/Hasher.java
+ org.fdroid.fdroid.Hasher
+org/fdroid/fdroid/NotificationBroadcastReceiver.java
+ org.fdroid.fdroid.NotificationBroadcastReceiver
+org/fdroid/fdroid/net/WifiStateChangeService.java
+ org.fdroid.fdroid.net.WifiStateChangeService
+ org.fdroid.fdroid.net.WifiStateChangeService$WifiInfoThread
+org/fdroid/fdroid/IndexV1Updater.java
+ org.fdroid.fdroid.IndexV1Updater
+ org.fdroid.fdroid.IndexV1Updater$1
+ org.fdroid.fdroid.IndexV1Updater$2
+ org.fdroid.fdroid.IndexV1Updater$3
+ org.fdroid.fdroid.IndexV1Updater$4
+org/fdroid/fdroid/privileged/views/UninstallDialogActivity.java
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity$1
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity$2
+ org.fdroid.fdroid.privileged.views.UninstallDialogActivity$3
+org/fdroid/fdroid/data/Repo.java
+ org.fdroid.fdroid.data.Repo
+org/fdroid/fdroid/views/main/MainViewAdapter.java
+ org.fdroid.fdroid.views.main.MainViewAdapter
+org/fdroid/fdroid/net/DownloaderService.java
+ org.fdroid.fdroid.net.DownloaderService
+ org.fdroid.fdroid.net.DownloaderService$1
+ org.fdroid.fdroid.net.DownloaderService$ServiceHandler
+org/fdroid/fdroid/installer/DefaultInstallerActivity.java
+ org.fdroid.fdroid.installer.DefaultInstallerActivity
+org/fdroid/fdroid/acra/CrashReportSenderFactory.java
+ org.fdroid.fdroid.acra.CrashReportSenderFactory
+org/fdroid/fdroid/FDroidCertPins.java
+ org.fdroid.fdroid.FDroidCertPins
+org/fdroid/fdroid/NfcNotEnabledActivity.java
+ org.fdroid.fdroid.NfcNotEnabledActivity
+org/fdroid/fdroid/views/apps/AppListItemController.java
+ org.fdroid.fdroid.views.apps.AppListItemController
+ org.fdroid.fdroid.views.apps.AppListItemController$1
+ org.fdroid.fdroid.views.apps.AppListItemController$2
+ org.fdroid.fdroid.views.apps.AppListItemController$3
+ org.fdroid.fdroid.views.apps.AppListItemController$4
+ org.fdroid.fdroid.views.apps.AppListItemController$5
+ org.fdroid.fdroid.views.apps.AppListItemController$6
+ org.fdroid.fdroid.views.apps.AppListItemController$7
+ org.fdroid.fdroid.views.apps.AppListItemController$8
+ org.fdroid.fdroid.views.apps.AppListItemController$9
+org/fdroid/fdroid/net/bluetooth/BluetoothConnection.java
+ org.fdroid.fdroid.net.bluetooth.BluetoothConnection
+org/fdroid/fdroid/UpdateService.java
+ org.fdroid.fdroid.UpdateService
+ org.fdroid.fdroid.UpdateService$1
+ org.fdroid.fdroid.UpdateService$2
+ org.fdroid.fdroid.UpdateService$StillOnWifiAsyncTask
+org/fdroid/fdroid/views/main/MainViewController.java
+ org.fdroid.fdroid.views.main.MainViewController
+org/fdroid/fdroid/privileged/views/InstallConfirmActivity.java
+ org.fdroid.fdroid.privileged.views.InstallConfirmActivity
+ org.fdroid.fdroid.privileged.views.InstallConfirmActivity$1
+ org.fdroid.fdroid.privileged.views.InstallConfirmActivity$2
+org/fdroid/fdroid/views/updates/UpdatesAdapter.java
+ org.fdroid.fdroid.views.updates.UpdatesAdapter
+ org.fdroid.fdroid.views.updates.UpdatesAdapter$1
+ org.fdroid.fdroid.views.updates.UpdatesAdapter$2
+org/fdroid/fdroid/data/QuerySelection.java
+ org.fdroid.fdroid.data.QuerySelection
+org/fdroid/fdroid/views/updates/items/UpdateableApp.java
+ org.fdroid.fdroid.views.updates.items.UpdateableApp
+ org.fdroid.fdroid.views.updates.items.UpdateableApp$Delegate
+org/fdroid/fdroid/views/updates/items/AppUpdateData.java
+ org.fdroid.fdroid.views.updates.items.AppUpdateData
+org/fdroid/fdroid/data/QueryBuilder.java
+ org.fdroid.fdroid.data.QueryBuilder
+org/fdroid/fdroid/DeleteCacheService.java
+ org.fdroid.fdroid.DeleteCacheService
+org/fdroid/fdroid/installer/InstallerFactory.java
+ org.fdroid.fdroid.installer.InstallerFactory
+org/fdroid/fdroid/installer/ApkVerifier.java
+ org.fdroid.fdroid.installer.ApkVerifier
+ org.fdroid.fdroid.installer.ApkVerifier$ApkPermissionUnequalException
+ org.fdroid.fdroid.installer.ApkVerifier$ApkVerificationException
+org/fdroid/fdroid/net/BluetoothDownloader.java
+ org.fdroid.fdroid.net.BluetoothDownloader
+org/fdroid/fdroid/data/LoggingQuery.java
+ org.fdroid.fdroid.data.LoggingQuery
+ org.fdroid.fdroid.data.LoggingQuery$1
+ org.fdroid.fdroid.data.LoggingQuery$LogGetCountCursorWrapper
+org/fdroid/fdroid/installer/ApkCache.java
+ org.fdroid.fdroid.installer.ApkCache
+ org.fdroid.fdroid.installer.ApkCache$1
+org/fdroid/fdroid/views/apps/CategoryTextWatcher.java
+ org.fdroid.fdroid.views.apps.CategoryTextWatcher
+ org.fdroid.fdroid.views.apps.CategoryTextWatcher$SearchTermsChangedListener
+org/fdroid/fdroid/localrepo/peers/WifiPeer.java
+ org.fdroid.fdroid.localrepo.peers.WifiPeer
+org/fdroid/fdroid/installer/InstallManagerService.java
+ org.fdroid.fdroid.installer.InstallManagerService
+ org.fdroid.fdroid.installer.InstallManagerService$1
+ org.fdroid.fdroid.installer.InstallManagerService$2
+ org.fdroid.fdroid.installer.InstallManagerService$3
+org/fdroid/fdroid/privileged/views/AppDiff.java
+ org.fdroid.fdroid.privileged.views.AppDiff
+org/fdroid/fdroid/views/RepoAdapter.java
+ org.fdroid.fdroid.views.RepoAdapter
+ org.fdroid.fdroid.views.RepoAdapter$1
+ org.fdroid.fdroid.views.RepoAdapter$EnabledListener
+org/fdroid/fdroid/views/swap/SwapWorkflowActivity.java
+ org.fdroid.fdroid.views.swap.SwapWorkflowActivity
+org/fdroid/fdroid/data/TempApkProvider.java
+ org.fdroid.fdroid.data.TempApkProvider
+ org.fdroid.fdroid.data.TempApkProvider$Helper
+org/fdroid/fdroid/views/LiveSeekBarPreference.java
+ org.fdroid.fdroid.views.LiveSeekBarPreference
+ org.fdroid.fdroid.views.LiveSeekBarPreference$1
+ org.fdroid.fdroid.views.LiveSeekBarPreference$SeekBarLiveUpdater
+org/fdroid/fdroid/views/BannerUpdatingRepos.java
+ org.fdroid.fdroid.views.BannerUpdatingRepos
+ org.fdroid.fdroid.views.BannerUpdatingRepos$1
+org/fdroid/fdroid/data/CategoryProvider.java
+ org.fdroid.fdroid.data.CategoryProvider
+ org.fdroid.fdroid.data.CategoryProvider$1
+ org.fdroid.fdroid.data.CategoryProvider$Helper
+ org.fdroid.fdroid.data.CategoryProvider$Query
+org/fdroid/fdroid/views/apps/AppListAdapter.java
+ org.fdroid.fdroid.views.apps.AppListAdapter
+org/fdroid/fdroid/installer/FileInstaller.java
+ org.fdroid.fdroid.installer.FileInstaller
+org/fdroid/fdroid/Preferences.java
+ org.fdroid.fdroid.Preferences
+ org.fdroid.fdroid.Preferences$ChangeListener
+ org.fdroid.fdroid.Preferences$Theme
+org/fdroid/fdroid/views/installed/InstalledAppsActivity.java
+ org.fdroid.fdroid.views.installed.InstalledAppsActivity
+org/fdroid/fdroid/views/apps/AppListItemDivider.java
+ org.fdroid.fdroid.views.apps.AppListItemDivider
+org/fdroid/fdroid/net/bluetooth/httpish/Response.java
+ org.fdroid.fdroid.net.bluetooth.httpish.Response
+ org.fdroid.fdroid.net.bluetooth.httpish.Response$Builder
+org/fdroid/fdroid/views/categories/AppPreviewAdapter.java
+ org.fdroid.fdroid.views.categories.AppPreviewAdapter
+org/fdroid/fdroid/AppDetails2.java
+ org.fdroid.fdroid.AppDetails2
+ org.fdroid.fdroid.AppDetails2$1
+ org.fdroid.fdroid.AppDetails2$10
+ org.fdroid.fdroid.AppDetails2$2
+ org.fdroid.fdroid.AppDetails2$3
+ org.fdroid.fdroid.AppDetails2$4
+ org.fdroid.fdroid.AppDetails2$5
+ org.fdroid.fdroid.AppDetails2$6
+ org.fdroid.fdroid.AppDetails2$7
+ org.fdroid.fdroid.AppDetails2$8
+ org.fdroid.fdroid.AppDetails2$9
+ org.fdroid.fdroid.AppDetails2$AppObserver
+org/fdroid/fdroid/views/categories/AppCardController.java
+ org.fdroid.fdroid.views.categories.AppCardController
+ org.fdroid.fdroid.views.categories.AppCardController$1
+org/fdroid/fdroid/views/whatsnew/WhatsNewAdapter.java
+ org.fdroid.fdroid.views.whatsnew.WhatsNewAdapter
+ org.fdroid.fdroid.views.whatsnew.WhatsNewAdapter$ItemDecorator
+ org.fdroid.fdroid.views.whatsnew.WhatsNewAdapter$SpanSizeLookup
+org/fdroid/fdroid/views/apps/FeatureImage.java
+ org.fdroid.fdroid.views.apps.FeatureImage
+ org.fdroid.fdroid.views.apps.FeatureImage$1
+ org.fdroid.fdroid.views.apps.FeatureImage$2
+ org.fdroid.fdroid.views.apps.FeatureImage$2$1
+ org.fdroid.fdroid.views.apps.FeatureImage$3
+ org.fdroid.fdroid.views.apps.FeatureImage$ImageLoadingAdapter
+org/fdroid/fdroid/views/categories/CategoryController.java
+ org.fdroid.fdroid.views.categories.CategoryController
+ org.fdroid.fdroid.views.categories.CategoryController$1
+ org.fdroid.fdroid.views.categories.CategoryController$ItemDecorator

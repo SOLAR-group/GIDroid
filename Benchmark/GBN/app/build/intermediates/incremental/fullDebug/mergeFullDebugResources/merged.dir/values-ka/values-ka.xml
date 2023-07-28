@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ახალი შეტყობინება</item>
+    <item quantity="other">%d ახალი შეტყობინება</item>
+  </plurals>
+    <string name="StringUtils_sender">(%1$s)</string>
+    <string name="_pebble_watch_mute">დადუმება</string>
+    <string name="_pebble_watch_open_on_phone">Android მოწყობილობით გასახსნელად</string>
+    <string name="_pebble_watch_reply">პასუხი</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"მთავარზე გადასვლა"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ზემოთ გადასვლა"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"სხვა ვარიანტები"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"მზადაა"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ყველას ნახვა"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"აირჩიეთ აპი"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"გამორთვა"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ჩართვა"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"შორისი"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ძიება…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"მოთხოვნის გასუფთავება"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"მოთხოვნის ძიება"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ძიება"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"მოთხოვნის გადაგზავნა"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ხმოვანი ძიება"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"გაზიარება:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-ით გაზიარება"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ჩაკეცვა"</string>
+    <string name="action_debug">გამართვა</string>
+    <string name="action_donate">დონაცია</string>
+    <string name="action_quit">შეწყვეტა</string>
+    <string name="action_settings">პარამეტრები</string>
+    <string name="activity_error_no_app_for_gpx">აქტივობის კვალის სანახავად, დააინსტალირე აპი, რომელსაც შეუძლია GPX ფაილების მართვა.</string>
+    <string name="activity_error_no_app_for_png">ამ ეკრანის ანაბეჭდის გასაზიარებლად დააინსტალირე აპი, რომელსაც შეუძლია გაუმკლავდეს გამოსახულების ფაილებს.</string>
+    <string name="activity_summaries">სპორტული საქმიანობა</string>
+    <string name="activity_summary_detail">სპორტული საქმიანობას დეტალი</string>
+    <string name="activity_summary_edit_name_title">რედაქტირება ეტიკეტი</string>
+    <string name="activity_summary_today">დღეს</string>
+    <string name="activity_summary_yesterday">გუშინ</string>
+    <string name="activity_type_activity">საქმიანობა</string>
+    <string name="activity_type_badminton">ბადმინტონი</string>
+    <string name="activity_type_basketball">კალათბურთი</string>
+    <string name="activity_type_biking">ველოსიპედები</string>
+    <string name="activity_type_cricket">კრიკეტი</string>
+    <string name="activity_type_deep_sleep">ღრმა ძილი</string>
+    <string name="activity_type_elliptical_trainer">ელიფსური მწვრთნელი</string>
+    <string name="activity_type_exercise">ვარჯიში</string>
+    <string name="activity_type_indoor_cycling">ველოსიპედით შენობაში</string>
+    <string name="activity_type_jump_roping">ხტომა თოკი</string>
+    <string name="activity_type_light_sleep">მსუბუქი ძილი</string>
+    <string name="activity_type_not_measured">არ იზომება</string>
+    <string name="activity_type_not_worn">გაჯეტი არ არის ნახმარი</string>
+    <string name="activity_type_pingpong">მაგიდის ტენისი</string>
+    <string name="activity_type_rowing_machine">ნიჩბოსნობა</string>
+    <string name="activity_type_running">სირბილი</string>
+    <string name="activity_type_soccer">ფეხბურთი</string>
+    <string name="activity_type_strength_training">ძალის ვარჯიში</string>
+    <string name="activity_type_swimming">ცურვა</string>
+    <string name="activity_type_swimming_openwater">ცურვა (ღია წყალში)</string>
+    <string name="activity_type_treadmill">სარბენი ბილიკი</string>
+    <string name="activity_type_unknown">უცნობი საქმიანობა</string>
+    <string name="activity_type_walking">გასეირნება</string>
+    <string name="activity_type_yoga">იოგა</string>
+    <string name="activity_web_view">აქტივობის ვებ – ხედი</string>
+    <string name="alarm_fri_short">პარ</string>
+    <string name="alarm_sat_short">შაბ</string>
+    <string name="alarm_smart_wakeup">ჭკვიანი გაღვიძება</string>
+    <string name="alarm_snooze">ჩაძინება</string>
+    <string name="alarm_thu_short">ხუთ</string>
+    <string name="app_configure">კონფიგურაცია</string>
+    <string name="app_move_to_top">ზევით გადასასვლელად</string>
+    <string name="application_name_generic">Gadgetbridge</string>
+    <string name="appmanager_app_openinstore">ფებლის მაღაზიაში ძებნა</string>
+    <string name="appmanager_cached_watchapps_watchfaces">აპლიკაციები ქეშიში</string>
+    <string name="appmanager_health_activate">გააქტიურება</string>
+    <string name="appmanager_health_deactivate">გამორტვა</string>
+    <string name="appmanager_hrm_activate">გაააქტიურე HRM</string>
+    <string name="appmanager_hrm_deactivate">გამორთე HRM</string>
+    <string name="appmanager_installed_watchapps">დაინსტალირებული აპლიკაციები</string>
+    <string name="appmanager_installed_watchfaces">დაინსტალირებული ციფერბლატები</string>
+    <string name="appmanager_weather_activate">გაააქტიურე სისტემის ამინდის აპლიკაცია</string>
+    <string name="appmanager_weather_deactivate">გამორთე სისტემის ამინდის აპლიკაცია</string>
+    <string name="appmanager_weather_install_provider">დააინსტალირე ამინდის შეტყობინების აპი</string>
+    <string name="appmananger_app_delete">წაშლა</string>
+    <string name="appmananger_app_delete_cache">წაშლა და ქეშიდან ამოღება</string>
+    <string name="appmananger_app_reinstall">ისევ ინსტალაცია</string>
+    <string name="battery_detail_activity_title">ელემენტის ინფორმაცია</string>
+    <string name="battery_level">ელემენტის დონე</string>
+    <string name="bottomsheet_action_expand_halfway">ნახევრამდე გაფართოება</string>
+    <string name="calendar_day">დღეს</string>
+    <string name="calendar_month">თვე</string>
+    <string name="calendar_six_months">6 თვე</string>
+    <string name="calendar_three_months">3 თვე</string>
+    <string name="calendar_two_weeks">ორი კვირა</string>
+    <string name="calendar_week">კვირა</string>
+    <string name="calendar_year">წელი</string>
+    <string name="cannot_connect">არ შეუძლია დაკავშირება: %1$s</string>
+    <string name="character_counter_content_description">შეყვანილია %2$d-დან %1$d სიმბოლო</string>
+    <string name="character_counter_overflowed_content_description">გადაჭარბებულია სიმბოლოთა ლიმიტი (%2$d-დან %1$d)</string>
+    <string name="chart_get_active_and_synchronize">დაკავდი აქტივობით და გააკეთე მოწყობილობის სინქრონიზაცია.</string>
+    <string name="chart_no_active_data">აქტივობა არ არის გამოვლენილი.</string>
+    <string name="chart_no_data_synchronize">Მონაცემები არ არის. მოწყობილობის სინქრონიზაცია\?</string>
+    <string name="clear_text_end_icon_content_description">ტექსტის გასუფთავება</string>
+    <string name="controlcenter_calibrate_device">მოწყობილობის დაკალიბრება</string>
+    <string name="controlcenter_change_fm_frequency">FM სიხშირის შეცვლა</string>
+    <string name="controlcenter_change_led_color">LED ფერის შეცვლა</string>
+    <string name="controlcenter_connect">დაკავშირება…</string>
+    <string name="controlcenter_delete_device">მოწყობილობის წაშლა</string>
+    <string name="controlcenter_delete_device_dialogmessage">ეს წაშლის ხელსაწყოს და მასთან დაკავშირებულ ყველა მონაცემს!</string>
+    <string name="controlcenter_delete_device_name">წაშლა %1$s</string>
+    <string name="controlcenter_disconnect">გათიშვა</string>
+    <string name="controlcenter_fetch_activity_data">სინქრონიზაცია</string>
+    <string name="controlcenter_find_device">დაკარგული მოწყობილობის პოვნა</string>
+    <string name="controlcenter_navigation_drawer_close">სანავიგაციო უჯრის დახურვა</string>
+    <string name="controlcenter_navigation_drawer_open">სანავიგაციო უჯრის გასახსნელად</string>
+    <string name="controlcenter_set_alias">აირჩიე მეტსახელი</string>
+    <string name="controlcenter_snackbar_connecting">აკავშირებს…</string>
+    <string name="controlcenter_snackbar_disconnecting">გათიშავს</string>
+    <string name="controlcenter_snackbar_need_longpress">დააჭირე ბარათს გათიშვისთვის</string>
+    <string name="controlcenter_snackbar_requested_screenshot">გაკეთება სკრინშოტი</string>
+    <string name="controlcenter_start_activity_tracks">შენი საქმიანობის ტრეკები</string>
+    <string name="controlcenter_start_activitymonitor">შენი საქმიანობა (ALPHA)</string>
+    <string name="controlcenter_take_screenshot">გაკეთება სკრინშოტი</string>
+    <string msgid="3209159573327985035" name="copy">"კოპირება"</string>
+    <string name="dbaccess_error_executing">\'%1$s\'-ის შესრულებისას მოხდა შეცდომა</string>
+    <string name="debugactivity_really_factoryreset">ქარხნის გადატვირთვისას წაიშლება ყველა მონაცემი დაკავშირებული მოწყობილობიდან (თუ მხარდაჭერილია). Xiaomi/Huami მოწყობილობები ასევე ცვლის Bluetooth MAC მისამართს, ამიტომ ისინი Gadgetbridge- ისთვის ახალი მოწყობილობებით გამოჩნდებიან.</string>
+    <string name="debugactivity_really_factoryreset_title">გსურთ რეალურად მოწყობილობის გადატვირთვა\?</string>
+    <string name="devicetype_amazfit_band5">Amazfit Band 5</string>
+    <string name="devicetype_amazfit_bip">Amazfit Bip</string>
+    <string name="devicetype_amazfit_bip_lite">Amazfit Bip Lite</string>
+    <string name="devicetype_amazfit_bips">Amazfit Bip S</string>
+    <string name="devicetype_amazfit_bips_lite">Amazfit Bip S Lite</string>
+    <string name="devicetype_amazfit_bipu">Amazfit Bip U</string>
+    <string name="devicetype_amazfit_cor">Amazfit Cor</string>
+    <string name="devicetype_amazfit_cor2">Amazfit Cor 2</string>
+    <string name="devicetype_amazfit_gtr">Amazfit GTR</string>
+    <string name="devicetype_amazfit_neo">Amazfit Neo</string>
+    <string name="devicetype_amazfit_trex">Amazfit T-Rex</string>
+    <string name="devicetype_miband">Mi Band</string>
+    <string name="devicetype_miband2">Mi Band 2</string>
+    <string name="devicetype_miband3">Mi Band 3</string>
+    <string name="devicetype_miband4">Mi Band 4</string>
+    <string name="devicetype_miband5">Mi Band 5</string>
+    <string name="devicetype_pebble">Pebble</string>
+    <string name="devicetype_test">მოწყობილობის შესამოწმებლად</string>
+    <string name="devicetype_unknown">უცნობი მოწყობილობა</string>
+    <string name="discovery_attempting_to_pair">ცდილობს %1$sთან დაწყვილებას</string>
+    <string name="discovery_bonding_failed_immediately">%1$sთან დაწყვილება მაშინვე ვერ მოხერხდა.</string>
+    <string name="discovery_dont_pair">არ დაწყვილდეს</string>
+    <string name="discovery_enable_bluetooth">უნდა ჩართო Bluetooth მოწყობილობების აღმოსაჩენად.</string>
+    <string name="discovery_pair_question">აირჩიეთ \"დაწყვილება\" თქვენი მოწყობილობების დასაწყვილებლად. თუ ეს ვერ მოხერხდა, ისევ სცადო დაწყვილების გარეშე.</string>
+    <string name="discovery_pair_title">უნდა დაწყვილდეს %1$sს\?</string>
+    <string name="discovery_successfully_bonded">%1$sთანაა შეკრული.</string>
+    <string name="discovery_trying_to_connect_to">ცდილობს %1$sთან დაკავშირებას</string>
+    <string name="discovery_yes_pair">დაწყვილება</string>
+    <string name="error_icon_content_description">შეცდომა</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"დამატებით"</string>
+    <string name="exposed_dropdown_menu_content_description">ჩამოსაშლელი მენიუს ჩვენება</string>
+    <string name="find_device_you_found_it">იპოვნე!</string>
+    <string name="find_lost_device_message">ეძებთ გაჯეტს\?</string>
+    <string name="find_lost_device_you_found_it">ვიპოვე!</string>
+    <string name="fw_upgrade_notice">დააინსტალირე %s.</string>
+    <string name="fw_upgrade_notice_amazfitbip">დააინსტალირე %s firmware შენს Amazfit Bip-ზე.</string>
+    <string name="icon_content_description">დიალოგის ხატულა</string>
+    <string name="installer_activity_unable_to_find_handler">არ შეუძლია ამ ფაილის დასაყენებლად დამმუშავებლის პოვნა.</string>
+    <string name="installer_activity_wait_while_determining_status">გთხოვ, დაელოდო სანამ დადგინდება ინსტალაციის სტატუსი…</string>
+    <string name="item_view_role_description">ჩანართი</string>
+    <string name="kind_firmware">Firmware</string>
+    <string name="kind_font">შრიფტი</string>
+    <string name="kind_gps">GPS Firmware</string>
+    <string name="kind_gps_almanac">GPS ალმანახი</string>
+    <string name="kind_gps_cep">GPS შეცდომის შესწორება</string>
+    <string name="kind_invalid">არასწორი მონაცემები</string>
+    <string name="kind_resources">რესურსები</string>
+    <string name="kind_watchface">ციფერბლატი</string>
+    <string name="material_clock_toggle_content_description">აირჩიეთ AM ან PM</string>
+    <string name="material_hour_selection">აირჩიეთ საათი</string>
+    <string name="material_hour_suffix">%1$s საათი</string>
+    <string name="material_minute_selection">აირჩიეთ წუთები</string>
+    <string name="material_minute_suffix">%1$s წუთი</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">დროის შეყვანისთვის საათის რეჟიმზე გადართვა.</string>
+    <string name="material_timepicker_hour">საათი</string>
+    <string name="material_timepicker_minute">წუთი</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">აირჩიეთ დრო</string>
+    <string name="material_timepicker_text_input_mode_description">დროის შეყვანისთვის ტექსტის შეყვანის რეჟიმზე გადართვა.</string>
+    <string name="maximum_duration">ხანგრძლივობა</string>
+    <string name="mi2_dnd_automatic">ავტომატური (ძილის გამოვლენა)</string>
+    <string name="mi2_dnd_off">გამორთვა</string>
+    <string name="mi2_dnd_scheduled">დაგეგმილი (დროის ინტერვალი)</string>
+    <string name="mi2_enable_text_notifications">ტექსტური შეტყობინებები</string>
+    <string name="mi2_enable_text_notifications_summary">სჭირდება დაინსტალირებული firmware >= 1.0.1.28 და Mili_pro.ft*.</string>
+    <string name="mi2_fw_installhandler_fw53_hint">ამ firmware-ის ინსტალაციამდე უნდა დააყენოთ %1$s ვერსია!</string>
+    <string name="mi3_night_mode_sunset">მზის ჩასვლისას</string>
+    <string name="miband2_prefs_timeformat">Mi2: დროის ფორმატი</string>
+    <string name="miband_prefs_fitness_goal">ყოველდღიური ნაბიჯის მიზანი</string>
+    <string name="mtrl_badge_numberless_content_description">ახალი შეტყობინება</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s-ის ამოშლა</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d-ზე მეტი ახალი შეტყობინება</string>
+    <string name="mtrl_picker_a11y_next_month">შემდეგ თვეზე გადასვლა</string>
+    <string name="mtrl_picker_a11y_prev_month">წინა თვეზე გადასვლა</string>
+    <string name="mtrl_picker_announce_current_selection">ამჟამინდელი არჩევანი: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">აირჩიეთ თარიღი</string>
+    <string name="mtrl_picker_date_header_unselected">არჩეული თარიღი</string>
+    <string name="mtrl_picker_day_of_week_column_header">დღეების სვეტი: %1$s</string>
+    <string name="mtrl_picker_invalid_format">არასწორი ფორმატი.</string>
+    <string name="mtrl_picker_invalid_format_example">მაგალითი: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s-ის გამოყენება</string>
+    <string name="mtrl_picker_invalid_range">დიაპაზონი არასწორია.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s წელზე ნავიგაცია</string>
+    <string name="mtrl_picker_out_of_range">დიაპაზონს მიღმა: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">დაწყების თარიღი - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - დასრულების თარიღი</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">აირჩიეთ დიაპაზონი</string>
+    <string name="mtrl_picker_range_header_unselected">დაწყების თარიღი - დასრულების თარიღი</string>
+    <string name="mtrl_picker_save">შენახვა</string>
+    <string name="mtrl_picker_text_input_date_hint">თარიღი</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">დასრულების თარიღი</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">დაწყების თარიღი</string>
+    <string name="mtrl_picker_text_input_day_abbr">დ</string>
+    <string name="mtrl_picker_text_input_month_abbr">წთ</string>
+    <string name="mtrl_picker_text_input_year_abbr">წ</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">კალენდარში შეყვანის რეჟიმზე გადართვა</string>
+    <string name="mtrl_picker_toggle_to_day_selection">შეეხეთ დღის არჩევაზე გადასართავად</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">ტექსტის შეყვანის რეჟიმზე გადართვა</string>
+    <string name="mtrl_picker_toggle_to_year_selection">შეეხეთ წლის არჩევაზე გადასართავად</string>
+    <string msgid="478774118347071097" name="not_set">"არ არის დაყენებული"</string>
+    <string name="notif_battery_low">%1$s ელემენტი ჯდება</string>
+    <string name="notif_battery_low_bigtext_last_charge_time">ბოლო დატენვა: %s
+\n</string>
+    <string name="notif_battery_low_bigtext_number_of_charges">დატენვის რაოდენობა: %s</string>
+    <string name="notif_battery_low_extended">%1$s ელემენტი ჯდება: %2$s</string>
+    <string name="notif_battery_low_percent">%1$s აკუმულატორის დანარჩენია: %2$s%%</string>
+    <string name="notif_battery_low_title">გაჯეტის აკუმულატორი დაბალია!</string>
+    <string name="notif_export_failed_title">მონაცემთა ბაზის ექსპორტი ვერ განხორციელდა! გთხოვ, შეამოწმო შენი პარამეტრები.</string>
+    <string name="off">გამორთვა</string>
+    <string name="on">ჩართვა</string>
+    <string name="password_toggle_content_description">პაროლის ჩვენება</string>
+    <string name="pbw_install_handler_hw_revision_mismatch">შეუძლებელია მოცემული firmware დაინსტალირება: არ ემთხვევა თქვენი Pebble- ის ტექნიკურ ვერსიას.</string>
+    <string name="pbw_install_handler_unable_to_install">არ შეუძლია ამ ფაილის ინსტალაცია: %1$s</string>
+    <string name="pref_screen_notification_profile_alarm_clock">მაღვიძარა</string>
+    <string msgid="7961817945132860002" name="preference_copied">"„<ns1:g id="SUMMARY">%1$s</ns1:g>“ კოპირებულია გაცვლის ბუფერში."</string>
+    <string name="prefs_autoremove_message">ავტომატურად ამოიღონ SMS შეტყობინებები</string>
+    <string name="prefs_charts_tabs">დიაგრამის ჩანართები</string>
+    <string name="reset_index">ჩამოტვირთვის თარიღის გადასაყენებლად</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ძიება"</string>
+    <string name="select_all">ყველას შესარჩევად</string>
+    <string name="share">გაზიარება</string>
+    <string name="sonyswr12_settings_alarm_interval">სიგნალის ჭკვიანი ინტერვალი წუთებში</string>
+    <string name="sonyswr12_settings_alarm_interval_summary">ჭკვიანი განგაშის ინტერვალი არის დაინსტალირებული მაღვიძარის ინტერვალი. ამ ინტერვალში მოწყობილობა ცდილობს გამოავლინოს ძილის ყველაზე მსუბუქი ფაზა, რომ გაიღვიძოს მომხმარებელი</string>
+    <string name="sonyswr12_settings_low_vibration">ჩართულია დაბალი ვიბრაცია</string>
+    <string name="sonyswr12_settings_low_vibration_summary">ჩართეთ ვიბრაციის დაბალი ინტენსივობა დიაპაზონში</string>
+    <string name="sonyswr12_settings_stamina">ენერგიის დაზოგვის რეჟიმი ჩართულია</string>
+    <string name="sonyswr12_settings_stamina_summary">ენერგიის დაზოგვის რეჟიმი გამორთავს გულისცემის პერიოდულ ავტომატურ გაზომვას და ამით ზრდის სამუშაო დროს</string>
+    <string name="sonyswr12_settings_title">Sony SWR12 პარამეტრები</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="title_activity_appmanager">აპლიკაციას მენეჭერი</string>
+    <string name="title_activity_calblacklist">კალენდარი შავ სიაში</string>
+    <string name="title_activity_controlcenter_generic">Gadgetbridge</string>
+    <string name="title_activity_debug">გამართვა</string>
+    <string name="title_activity_fw_app_insaller">FW/აპი ინსტალერი</string>
+    <string name="user_feedback_miband_activity_data_transfer">%1$s მონაცემების გადატანაა %2$s-დან დაწყებული</string>
+    <string name="user_feedback_miband_set_alarms_failed">მაღვიძარების დაყენებისას მოხდა შეცდომა, Გთხოვთ კიდევ სცადე.</string>
+    <string name="user_feedback_miband_set_alarms_ok">მაღვიძარები გაგზავნილ იქნა მოწყობილობაში.</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"გამორთული"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ჩართული"</string>
+</resources>

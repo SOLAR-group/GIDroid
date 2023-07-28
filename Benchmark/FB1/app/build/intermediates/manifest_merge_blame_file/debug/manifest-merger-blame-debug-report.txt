@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="be.digitalia.fosdem"
+4    android:versionCode="21"
+5    android:versionName="1.20" >
+6
+7    <uses-sdk
+7-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:13:3-15:36
+8        android:minSdkVersion="16"
+8-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:14:5-30
+9        android:targetSdkVersion="4" />
+9-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:15:5-33
+10
+11    <supports-screens
+11-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:7:3-11:33
+12        android:anyDensity="true"
+12-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:11:5-30
+13        android:largeScreens="true"
+13-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:10:5-32
+14        android:normalScreens="true"
+14-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:9:5-33
+15        android:smallScreens="true" />
+15-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:8:5-32
+16
+17    <application
+17-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:17:3-60:17
+18        android:name="androidx.multidex.MultiDexApplication"
+19        android:allowBackup="true"
+19-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:18:5-31
+20        android:debuggable="true"
+20-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:19:5-31
+21        android:icon="@drawable/app_frozen_bubble"
+21-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:20:5-47
+22        android:label="@string/app_name" >
+22-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:21:5-37
+23        <activity
+23-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:23:5-33:16
+24            android:name="org.jfedor.frozenbubble.FrozenBubble"
+24-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:24:7-34
+25            android:alwaysRetainTaskState="true"
+25-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:27:7-43
+26            android:configChanges="orientation|keyboardHidden"
+26-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:25:7-57
+27            android:label="@string/app_name"
+27-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:26:7-39
+28            android:launchMode="singleInstance" >
+28-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:28:7-42
+29            <intent-filter>
+29-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:29:7-32:23
+30                <action android:name="org.jfedor.frozenbubble.GAME" />
+30-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:30:9-63
+30-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:30:17-60
+31
+32                <category android:name="android.intent.category.DEFAULT" />
+32-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:31:9-68
+32-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:31:19-65
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:35:5-38:16
+36            android:name="org.jfedor.frozenbubble.InterstitialActivity"
+36-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:36:7-66
+37            android:label="Interstitial" >
+37-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:37:7-35
+38        </activity>
+39        <activity
+39-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:40:5-43:16
+40            android:name="com.efortin.frozenbubble.PreferencesActivity"
+40-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:41:7-66
+41            android:theme="@android:style/Theme.Black.NoTitleBar" >
+41-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:42:7-60
+42        </activity>
+43        <activity
+43-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:45:5-49:16
+44            android:name="com.efortin.frozenbubble.ScrollingCredits"
+44-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:46:7-63
+45            android:configChanges="orientation|keyboardHidden"
+45-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:47:7-57
+46            android:label="@string/menu_about" >
+46-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:48:7-41
+47        </activity>
+48        <activity
+48-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:51:5-59:16
+49            android:name="com.efortin.frozenbubble.SplashScreen"
+49-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:52:7-59
+50            android:configChanges="orientation|keyboardHidden"
+50-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:53:7-57
+51            android:label="@string/title_activity_splash_screen" >
+51-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:54:7-59
+52            <intent-filter>
+52-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:55:7-58:23
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:56:9-61
+53-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:56:17-58
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:57:9-69
+55-->C:\Users\jcall\Apps\FB1\app\src\main\AndroidManifest.xml:57:19-66
+56            </intent-filter>
+57        </activity>
+58    </application>
+59
+60</manifest>

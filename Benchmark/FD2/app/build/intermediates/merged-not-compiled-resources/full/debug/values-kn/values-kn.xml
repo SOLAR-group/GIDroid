@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ಮುಖಪುಟವನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ಮುಗಿದಿದೆ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ಎಲ್ಲವನ್ನೂ ನೋಡಿ"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ಆಫ್"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ಆನ್"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ಹುಡುಕಿ…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸು"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ಹುಡುಕಿ"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸು"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ಧ್ವನಿ ಹುಡುಕಾಟ"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ಸಂಕುಚಿಸು"</string>
+    <string name="about_license">ಪರವಾನಿಗೆ</string>
+    <string name="about_mail">ಮಿಂಚಂಚೆ</string>
+    <string name="about_site">ಜಾಲತಾಣ</string>
+    <string name="about_title">ಎಫ್-ಡ್ರಾಯ್ಡ್  ಬಗ್ಗೆ</string>
+    <string name="about_version">ಆವೃತ್ತಿ</string>
+    <string name="added_on">%s ನಂದು ಸೇರಿಸಲಾಯಿತು</string>
+    <string name="allPerms">ಎಲ್ಲವೂ</string>
+    <string name="app__newly_added">ಹೊಸತು</string>
+    <string name="app_inst_known_source">ಅನುಸ್ಥಾಪಿಸಲಾಗಿದೆ(%s ನಿಂದ)</string>
+    <string name="app_inst_unknown_source">ಅನುಸ್ಥಾಪಿಸಲಾಗಿದೆ (ಗೊತ್ತಿಲ್ಲದ ಮೂಲದಿಂದ)</string>
+    <string name="app_installed">ಅನುಸ್ಥಾಪಿಸಲಾಗಿದೆ</string>
+    <string name="app_name">ಎಫ್-ಡ್ರಾಯ್ಡ್</string>
+    <string name="app_not_installed">ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="app_version_x_available">%1$s ಆವೃತ್ತಿಯು ಲಭ್ಯವಿದೆ</string>
+    <string name="app_version_x_installed">%1$s ನೆಯ ಆವೃತ್ತಿ</string>
+    <string name="back">ಹಿಂದಕ್ಕೆ</string>
+    <string name="category_Games">ಆಟಗಳು</string>
+    <string name="category_Security">ಸುರಕ್ಷತೆ</string>
+    <string name="category_Sports_Health">ಕ್ರೀಡೆ &amp; ಆರೋಗ್ಯ</string>
+    <string name="category_Time">ಸಮಯ</string>
+    <string name="delete">ಅಳಿಸು</string>
+    <string name="details_new_in_version">%s ನೇ ಆವೃತ್ತಿಯಲ್ಲಿ ಹೊಸತು</string>
+    <string name="installing">ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="interval_12h">ಪ್ರತಿ ೧೨ ಗಂಟೆಗೊಮ್ಮೆ</string>
+    <string name="interval_1d">ಪ್ರತಿದಿನ</string>
+    <string name="interval_1h">ಗಂಟೆಗೊಮ್ಮೆ</string>
+    <string name="interval_1w">ಪ್ರತಿವಾರ</string>
+    <string name="interval_2w">ಪ್ರತಿ ೨ ವಾರಕ್ಕೊಮ್ಮೆ</string>
+    <string name="interval_4h">ಪ್ರತಿ ೪ ಗಂಟೆಗೊಮ್ಮೆ</string>
+    <string name="keep_day">೧ ದಿನ</string>
+    <string name="keep_hour">೧ ಗಂಟೆ</string>
+    <string name="keep_month">೧ ತಿಂಗಳು</string>
+    <string name="keep_week">೧ ವಾರ</string>
+    <string name="keep_year">೧ ವರ್ಷ</string>
+    <string name="less">ಕಡಿಮೆ</string>
+    <string name="links">ಕೊಂಡಿಗಳು</string>
+    <string name="login_name">ಬಳಕೆದಾರರ ಹೆಸರು</string>
+    <string name="login_password">ಗುಪ್ತಪದ</string>
+    <string name="main_menu__latest_apps">ಇತ್ತೀಚಿನ</string>
+    <string name="main_menu__swap_nearby">ಹತ್ತಿರದ</string>
+    <string name="menu_donate">ದೇಣಿಗೆ</string>
+    <string name="menu_email">ಲೇಖಕರ ಇ-ಅಂಚೆ</string>
+    <string name="menu_search">ಹುಡುಕಿ</string>
+    <string name="menu_settings">ಆದ್ಯತೆಗಳು</string>
+    <string name="menu_share">ಹಂಚಿರಿ</string>
+    <string name="menu_website">ಜಾಲತಾಣ</string>
+    <string name="more">ಹೆಚ್ಚು</string>
+    <string name="nearby_splash__find_people_button">ನನ್ನ ಹತ್ತಿರವಿರುವ ಜನರನ್ನು ಹುಡುಕು</string>
+    <string name="next">ಮುಂದೆ</string>
+    <string name="no">ಇಲ್ಲ</string>
+    <string name="notification_action_install">ಅನುಸ್ಥಾಪಿಸು</string>
+    <string name="notification_title_summary_install_error">ಅನುಸ್ಥಾಪನೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="notification_title_summary_installing">ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="ok">ಸರಿ</string>
+    <string name="open_qr_code_scanner">ಕ್ಯುಆರ್ ಸ್ಕ್ಯಾನರ್ ತೆರೆ</string>
+    <string name="other">ಇತರೆ</string>
+    <string name="perms_new_perm_prefix">ಹೊಸತು:</string>
+    <string name="pref_language">ಭಾಷೆ</string>
+    <string name="repo_add_add">ಸೇರಿಸಿ</string>
+    <string name="repo_description">ವಿವರಣೆ</string>
+    <string name="repo_edit_credentials">ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸಿ</string>
+    <string name="repo_name">ಹೆಸರು</string>
+    <string name="repo_url">ವಿಳಾಸ</string>
+    <string msgid="146198913615257606" name="search_menu_title">"ಹುಡುಕಿ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="swap_dont_show_again">ಇದನ್ನು ಮತ್ತೆ ತೋರಿಸಬೇಡ</string>
+    <string name="swap_people_nearby">ಹತ್ತಿರವಿರುವ ಜನರು</string>
+    <string name="swap_welcome">ಎಫ್-ಡ್ರಾಯ್ಡ್ ಗೆ ಸುಸ್ವಾಗತ!</string>
+    <string name="swap_wifi_device_name">ಸಾಧಕದ ಹೆಸರು</string>
+    <string name="system_install_button_install">ಅನುಸ್ಥಾಪಿಸು</string>
+    <string name="theme_night">ರಾತ್ರಿ</string>
+    <string name="version">ಆವೃತ್ತಿ</string>
+    <string name="versions">ಆವೃತ್ತಿಗಳು</string>
+    <string name="wifi">ವೈ-ಫೈ</string>
+    <string name="yes">ಹೌದು</string>
+</resources>

@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_host.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\menu\\menu_host.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_text.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable\\button_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_host.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\layout\\activity_host.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable_button.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\layout_port_range.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\layout\\port_range.xml"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\jcall\\Apps\\PA8\\app\\build\\intermediates\\merged_res\\debug\\menu_display_message.xml.flat",
+        "source": "C:\\Users\\jcall\\Apps\\PA8\\app\\src\\main\\res\\menu\\display_message.xml"
+    }
+]

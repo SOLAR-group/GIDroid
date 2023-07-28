@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+apply plugin: "pmd"
+
+pmd {
+    toolVersion = '6.0.0'
+    consoleOutput = true
+}
+
+task pmdMain(type: Pmd) {
+    dependsOn 'assembleDebug'
+    ruleSets = ['category/java/performance.xml']
+    source 'src/main/java'
+    include '**/*.java'
+}
+android {
+    compileSdkVersion 29
+    buildToolsVersion '21.1.2'
+    useLibrary 'org.apache.http.legacy'
+
+
+    defaultConfig {
+        minSdkVersion 25
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
+        }
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources true
+        }
+        unitTests.all {
+
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+            }
+
+        }
+    }
+
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:21.0.3'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.robolectric:robolectric:4.7.2'
+    testImplementation 'androidx.test:core:1.0.0'
+}

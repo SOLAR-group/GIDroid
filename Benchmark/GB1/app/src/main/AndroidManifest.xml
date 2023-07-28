@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nodomain.freeyourgadget.gadgetbridge">
+    <!--
+        Comment in for testing Pebble Emulator
+        <uses-permission android:name="android.permission.INTERNET" />
+    -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Used for reverse find device -->
+    <uses-permission android:name="cyanogenmod.permission.ACCESS_WEATHER_MANAGER" />
+    <uses-permission android:name="cyanogenmod.permission.READ_WEATHER" />
+    <uses-permission android:name="lineageos.permission.ACCESS_WEATHER_MANAGER" />
+    <uses-permission android:name="lineageos.permission.READ_WEATHER" />
+    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:name=".GBApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/GadgetbridgeTheme">
+        <activity android:name=".devices.qhybrid.WidgetSettingsActivity"></activity>
+        <activity
+            android:name=".activities.ControlCenterv2"
+            android:label="@string/title_activity_controlcenter"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activities.ControlCenterv2" />
+        <activity
+            android:name=".activities.charts.ChartsPreferencesActivity"
+            android:label="@string/activity_prefs_charts"
+            android:parentActivityName=".activities.charts.ChartsPreferencesActivity" />
+        <activity
+            android:name=".devices.miband.MiBandPreferencesActivity"
+            android:label="@string/preferences_miband_settings"
+            android:parentActivityName=".activities.SettingsActivity" />
+        <activity
+            android:name=".devices.zetime.ZeTimePreferenceActivity"
+            android:label="@string/zetime_title_settings"
+            android:parentActivityName=".activities.SettingsActivity" />
+        <activity
+            android:name=".activities.ActivitySummariesActivity"
+            android:label="@string/activity_summaries"
+            android:parentActivityName=".activities.ControlCenterv2" />
+        <activity
+            android:name=".activities.appmanager.AppManagerActivity"
+            android:label="@string/title_activity_appmanager"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.ControlCenterv2" />
+        <activity
+            android:name=".activities.AppBlacklistActivity"
+            android:label="@string/title_activity_appblacklist"
+            android:parentActivityName=".activities.SettingsActivity" />
+        <activity
+            android:name=".activities.CalBlacklistActivity"
+            android:label="@string/title_activity_calblacklist"
+            android:parentActivityName=".activities.SettingsActivity" />
+        <activity
+            android:name=".activities.FwAppInstallerActivity"
+            android:label="@string/title_activity_fw_app_insaller"
+            android:parentActivityName=".activities.ControlCenterv2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+                <!-- needed for aosp-derived ROMs? -->
+
+                <data android:host="*" />
+                <data android:scheme="file" />
+
+                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+
+                <data android:pathPattern="/.*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\.res" />
+                <data android:pathPattern="/.*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <!-- no mimeType filter, needed for CM-derived ROMs? -->
+
+                <data android:host="*" />
+                <data android:scheme="file" />
+
+                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+
+                <data android:pathPattern="/.*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+                <data android:pathPattern="/.*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+                <data android:pathPattern="/.*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+                <data android:pathPattern="/.*\\.res" />
+                <data android:pathPattern="/.*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+                <data android:pathPattern="/.*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+                <data android:pathPattern="/.*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+                <data android:pathPattern="/.*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+                <data android:pathPattern="/.*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+            </intent-filter>
+
+            <!-- to receive the firmwares from the download content provider -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/octet-stream" />
+            </intent-filter>
+            <!-- to receive firmwares from the download content provider if recognized as zip -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/zip" />
+                <data android:mimeType="application/x-zip-compressed" />
+            </intent-filter>
+            <!-- to receive files from the "share" intent -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".externalevents.NotificationListener"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.NotificationCollectorMonitorService" />
+        <service android:name=".service.DeviceCommunicationService" />
+
+        <receiver
+            android:name=".externalevents.WeatherNotificationReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".externalevents.WeatherNotificationConfig">
+            <intent-filter>
+                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".externalevents.AutoStartReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".externalevents.BluetoothStateChangeReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".service.receivers.GBMusicControlReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="nodomain.freeyourgadget.gadgetbridge.musiccontrol" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".service.receivers.GBCallControlReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="nodomain.freeyourgadget.gadgetbridge.callcontrol" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".database.PeriodicExporter"
+            android:enabled="true"
+            android:exported="false"></receiver>
+        <!--
+            forcing the DebugActivity to portrait mode avoids crashes with the progress
+            dialog when changing orientation
+        -->
+        <activity
+            android:name=".activities.DebugActivity"
+            android:label="@string/title_activity_debug"
+            android:parentActivityName=".activities.ControlCenterv2"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activities.DbManagementActivity"
+            android:label="@string/title_activity_db_management"
+            android:parentActivityName=".activities.ControlCenterv2"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activities.DiscoveryActivity"
+            android:label="@string/title_activity_discovery"
+            android:parentActivityName=".activities.ControlCenterv2" />
+        <activity
+            android:name=".activities.AndroidPairingActivity"
+            android:label="@string/title_activity_android_pairing" />
+        <activity
+            android:name=".devices.miband.MiBandPairingActivity"
+            android:label="@string/title_activity_mi_band_pairing" />
+        <activity
+            android:name=".devices.pebble.PebblePairingActivity"
+            android:label="@string/title_activity_pebble_pairing" />
+        <activity
+            android:name=".devices.watch9.Watch9PairingActivity"
+            android:label="@string/title_activity_watch9_pairing" />
+        <activity
+            android:name=".devices.watch9.Watch9CalibrationActivity"
+            android:label="@string/title_activity_watch9_calibration" />
+        <activity
+            android:name=".activities.charts.ChartsActivity"
+            android:label="@string/title_activity_charts"
+            android:parentActivityName=".activities.ControlCenterv2" />
+        <activity
+            android:name=".activities.ConfigureAlarms"
+            android:label="@string/title_activity_set_alarm"
+            android:parentActivityName=".activities.ControlCenterv2" />
+        <activity
+            android:name=".activities.devicesettings.DeviceSettingsActivity"
+            android:label="@string/title_activity_device_specific_settings" />
+        <activity
+            android:name=".activities.AlarmDetails"
+            android:label="@string/title_activity_alarm_details"
+            android:parentActivityName=".activities.ConfigureAlarms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VibrationActivity"
+            android:label="@string/title_activity_vibration"
+            android:parentActivityName=".activities.ControlCenterv2" />
+        <activity
+            android:name=".activities.NotificationFilterActivity"
+            android:label="@string/title_activity_notification_filter"
+            android:parentActivityName=".activities.AppBlacklistActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".activities.FindPhoneActivity"
+            android:label="Find Phone" />
+
+        <provider
+            android:name=".contentprovider.PebbleContentProvider"
+            android:authorities="com.getpebble.android.provider"
+            android:exported="true" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.screenshot_provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/shared_paths" />
+        </provider>
+
+        <receiver
+            android:name=".SleepAlarmWidget"
+            android:label="@string/appwidget_sleep_alarm_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/sleep_alarm_widget_info" />
+        </receiver>
+        <receiver
+            android:name=".Widget"
+            android:label="@string/widget_listing_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="nodomain.freeyourgadget.gadgetbridge.WidgetClick" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".activities.WidgetAlarmsActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".activities.ExternalPebbleJSActivity"
+            android:allowTaskReparenting="true"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_configure"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activities.appmanager.AppManagerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="gadgetbridge" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".devices.qhybrid.ConfigActivity"
+            android:exported="true" />
+        <activity
+            android:name=".devices.qhybrid.QHybridAppChoserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".devices.qhybrid.HRConfigActivity"
+            android:exported="true" />
+        <activity
+            android:name=".devices.qhybrid.ImageEditActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

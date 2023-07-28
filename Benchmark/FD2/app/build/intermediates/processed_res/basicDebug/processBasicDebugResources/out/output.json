@@ -1,0 +1,1 @@
+[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":10,"versionName":"-debug","enabled":true,"outputFile":"app-basic-debug.apk","fullName":"basicDebug","baseName":"basic-debug"},"path":"resources-basicDebug.ap_","properties":{"packageId":"org.fdroid.basic.debug","split":"","minSdkVersion":"14"}}]

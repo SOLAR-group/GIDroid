@@ -1,0 +1,2 @@
+example/ExampleEnum.java
+ example.ExampleEnum

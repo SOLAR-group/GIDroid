@@ -1,0 +1,136 @@
+ext {
+    sourceCompatibility = JavaVersion.VERSION_1_9
+}
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.3'
+        classpath 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:1.0.2'
+        classpath 'de.timfreiheit.resourceplaceholders:placeholders:0.3'
+        classpath "gradle.plugin.com.github.spotbugs.snom:spotbugs-gradle-plugin:4.7.0"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter()
+    }
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint"
+        }
+    }
+
+    apply plugin: 'com.github.spotbugs'
+
+    spotbugs {
+        effort = 'max'
+        reportLevel = 'medium'
+        excludeFilter = rootProject.file('config/spotbugs/exclude.xml')
+        ignoreFailures = true // Handled by printing task
+    }
+
+    gradle.taskGraph.beforeTask { task ->
+        if (task.name.toLowerCase().contains('spotbugs')) {
+            task.doLast {
+                def reportFile = task.project.file("build/reports/spotbugs/playDebug.xml")
+                if (!reportFile.exists()) return
+                def slurped = new XmlSlurper().parse(reportFile)
+
+                def foundErrors = false
+                slurped['BugInstance'].each { bug ->
+                    logger.error "[SpotBugs] ${bug['LongMessage']} [${bug.@'type'}]"
+                    bug['SourceLine'].each { line ->
+                        logger.error "[SpotBugs]     ${line['Message']}"
+                        foundErrors = true
+                    }
+                }
+                if (foundErrors) {
+                    throw new TaskExecutionException(task,
+                            new Exception("SpotBugs violations were found. See output above for details."))
+                }
+            }
+        }
+    }
+}
+
+// Disable predex if requested (we can"t predex in Circle CI
+// See http://tools.android.com/tech-docs/new-build-system/tips#TOC-Improving-Build-Server-performance
+// and https://circleci.com/docs/android
+project.ext.preDexLibs = !project.hasProperty("disablePreDex")
+
+subprojects {
+    project.plugins.whenPluginAdded { plugin ->
+        if ("com.android.build.gradle.AppPlugin" == plugin.class.name) {
+            project.android.dexOptions.preDexLibraries = rootProject.ext.preDexLibs
+        } else if ("com.android.build.gradle.LibraryPlugin" == plugin.class.name) {
+            project.android.dexOptions.preDexLibraries = rootProject.ext.preDexLibs
+        }
+    }
+}
+
+project.ext {
+    compileSdkVersion = 30
+    minSdkVersion = 16
+    targetSdkVersion = 30
+
+    // AndroidX
+    annotationVersion = "1.1.0"
+    appcompatVersion = "1.2.0"
+    mediaVersion = "1.1.0"
+    preferenceVersion = "1.1.1"
+    workManagerVersion = "2.3.4"
+    googleMaterialVersion = "1.1.0"
+
+    // Third-party
+    commonslangVersion = "3.6"
+    commonsioVersion = "2.5"
+    jsoupVersion = "1.11.2"
+    glideVersion = "4.8.0"
+    okhttpVersion = "3.12.10"
+    okioVersion = "1.17.5"
+    eventbusVersion = "3.2.0"
+    rxAndroidVersion = "2.1.1"
+    rxJavaVersion = "2.2.2"
+    iconifyVersion = "2.2.2"
+    audioPlayerVersion = "v2.0.0"
+
+    // Only used for free builds. This version should be updated regularly.
+    conscryptVersion = "2.4.0"
+
+    // Google Play build
+    wearableSupportVersion = "2.6.0"
+    playServicesVersion = "8.4.0"
+
+    //Tests
+    awaitilityVersion = "3.1.6"
+    robotiumSoloVersion = "5.6.3"
+    espressoVersion = "3.2.0"
+    runnerVersion = "1.2.0"
+    rulesVersion = "1.2.0"
+}
+
+wrapper {
+    gradleVersion = "6.3"
+}
+
+apply plugin: "checkstyle"
+checkstyle {
+    toolVersion '8.24'
+}
+
+task checkstyle(type: Checkstyle) {
+    classpath = files()
+    source "${project.rootDir}"
+    exclude("**/gen/**")
+    exclude("**/generated/**")
+}

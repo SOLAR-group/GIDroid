@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: net.i2p.android:helper:0.9.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3d4341c453248eff38bd289b332b82fd/transformed/jetified-helper-0.9.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3d4341c453248eff38bd289b332b82fd/transformed/jetified-helper-0.9.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3d4341c453248eff38bd289b332b82fd/transformed/jetified-helper-0.9.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/helper/0.9.5/c80a43d920c7f9bdcce888da7d8a98030f6e68eb/helper-0.9.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.i2p.android/helper/0.9.5/658c1ce5a0e38e066d1f4fd90d8128e104f3ba2e/helper-0.9.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

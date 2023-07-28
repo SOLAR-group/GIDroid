@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.uma.jmetal:jmetal-core:5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-core/5.2/90774f82b118a630d4941e4c7d2e774be21a419a/jmetal-core-5.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-core/5.2/90774f82b118a630d4941e4c7d2e774be21a419a/jmetal-core-5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-core/5.2/4da973bfe6858c83687ca986301601f38f93f230/jmetal-core-5.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.uma.jmetal/jmetal-core/5.2/4da973bfe6858c83687ca986301601f38f93f230/jmetal-core-5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

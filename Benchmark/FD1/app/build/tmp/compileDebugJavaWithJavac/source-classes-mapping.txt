@@ -1,0 +1,39 @@
+org/fdroid/fdroid/ManageRepo.java
+ org.fdroid.fdroid.ManageRepo
+ org.fdroid.fdroid.ManageRepo$1
+ org.fdroid.fdroid.ManageRepo$2
+ org.fdroid.fdroid.ManageRepo$3
+ org.fdroid.fdroid.ManageRepo$4
+ org.fdroid.fdroid.ManageRepo$5
+org/fdroid/fdroid/Md5Handler.java
+ org.fdroid.fdroid.Md5Handler
+org/fdroid/fdroid/DB.java
+ org.fdroid.fdroid.DB
+ org.fdroid.fdroid.DB$Apk
+ org.fdroid.fdroid.DB$App
+ org.fdroid.fdroid.DB$Repo
+org/fdroid/fdroid/AppDetails.java
+ org.fdroid.fdroid.AppDetails
+ org.fdroid.fdroid.AppDetails$1
+ org.fdroid.fdroid.AppDetails$2
+ org.fdroid.fdroid.AppDetails$3
+ org.fdroid.fdroid.AppDetails$4
+ org.fdroid.fdroid.AppDetails$5
+ org.fdroid.fdroid.AppDetails$6
+ org.fdroid.fdroid.AppDetails$ApkListAdapter
+org/fdroid/fdroid/BuildConfig.java
+ org.fdroid.fdroid.BuildConfig
+org/fdroid/fdroid/RepoXMLHandler.java
+ org.fdroid.fdroid.RepoXMLHandler
+org/fdroid/fdroid/FDroid.java
+ org.fdroid.fdroid.FDroid
+ org.fdroid.fdroid.FDroid$1
+ org.fdroid.fdroid.FDroid$2
+ org.fdroid.fdroid.FDroid$3
+ org.fdroid.fdroid.FDroid$4
+ org.fdroid.fdroid.FDroid$5
+ org.fdroid.fdroid.FDroid$6
+ org.fdroid.fdroid.FDroid$7
+ org.fdroid.fdroid.FDroid$8
+ org.fdroid.fdroid.FDroid$8$1
+ org.fdroid.fdroid.FDroid$AppListAdapter
