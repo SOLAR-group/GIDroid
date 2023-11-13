@@ -37,7 +37,7 @@ First clone the project and open a terminal in the directory that it is cloned t
 Build using gradle (alternatively import into your favourite IDE, such as IntelliJ). We also provide a gradle wrapper with Gradle 4.10.2.
 
 ```
-gradle build
+gradle assemble
 ```
 
 This will build and test GIDroid, and also create a fat jar at `build/gin.jar` containing all required dependencies.
