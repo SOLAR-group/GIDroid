@@ -104,7 +104,7 @@ public class AndroidProject extends Project {
     private void pruneDirs() {
         List<File> keep = new ArrayList<>();
         for (File dir : unitTestSourceDirs) {
-            if (dir.getAbsolutePath().contains("/" + module + "/") || module.equals("")) {
+            if (dir.getAbsolutePath().contains("/" + module + "/") || dir.getAbsolutePath().contains("\\" + module + "\\") || module.equals("")) {
                 keep.add(dir);
             }
         }
@@ -406,8 +406,7 @@ public class AndroidProject extends Project {
         if (SystemUtils.IS_OS_LINUX) {
             cmd = "./gradlew " + task;
         } else {
-//            cmd = ".\\gradlew " + task;
-            cmd = "echo hello";
+            cmd = projectDir.getAbsolutePath() + "\\gradlew.bat " + task;
 
         }
         return cmd;
@@ -541,7 +540,7 @@ public class AndroidProject extends Project {
         }
         String cmd = ":" + module + ":test" + flavour + "DebugUnitTest" + testList + " -a";
         cmd = gradleCmdForTask(cmd);
-        cmd = "time " + cmd;
+        //cmd = "time " + cmd;
         System.out.println("Running command: " + cmd);
         DescriptiveStatistics netSamples = new DescriptiveStatistics();
         DescriptiveStatistics memSamples = new DescriptiveStatistics();
@@ -550,7 +549,7 @@ public class AndroidProject extends Project {
         try {
             for (int i = 0; i < runs; i++) {
 
-                long netBefore = getNetworkUsed();
+                //long netBefore = getNetworkUsed();
                 ProcessBuilder pb = new ProcessBuilder(cmd.split(" "));
                 pb.directory(projectDir);
                 pb.environment().putAll(System.getenv());

@@ -84,7 +84,7 @@ mainClassName = 'gin.AndroidGI'
 
 shadowJar {
     destinationDir = new File('build');
-    baseName = 'ginGPB'
+    baseName = 'gin'
     classifier = null
     version = null
 }

@@ -70,7 +70,7 @@ public class AndroidGI {
 
         //// Local Search
         AndroidGI androidGI = new AndroidGI(testRunner, sourceFile, editTypes, androidProject);
-        // androidGI.GP();
+        androidGI.GP();
         // androidGI.localSearch();
         //// MO ALgorithms
         //NSGAII nsgaii = new NSGAII(androidProject, sourceFile, testRunner, editTypes);
