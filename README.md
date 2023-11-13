@@ -17,10 +17,11 @@ These instructions will show you how to build GIDroid and run a local search or 
 
 GIDroid requires:
 
-* JDK 1.8.x  *note: there is currently a known issue that prevents GIDroid running on JDK 9 or above*
+* JDK 11  
 * Gradle (tested with version 4.10.2)
 * A number of dependencies, which can be downloaded manually or via Gradle (recommended)
 * Android SDK installed
+* Linux, GIDroid will run in Windows, however, requires the linux time cmd line tool to measure execution time.
 
 JDK downloads:<http://www.oracle.com/technetwork/java/javase/downloads/index.html>
 
@@ -57,7 +58,7 @@ finally run GIDroid with the call:
 java -jar build/gin.jar 
 ```
 
-The results of these runs will then be outputted to a file callled log.txt
+The results of these runs will then be outputted to a file called log.txt
 
 
 ## Results
