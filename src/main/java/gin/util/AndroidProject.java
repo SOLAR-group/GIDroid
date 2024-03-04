@@ -403,7 +403,7 @@ public class AndroidProject extends Project {
 
     public String gradleCmdForTask(String task) {
         String cmd;
-        if (SystemUtils.IS_OS_LINUX) {
+        if (SystemUtils.IS_OS_LINUX || SystemUtils.IS_OS_MAC) {
             cmd = "./gradlew " + task;
         } else {
             cmd = projectDir.getAbsolutePath() + "\\gradlew.bat " + task;
@@ -488,7 +488,7 @@ public class AndroidProject extends Project {
     }
 
     public String getClasspath() {
-        if (! SystemUtils.IS_OS_LINUX) {
+        if (! SystemUtils.IS_OS_LINUX && ! SystemUtils.IS_OS_MAC) {
             return  "";
         }
         String cmd = gradleCmdForTask("classpath");
@@ -540,7 +540,7 @@ public class AndroidProject extends Project {
         }
         String cmd = ":" + module + ":test" + flavour + "DebugUnitTest" + testList + " -a";
         cmd = gradleCmdForTask(cmd);
-        //cmd = "time " + cmd;
+        cmd = "time " + cmd; // Time Command
         System.out.println("Running command: " + cmd);
         DescriptiveStatistics netSamples = new DescriptiveStatistics();
         DescriptiveStatistics memSamples = new DescriptiveStatistics();
@@ -575,10 +575,21 @@ public class AndroidProject extends Project {
 //                memorySampler.start();
                 while ((line = stdin.readLine()) != null) {
                     System.out.println(line);
-                    if (line.contains("system") && line.contains("user")) {
+                    if (line.contains("sys") && line.contains("user")) {
                         String[] tokens = line.split(" ");
-                        userTime = Double.valueOf(tokens[0].replace("user", ""));
-                        systemTime = Double.valueOf(tokens[1].replace("system", ""));
+                        // Another way to parse the user and system time
+                        String userTimeString = "0";
+                        String systemTimeString = "0";
+
+                        for (int j = 0; j < tokens.length; j++) {
+                            if (tokens[j].equals("user") && j > 0) {
+                                userTimeString = tokens[j-1];
+                            } else if (tokens[j].equals("sys") && j > 0) {
+                                systemTimeString = tokens[j-1];
+                            }
+                        }
+                        userTime = Double.parseDouble(userTimeString);
+                        systemTime = Double.parseDouble(systemTimeString);
                     }
                     if (line.contains("Gin Memory: ")) {
                         String[] tokens = line.split(" ");
