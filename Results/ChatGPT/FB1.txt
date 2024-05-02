@@ -1,0 +1,80 @@
+To optimize the given constructor, you can consider the following improvements:
+
+1. Reduce parameter count: The constructor has a large number of parameters, which can make it harder to use and maintain. Consider creating a configuration object that encapsulates all the necessary parameters and pass that object instead. This can improve readability and maintainability of the code.
+
+2. Initialize fields directly: Instead of assigning values to fields one by one, initialize them directly in the constructor's parameter list. This reduces the number of lines of code and improves readability.
+
+3. Use local variables: Use local variables to store intermediate values that are used multiple times. This can improve code readability and reduce redundant calculations.
+
+4. Extract helper methods: Extract repetitive or complex code into separate helper methods. This can improve code organization and make it easier to understand and maintain.
+
+Here's an optimized version of the constructor incorporating these suggestions:
+
+```java
+public FrozenGame(GameConfig config) {
+    random = new Random(System.currentTimeMillis());
+    launcher = config.getLauncher();
+    penguins = config.getPenguins();
+    background = config.getBackground();
+    bubbles = config.getBubbles();
+    bubblesBlind = config.getBubblesBlind();
+    frozenBubbles = config.getFrozenBubbles();
+    targetedBubbles = config.getTargetedBubbles();
+    bubbleBlink = config.getBubbleBlink();
+    gameWon = config.getGameWon();
+    gameLost = config.getGameLost();
+    gamePaused = config.getGamePaused();
+    soundManager = config.getSoundManager();
+    levelManager = config.getLevelManager();
+    highscoreManager = config.getHighscoreManager();
+    malusBar = config.getMalusBar();
+    player = config.getPlayer();
+    playResult = GAME_PLAYING;
+    launchBubblePosition = START_LAUNCH_DIRECTION;
+    readyToFire = false;
+    swapPressed = false;
+
+    BmpWrap pauseButton = config.getPauseButton();
+    BmpWrap playButton = config.getPlayButton();
+
+    if (pauseButton != null && playButton != null) {
+        pauseButtonSprite = new ImageSprite(new Rect(167, 444, 32, 32), pauseButton);
+        playButtonSprite = new ImageSprite(new Rect(167, 444, 32, 32), playButton);
+        this.addSprite(pauseButtonSprite);
+    }
+
+    penguin = new PenguinSprite(PenguinSprite.getPenguinRect(player), penguins, random);
+    this.addSprite(penguin);
+
+    compressor = new Compressor(config.getCompressorHead(), config.getCompressor());
+    hurrySprite = new ImageSprite(new Rect(203, 265, 203 + 240, 265 + 90), config.getHurry());
+
+    if (malusBar != null) {
+        this.addSprite(malusBar);
+    }
+
+    falling = new Vector<Sprite>();
+    goingUp = new Vector<Sprite>();
+    jumping = new Vector<Sprite>();
+
+    bubblePlay = new BubbleSprite[8][13];
+    bubbleManager = new BubbleManager(bubbles);
+
+    byte[][] currentLevel = levelManager.getCurrentLevel();
+    if (currentLevel == null) {
+        // Log.i("frozen-bubble", "Level not available.");
+        return;
+    }
+
+    for (int j = 0; j < 12; j++) {
+        for (int i = j % 2; i < 8; i++) {
+            if (currentLevel[i][j] != -1) {
+                BubbleSprite newOne = createBubbleSprite(i, j, currentLevel[i][j], config);
+                bubblePlay[i][j] = newOne;
+                this.addSprite(newOne);
+            }
+        }
+    }
+
+    currentColor = bubbleManager.nextBubbleIndex(random);
+    nextColor = bubbleManager.nextBubbleIndex(random

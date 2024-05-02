@@ -1,0 +1,28 @@
+To optimize the `renderWidgets()` method, you can consider the following improvements:
+
+1. Move the initialization of `circleBitmap` outside the conditional block:
+   Instead of creating the `circleBitmap` inside the `if (drawCircles)` block, move its initialization outside the block to avoid redundant bitmap creation. This will reduce unnecessary object creation in each iteration of the loop.
+
+2. Use a single loop for iterating through widgets:
+   Instead of using a loop to iterate through `this.widgets` and another loop for `widget.getElements()`, combine them into a single loop. This will eliminate the need for multiple iterations and simplify the code.
+
+3. Avoid repetitive file existence checks:
+   Instead of checking for file existence multiple times, you can check it once before the loop for `widget.getElements()` and skip the iteration if the file doesn't exist.
+
+4. Reuse BitmapFactory options:
+   Create a `BitmapFactory.Options` instance and reuse it for decoding image files. This allows you to set options such as inSampleSize to reduce memory usage if required.
+
+5. Use a StringBuilder for logging messages:
+   Instead of concatenating strings in the logging statements, use a `StringBuilder` to improve performance and reduce memory overhead.
+
+Here's the optimized version of the `renderWidgets()` method:
+
+```java
+private void renderWidgets() {
+    Prefs prefs = new Prefs(GBApplication.getDeviceSpecificSharedPrefs(getDeviceSupport().getDevice().getAddress()));
+    boolean forceWhiteBackground = prefs.getBoolean("force_white_color_scheme", false);
+    boolean drawCircles = prefs.getBoolean("widget_draw_circles", false);
+
+    Bitmap circleBitmap = null;
+    if (drawCircles) {
+        circleBitmap =

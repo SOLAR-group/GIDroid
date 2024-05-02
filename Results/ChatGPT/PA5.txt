@@ -1,0 +1,104 @@
+To optimize the given class, we can make the following improvements:
+
+1. Remove unused imports: The class imports some packages that are not used, such as `com.aaronjwood.portauthority.network.Host` and `com.aaronjwood.portauthority.response.HostAsyncResponse`. Removing unused imports improves code readability and reduces clutter.
+
+2. Use field initialization: Instead of initializing fields inside the `onCreate` method, we can initialize them directly at the field declaration. This simplifies the code and reduces the clutter in the `onCreate` method.
+
+3. Utilize variable scoping: Some variables are declared at the class level but are only used within specific methods. It's better to declare them within the appropriate methods to limit their scope and improve code clarity.
+
+4. Use modern Android APIs: The class extends `Activity`, which is an older class in the Android framework. It's recommended to extend `AppCompatActivity` instead, which provides backward compatibility and more modern features.
+
+Here's the optimized version of the class:
+
+```java
+package com.aaronjwood.portauthority.activity;
+
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.NumberPicker;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.aaronjwood.portauthority.R;
+import com.aaronjwood.portauthority.network.Wireless;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Map;
+
+public class HostActivity extends AppCompatActivity {
+
+    private Wireless wifi;
+    private String hostName;
+    private String hostIp;
+    private String hostMac;
+    private ArrayAdapter<String> adapter;
+    private ArrayList<String> ports = new ArrayList<>();
+    private ProgressDialog scanProgressDialog;
+    private Dialog portRangeDialog;
+    private int scanProgress;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_host);
+
+        TextView hostIpLabel = findViewById(R.id.hostIpLabel);
+        TextView hostNameLabel = findViewById(R.id.hostName);
+        TextView hostMacVendor = findViewById(R.id.hostMacVendor);
+        Button scanWellKnownPortsButton = findViewById(R.id.scanWellKnownPorts);
+        Button scanPortRangeButton = findViewById(R.id.scanPortRange);
+        ListView portList = findViewById(R.id.portList);
+        TextView hostMacLabel = findViewById(R.id.hostMac);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            hostIp = extras.getString("HOST");
+            hostMac = extras.getString("MAC");
+        }
+
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, ports);
+        portList.setAdapter(adapter);
+
+        wifi = new Wireless(this);
+
+        hostIpLabel.setText(hostIp);
+        hostMacLabel.setText(hostMac);
+
+        scanWellKnownPortsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!wifi.isConnected()) {
+                    Toast.makeText(getApplicationContext(), "You're not connected to a network!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                ports.clear();
+
+                scanProgressDialog = new ProgressDialog(HostActivity.this);
+                scanProgressDialog.setCancelable(false);
+                scanProgressDialog.setTitle("Scanning Well Known Ports");
+                scanProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                scanProgressDialog.setProgress(0);
+                scanProgressDialog.setMax(1024);
+                scanProgressDialog.show();
+
+                scanPorts(hostIp, 1, 1024);
+            }
+        });
+
+        scanPortRangeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!wifi.isConnected()) {
+                    Toast.makeText(getApplicationContext(),

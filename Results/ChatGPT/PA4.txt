@@ -1,0 +1,100 @@
+
+To optimize the provided `HostActivity` class, you can consider the following improvements:
+
+1. Remove unused imports: Remove unused imports at the beginning of the class to improve code readability and remove unnecessary dependencies.
+
+2. Use `findViewById` directly: Instead of calling `portRangeDialog.findViewById(...)`, you can directly call `findViewById(...)` because `HostActivity` extends `AppCompatActivity` and has access to this method.
+
+3. Move string concatenation out of the loop: Instead of concatenating the string `item` repeatedly inside the loop, create a StringBuilder before the loop and append the strings to it. This will improve performance by reducing string concatenation overhead.
+
+4. Use enhanced for-loop: Replace the iterator loop (`output.keySet().iterator()`) with an enhanced for-loop to iterate over the keys directly. This simplifies the code and improves readability.
+
+5. Use try-with-resources: Replace the manual closing of the `BufferedReader` with a try-with-resources block to automatically close the resource after use.
+
+6. Use lambda expressions: Replace anonymous inner classes with lambda expressions where applicable, which simplifies the code and improves readability.
+
+7. Extract constant strings: Extract constant strings like "http://" and "https://" into variables to avoid repetition and make the code more maintainable.
+
+Here's an optimized version of the `HostActivity` class incorporating these improvements:
+
+```java
+package com.aaronjwood.portauthority.activity;
+
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.NumberPicker;
+import android.widget.Toast;
+
+import com.aaronjwood.portauthority.R;
+import com.aaronjwood.portauthority.network.Host;
+import com.aaronjwood.portauthority.response.HostAsyncResponse;
+import com.aaronjwood.portauthority.utils.Constants;
+import com.aaronjwood.portauthority.utils.UserPreference;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Map;
+
+public abstract class HostActivity extends AppCompatActivity implements HostAsyncResponse {
+
+    protected Host host = new Host();
+    protected ArrayAdapter<String> adapter;
+    protected ListView portList;
+    protected ArrayList<String> ports = new ArrayList<>();
+    protected ProgressDialog scanProgressDialog;
+    protected Dialog portRangeDialog;
+    protected int scanProgress;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_host); // Replace with your layout file name
+        // Initialize your views and other components here
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        dismissProgressDialog(scanProgressDialog);
+        dismissDialog(portRangeDialog);
+    }
+
+    protected void resetPortRangeScanClick(final NumberPicker start, final NumberPicker stop) {
+        findViewById(R.id.resetPortRangeScan).setOnClickListener(v -> {
+            start.setValue(Constants.MIN_PORT_VALUE);
+            stop.setValue(Constants.MAX_PORT_VALUE);
+        });
+    }
+
+    protected void startPortRangeScanClick(final NumberPicker start, final NumberPicker stop, final HostActivity activity, final String ip) {
+        Button startPortRangeScan = findViewById(R.id.startPortRangeScan);
+        startPortRangeScan.setOnClickListener(v -> {
+            start.clearFocus();
+            stop.clearFocus();
+
+            int startPort = start.getValue();
+            int stopPort = stop.getValue();
+            if (startPort >= stopPort) {
+                showToast("Please pick a valid port range");
+                return;
+            }
+
+            UserPreference.savePortRangeStart(activity, startPort);
+            UserPreference.savePortRangeHigh(activity, stopPort);
+
+            ports.clear();
+

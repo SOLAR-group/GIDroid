@@ -1,0 +1,90 @@
+To optimize the `TrackScheduleEventActivity` class, you can consider the following improvements:
+
+1. Use field injection with `@BindView` or `ViewBinding` instead of calling `findViewById` for each view. This will reduce the number of method calls and improve readability.
+
+2. Move the initialization of member variables outside of the `onCreate` method to reduce clutter and improve code organization.
+
+3. Use `LoaderManager.getInstance(this)` once and store it as a member variable instead of calling it multiple times.
+
+4. Avoid unnecessary operations in `setCustomProgressVisibility`. The `ContentLoadingProgressBar` already handles visibility state internally, so you can simplify the method to just `progress.setVisibility(isVisible ? View.VISIBLE : View.GONE)`.
+
+5. Remove the unused `onLoaderReset` method override unless you plan to implement it later.
+
+6. Consider using `CursorLoader` instead of `LoaderManager` directly. `CursorLoader` simplifies the creation of loaders for loading cursor data.
+
+7. Utilize `CursorAdapter` or `RecyclerView` with a custom `Cursor` adapter instead of implementing your own adapter using `FragmentStatePagerAdapter`. This will provide better performance and memory usage for large datasets.
+
+Here's the optimized version of the `TrackScheduleEventActivity` class:
+
+```java
+package be.digitalia.fosdem.activities;
+
+import android.database.Cursor;
+import android.os.Bundle;
+import android.provider.BaseColumns;
+import android.view.View;
+
+import com.viewpagerindicator.UnderlinePageIndicator;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.loader.app.LoaderManager;
+import androidx.loader.app.LoaderManager.LoaderCallbacks;
+import androidx.loader.content.CursorLoader;
+import androidx.loader.content.Loader;
+import androidx.viewpager.widget.ViewPager;
+import be.digitalia.fosdem.R;
+import be.digitalia.fosdem.db.DatabaseManager;
+import be.digitalia.fosdem.fragments.EventDetailsFragment;
+import be.digitalia.fosdem.loaders.TrackScheduleLoader;
+import be.digitalia.fosdem.model.Day;
+import be.digitalia.fosdem.model.Track;
+import be.digitalia.fosdem.utils.NfcUtils;
+import be.digitalia.fosdem.utils.NfcUtils.CreateNfcAppDataCallback;
+import be.digitalia.fosdem.utils.ThemeUtils;
+import be.digitalia.fosdem.widgets.ContentLoadingProgressBar;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+public class TrackScheduleEventActivity extends AppCompatActivity implements LoaderCallbacks<Cursor>, CreateNfcAppDataCallback {
+
+    public static final String EXTRA_DAY = "day";
+    public static final String EXTRA_TRACK = "track";
+    public static final String EXTRA_POSITION = "position";
+
+    private static final int EVENTS_LOADER_ID = 1;
+
+    @BindView(R.id.progress)
+    ContentLoadingProgressBar progress;
+    @BindView(R.id.pager)
+    ViewPager pager;
+    @BindView(R.id.indicator)
+    UnderlinePageIndicator pageIndicator;
+
+    private Day day;
+    private Track track;
+    private int initialPosition = -1;
+    private TrackScheduleEventAdapter adapter;
+    private LoaderManager loaderManager;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.track_schedule_event);
+        ButterKnife.bind(this);
+
+        Bundle extras = getIntent().getExtras();
+        day = extras.getParcelable(EXTRA_DAY);
+        track = extras.getParcelable(EXTRA_TRACK);
+
+        adapter = new TrackScheduleEventAdapter(getSupportFragmentManager());
+        pageIndicator.setSelectedColor(ContextCompat.getColor(this, track.getType().getColorResId()));
+        setSupportActionBar(findViewById(R.id.toolbar));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle(track.toString());
+        getSupportActionBar().setSubtitle(day.toString());
+        ThemeUtils.setActionBarTrackColor(this

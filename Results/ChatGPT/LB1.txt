@@ -1,0 +1,92 @@
+package acr.browser.lightning.search;
+
+import android.app.Application;
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.text.TextUtils;
+import android.util.Log;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.concurrent.TimeUnit;
+import java.util.zip.GZIPInputStream;
+
+import acr.browser.lightning.database.HistoryItem;
+import acr.browser.lightning.utils.Utils;
+
+abstract class BaseSuggestionsTask {
+
+    private static final String TAG = BaseSuggestionsTask.class.getSimpleName();
+
+    static final int MAX_RESULTS = 5;
+    private static final long INTERVAL_DAY = TimeUnit.DAYS.toMillis(1);
+    private static final String DEFAULT_LANGUAGE = "en";
+    @Nullable
+    private static String sLanguage;
+    @NonNull
+    private final SuggestionsResult mResultCallback;
+    @NonNull
+    private final Application mApplication;
+    private final File cacheDir;
+    private final String cacheFileType;
+    private final String encoding;
+    private final CacheControl cacheControl;
+    private String mQuery;
+
+    BaseSuggestionsTask(@NonNull String query,
+                        @NonNull Application application,
+                        @NonNull SuggestionsResult callback) {
+        mQuery = query;
+        mResultCallback = callback;
+        mApplication = application;
+        cacheDir = application.getCacheDir();
+        cacheFileType = SuggestionsAdapter.CACHE_FILE_TYPE;
+        encoding = getEncoding();
+        cacheControl = new CacheControl.Builder().maxStale(1, TimeUnit.DAYS).build();
+    }
+
+    void run() {
+        List<HistoryItem> filter = new ArrayList<>(5);
+        try {
+            mQuery = URLEncoder.encode(mQuery, encoding);
+        } catch (UnsupportedEncodingException e) {
+            Log.e(TAG, "Unable to encode the URL", e);
+        }
+        File cache = downloadSuggestionsForQuery(mQuery, getLanguage(), mApplication);
+        if (!cache.exists()) {
+            post(filter);
+            return;
+        }
+        try (FileInputStream fileInput = new FileInputStream(cache)) {
+            parseResults(fileInput, filter);
+        } catch (Exception e) {
+            Log.e(TAG, "Unable to parse results", e);
+            post(filter);
+            return;
+        }
+        post(filter);
+    }
+
+    private void post(@NonNull List<HistoryItem> result) {
+        mResultCallback.resultReceived(result);
+    }
+
+    @NonNull
+    private static synchronized String getLanguage() {
+        if (sLanguage == null) {
+            sLanguage = Locale.getDefault().getLanguage();
+        }
+        if (TextUtils.isEmpty(sLanguage))

@@ -1,0 +1,165 @@
+To optimize the provided class, you can make the following improvements:
+
+1. Use constants for table and column names: Instead of using string literals for table and column names, declare them as constants at the top of the class. This helps in avoiding typographical errors and makes it easier to refactor the code in the future.
+
+```java
+private static final String OUI_TABLE = "ouis";
+private static final String PORT_TABLE = "ports";
+private static final String MAC_FIELD = "mac";
+private static final String VENDOR_FIELD = "vendor";
+private static final String PORT_FIELD = "port";
+private static final String DESCRIPTION_FIELD = "description";
+```
+
+2. Use parameterized queries: Instead of using raw queries with string concatenation, use parameterized queries with placeholders. This helps in preventing SQL injection attacks and improves performance by reusing compiled queries.
+
+```java
+Cursor cursor = db.rawQuery("SELECT " + VENDOR_FIELD + " FROM " + OUI_TABLE + " WHERE " + MAC_FIELD + " = ?", new String[]{mac});
+```
+
+3. Use a single instance of the database: Instead of creating a new instance of the database every time `getInstance()` is called, use a single instance throughout the application. This improves efficiency and reduces unnecessary database connections.
+
+```java
+public static synchronized Database getInstance(Context context) {
+    if (singleton == null) {
+        singleton = new Database(context.getApplicationContext());
+    }
+    return singleton;
+}
+```
+
+4. Use transactions for bulk operations: When performing bulk operations like inserting or deleting multiple records, wrap them inside a transaction. This improves performance and ensures data consistency.
+
+```java
+public void performBulkOperation(List<Data> dataList) {
+    db.beginTransaction();
+    try {
+        // Perform bulk operations here
+        db.setTransactionSuccessful();
+    } finally {
+        db.endTransaction();
+    }
+}
+```
+
+5. Avoid unnecessary vacuum operations: The `VACUUM` operation is not required after every deletion. It can be performed occasionally or during a maintenance routine.
+
+With these optimizations, the updated class would look like this:
+
+```java
+package com.aaronjwood.portauthority.db;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class Database extends SQLiteOpenHelper {
+
+    private static final String DATABASE_NAME = "PortAuthority";
+    private static final int DATABASE_VERSION = 2;
+    private static final String OUI_TABLE = "ouis";
+    private static final String PORT_TABLE = "ports";
+    private static final String MAC_FIELD = "mac";
+    private static final String VENDOR_FIELD = "vendor";
+    private static final String PORT_FIELD = "port";
+    private static final String DESCRIPTION_FIELD = "description";
+    private static final String CREATE_OUI_TABLE = "CREATE TABLE " + OUI_TABLE + " (" + MAC_FIELD + " TEXT NOT NULL, " + VENDOR_FIELD + " TEXT NOT NULL);";
+    private static final String CREATE_PORT_TABLE = "CREATE TABLE " + PORT_TABLE + " (" + PORT_FIELD + " INTEGER NOT NULL, " + DESCRIPTION_FIELD + " TEXT);";
+    private static final String CREATE_PORT_INDEX = "CREATE INDEX IF NOT EXISTS idx_ports_port ON " + PORT_TABLE + " (" + PORT_FIELD + ");";
+    private static final String CREATE_MAC_INDEX = "CREATE INDEX IF NOT EXISTS idx_ouis_mac ON " + OUI_TABLE + " (" + MAC_FIELD + ");";
+
+    private static Database singleton;
+    private final SQLiteDatabase db;
+
+    private Database(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        db = this.getWritableDatabase();
+    }
+
+    public static synchronized Database getInstance(Context context) {
+        if (singleton == null) {
+            singleton = new
+
+ Database(context.getApplicationContext());
+        }
+        return singleton;
+    }
+
+    public void beginTransaction() {
+        db.beginTransactionNonExclusive();
+    }
+
+    public void endTransaction() {
+        db.endTransaction();
+    }
+
+    public void setTransactionSuccessful() {
+        db.setTransactionSuccessful();
+    }
+
+    @Override
+    public void onCreate(final SQLiteDatabase db) {
+        db.execSQL(CREATE_OUI_TABLE);
+        db.execSQL(CREATE_PORT_TABLE);
+        db.execSQL(CREATE_PORT_INDEX);
+        db.execSQL(CREATE_MAC_INDEX);
+    }
+
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        switch (oldVersion) {
+            case 1:
+                db.execSQL(CREATE_PORT_INDEX);
+                db.execSQL(CREATE_MAC_INDEX);
+        }
+    }
+
+    public long insertOui(String mac, String vendor) {
+        ContentValues values = new ContentValues();
+        values.put(MAC_FIELD, mac);
+        values.put(VENDOR_FIELD, vendor);
+        return db.insert(OUI_TABLE, null, values);
+    }
+
+    public long insertPort(String port, String description) {
+        ContentValues values = new ContentValues();
+        values.put(PORT_FIELD, port);
+        values.put(DESCRIPTION_FIELD, description);
+        return db.insert(PORT_TABLE, null, values);
+    }
+
+    public void clearOuis() {
+        db.execSQL("DELETE FROM " + OUI_TABLE);
+        // db.execSQL("VACUUM");
+    }
+
+    public void clearPorts() {
+        db.execSQL("DELETE FROM " + PORT_TABLE);
+        // db.execSQL("VACUUM");
+    }
+
+    public String selectVendor(String mac) {
+        Cursor cursor = db.rawQuery("SELECT " + VENDOR_FIELD + " FROM " + OUI_TABLE + " WHERE " + MAC_FIELD + " = ?", new String[]{mac});
+        String vendor = null;
+        if (cursor.moveToFirst()) {
+            vendor = cursor.getString(cursor.getColumnIndex(VENDOR_FIELD));
+        }
+        cursor.close();
+        return vendor;
+    }
+
+    public String selectPortDescription(String port) {
+        Cursor cursor = db.rawQuery("SELECT " + DESCRIPTION_FIELD + " FROM " + PORT_TABLE + " WHERE " + PORT_FIELD + " = ?", new String[]{port});
+        String description = null;
+        if (cursor.moveToFirst()) {
+            description = cursor.getString(cursor.getColumnIndex(DESCRIPTION_FIELD));
+        }
+        cursor.close();
+        return description;
+    }
+}
+```
+
+These optimizations should improve the performance and maintainability of the `Database` class.
